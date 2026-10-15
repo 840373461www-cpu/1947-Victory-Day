@@ -1,0 +1,22 @@
+state={
+	id=1131
+	name="STATE_1131"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+		add_core_of = BUK
+
+	}
+	provinces={
+		2058 1483 10187 12581 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

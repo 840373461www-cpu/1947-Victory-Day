@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ is_owned_by_ROOT_or_ally: "被§H[Root.GetNameDef]§!或其盟友拥有。"
+ is_owned_by_ROOT_or_subject: "被§H[Root.GetNameDef]§!或其附属国拥有。"
+ AKSQ_STATUS: "阿克赛钦状态"
+ RULE_OPTION_AKSQ_RAJ: "阿克赛钦归印度"
+ RULE_OPTION_AKSQ_RAJ_DESC: "§H阿克赛钦地区§!会在游戏开始时被§H英国属印度§!占领。\n\n\n\n£raj_aksq\n\n\n\n\n如图所示。"
+
+ ZN_STATUS: "藏南状态"
+ RULE_OPTION_ZN_TIB: "藏南归西藏"
+ RULE_OPTION_ZN_TIB_DESC: "§H藏南地区§!会在游戏开始时被§H西藏§!收复。\n\n\n\n£tib_zn\n\n\n\n\n如图所示。"
+ RULE_OPTION_ZN_CHI: "藏南归中国"
+ RULE_OPTION_ZN_CHI_DESC: "§H藏南地区§!会在游戏开始时被§H中国§!收复。\n\n\n\n£chi_zn\n\n\n\n\n如图所示。"
+
+ debug_jueyi: "做好debug准备工作"
+ RULE_OPTION_DEBUG_NO_DESC: "什么都不做"
+ RULE_OPTION_DEBUG_YES: "做好debug准备工作"
+ RULE_OPTION_DEBUG_YES_DESC: "将做好debug准备工作"
+
+ PRC_tongyi: "东亚看起来像TFR"
+ RULE_OPTION_PRC_tongyi_NO_DESC: "东亚将保持原状"
+ RULE_OPTION_PRC_tongyi_YES: "东亚看起来像TFR"
+ RULE_OPTION_PRC_tongyi_YES_DESC: "东亚将看起来像TFR"

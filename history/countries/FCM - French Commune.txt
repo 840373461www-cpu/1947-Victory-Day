@@ -1,0 +1,52 @@
+capital = 785
+
+set_research_slots = 4
+
+set_stability = 0.35
+set_war_support = 0.35
+set_convoys = 20
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+oob = "FCM_1936"
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 40
+	radical_socialist = 10
+	reformist_socialist = 20
+	social_democrat = 5
+	social_liberal = 5
+	market_liberal = 0
+	social_conservative = 20
+	national_populist = 0
+	military_republicanism = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	monarchism = 0
+	theocracy = 0
+	corporatism = 0
+	third_positionism = 0
+	fascism = 0
+	national_socialism = 0
+}
+
+recruit_character = FCM_maurice_thorez
+
+# (removed) dated popularity block that overrode the 1947 setup
+
+### 1947 mod leaders ###
+recruit_character = FCM_pierre_monatte
+recruit_character = FCM_leon_blum
+recruit_character = FCM_vincent_auriol
+recruit_character = FCM_guy_mollet
+recruit_character = FCM_henri_groues

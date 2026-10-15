@@ -1,0 +1,23 @@
+state={
+	id=1109
+	name="STATE_1109"
+	history={
+		owner = FRA
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			1592 1 # Champasak 
+		}
+
+	}
+	provinces={
+		1592 
+	}
+	manpower=84000 #来自1068
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

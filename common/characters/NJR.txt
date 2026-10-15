@@ -1,0 +1,59 @@
+characters={
+	NJR_tokuda_kyuichi={
+		name=NJR_tokuda_kyuichi
+		portraits={
+			civilian={
+				large=GFX_portrait_NJR_Tokuda_Kyuichi
+			}
+		}
+		country_leader={
+			ideology=marxism_leninism
+			traits={ JAP_chairman_of_the_jcp_trait }
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+
+	NJR_nosaka_sanzo={
+		name=NJR_nosaka_sanzo
+		portraits={
+			civilian={
+				large=GFX_portrait_NJR_Nosaka_Sanzo
+			}
+		}
+		country_leader={
+			ideology=radical_socialist_subtype
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+
+	NJR_hakamada_satomi={
+		name=NJR_hakamada_satomi
+		portraits={
+			civilian={
+				large=GFX_portrait_NJR_Hakamada_Satomi
+			}
+		}
+		country_leader={
+			ideology=reformist_socialist_subtype
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+
+	NJR_asanuma_inejiro={
+		name=NJR_asanuma_inejiro
+		portraits={
+			civilian={
+				large=GFX_portrait_NJR_Asanuma_Inejiro
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1989.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,2903 @@
+# REICHSKOMMISARIATS 
+GER_reichskommissariats = {
+
+	reichskommissariats_show_decisions = {
+		priority = 1000
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			NOT = { has_global_flag = show_reichskommissariats_decisions_flag }
+		}
+		complete_effect = {
+			set_global_flag = show_reichskommissariats_decisions_flag
+		}
+	}
+	reichskommissariats_hide_decisions = {
+		priority = -1
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			has_global_flag = show_reichskommissariats_decisions_flag
+		}
+		complete_effect = {
+			clr_global_flag = show_reichskommissariats_decisions_flag
+		}
+	}
+
+	reichskommissariats_xz_show_decisions = {
+		priority = 1000
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			NOT = { has_global_flag = show_reichskommissariats_xz_decisions_flag }
+		}
+		complete_effect = {
+			set_global_flag = show_reichskommissariats_xz_decisions_flag
+		}
+	}
+	reichskommissariats_xz_hide_decisions = {
+		priority = -1
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+		}
+		complete_effect = {
+			clr_global_flag = show_reichskommissariats_xz_decisions_flag
+		}
+	}
+
+	GER_reichskommissariat_norwegen_TNO = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 110
+			controls_state = 142
+			controls_state = 143
+			controls_state = 144
+			controls_state = 920
+			controls_state = 921
+			controls_state = 922
+			controls_state = 923
+			controls_state = 924
+			controls_state = 925
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+			state = 110
+			state = 142
+			state = 143
+			state = 144
+			state = 920
+			state = 921
+			state = 922
+			state = 923
+			state = 924
+			state = 925
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				NRR = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 110
+					transfer_state = 142
+					transfer_state = 143
+					transfer_state = 144
+					transfer_state = 920
+					transfer_state = 921
+					transfer_state = 922
+					transfer_state = 923
+					transfer_state = 924
+					transfer_state = 925
+					add_state_core = 110
+					add_state_core = 142
+					add_state_core = 143
+					add_state_core = 144
+					add_state_core = 920
+					add_state_core = 921
+					add_state_core = 922
+					add_state_core = 923
+					add_state_core = 924
+					add_state_core = 925
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_niederlande_TNO = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 7
+			controls_state = 35
+			controls_state = 36
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 7
+				state = 35
+				state = 36
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				HLR = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 7
+					transfer_state = 35
+					transfer_state = 36
+					add_state_core = 7
+					add_state_core = 35
+					add_state_core = 36
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_denmark = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 99
+			controls_state = 37
+			controls_state = 910
+			controls_state = 911
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 99
+				state = 37
+				state = 910
+				state = 911
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				DNR = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 99
+					transfer_state = 37
+					transfer_state = 910
+					transfer_state = 911
+					add_state_core = 99
+					add_state_core = 37
+					add_state_core = 910
+					add_state_core = 911
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_poland = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			90 = { is_controlled_by_ROOT_or_subject = yes }
+			10 = { is_controlled_by_ROOT_or_subject = yes }
+			92 = { is_controlled_by_ROOT_or_subject = yes }
+			88 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 90
+				state = 10
+				state = 92
+				state = 88
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = -100
+			modifier = {
+				add = 200
+				has_global_flag = SOV_touxiang
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GGN = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 90
+					transfer_state = 10
+					transfer_state = 92
+					transfer_state = 88
+					add_state_core = 90
+					add_state_core = 10
+					add_state_core = 92
+					add_state_core = 88
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_poland_kz = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					controls_state = 91
+					controls_state = 89
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 91
+				state = 89
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			country_exists = GGN
+			GGN = {
+				is_subject_of = GER
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GGN = {
+					transfer_state = 91
+					transfer_state = 89
+					add_state_core = 91
+					add_state_core = 89
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_wxf_frs = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			14 = { is_controlled_by_ROOT_or_ally = yes }
+			15 = { is_controlled_by_ROOT_or_ally = yes }
+			16 = { is_controlled_by_ROOT_or_ally = yes }
+			30 = { is_controlled_by_ROOT_or_ally = yes }
+			27 = { is_controlled_by_ROOT_or_ally = yes }
+			24 = { is_controlled_by_ROOT_or_ally = yes }
+			23 = { is_controlled_by_ROOT_or_ally = yes }
+			19 = { is_controlled_by_ROOT_or_ally = yes }
+			806 = { is_controlled_by_ROOT_or_ally = yes }
+			33 = { is_controlled_by_ROOT_or_ally = yes }
+			25 = { is_controlled_by_ROOT_or_ally = yes }
+			31 = { is_controlled_by_ROOT_or_ally = yes }
+			26 = { is_controlled_by_ROOT_or_ally = yes }
+			25 = { is_controlled_by_ROOT_or_ally = yes }
+			22 = { is_controlled_by_ROOT_or_ally = yes }
+			20 = { is_controlled_by_ROOT_or_ally = yes }
+			32 = { is_controlled_by_ROOT_or_ally = yes }
+			21 = { is_controlled_by_ROOT_or_ally = yes }
+			851 = { is_controlled_by_ROOT_or_ally = yes }
+			785 = { is_controlled_by_ROOT_or_ally = yes }
+			18 = { is_controlled_by_ROOT_or_ally = yes }
+			1140 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+		priority = 500
+		highlight_states = {
+			#highlight_states_trigger = {
+			#	BRG = { exists = yes }
+			#}
+			#highlight_state_targets = {
+			#	state = 14
+			#	state = 15
+			#	state = 16
+			#	state = 30
+			#	state = 27
+			#	state = 24
+			#	state = 23
+			#	state = 19
+			#	state = 806
+			#	state = 33
+			#	state = 25
+			#	state = 31
+			#	state = 26
+			#	state = 25
+			#	state = 22
+			#	state = 20
+			#	state = 32
+			#	state = 21
+			#	state = 851
+			#	state = 785
+			#	state = 18
+			#	state = 1140
+			#}
+			#highlight_states_trigger = {
+			#	BRG = { exists = no }
+			#}
+			highlight_state_targets = {
+				state = 14
+				state = 15
+				state = 16
+				state = 30
+				state = 27
+				state = 24
+				state = 23
+				state = 19
+				state = 806
+				state = 33
+				state = 25
+				state = 31
+				state = 26
+				state = 25
+				state = 22
+				state = 20
+				state = 32
+				state = 21
+				state = 851
+				state = 785
+				state = 18
+				state = 1140
+				state = 1138
+				state = 1165
+				state = 17
+			}
+		}
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = -100
+			modifier = {
+				add = 200
+				has_global_flag = africa_peace
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+			}
+		}
+	}
+	GER_reichskommissariat_britannien = {
+
+		icon = ger_reichskommissariats
+
+		priority = 500
+
+		fire_only_once = yes
+		cost = 0
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		available = {
+			is_subject = no
+			OR = {
+				has_completed_focus = GER_heed_von_neuraths_concerns
+				has_completed_focus = GER_reorganize_the_wehrmacht
+			}
+			127 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			123 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			126 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			338 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			125 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			122 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			128 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			129 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			132 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			130 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			931 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			131 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			121 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			133 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			136 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			120 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			932 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 127
+				state = 123
+				state = 126
+				state = 338
+				state = 125
+				state = 122
+				state = 128
+				state = 129
+				state = 132
+				state = 130
+				state = 931
+				state = 932
+				state = 933
+				state = 131
+				state = 121
+				state = 133
+				state = 136
+				state = 120
+			}
+		}
+
+		ai_will_do = {
+			factor = -100
+			modifier = {
+				add = 200
+				has_global_flag = europe_peace
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				RGB = {
+					transfer_state = 127
+					transfer_state = 123
+					transfer_state = 126
+					transfer_state = 338
+					transfer_state = 125
+					transfer_state = 122
+					transfer_state = 128
+					transfer_state = 129
+					transfer_state = 132
+					transfer_state = 130
+					transfer_state = 931
+					transfer_state = 932
+					transfer_state = 933
+					transfer_state = 131
+					transfer_state = 121
+					transfer_state = 133
+					transfer_state = 136
+					transfer_state = 120
+					add_state_core = 127
+					add_state_core = 123
+					add_state_core = 126
+					add_state_core = 338
+					add_state_core = 125
+					add_state_core = 122
+					add_state_core = 128
+					add_state_core = 129
+					add_state_core = 132
+					add_state_core = 130
+					add_state_core = 931
+					add_state_core = 932
+					add_state_core = 933
+					add_state_core = 131
+					add_state_core = 121
+					add_state_core = 133
+					add_state_core = 136
+					add_state_core = 120
+					set_cosmetic_tag = ENG_TNO
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no 	end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no 	end_civil_wars = no }
+						}
+					}
+					set_party_name = {
+						ideology = fascism
+						long_name = ENG_TNO_fascism_party_long
+						name = ENG_TNO_fascism_party
+					}
+					set_research_slots = 4
+					set_war_support = 0.4
+					set_stability = 0.4
+					set_politics = {
+						ruling_party = fascism
+						last_election = "1961.11.14"
+						election_frequency = 60
+						elections_allowed = no
+					}
+					create_country_leader = {
+						name = ENG_Barry_Domvile
+						picture = "gfx/leaders/_RK/Portrait_ENG_Barry_Domvile.png"
+						desc = "POLITICS_BARRY_DOMVILE_DESC"
+						expire = "1994.4.20"
+						ideology = fascism_ideology
+					}
+					set_popularities = {
+						neutrality = 44
+						democratic = 3
+						fascism = 53
+					}
+					add_manpower = 60000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 6000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 600
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_Northern_Ireland = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			119 = {
+				OR = {
+					is_controlled_by = GER
+					is_controlled_by = IRE
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 119
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = -100
+			modifier = {
+				add = 200
+				has_global_flag = europe_peace
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				ULS = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}
+					inherit_technology = IRE
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					set_cosmetic_tag = ULS
+					transfer_state = 119
+					add_state_core = 119
+					IRE = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 41
+						fascism = 5
+						communism =  2
+						neutrality = 52
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_brg = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 6
+			controls_state = 29
+			controls_state = 34
+			controls_state = 1165
+			controls_state = 17
+			controls_state = 1138
+			controls_state = 980
+			controls_state = 977
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 6
+				state = 29
+				state = 34
+				state = 1165
+				state = 17
+				state = 1138
+				state = 980
+				state = 977
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			785 = {set_demilitarized_zone = yes}
+			18 = {set_demilitarized_zone = yes}
+			1140 = {set_demilitarized_zone = yes}
+			hidden_effect = {
+				BRG = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 6
+					transfer_state = 29
+					transfer_state = 34
+					transfer_state = 1165
+					transfer_state = 17
+					transfer_state = 1138
+					transfer_state = 980
+					transfer_state = 977
+					add_state_core = 6
+					add_state_core = 29
+					add_state_core = 34
+					add_state_core = 1165
+					add_state_core = 17
+					add_state_core = 1138
+					add_state_core = 980
+					add_state_core = 977
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_bogendi_kz = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			785 = { is_controlled_by_ROOT_or_ally = yes }
+			18 = { is_controlled_by_ROOT_or_ally = yes }
+			1140 = { is_controlled_by_ROOT_or_ally = yes }
+			country_exists = BRG
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 785
+				state = 18
+				state = 1140
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			16 = {
+				set_victory_points = {
+					province = 9523
+					value = 15
+				}
+			}
+			every_country = {
+				limit = {
+					original_tag = FRA
+					controls_province = 9523
+				}
+				set_capital = {
+					state = 16
+				}
+			}
+			hidden_effect = {
+				785 = {set_demilitarized_zone = no}
+				18 = {set_demilitarized_zone = no}
+				1140 = {set_demilitarized_zone = no}
+				BRG = {
+					transfer_state = 18
+					transfer_state = 785
+					transfer_state = 1140
+					add_state_core = 1140
+					add_state_core = 18
+					add_state_core = 785
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_ostland_TNO = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					94 = { is_controlled_by_ROOT_or_subject = yes }
+					95 = { is_controlled_by_ROOT_or_subject = yes }
+					96 = { is_controlled_by_ROOT_or_subject = yes }
+					204 = { is_controlled_by_ROOT_or_subject = yes }
+					206 = { is_controlled_by_ROOT_or_subject = yes }
+					207 = { is_controlled_by_ROOT_or_subject = yes }
+					11 = { is_controlled_by_ROOT_or_subject = yes }
+					784 = { is_controlled_by_ROOT_or_subject = yes }
+					189 = { is_controlled_by_ROOT_or_subject = yes }
+					12 = { is_controlled_by_ROOT_or_subject = yes }
+					190 = { is_controlled_by_ROOT_or_subject = yes }
+					13 = { is_controlled_by_ROOT_or_subject = yes }
+					191 = { is_controlled_by_ROOT_or_subject = yes }
+					814 = { is_controlled_by_ROOT_or_subject = yes }
+					815 = { is_controlled_by_ROOT_or_subject = yes }
+					809 = { is_controlled_by_ROOT_or_subject = yes }
+					808 = { is_controlled_by_ROOT_or_subject = yes }
+					810 = { is_controlled_by_ROOT_or_subject = yes }
+					813 = { is_controlled_by_ROOT_or_subject = yes }
+					812 = { is_controlled_by_ROOT_or_subject = yes }
+					811 = { is_controlled_by_ROOT_or_subject = yes }
+					1156 = { is_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 94
+				state = 95
+				state = 96
+				state = 204
+				state = 206
+				state = 207
+				state = 11
+				state = 784
+				state = 189
+				state = 12
+				state = 190
+				state = 13
+				state = 191
+				state = 814
+				state = 815
+				state = 809
+				state = 808
+				state = 810
+				state = 813
+				state = 812
+				state = 811
+				state = 1156
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				SOV = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				OST = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 94
+					transfer_state = 95
+					transfer_state = 96
+					transfer_state = 204
+					transfer_state = 206
+					transfer_state = 207
+					transfer_state = 11
+					transfer_state = 784
+					transfer_state = 189
+					transfer_state = 12
+					transfer_state = 190
+					transfer_state = 13
+					transfer_state = 191
+					transfer_state = 814
+					transfer_state = 815
+					transfer_state = 809
+					transfer_state = 808 
+					transfer_state = 810
+					transfer_state = 813
+					transfer_state = 812
+					transfer_state = 811
+					transfer_state = 1156
+					add_state_core = 94
+					add_state_core = 95
+					add_state_core = 96
+					add_state_core = 204
+					add_state_core = 206
+					add_state_core = 207
+					add_state_core = 11
+					add_state_core = 784
+					add_state_core = 189
+					add_state_core = 12
+					add_state_core = 190
+					add_state_core = 13
+					add_state_core = 191
+					add_state_core = 814
+					add_state_core = 815
+					add_state_core = 809
+					add_state_core = 808
+					add_state_core = 810
+					add_state_core = 813
+					add_state_core = 812
+					add_state_core = 811
+					add_state_core = 1156
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}	
+		}
+	}
+	GER_reichskommissariat_ukraine_TNO = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					93 = { is_controlled_by_ROOT_or_ally = yes }
+					199 = { is_controlled_by_ROOT_or_ally = yes }
+					201 = { is_controlled_by_ROOT_or_ally = yes }
+					198 = { is_controlled_by_ROOT_or_ally = yes }
+					202 = { is_controlled_by_ROOT_or_ally = yes }
+					193 = { is_controlled_by_ROOT_or_ally = yes }
+					203 = { is_controlled_by_ROOT_or_ally = yes }
+					197 = { is_controlled_by_ROOT_or_ally = yes }
+					225 = { is_controlled_by_ROOT_or_ally = yes }
+					259 = { is_controlled_by_ROOT_or_ally = yes }
+					226 = { is_controlled_by_ROOT_or_ally = yes }
+					200 = { is_controlled_by_ROOT_or_ally = yes }
+					221 = { is_controlled_by_ROOT_or_ally = yes }
+					228 = { is_controlled_by_ROOT_or_ally = yes }
+					227 = { is_controlled_by_ROOT_or_ally = yes }
+					218 = { is_controlled_by_ROOT_or_ally = yes }
+					194 = { is_controlled_by_ROOT_or_ally = yes }
+					1158 = { is_controlled_by_ROOT_or_ally = yes }
+					1157 = { is_controlled_by_ROOT_or_ally = yes }
+					1155 = { is_controlled_by_ROOT_or_ally = yes }
+					834 = { is_controlled_by_ROOT_or_ally = yes }
+					192 = { is_controlled_by_ROOT_or_ally = yes }
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 93
+				state = 199
+				state = 201
+				state = 198
+				state = 202
+				state = 193
+				state = 203
+				state = 197
+				state = 225
+				state = 259
+				state = 226
+				state = 200
+				state = 221
+				state = 228
+				state = 227
+				state = 218
+				state = 194
+				state = 1158
+				state = 1157
+				state = 1155
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				SOV = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				URR = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 93
+					transfer_state = 199
+					transfer_state = 201
+					transfer_state = 198
+					transfer_state = 202
+					transfer_state = 193
+					transfer_state = 203
+					transfer_state = 197
+					transfer_state = 225
+					transfer_state = 259
+					transfer_state = 226
+					transfer_state = 200
+					transfer_state = 221
+					transfer_state = 228
+					transfer_state = 227
+					transfer_state = 218
+					transfer_state = 194
+					transfer_state = 1158
+					transfer_state = 1157
+					transfer_state = 1155
+					add_state_core = 93
+					add_state_core = 199
+					add_state_core = 201
+					add_state_core = 198
+					add_state_core = 202
+					add_state_core = 193
+					add_state_core = 203
+					add_state_core = 197
+					add_state_core = 225
+					add_state_core = 259
+					add_state_core = 226
+					add_state_core = 200
+					add_state_core = 221
+					add_state_core = 228
+					add_state_core = 227
+					add_state_core = 218
+					add_state_core = 194
+					add_state_core = 1158
+					add_state_core = 1157
+					add_state_core = 1155
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				ROM = {
+					transfer_state = 834
+					transfer_state = 192
+					add_state_core = 834
+					add_state_core = 192
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_cau = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					234 = { is_controlled_by_ROOT_or_ally = yes }
+					233 = { is_controlled_by_ROOT_or_ally = yes }
+					826 = { is_controlled_by_ROOT_or_ally = yes }
+					827 = { is_controlled_by_ROOT_or_ally = yes }
+					828 = { is_controlled_by_ROOT_or_ally = yes }
+					821 = { is_controlled_by_ROOT_or_ally = yes }
+					231 = { is_controlled_by_ROOT_or_ally = yes }
+					235 = { is_controlled_by_ROOT_or_ally = yes }
+					232 = { is_controlled_by_ROOT_or_ally = yes }
+					229 = { is_controlled_by_ROOT_or_ally = yes }
+					1160 = { is_controlled_by_ROOT_or_ally = yes }
+					230 = { is_controlled_by_ROOT_or_ally = yes }
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 234
+				state = 233
+				state = 826
+				state = 827
+				state = 828
+				state = 821
+				state = 231
+				state = 235
+				state = 232
+				state = 229
+				state = 1160
+				state = 230
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				SOV = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				CAU = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 234
+					transfer_state = 233
+					transfer_state = 826
+					transfer_state = 827
+					transfer_state = 828
+					transfer_state = 821
+					transfer_state = 231
+					transfer_state = 235
+					transfer_state = 232
+					transfer_state = 229
+					add_state_core = 234
+					add_state_core = 233
+					add_state_core = 826
+					add_state_core = 827
+					add_state_core = 828
+					add_state_core = 821
+					add_state_core = 231
+					add_state_core = 235
+					add_state_core = 232
+					add_state_core = 229
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				TUR = {
+					transfer_state = 1160
+					transfer_state = 230
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_Moskowien_TNO = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					195 = { is_controlled_by_ROOT_or_subject = yes }
+					208 = { is_controlled_by_ROOT_or_subject = yes }
+					244 = { is_controlled_by_ROOT_or_subject = yes }
+					209 = { is_controlled_by_ROOT_or_subject = yes }
+					263 = { is_controlled_by_ROOT_or_subject = yes }
+					210 = { is_controlled_by_ROOT_or_subject = yes }
+					246 = { is_controlled_by_ROOT_or_subject = yes }
+					242 = { is_controlled_by_ROOT_or_subject = yes }
+					243 = { is_controlled_by_ROOT_or_subject = yes }
+					241 = { is_controlled_by_ROOT_or_subject = yes }
+					224 = { is_controlled_by_ROOT_or_subject = yes }
+					222 = { is_controlled_by_ROOT_or_subject = yes }
+					220 = { is_controlled_by_ROOT_or_subject = yes }
+					240 = { is_controlled_by_ROOT_or_subject = yes }
+					260 = { is_controlled_by_ROOT_or_subject = yes }
+					265 = { is_controlled_by_ROOT_or_subject = yes }
+					245 = { is_controlled_by_ROOT_or_subject = yes }
+					217 = { is_controlled_by_ROOT_or_subject = yes }
+					238 = { is_controlled_by_ROOT_or_subject = yes }
+					237 = { is_controlled_by_ROOT_or_subject = yes }
+					264 = { is_controlled_by_ROOT_or_subject = yes }
+					247 = { is_controlled_by_ROOT_or_subject = yes }
+					219 = { is_controlled_by_ROOT_or_subject = yes }
+					205 = { is_controlled_by_ROOT_or_subject = yes }
+					223 = { is_controlled_by_ROOT_or_subject = yes }
+					248 = { is_controlled_by_ROOT_or_subject = yes }
+					253 = { is_controlled_by_ROOT_or_subject = yes }
+					254 = { is_controlled_by_ROOT_or_subject = yes }
+					258 = { is_controlled_by_ROOT_or_subject = yes }
+					257 = { is_controlled_by_ROOT_or_subject = yes }
+					829 = { is_controlled_by_ROOT_or_subject = yes }
+					1164 = { is_controlled_by_ROOT_or_subject = yes }
+					1163 = { is_controlled_by_ROOT_or_subject = yes }
+					255 = { is_controlled_by_ROOT_or_subject = yes }
+					239 = { is_controlled_by_ROOT_or_subject = yes }
+					236 = { is_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 195
+				state = 208
+				state = 244
+				state = 209
+				state = 263
+				state = 210
+				state = 246
+				state = 242
+				state = 243
+				state = 241
+				state = 224
+				state = 222
+				state = 220
+				state = 240
+				state = 260
+				state = 265
+				state = 245
+				state = 217
+				state = 238
+				state = 237
+				state = 264
+				state = 247
+				state = 219
+				state = 205
+				state = 223
+				state = 248
+				state = 253
+				state = 254
+				state = 258
+				state = 257
+				state = 829
+				state = 1164
+				state = 1163
+				state = 255
+				state = 239
+				state = 236
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				SOV = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				MCW = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 195
+					transfer_state = 208
+					transfer_state = 244
+					transfer_state = 209
+					transfer_state = 263
+					transfer_state = 210
+					transfer_state = 246
+					transfer_state = 242
+					transfer_state = 243
+					transfer_state = 241
+					transfer_state = 224
+					transfer_state = 222
+					transfer_state = 220
+					transfer_state = 240
+					transfer_state = 260
+					transfer_state = 265
+					transfer_state = 245
+					transfer_state = 217
+					transfer_state = 238
+					transfer_state = 237
+					transfer_state = 264
+					transfer_state = 247
+					transfer_state = 219
+					transfer_state = 205
+					transfer_state = 223
+					transfer_state = 248
+					transfer_state = 253
+					transfer_state = 254
+					transfer_state = 258
+					transfer_state = 257
+					transfer_state = 829
+					transfer_state = 1164
+					transfer_state = 1163
+					transfer_state = 255
+					transfer_state = 239
+					transfer_state = 236
+					add_state_core = 195
+					add_state_core = 208
+					add_state_core = 244
+					add_state_core = 209
+					add_state_core = 263
+					add_state_core = 210
+					add_state_core = 246
+					add_state_core = 242
+					add_state_core = 243
+					add_state_core = 241
+					add_state_core = 224
+					add_state_core = 222
+					add_state_core = 220
+					add_state_core = 240
+					add_state_core = 260
+					add_state_core = 265
+					add_state_core = 245
+					add_state_core = 217
+					add_state_core = 238
+					add_state_core = 237
+					add_state_core = 264
+					add_state_core = 247
+					add_state_core = 219
+					add_state_core = 205
+					add_state_core = 223
+					add_state_core = 248
+					add_state_core = 253
+					add_state_core = 254
+					add_state_core = 258
+					add_state_core = 257
+					add_state_core = 829
+					add_state_core = 1164
+					add_state_core = 1163
+					add_state_core = 255
+					add_state_core = 239
+					add_state_core = 236
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_mcw_kz = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				has_global_flag = SOV_touxiang
+				AND = {
+					has_war = no
+					879 = { is_controlled_by_ROOT_or_subject = yes }
+					214 = { is_controlled_by_ROOT_or_subject = yes }
+					880 = { is_controlled_by_ROOT_or_subject = yes }
+					401 = { is_controlled_by_ROOT_or_subject = yes }
+					252 = { is_controlled_by_ROOT_or_subject = yes }
+					256 = { is_controlled_by_ROOT_or_subject = yes }
+					250 = { is_controlled_by_ROOT_or_subject = yes }
+					351 = { is_controlled_by_ROOT_or_subject = yes }
+					1154 = { is_controlled_by_ROOT_or_subject = yes }
+					1161 = { is_controlled_by_ROOT_or_subject = yes }
+					1162 = { is_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 879
+				state = 214
+				state = 880
+				state = 401
+				state = 252
+				state = 256
+				state = 250
+				state = 351
+				state = 1154
+				state = 1161
+				state = 1162
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			country_exists = MCW
+			MCW = {
+				is_subject_of = GER
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				MCW = {
+					transfer_state = 879
+					transfer_state = 214
+					transfer_state = 880
+					transfer_state = 401
+					transfer_state = 252
+					transfer_state = 256
+					transfer_state = 250
+					transfer_state = 351
+					transfer_state = 1154
+					transfer_state = 1161
+					transfer_state = 1162
+					add_state_core = 879
+					add_state_core = 214
+					add_state_core = 880
+					add_state_core = 401
+					add_state_core = 252
+					add_state_core = 256
+					add_state_core = 351
+					add_state_core = 1154
+					add_state_core = 1161
+					add_state_core = 1162
+					add_state_core = 250
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_mcw_wle = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			MCW = {
+				controls_state = 879
+				controls_state = 214
+				controls_state = 880
+				controls_state = 401
+				controls_state = 252
+				controls_state = 256
+				controls_state = 250
+				controls_state = 351
+				controls_state = 1154
+				controls_state = 1161
+				controls_state = 1162
+			}
+			825 = { is_controlled_by_ROOT_or_subject = yes }
+			262 = { is_controlled_by_ROOT_or_subject = yes }
+			581 = { is_controlled_by_ROOT_or_subject = yes }
+			397 = { is_controlled_by_ROOT_or_subject = yes }
+			398 = { is_controlled_by_ROOT_or_subject = yes }
+			400 = { is_controlled_by_ROOT_or_subject = yes }
+			833 = { is_controlled_by_ROOT_or_subject = yes }
+			399 = { is_controlled_by_ROOT_or_subject = yes }
+			1104 = { is_controlled_by_ROOT_or_subject = yes }
+			249 = { is_controlled_by_ROOT_or_subject = yes }
+			651 = { is_controlled_by_ROOT_or_subject = yes }
+			251 = { is_controlled_by_ROOT_or_subject = yes }
+			652 = { is_controlled_by_ROOT_or_subject = yes }
+			1102 = { is_controlled_by_ROOT_or_subject = yes }
+			1103 = { is_controlled_by_ROOT_or_subject = yes }
+			406 = { is_controlled_by_ROOT_or_subject = yes }
+			407 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+			priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 825
+				state = 262
+				state = 581
+				state = 397
+				state = 398
+				state = 400
+				state = 833
+				state = 399
+				state = 1104
+				state = 249
+				state = 651
+				state = 251
+				state = 652
+				state = 1102
+				state = 1103
+				state = 406
+				state = 407
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = -1
+		}
+
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			country_exists = MCW
+			MCW = {
+				is_subject_of = GER
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				MCW = {
+					transfer_state = 825
+					transfer_state = 262
+					transfer_state = 581
+					transfer_state = 397
+					transfer_state = 398
+					transfer_state = 400
+					transfer_state = 833
+					transfer_state = 399
+					transfer_state = 1104
+					transfer_state = 1103
+					transfer_state = 1102
+					transfer_state = 249
+					transfer_state = 651
+					transfer_state = 251
+					transfer_state = 652
+					transfer_state = 406
+					transfer_state = 407
+					add_state_core = 825
+					add_state_core = 262
+					add_state_core = 581
+					add_state_core = 397
+					add_state_core = 398
+					add_state_core = 400
+					add_state_core = 833
+					add_state_core = 399
+					add_state_core = 1104
+					add_state_core = 1103
+					add_state_core = 1102
+					add_state_core = 249
+					add_state_core = 651
+					add_state_core = 251
+					add_state_core = 652
+					add_state_core = 406
+					add_state_core = 407
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_CAF = {
+   
+		icon = ger_reichskommissariats
+	
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 539
+			controls_state = 772
+			controls_state = 538
+			controls_state = 660
+			controls_state = 890
+			controls_state = 295
+			controls_state = 888
+			controls_state = 889
+			controls_state = 718
+			796 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 539
+				state = 772
+				state = 538
+				state = 660
+				state = 890
+				state = 295
+				state = 888
+				state = 889
+				state = 718
+				state = 796
+			}
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 200
+		}
+	
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+	
+		complete_effect = {
+			hidden_effect = {
+				CAF = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 539
+					transfer_state = 772
+					transfer_state = 538
+					transfer_state = 660
+					transfer_state = 890
+					transfer_state = 295
+					transfer_state = 888
+					transfer_state = 889
+					transfer_state = 718
+					transfer_state = 796
+					add_state_core = 539
+					add_state_core = 772
+					add_state_core = 538
+					add_state_core = 660
+					add_state_core = 890
+					add_state_core = 295
+					add_state_core = 888
+					add_state_core = 889
+					add_state_core = 718
+					add_state_core = 796
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_cosmetic_tag = CAF
+				}
+			}
+		}
+		
+	}
+	GER_reichskommissariat_GRO = {
+	   
+		icon = ger_reichskommissariats
+	
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			controls_state = 548
+			controls_state = 768
+			controls_state = 769
+			controls_state = 546
+			controls_state = 771
+			controls_state = 770
+			897 = { is_controlled_by_ROOT_or_ally = yes }
+			544 = { is_controlled_by_ROOT_or_ally = yes }
+			controls_state = 545
+			controls_state = 546
+			896 = { is_controlled_by_ROOT_or_ally = yes }
+			controls_state = 904
+			controls_state = 1135
+			controls_state = 981
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 548
+				state = 768
+				state = 769
+				state = 546
+				state = 771
+				state = 770
+				state = 897
+				state = 544
+				state = 545
+				state = 546
+				state = 896
+				state = 904
+				state = 981
+				state = 1135
+			}
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 200
+		}
+	
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+	
+		complete_effect = {
+			hidden_effect = {
+				GRO = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 548
+					transfer_state = 768
+					transfer_state = 769
+					transfer_state = 546
+					transfer_state = 771
+					transfer_state = 770
+					transfer_state = 897
+					transfer_state = 896
+					transfer_state = 544
+					transfer_state = 545
+					transfer_state = 546
+					transfer_state = 904
+					transfer_state = 1135
+					transfer_state = 981
+					add_state_core = 981
+					add_state_core = 548
+					add_state_core = 768
+					add_state_core = 769
+					add_state_core = 546
+					add_state_core = 771
+					add_state_core = 770
+					add_state_core = 897
+					add_state_core = 896
+					add_state_core = 544
+					add_state_core = 545
+					add_state_core = 546
+					add_state_core = 904
+					add_state_core = 1135
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_cosmetic_tag = GRO
+				}
+			}
+		}
+	}
+	GER_reichskommissariat_SWA = {
+	   
+		icon = ger_reichskommissariats
+	
+		available = {
+			has_war = no
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			540 = { is_controlled_by_ROOT_or_ally = yes }
+			892 = { is_controlled_by_ROOT_or_ally = yes }
+			891 = { is_controlled_by_ROOT_or_ally = yes }
+			controls_state = 895
+			controls_state = 894
+			controls_state = 541
+			controls_state = 893
+			controls_state = 1134
+		}
+		priority = 500
+		highlight_states = {
+			highlight_state_targets = {
+				state = 540
+				state = 892
+				state = 891
+				state = 895
+				state = 894
+				state = 541
+				state = 893
+				state = 1134
+			}
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 200
+		}
+	
+		visible = {
+			has_global_flag = show_reichskommissariats_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+	
+		complete_effect = {
+			hidden_effect = {
+				SWA = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = GER
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = GER
+					}	
+					inherit_technology = GER
+					add_offsite_building = { type = arms_factory level = 3 }
+					load_oob = "RK_OOB"
+					transfer_state = 540
+					transfer_state = 892
+					transfer_state = 891
+					transfer_state = 895
+					transfer_state = 894
+					transfer_state = 541
+					transfer_state = 893
+					transfer_state = 1134
+					add_state_core = 540
+					add_state_core = 892
+					add_state_core = 891
+					add_state_core = 895
+					add_state_core = 894
+					add_state_core = 541
+					add_state_core = 893
+					add_state_core = 1134
+					GER = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_cosmetic_tag = SWA
+				}
+			}
+		}
+	}
+	
+	GER_ITA = {
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			853 = { is_controlled_by_ROOT_or_ally = yes }
+			1169 = { is_controlled_by_ROOT_or_ally = yes }
+			1105 = { is_controlled_by_ROOT_or_ally = yes }
+			735 = { is_controlled_by_ROOT_or_ally = yes }
+			country_exists = ITA
+			NOT = {
+				has_war_with = ITA
+			}
+		}
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				has_global_flag = yugoslavia_peace
+			}
+		}
+		complete_effect = {
+			ITA = {
+				transfer_state = 853
+				transfer_state = 1169
+				transfer_state = 1105
+				transfer_state = 735
+				add_state_core = 735
+				add_state_core = 853
+				add_state_core = 1169
+			}
+		}
+	}
+	GER_HUN = {
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			1084 = { is_controlled_by_ROOT_or_ally = yes }
+			country_exists = HUN
+			NOT = {
+				has_war_with = HUN
+			}
+		}
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				has_global_flag = yugoslavia_peace
+			}
+		}
+		complete_effect = {
+			HUN = {
+				transfer_state = 1084
+				add_state_core = 1084
+			}
+		}
+	}
+	GER_the_fate_of_karelia = {
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			OR = {
+				MCW = {
+					exists = yes
+				}
+				FIN = {
+					exists = yes
+				}
+			}
+			NOT = {
+				has_country_flag = GER_decided_on_greater_finland_status
+			}
+		}
+		available = {
+			is_subject = no
+			FIN = {
+				exists = yes
+				OR = {
+					is_subject_of = ROOT
+					is_in_faction_with = ROOT
+					AND = {
+						has_completed_focus = FIN_cooperation_with_germany
+					}
+				}
+				OR = {
+					owns_state = 722
+					owns_state = 147
+					owns_state = 146
+					owns_state = 929
+				}
+			}
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = GER_reichskommissariat_highlighted_required_states
+					216 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					215 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					213 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				FIN = {
+					controls_state = 216
+					controls_state = 215
+					controls_state = 213
+				}
+			}
+			
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 216 # Olonets
+				state = 215 # Onega
+				state = 213 # Murmansk
+			}
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				add = 50
+				has_global_flag = SOV_touxiang
+			}
+			modifier = {
+				add = 25
+				MCW = { exists = yes }
+			}
+		}
+
+		complete_effect = {
+
+			country_event = {
+				id = dkcl.6
+				hours = 0
+			}
+
+			hidden_effect = {
+				set_country_flag = GER_decided_on_greater_finland_status
+			}
+			
+		}
+	}
+	GER_Balkan = {
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+			1168 = { is_controlled_by_ROOT_or_ally = yes }
+			1167 = { is_controlled_by_ROOT_or_ally = yes }
+			970 = { is_controlled_by_ROOT_or_ally = yes }
+			802 = { is_controlled_by_ROOT_or_ally = yes }
+			OR = {
+				AND = {
+					country_exists = ALB
+					ALB = {
+						is_in_faction_with = GER
+					}
+				}
+				AND = {
+					country_exists = ITA
+					ITA = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			country_exists = MNT
+			MNT = {
+				is_in_faction_with = GER
+			}
+		}
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			has_completed_focus = GER_uplift_the_rosenberg_office
+			has_government = fascism
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				has_global_flag = yugoslavia_peace
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = ALB
+					ALB = {
+						is_in_faction_with = GER
+					}
+				}
+				ALB = {
+					transfer_state = 1168
+					transfer_state = 970
+					transfer_state = 802
+					add_state_core = 1168
+					add_state_core = 970
+					add_state_core = 802
+				}
+			}
+			else = {
+				ITA = {
+					transfer_state = 1168
+					transfer_state = 970
+					transfer_state = 802
+				}
+			}
+			MNT	= {
+				transfer_state = 1167
+				add_state_core = 1167
+			}
+		}
+	}
+
+
+
+
+	# 修正版图
+	GER_xiuzheng = {
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		priority = 94
+
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			RKU = { exists = yes is_subject_of = ROOT }
+			RKO = { exists = yes is_subject_of = ROOT }
+			RKM = { exists = yes is_subject_of = ROOT }
+			RKK = { exists = yes is_subject_of = ROOT }
+		}
+
+		available = {
+			is_subject = no
+			OR = {
+				has_completed_focus = GER_heed_von_neuraths_concerns
+				has_completed_focus = GER_reorganize_the_wehrmacht
+			}
+			custom_trigger_tooltip = {
+				tooltip = GER_reichskommissariat_highlighted_required_states
+				198 = { is_controlled_by_ROOT_or_subject = yes }
+				218 = { is_controlled_by_ROOT_or_subject = yes }
+				1158 = { is_controlled_by_ROOT_or_subject = yes }
+				1157 = { is_controlled_by_ROOT_or_subject = yes }
+				1155 = { is_controlled_by_ROOT_or_subject = yes }
+				194 = { is_controlled_by_ROOT_or_subject = yes }
+				207 = { is_controlled_by_ROOT_or_subject = yes }
+				137 = { is_controlled_by_ROOT_or_subject = yes }
+				196 = { is_controlled_by_ROOT_or_subject = yes }
+				250 = { is_controlled_by_ROOT_or_subject = yes }
+				252 = { is_controlled_by_ROOT_or_subject = yes }
+				351 = { is_controlled_by_ROOT_or_subject = yes }
+				214 = { is_controlled_by_ROOT_or_subject = yes }
+				880 = { is_controlled_by_ROOT_or_subject = yes }
+				879 = { is_controlled_by_ROOT_or_subject = yes }
+				1163 = { is_controlled_by_ROOT_or_subject = yes }
+				1164 = { is_controlled_by_ROOT_or_subject = yes }
+				1156 = { is_controlled_by_ROOT_or_subject = yes }
+				236 = { is_controlled_by_ROOT_or_subject = yes }
+				237 = { is_controlled_by_ROOT_or_subject = yes }
+				238 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 198
+				state = 218
+				state = 194
+				state = 1158
+				state = 1157
+				state = 1155
+				state = 207
+				state = 137
+				state = 196
+				state = 250
+				state = 252
+				state = 351
+				state = 214
+				state = 880
+				state = 879
+				state = 1163
+				state = 1164
+				state = 1156
+				state = 236
+				state = 237
+				state = 238
+			}
+		}
+
+		cost = 15
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+			modifier = {
+				add = 360
+				RKU = { exists = yes }
+				RKO = { exists = yes }
+				RKM = { exists = yes }
+				RKK = { exists = yes }
+			}
+		}
+
+		complete_effect = {
+			#交给乌克兰专员辖区
+			every_state = {	
+				limit = {
+					OR = {
+						state = 198
+						state = 218
+						state = 194
+						state = 1158
+						state = 1157
+						state = 1155
+					}
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = no
+					}
+					remove_contested_owner = RKM
+					remove_claim_by = RKM
+					remove_contested_owner = RKO
+					remove_claim_by = RKO
+					add_contested_owner = RKU
+					set_state_controller_to = RKU
+					add_claim_by = RKU
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = yes
+					}
+					transfer_state_to = RKU
+				}
+			}
+			#克里米亚给德国
+			every_state = {	
+				limit = {
+					OR = {
+						state = 137
+						state = 196
+					}
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = no
+					}
+					remove_contested_owner = RKU
+					remove_claim_by = RKU
+					set_state_controller_to = GER
+					add_contested_owner = GER
+					add_claim_by = GER
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = yes
+					}
+					transfer_state_to = GER
+				}
+			}
+			#交给东方专员辖区
+			every_state = {	
+				limit = {
+					OR = {
+						state = 207
+						state = 1156
+					}
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = no
+					}
+					add_contested_owner = RKO
+					set_state_controller_to = RKO
+					add_claim_by = RKO
+					remove_contested_owner = RKM
+					remove_claim_by = RKM
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = yes
+					}
+					transfer_state_to = RKO
+				}
+			}
+			#交给莫斯科专员辖区
+			every_state = {	
+				limit = {
+					OR = {
+						state = 1163
+						state = 1164
+						state = 236
+						state = 237
+						state = 238
+					}
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = no
+					}
+					remove_contested_owner = RKK
+					remove_claim_by = RKK
+					add_contested_owner = RKM
+					set_state_controller_to = RKM
+					add_claim_by = RKM
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = yes
+					}
+					transfer_state_to = RKM
+				}
+			}
+			#把莫斯科专员辖区多的部分给德国
+			if = {
+				limit = {
+					NOT = {
+						has_global_flag = RKM_AA
+					}
+				}
+				every_state = {	
+					limit = {
+						OR = {
+							state = 250
+							state = 252
+							state = 351
+							state = 214
+							state = 880
+							state = 879
+						}
+					}
+					if = {
+						limit = {
+							is_owned_by_ROOT_or_subject = no
+						}
+						set_state_controller_to = GER
+						remove_contested_owner = RKM
+						remove_claim_by = RKM
+					}
+					if = {
+						limit = {
+							is_owned_by_ROOT_or_subject = yes
+						}
+						transfer_state_to = GER
+					}
+				}
+			}
+		}
+	}
+
+	# 将原版的莫斯科专员辖区推进至AA线
+	GER_the_fate_of_the_AA_area = {
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		priority = 91
+
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			RKM = { exists = yes is_subject_of = ROOT }
+		}
+
+		available = {
+			is_subject = no
+			OR = {
+				has_completed_focus = GER_heed_von_neuraths_concerns
+				has_completed_focus = GER_reorganize_the_wehrmacht
+			}
+			custom_trigger_tooltip = {
+				tooltip = GER_reichskommissariat_highlighted_required_states
+				250 = { is_controlled_by_ROOT_or_subject = yes }
+				252 = { is_controlled_by_ROOT_or_subject = yes }
+				351 = { is_controlled_by_ROOT_or_subject = yes }
+				214 = { is_controlled_by_ROOT_or_subject = yes }
+				880 = { is_controlled_by_ROOT_or_subject = yes }
+				879 = { is_controlled_by_ROOT_or_subject = yes }
+				256 = { is_controlled_by_ROOT_or_subject = yes }
+				401 = { is_controlled_by_ROOT_or_subject = yes }
+				1154 = { is_controlled_by_ROOT_or_subject = yes }
+				1161 = { is_controlled_by_ROOT_or_subject = yes }
+				1162 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 250
+				state = 252
+				state = 256
+				state = 351
+				state = 214
+				state = 401
+				state = 880
+				state = 879
+				state = 1154
+				state = 1161
+				state = 1162
+			}
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+			modifier = {
+				add = 25
+				RKM = { exists = yes }
+			}
+		}
+
+		complete_effect = {
+			set_global_flag = RKM_AA
+			every_state = {	
+				limit = {
+					OR = {
+						state = 250
+						state = 252
+						state = 256
+						state = 351
+						state = 214
+						state = 401
+						state = 880
+						state = 879
+						state = 1154
+						state = 1161
+						state = 1162
+					}
+				}
+				add_compliance = 20
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = no
+					}
+					add_contested_owner = RKM
+					set_state_controller_to = RKM
+					add_claim_by = RKM
+				}
+				if = {
+					limit = {
+						is_owned_by_ROOT_or_subject = yes
+					}
+					transfer_state_to = RKM
+				}
+			}
+		}
+	}
+
+	# 亚美尼亚和巴统
+	GER_the_fate_of_the_YaMeiNiYa_area = {
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		priority = 95
+
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = show_reichskommissariats_xz_decisions_flag
+			OR = {
+				230 = { is_controlled_by_ROOT_or_subject = yes }
+				1160 = { is_controlled_by_ROOT_or_subject = yes }
+				has_war_with = 1160.controller
+			}
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = GER_the_triumphant_will
+				SOV = {
+					exists = no
+				}
+			}
+			230 = { is_controlled_by_ROOT_or_subject = yes }
+			1160 = { is_controlled_by_ROOT_or_subject = yes }
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 230
+				state = 1160
+			}
+		}
+
+		cost = 15
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				SOV = { has_capitulated = yes }
+			}
+			modifier = {
+				add = 25
+				SOV = { exists = no }
+			}
+		}
+
+		complete_effect = {
+			country_event = {
+				id = dkcl.5
+				hours = 0
+			}
+		}
+	}
+
+
+
+
+
+#####GER_reichskommissariat_canwall = {
+
+	#	icon = ger_reichskommissariats
+
+	#	available = {
+	#		has_completed_focus = GER_uplift_the_rosenberg_office
+	#		has_government = fascism
+	#		controls_state = 123
+	#	}
+
+	#	cost = 0
+
+	#	ai_will_do = {
+	#		factor = 0
+	#		modifier = {
+	#			add = 1
+	#			ENG = { has_capitulated = yes }
+	#		}
+	#	}
+
+	#	visible = {
+	#		has_global_flag = show_reichskommissariats_decisions_flag
+	#		has_completed_focus = GER_uplift_the_rosenberg_office
+	#		has_government = fascism
+	#	}
+
+	#	complete_effect = {
+	#		hidden_effect = {
+	#			CRN = {
+	#				transfer_state = 123
+	#				add_state_core = 123
+	#				GER = {
+	#					puppet = PREV
+	#					if = {
+	#						limit = {
+	#							NOT = { has_dlc = "Death or Dishonor" }
+	#						}
+	#						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+	#					}
+	#					else = {
+	#						set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+#####}
+}

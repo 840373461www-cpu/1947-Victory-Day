@@ -1,0 +1,29 @@
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = TIB
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10856 1
+		}
+}
+
+	provinces={
+		4407 5018 5080 5102 8041 10856 10741 
+	}
+	manpower=322300 #1166拆走了45900人
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=1.0 
+}

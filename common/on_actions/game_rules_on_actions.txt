@@ -1,0 +1,258 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = AKSQ_status
+						option = AKSQ_RAJ
+					}
+				}
+				RAJ = {
+					transfer_state = 1091
+					transfer_state = 1092
+					transfer_state = 1145
+				}
+				1091 = {
+					set_compliance = 0.05
+					set_resistance = 0.05
+				}
+				1092 = {
+					set_compliance = 0.05
+					set_resistance = 0.05
+				}
+				1145 = {
+					set_compliance = 0.05
+					set_resistance = 0.05
+				}
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ZN_status
+						option = ZN_TIB
+					}
+				}
+				TIB = { transfer_state = 434 }
+				434 = { add_core_of = TIB }
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ZN_status
+						option = ZN_CHI
+					}
+				}
+				CHI = { transfer_state = 434 }
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = asia_colonization_status
+						option = ASIA_DECOLONIZED
+					}
+				}
+				CHI = { transfer_state = 434 }
+				CHI = { transfer_state = 1148 }
+				434 = { add_core_of = TIB add_core_of = CHI }
+				1148 = { add_core_of = TIB add_core_of = CHI }
+				RAJ = { release = SKK }
+				YUN = { transfer_state = 1142 }
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = debug_jueyi
+						option = debug_yes
+					}
+				}
+				GER = { complete_national_focus = GER_uplift_the_rosenberg_office }
+				ITA = { complete_national_focus = ITA_ministry_of_italian_africa }
+				JAP = { complete_national_focus = JAP_new_order_in_east_asia complete_national_focus = JAP_strike_the_southern_road complete_national_focus = JAP_sea_greater_east_asian_co_properity_sphere }
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = PRC_tongyi
+						option = PRC_tongyi_yes
+					}
+				}
+				1119 = { transfer_state_to = MON add_core_of = MON remove_core_of = PRC }
+				every_state = {
+					remove_core_of = CHI
+					remove_claim_by = PRC
+				}
+				PRC = {
+					complete_national_focus = PRC_the_peoples_republic
+					annex_country = { target = CHI transfer_troops = yes }
+					annex_country = { target = XSM transfer_troops = yes }
+					annex_country = { target = MEN transfer_troops = yes }
+					annex_country = { target = MAN transfer_troops = yes }
+					annex_country = { target = SIK transfer_troops = yes }
+					annex_country = { target = GXC transfer_troops = yes }
+					annex_country = { target = YUN transfer_troops = yes }
+					annex_country = { target = TIB transfer_troops = yes }
+					annex_country = { target = SHX transfer_troops = yes }
+					transfer_state = 609
+					transfer_state = 745
+					transfer_state = 728
+					transfer_state = 729
+					transfer_state = 326
+					set_capital = {
+						state = 608
+					}
+					every_owned_state = {
+						add_claim_by = CHI
+						add_core_of = PRC
+					}
+				}
+				524 = {
+					add_core_of = CHI
+					transfer_state_to = CHI
+					create_unit = { 
+						division = "name = \"臺灣第一守備師\" division_template = \"Sanjiao Jun\" start_experience_factor = 0.5" 
+						owner = CHI
+						}
+					create_unit = { 
+						division = "name = \"臺灣第二守備師\" division_template = \"Sanjiao Jun\" start_experience_factor = 0.5" 
+						owner = CHI
+						}
+				}
+				430 = {
+					transfer_state_to = BAN
+				}
+				RAJ = {
+					set_province_name = {
+						id = 2086
+						name = "新德里"
+					}
+					release = BRM
+					release = PAK
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+					set_politics = { ruling_party = democratic }
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.5
+					}
+					transfer_state = 321
+					transfer_state = 320
+					transfer_state = 1149
+					transfer_state = 1150
+					transfer_state = 733
+					add_state_core = 733
+					add_state_core = 1149
+					add_state_core = 1150
+					puppet = BHU
+					leave_faction = yes
+				}
+				FRA = {
+					delete_unit = { state = 741 }
+					delete_unit = { state = 286 }
+					delete_unit = { state = 671 }
+					release = VIN
+					release = LAO
+					release = CAM
+				}
+				ENG = {
+					set_autonomy = { target = RAJ autonomy_state = autonomy_free }
+					set_autonomy = { target = MAL autonomy_state = autonomy_free }
+					set_autonomy = { target = AST autonomy_state = autonomy_free }
+					set_autonomy = { target = NZL autonomy_state = autonomy_free }
+				}
+				HOL = {
+					set_autonomy = { target = INS autonomy_state = autonomy_free }
+				}
+				INS = {
+					abandon_colony_tag = yes
+					retire_country_leader = yes
+				}
+				MAL = {
+					abandon_colony_tag = yes
+					retire_country_leader = yes
+					leave_faction = yes
+				}
+				USA = {
+					delete_unit = { state = 327 }
+					set_autonomy = { target = PHI autonomy_state = autonomy_free }
+				}
+				AST = {
+					release = PNG
+					release = SOL
+					leave_faction = yes
+				}
+				NZL = { release = SAM leave_faction = yes }
+				SOV = {
+					transfer_state = 555
+					transfer_state = 537
+					add_state_core = 555
+					add_state_core = 537
+				}
+				MON = { leave_faction = yes }
+				JAP = {
+					delete_unit = { state = 684 }
+					delete_unit = { state = 633 }
+					delete_unit = { state = 647 }
+					delete_unit = { state = 646 }
+					delete_unit = { state = 648 }
+					delete_unit = { state = 645 }
+					remove_state_core = 555
+					remove_state_core = 537
+					add_state_claim = 555
+					remove_state_claim = 655
+					release = KOR
+					release = GUM
+					release = FSM
+				}
+				create_dynamic_country = {
+					original_tag = KOR
+					set_cosmetic_tag = S_KOR
+					transfer_state = 525
+					set_politics = {
+						ruling_party = democratic
+						elections_allowed = yes
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.8
+					}
+				}
+				KOR = {
+					set_politics = {
+						ruling_party = communism
+						elections_allowed = no
+					}
+					set_popularities = {
+						communism = 100
+					}
+					create_wargoal = {
+						target = D04
+						type = civil_war
+					}
+					set_cosmetic_tag = N_KOR
+				}
+				JAP = {
+					add_to_faction = RAJ
+					add_to_faction = INS
+					add_to_faction = D04
+					add_to_faction = CHI
+					add_to_faction = NZL
+					add_to_faction = AST
+					add_to_faction = PHI
+					add_to_faction = MAL
+					add_to_faction = SIA
+				}
+				PRC = {
+					add_to_faction = KOR
+					add_to_faction = MON
+					add_to_faction = PAK
+				}
+			}
+		}
+	}
+}

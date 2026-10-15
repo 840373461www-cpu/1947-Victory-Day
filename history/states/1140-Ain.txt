@@ -1,0 +1,25 @@
+
+state={
+	id=1140
+	name="STATE_1140"
+
+	history={
+		owner = FCM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+
+			add_core_of = FCM
+}
+
+	provinces={
+		641 3650 6639 9590 
+	}
+	manpower=475500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,320 @@
+﻿l_simp_chinese:
+
+ CHI_STATE_330: "乌尔格"
+ MAN_STATE_330: "乌尔格"
+ SHX_STATE_330: "乌尔格"
+ GXC_STATE_330: "乌尔格"
+ YUN_STATE_330: "乌尔格"
+ XSM_STATE_330: "乌尔格"
+ SIK_STATE_330: "乌尔格"
+ MEN_STATE_330: "乌尔格"
+
+ PRC_STATE_604: "玉树"
+ CHI_STATE_604: "玉树"
+ MAN_STATE_604: "玉树"
+ SHX_STATE_604: "玉树"
+ GXC_STATE_604: "玉树"
+ YUN_STATE_604: "玉树"
+ XSM_STATE_604: "玉树"
+ SIK_STATE_604: "玉树"
+ MEN_STATE_604: "玉树"
+ TIB_STATE_604: "安多"
+
+ CHI_STATE_617: "迪化（乌鲁木齐）"
+ MAN_STATE_617: "迪化（乌鲁木齐）"
+ SHX_STATE_617: "迪化（乌鲁木齐）"
+ GXC_STATE_617: "迪化（乌鲁木齐）"
+ YUN_STATE_617: "迪化（乌鲁木齐）"
+ XSM_STATE_617: "迪化（乌鲁木齐）"
+ SIK_STATE_617: "迪化（乌鲁木齐）"
+ MEN_STATE_617: "迪化（乌鲁木齐）"
+ CHI_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ MAN_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ SHX_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ GXC_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ YUN_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ XSM_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ SIK_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+ MEN_VICTORY_POINTS_4709: "迪化（乌鲁木齐）"
+
+ PRC_STATE_760: "哈密"
+ CHI_STATE_760: "哈密"
+ MAN_STATE_760: "哈密"
+ SHX_STATE_760: "哈密"
+ GXC_STATE_760: "哈密"
+ YUN_STATE_760: "哈密"
+ XSM_STATE_760: "哈密"
+ SIK_STATE_760: "哈密"
+ MEN_STATE_760: "哈密"
+
+ CHI_VICTORY_POINTS_4801: "库伦"
+ MAN_VICTORY_POINTS_4801: "库伦"
+ SHX_VICTORY_POINTS_4801: "库伦"
+ GXC_VICTORY_POINTS_4801: "库伦"
+ YUN_VICTORY_POINTS_4801: "库伦"
+ XSM_VICTORY_POINTS_4801: "库伦"
+ SIK_VICTORY_POINTS_4801: "库伦"
+ MEN_VICTORY_POINTS_4801: "库伦"
+
+ MON_STATE_754: "库库淖尔"
+ MEN_STATE_754: "库库淖尔"
+ TIB_STATE_754: "措温布"
+
+ CHI_STATE_761: "兴安"
+ SHX_STATE_761: "兴安"
+ MAN_STATE_761: "兴安"
+ GXC_STATE_761: "兴安"
+ YUN_STATE_761: "兴安"
+ XSM_STATE_761: "兴安"
+ SIK_STATE_761: "兴安"
+
+ CHI_STATE_647: "帛琉"
+ CHI_VICTORY_POINTS_4357: "北帛琉"
+
+ SOV_STATE_463: "阿列斯卡"
+ SOV_STATE_555: "库里尔群岛"
+ SOV_STATE_536: "埃佐夫斯克"
+
+
+
+
+ BUL_STATE_797: "沙皇格勒"
+ GRE_STATE_797: "君士坦丁堡"
+ BUL_VICTORY_POINTS_9833: "沙皇格勒"
+ GRE_VICTORY_POINTS_9833: "君士坦丁堡"
+
+
+ HAW_STATE_630: "卡拉玛-摩基基"
+ HAW_STATE_631: "皮赫马奴岛"
+
+
+
+ JAP_STATE_1143: "户板"
+ JAP_STATE_463: "亞羅斯加"
+ JAP_STATE_523: "巴布亞"
+ JAP_STATE_629: "布哇諸島"
+ JAP_STATE_631: "水無月島"
+ JAP_STATE_632: "大鳥島"
+ JAP_STATE_633: "馬耳沙爾諸島"
+ JAP_STATE_634: "撒羅蒙諸島"
+ JAP_STATE_636: "斐濟諸島"
+ JAP_STATE_638: "大宮島"
+ JAP_STATE_643: "埃里斯諸島"
+ JAP_STATE_645: "硫黃島"
+ JAP_STATE_647: "帛琉諸島"
+ JAP_STATE_725: "瑙魯島"
+ JAP_STATE_726: "薩摩亞諸島"
+ JAP_STATE_727: "萊恩諸島"
+ JAP_STATE_737: "島嶼地方"
+ JAP_VICTORY_POINTS_9671: "桑港"
+ JAP_VICTORY_POINTS_9814: "羅府港"
+ JAP_VICTORY_POINTS_4180: "東港"
+ JAP_VICTORY_POINTS_12021: "比呂"
+ JAP_VICTORY_POINTS_13047: "大鳥島"
+ JAP_VICTORY_POINTS_13067: "阿圖"
+ JAP_VICTORY_POINTS_13046: "布拉烏恩環礁"
+ JAP_VICTORY_POINTS_13041: "夸賈林環礁"
+ JAP_VICTORY_POINTS_13038: "瑙魯"
+ JAP_VICTORY_POINTS_13025: "硫黃島"
+ JAP_VICTORY_POINTS_12140: "明石"
+ JAP_VICTORY_POINTS_7251: "羅春"
+ JAP_VICTORY_POINTS_4357: "北帛琉"
+ JAP_VICTORY_POINTS_4286: "蘇巴"
+ JAP_VICTORY_POINTS_2489: "都洛"
+ JAP_VICTORY_POINTS_13052: "水無月"
+
+
+ GNG_VICTORY_POINTS_1047: "廣州"
+ GNG_VICTORY_POINTS_4189: "澳門"
+ GNG_VICTORY_POINTS_9938: "汕頭"
+ JAP_VICTORY_POINTS_1047: "廣州"
+ JAP_VICTORY_POINTS_4189: "澳門"
+ JAP_VICTORY_POINTS_9938: "汕頭"
+
+ GAN_VICTORY_POINTS_2022: "蘭州"
+ JAP_VICTORY_POINTS_2022: "蘭州"
+
+ SIA_STATE_1069: "南掌"
+ SIA_STATE_993: "源泰邦"
+
+ RAJ_STATE_733: "安达曼和尼科巴群岛"
+ AZH_STATE_733: "沙希德和斯瓦拉杰群岛"
+
+ JAP_STATE_1021: "昭南"
+ SHO_STATE_1021: "昭南"
+ JAP_VICTORY_POINTS_12299: "昭南岛"
+ SHO_VICTORY_POINTS_12299: "昭南岛"
+ JAP_STATE_1064: "北羅-太平-東條"
+ SHO_STATE_1064: "北羅-太平-東條"
+
+ JAP_VICTORY_POINTS_1208: "久鎮"
+ NRB_VICTORY_POINTS_1208: "久鎮"
+
+
+
+
+
+
+
+ BRG_VICTORY_POINTS_11506: "北巴黎"
+ VICTORY_POINTS_9523: "南巴黎"
+
+ GER_VICTORY_POINTS_11516: "南齐锡"
+ BRG_VICTORY_POINTS_11516: "南齐锡"
+
+ GER_STATE_137: "克里木"
+ GER_STATE_196: "陶里恩"
+ GER_VICTORY_POINTS_3686: "狄奥多里克港"
+ GER_VICTORY_POINTS_705: "哥滕堡"
+ GER_VICTORY_POINTS_9729: "东日耳曼尼亚"
+
+ GER_STATE_1137: "诺德斯滕"
+
+ GER_STATE_634: "加洛林群岛"
+
+ GER_STATE_727: "线岛群岛"
+
+ GER_STATE_1152: "欧本-马尔梅迪"
+ GER_VICTORY_POINTS_3488: "欧本-马尔梅迪"
+
+ GER_VICTORY_POINTS_516: "布吕塞尔"
+ BRG_VICTORY_POINTS_516: "布吕塞尔"
+
+ GER_STATE_10: "华绍"
+ GGN_STATE_10: "华绍"
+ GER_VICTORY_POINTS_3544: "华绍"
+ GGN_VICTORY_POINTS_3544: "华绍"
+ GGN_STATE_89: "施坦尼斯劳"
+ GGN_VICTORY_POINTS_11411: "施坦尼斯劳"
+ GGN_STATE_88: "克拉考"
+ GGN_VICTORY_POINTS_9427: "克拉考"
+ GGN_STATE_91: "伦贝格"
+ GGN_VICTORY_POINTS_11479: "伦贝格"
+
+ MCW_STATE_217: "保卢斯堡"
+ MCW_VICTORY_POINTS_3529: "保卢斯堡"
+ MCW_STATE_195: "圣彼得堡"
+ MCW_VICTORY_POINTS_3151: "圣彼得堡"
+ MCW_STATE_251: "萨马拉"
+ MCW_STATE_829: "伏尔加德意志"
+ MCW_VICTORY_POINTS_11225: "萨马拉"
+ MCW_VICTORY_POINTS_11523: "哥萨克施塔特"
+ MCW_VICTORY_POINTS_9432: "巴龙斯克"
+
+ CAU_VICTORY_POINTS_1599: "梯弗里斯"
+
+ MEN_VICTORY_POINTS_6904: "喀拉干"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ VICTORY_POINTS_1224: "塔克洛班"
+ VICTORY_POINTS_4101: "土格加劳"
+
+ VICTORY_POINTS_10490: "西宁"
+
+ VICTORY_POINTS_2067: "西昌"
+
+
+
+ STATE_1082: "贾盖"
+ STATE_1083: "加桑库利"
+ STATE_1084: "东斯洛文尼亚"
+ STATE_1085: "哈塞克"
+ STATE_1086: "奥兰"
+ STATE_1087: "阿尔及尔城"
+ STATE_1088: "西阿尔及利亚"
+ STATE_1089: "南毛里塔尼亚"
+ STATE_1090: "北毛里塔尼亚"
+ STATE_1091: "南阿克赛钦"
+ STATE_1092: "喀喇昆仑山脉"
+ STATE_1093: "北河高"
+ STATE_1094: "乌第河待议区"
+ STATE_1095: "雅克萨"
+ STATE_1096: "坎斯克"
+ STATE_1097: "三音诺颜部乌梁海十三佐领"
+ STATE_1098: "阿勒坦淖尔乌梁海二旗"
+ STATE_1099: "乌梁海十佐领"
+ STATE_1100: "科尔帕舍沃"
+ STATE_1101: "奥尔斯克"
+ STATE_1102: "锡拜-别洛列茨克"
+ STATE_1103: "盖尼-别列兹尼基"
+ STATE_1104: "东沙里亚"
+ STATE_1105: "科托尔"
+ STATE_1106: "南疆"
+ STATE_1107: "藏西北"
+ STATE_1108: "阿利图斯"
+ STATE_1109: "占巴塞"
+ STATE_1110: "北甘孜"
+ STATE_1111: "川西"
+ STATE_1112: "治多"
+ STATE_1113: "若尔盖-南坪"
+ STATE_1114: "威海卫"
+ STATE_1115: "海参崴城"
+ STATE_1116: "苏楚那"
+ STATE_1117: "茫崖"
+ STATE_1118: "北苏满"
+ STATE_1119: "戈壁阿尔泰"
+ STATE_1120: "巴彦乌列盖"
+ STATE_1121: "庆城"
+ STATE_1122: "定边"
+ STATE_1123: "兴化-老安富"
+ STATE_1124: "巴尔坎"
+ STATE_1125: "扎斯雷克"
+ STATE_1126: "塔什干城"
+ STATE_1127: "列巴普"
+ STATE_1128: "卡什卡达里亚"
+ STATE_1129: "外纳沃伊"
+ STATE_1130: "贾拉加什三角区"
+ STATE_1131: "奥什"
+ STATE_1132: "萨雷卡梅什"
+ STATE_1133: "山江宁"
+ STATE_1134: "奥卡万戈"
+ STATE_1135: "卡蒂马穆利洛"
+ STATE_1136: "利翁加"
+ STATE_1137: "厄余桑"
+ STATE_1138: "索姆"
+ STATE_1139: "庆阳"
+
+ STATE_1140: "布雷斯堡"
+ STATE_1141: "卡波埃塔"
+ STATE_1142: "江心坡"
+ STATE_1143: "葫芦地"
+ STATE_1144: "瓦罕走廊"
+ STATE_1145: "北阿克赛钦"
+ STATE_1146: "苏满"
+ STATE_1147: "南阿尔泰"
+ STATE_1148: "墨拉萨丁"
+ STATE_1149: "西南克什米尔"
+ STATE_1150: "南拉达克"
+ STATE_1151: "霍罗格"
+ STATE_1152: "奥伊彭-马尔梅迪"
+ STATE_1153: "斯科丘夫"
+ STATE_1154: "西哈萨克"
+ STATE_1155: "别尔哥罗德"
+ STATE_1156: "西普斯科夫"
+ STATE_1157: "叶利斯克"
+ STATE_1158: "布列斯特"
+ STATE_1159: "新东普鲁士"
+ STATE_1160: "巴统"
+ STATE_1161: "西基洛夫"
+ STATE_1162: "西马里埃尔"
+ STATE_1163: "西沃洛格达"
+ STATE_1164: "新乌津斯克"
+ STATE_1165: "色当"
+ STATE_1166: "丁青-类乌齐"
+ STATE_1167: "桑扎克"
+ STATE_1168: "乌尔齐尼"
+ STATE_1169: "帕格"

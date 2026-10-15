@@ -1,0 +1,118 @@
+form_Grosgermanisches_Reich_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_image_GER_political_situation
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+
+	priority = 5
+}
+form_Jap_empire_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+
+	priority = 50
+}
+form_HuGuoJun_category = {
+
+	icon = GFX_decision_category_YUN_red_kmt
+
+	picture = GFX_NLF
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_India_Republic_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_TIB_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_AFG_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_BKU_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_SIK_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_Zhongya_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_IBR_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_SIA_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_PER_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+form_TNS_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+
+HePing_category = {
+	icon = generic_political_actions
+
+	priority = 101
+}

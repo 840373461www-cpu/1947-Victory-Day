@@ -1,0 +1,30 @@
+
+state={
+	id=18
+	name="STATE_18"
+
+	history={
+		owner = FCM
+		victory_points = {
+			13011 5 
+		}
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 10
+
+		}
+
+			add_core_of = FCM
+}
+
+	provinces={
+		551 680 817 3533 3652 6531 11732 13011 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

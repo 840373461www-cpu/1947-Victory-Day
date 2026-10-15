@@ -1,0 +1,6 @@
+FRA = "countries/France.txt"					# French State
+FCM = "countries/FCM.txt"
+FFR = "countries/FFR.txt"
+KOG = "countries/KOG.txt"
+NJR = "countries/NJR.txt"
+PRI = "countries/PRI.txt"

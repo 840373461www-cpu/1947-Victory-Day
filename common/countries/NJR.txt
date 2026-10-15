@@ -1,0 +1,2 @@
+graphical_culture = asian_2d
+graphical_culture_2d = asian_2d

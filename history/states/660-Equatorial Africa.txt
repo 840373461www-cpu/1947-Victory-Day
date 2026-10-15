@@ -1,0 +1,32 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = FFR
+		victory_points = {
+			12830 1 
+		}
+		victory_points = {
+			2080 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+			add_core_of = FFR
+}
+
+	provinces={
+		2080 3165 5036 5054 5084 11012 11108 12719 12830 
+	}
+	manpower=1136921
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=2.000
+}

@@ -1,0 +1,5 @@
+music = {
+	name = "hitler_speech"
+	file = "hitler_speech.ogg"
+	volume = 0.70
+}

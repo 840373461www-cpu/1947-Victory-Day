@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FCM_maurice_thorez"
+		texturefile = "gfx/leaders/FCM/maurice_thorez.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_maurice_thorez_small"
+		texturefile = "gfx/leaders/FCM/maurice_thorez.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_pierre_monatte"
+		texturefile = "gfx/leaders/FCM/pierre_monatte.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_pierre_monatte_small"
+		texturefile = "gfx/leaders/FCM/pierre_monatte.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_leon_blum"
+		texturefile = "gfx/leaders/FCM/leon_blum.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_leon_blum_small"
+		texturefile = "gfx/leaders/FCM/leon_blum.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_vincent_auriol"
+		texturefile = "gfx/leaders/FCM/vincent_auriol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_vincent_auriol_small"
+		texturefile = "gfx/leaders/FCM/vincent_auriol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_guy_mollet"
+		texturefile = "gfx/leaders/FCM/guy_mollet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_guy_mollet_small"
+		texturefile = "gfx/leaders/FCM/guy_mollet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_henri_groues"
+		texturefile = "gfx/leaders/FCM/henri_groues.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FCM_henri_groues_small"
+		texturefile = "gfx/leaders/FCM/henri_groues.dds"
+	}
+
+}

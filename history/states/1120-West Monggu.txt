@@ -1,0 +1,22 @@
+state={
+	id=1120
+	name="STATE_1120"
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+
+	}
+	provinces={
+		4751 7808 7870 10539 
+	}
+	manpower=49000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

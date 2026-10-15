@@ -1,0 +1,234 @@
+capital = 16
+
+set_research_slots = 4
+set_convoys = 200
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_stability = 0.45 # Was 0.5, but they now get +5% from the Eiffel Tower
+	ELSE = {
+		set_stability = 0.5
+	}
+}
+add_war_support = -0.3
+add_manpower = 32000
+
+set_politics = {
+	ruling_party = corporatism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+country_lock_all_division_template = yes
+
+
+
+add_command_power = 20
+
+complete_special_project = {
+	project = sp:sp_naval_cruiser_submarine
+	scientist = FRA_henri_edmond_fouche
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.5
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.5
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	basic_fortification_tech = 1
+}
+
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		basic_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		#basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_cruiser_armor_scheme = 1
+		mtg_transport = 1
+		basic_dp_light_battery = 1
+		#cruiser_submarines = 1
+	}
+	add_ideas = MTG_naval_treaty_adherent
+}
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+create_equipment_variant = {
+	name = "Dunkerque-Class"
+	type = ship_hull_heavy_1
+	name_group = GER_BB_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		mid_1_custom_slot = ship_secondaries_1
+		mid_2_custom_slot = ship_anti_air_1
+		front_1_custom_slot = ship_anti_air_1
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+}
+create_equipment_variant = {
+	name = "La Fantasque-Class"
+	type = ship_hull_light_1
+	name_group = GER_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_anti_air_2
+	}
+}
+create_equipment_variant = {
+	name = "Minerve-Class"
+	type = ship_hull_submarine_1
+	name_group = GER_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = sub_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+}
+
+1950.6.1 = {
+}
+
+# ===== 1947 支持率 =====
+set_popularities = {
+	corporatism = 40
+	market_liberal = 15
+	social_conservative = 10
+	authoritarian_democrat = 10
+	fascism = 8
+	monarchism = 8
+	third_positionism = 5
+	national_socialism = 2
+	paternal_autocrat = 2
+	theocracy = 0
+	social_liberal = 0
+	social_democrat = 0
+	reformist_socialist = 0
+	radical_socialist = 0
+	communism = 0
+	military_republicanism = 0
+	national_populist = 0
+	communism = 0
+}
+
+# ===== 1947 领袖 =====
+# ★ 1947 推荐列表卡片用（override_leader_portrait）；他只有肖像、无领袖角色
+recruit_character = FRA_philippe_petain
+recruit_character = FRA_pierre_laval
+recruit_character = FRA_pierre_etienne_flandin
+recruit_character = FRA_antoine_pinay
+recruit_character = FRA_charles_vallin
+recruit_character = FRA_joseph_darnand
+recruit_character = FRA_maurice_pujo
+recruit_character = FRA_tixier_vignancour_1947
+recruit_character = FRA_pierre_costantini
+recruit_character = FRA_raoul_salan

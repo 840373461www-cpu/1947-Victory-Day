@@ -1,0 +1,24 @@
+state={
+	id=1165
+	name="STATE_1165"
+	history={
+		owner = FCM
+		victory_points = {
+			3560 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+			add_core_of = FCM
+}
+	provinces={
+		3546 3560 5291 6545 9472 9505 
+	}
+	manpower=570800
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

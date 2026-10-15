@@ -1,0 +1,21 @@
+# ============================================================================
+# [FCM 覆盖] 原版分类文件 CHI_decision_categories.txt —— 仅保留仍被启用决议使用的分类
+# 其余分类随各国决议一并移除。恢复：删除本文件。备份：D:\dsh-sd-out\backup_before_purge_decisions_20261010
+# ============================================================================
+
+CHI_border_clashes = {
+	priority = 90
+	picture = generic_border_conflicts
+	icon = border_conflicts
+	allowed = {
+		if = {
+			limit = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			NOT = { original_tag = PRC }
+		}
+		else = {
+			is_literally_china = yes
+		}
+	}	
+}

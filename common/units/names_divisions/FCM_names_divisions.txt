@@ -1,0 +1,61 @@
+FCM_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { FCM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Division Populaire"
+
+	ordered =
+	{
+		1 = { "%d. Division Populaire" }
+		2 = { "%d. Division des Fédérés" }
+		3 = { "%d. Division de la Garde Rouge" }
+		4 = { "%d. Division de la Seine" }
+		5 = { "%d. Division du Nord" }
+		6 = { "%d. Division de l'Est" }
+		7 = { "%d. Division des Vosges" }
+		8 = { "%d. Division des Alpes" }
+		9 = { "%d. Division de la Marne" }
+		10 = { "%d. Division de la Saône" }
+		11 = { "%d. Division de Normandie" }
+		12 = { "%d. Division d'Alsace" }
+		13 = { "%d. Division de Lorraine" }
+		14 = { "%d. Division de Champagne" }
+		15 = { "%d. Division de Picardie" }
+		16 = { "%d. Division des Flandres" }
+		17 = { "%d. Division de Savoie" }
+		18 = { "%d. Division du Rhône" }
+	}
+}
+
+FCM_GAR_01 = 
+{
+	name = "Guard Brigade"
+
+	for_countries = { FCM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Garde Rouge"
+
+	ordered =
+	{
+		1 = { "%d. Garde Rouge de Paris" }
+		2 = { "%d. Garde Rouge de Rouen" }
+		3 = { "%d. Garde Rouge de Strasbourg" }
+		4 = { "%d. Garde Rouge de Lille" }
+		5 = { "%d. Garde Rouge de Reims" }
+		6 = { "%d. Garde Rouge de Nancy" }
+		7 = { "%d. Bataillon des Volontaires" }
+		8 = { "%d. Bataillon de la Commune" }
+		9 = { "%d. Bataillon des Faubourgs" }
+		10 = { "%d. Bataillon de la Garde Ouvrière" }
+	}
+}

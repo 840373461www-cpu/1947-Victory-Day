@@ -1,0 +1,132 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ENG_Harry_Pollitt_1947"
+		texturefile = "gfx/leaders/ENG/Harry_Pollitt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Harry_Pollitt_1947_small"
+		texturefile = "gfx/leaders/ENG/Harry_Pollitt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Aneurin_Bevan"
+		texturefile = "gfx/leaders/ENG/Aneurin_Bevan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Aneurin_Bevan_small"
+		texturefile = "gfx/leaders/ENG/Aneurin_Bevan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Harold_Wilson"
+		texturefile = "gfx/leaders/ENG/Harold_Wilson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Harold_Wilson_small"
+		texturefile = "gfx/leaders/ENG/Harold_Wilson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Clement_Attlee"
+		texturefile = "gfx/leaders/ENG/Clement_Attlee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Clement_Attlee_small"
+		texturefile = "gfx/leaders/ENG/Clement_Attlee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Jo_Grimond"
+		texturefile = "gfx/leaders/ENG/Jo_Grimond.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Jo_Grimond_small"
+		texturefile = "gfx/leaders/ENG/Jo_Grimond.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Enoch_Powell"
+		texturefile = "gfx/leaders/ENG/Enoch_Powell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Enoch_Powell_small"
+		texturefile = "gfx/leaders/ENG/Enoch_Powell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Anthony_Eden"
+		texturefile = "gfx/leaders/ENG/Anthony_Eden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Anthony_Eden_small"
+		texturefile = "gfx/leaders/ENG/Anthony_Eden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Winston_Churchill_1947"
+		texturefile = "gfx/leaders/ENG/Winston_Churchill.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Winston_Churchill_1947_small"
+		texturefile = "gfx/leaders/ENG/Winston_Churchill.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Arthur_Kenneth_Chesterton"
+		texturefile = "gfx/leaders/ENG/Arthur_Kenneth_Chesterton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Arthur_Kenneth_Chesterton_small"
+		texturefile = "gfx/leaders/ENG/Arthur_Kenneth_Chesterton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Nick_Griffin"
+		texturefile = "gfx/leaders/ENG/Nick_Griffin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Nick_Griffin_small"
+		texturefile = "gfx/leaders/ENG/Nick_Griffin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Oswald_Mosley_1947"
+		texturefile = "gfx/leaders/ENG/Oswald_Mosley.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Oswald_Mosley_1947_small"
+		texturefile = "gfx/leaders/ENG/Oswald_Mosley.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_John_Tyndall"
+		texturefile = "gfx/leaders/ENG/John_Tyndall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_John_Tyndall_small"
+		texturefile = "gfx/leaders/ENG/John_Tyndall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_George_VI"
+		texturefile = "gfx/leaders/ENG/George_VI.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_George_VI_small"
+		texturefile = "gfx/leaders/ENG/George_VI.dds"
+	}
+
+}

@@ -1,0 +1,323 @@
+prospect_for_resources = {
+	#开发西藏罗布莎铬铁矿
+	KRC_resource_1 = {
+		icon = GFX_decision_chromium
+		available = {
+			
+			is_puppet = no
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			757 = { is_owned_by_ROOT_or_ally = yes }
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+				tag = TIB
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 757 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			757 = {
+				add_resource = {
+					type = chromium
+					amount = 62
+				}
+			}
+		}
+	}
+
+	#开发山西克俄铝矿
+	KRC_resource_2 = {
+		icon = GFX_decision_aluminium
+		available = {
+			
+			is_puppet = no
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			615 = { is_owned_by_ROOT_or_ally = yes }
+
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 615 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			615 = {
+				add_resource = {
+					type = aluminium
+					amount = 82
+				}
+			}
+		}
+	}
+
+	#在琼崖种植橡胶
+	KRC_resource_3 = {
+		icon = GFX_decision_rubber
+		available = {
+			
+			is_puppet = no
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			591 = { is_owned_by_ROOT_or_ally = yes }
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 591 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			591 = {
+				add_resource = {
+					type = rubber
+					amount = 27
+				}
+			}
+		}
+	}
+	
+	#开发东北油田
+	KRC_resource_6 = {
+		icon = GFX_decision_oil
+		available = {
+			
+			is_puppet = no
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			716 = { is_owned_by_ROOT_or_ally = yes }
+			714 = { is_owned_by_ROOT_or_ally = yes }
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 714 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			716 = {
+				add_resource = {
+					type = 	Oil
+					amount = 9
+				}
+			}
+			714 = {
+				add_resource = {
+					type = 	Oil
+					amount = 19
+				}
+			}
+		}
+	}
+
+	#开发湘赣钨矿
+	KRC_resource_5 = {
+		icon = GFX_decision_tungsten
+		available = {
+			
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			600 = { is_owned_by_ROOT_or_ally = yes }
+			602 = { is_owned_by_ROOT_or_ally = yes }
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 600 state = 602 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			600 = {
+				add_resource = {
+					type = Tungsten
+					amount = 379 
+				}
+			}
+			602 = {
+				add_resource = {
+					type = Tungsten
+					amount = 607
+				}
+			}
+		}
+	}
+
+	#开发辽宁、冀东和川西铁矿
+	KRC_resource_4 = {
+		icon = GFX_decision_steel
+		available = {
+			
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			716 = { is_owned_by_ROOT_or_ally = yes }
+			609 = { is_owned_by_ROOT_or_ally = yes }
+			605 = { is_owned_by_ROOT_or_ally = yes }
+		}
+		visible = {
+			OR = {
+				tag = PRC
+				tag = CHI
+				#tag = GMG
+				tag = MAN
+				tag = SIK
+				tag = GXC
+				tag = YUN
+				tag = XSM
+				tag = SHX
+			}
+			# 不是ai
+			is_ai = no
+		}
+
+		cost = 50
+		days_remove = 60
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 716 state = 609 state = 605 }
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			716 = {
+				add_resource = {
+					type = Steel
+					amount = 161
+				}
+			}
+			609 = {
+				add_resource = {
+					type = Steel
+					amount = 81
+				}
+			}
+			605 = {
+				add_resource = {
+					type = Steel
+					amount = 42
+				}
+			}
+		}
+	}
+}

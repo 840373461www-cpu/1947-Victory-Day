@@ -1,0 +1,4184 @@
+form_Grosgermanisches_Reich_category = {
+	form_Grosgermanisches_Reich = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 137
+			owns_state = 28
+			owns_state = 1159
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 4
+				state = 5
+				state = 8
+				state = 9
+				state = 28
+				state = 42
+				state = 50
+				state = 51
+				state = 52
+				state = 53
+				state = 54
+				state = 55
+				state = 56
+				state = 57
+				state = 58
+				state = 59
+				state = 60
+				state = 61
+				state = 62
+				state = 63
+				state = 64
+				state = 65
+				state = 66
+				state = 67
+				state = 68
+				state = 69
+				state = 72
+				state = 74
+				state = 75
+				state = 85
+				state = 86
+				state = 87
+				state = 97
+				state = 98
+				state = 102
+				state = 152
+				state = 153
+				state = 188
+				state = 762
+				state = 763
+				state = 807
+				state = 848
+				state = 909
+				state = 912
+				state = 972
+				state = 975
+				state = 976
+				state = 978
+				state = 1159
+				state = 1152
+				state = 1153
+				state = 1108
+			}
+		}
+
+		cost = 300
+
+		visible = {
+			AND = {
+				original_tag = GER
+				has_government = fascism
+				has_country_leader = { ruling_only = yes character = GER_adolf_hitler }
+			}
+			NOT = { has_global_flag = form_greater_german_reich_flag }
+			OR = {
+				AND = {
+					has_war_with = FRA
+					FRA = { has_capitulated = yes }
+				}
+				AND = {
+					owns_state = 28
+					has_full_control_of_state = 28
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GER_Grosgermanisches_Reich
+			set_province_name = { id = 6521 name = "日耳曼尼亚" }
+			64 = { set_state_name = "世界之都日耳曼尼亚" }
+			912 = { set_state_name = "北石勒苏益格" }
+			28 = { set_state_name = "埃尔萨斯-洛林根" }
+			GER = {
+				add_state_core = 86
+				add_state_core = 98
+				add_state_core = 97
+				add_state_core = 1153
+				add_state_core = 762
+				add_state_core = 87
+				add_state_core = 1159
+				add_state_core = 9
+				add_state_core = 75
+				add_state_core = 72
+				add_state_core = 912
+				add_state_core = 1152
+				add_state_core = 102
+				add_state_core = 1108
+			}
+			hidden_effect = {
+				set_global_flag = form_greater_german_reich_flag
+				play_song = "hitler_speech"
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	Change_xtl_TouXiang = {
+		available = {
+			has_country_leader = { ruling_only = yes character = GER_adolf_hitler }
+		}
+		visible = {
+			original_tag = GER
+			has_government = fascism
+			has_global_flag = form_greater_german_reich_flag
+		}
+		complete_effect = {
+			set_country_leader_portrait = { portrait = Portrait_GER_Adolf_Hitler_TNO }
+			set_country_leader_description = { desc = "POLITICS_ADOLF_HITLER_TNO_DESC" }
+		}
+	}
+}
+
+form_Jap_empire_category = {
+	form_Jap_empire = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = JAP
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_ai = no
+			is_subject = no
+			owns_state = 1115
+			owns_state = 655
+			owns_state = 537
+			CHI = { is_subject_of = JAP }
+			OR = {
+				JAP = { 
+				controls_province = 11913
+				}
+				any_country = {
+					is_subject_of = JAP
+					controls_province = 11913
+				}
+			}
+			OR = {
+				JAP = { 
+				controls_province = 6999
+				}
+				any_country = {
+					is_subject_of = JAP
+					controls_province = 6999
+				}
+			}
+			OR = {
+				JAP = { 
+				controls_province = 957
+				}
+				any_country = {
+					is_subject_of = JAP
+					controls_province = 957
+				}
+			}
+			OR = {
+				JAP = { 
+				controls_state = 655
+				}
+				any_country = {
+					is_subject_of = JAP
+					controls_state = 655
+				}
+			}
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 300
+
+		visible = {
+			AND = {
+				original_tag = JAP
+				has_government = fascism
+			}
+			NOT = { has_global_flag = form_Jap_empire_flag }
+			OR = {
+				AND = {
+					has_war_with = CHI
+					CHI = { has_capitulated = yes }
+				}
+				AND = {
+					owns_state = 591
+					has_full_control_of_state = 591
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = Jap_empire
+			set_province_name = { id = 957 name = "浦鹽" }
+			655 = { set_state_name = "北桦太" }
+			537 = { set_state_name = "南桦太" }
+			524 = { set_compliance = 100 }
+			JAP = {
+				add_state_core = 655
+				add_state_core = 527
+				add_state_core = 525
+				remove_state_claim = 655
+			}
+			hidden_effect = {
+				set_global_flag = form_Jap_empire_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_HuGuoJun_category = {
+	form_HuGuoJun = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = YUN
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_ai = no
+			is_subject = no
+			owns_state = 747
+			owns_state = 325
+			owns_state = 748
+			owns_state = 603
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			original_tag = YUN
+			NOT = { has_global_flag = form_HuGuoJun_flag }
+			CHI = {
+				OR = {
+					exists = no
+					is_subject_of = JAP
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HuGuoJun
+			YUN = {
+				set_party_name = { ideology = neutrality long_name = HuGuoJun_party_long name = HuGuoJun_party }
+				create_country_leader = {
+					name = YUN_long_yun_old
+					picture = "gfx/leaders/Asia_l/Portrait_Yunnan_Long_Yun.dds"
+					desc = "POLITICS_LONG_YUN_DESC"
+					ideology = despotism
+					traits = { king_of_the_southwest indomitable_perseverance man_of_the_nation rearmament_proponent revolutionary_general }
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				create_country_leader = {
+					name = YUN_long_yun_old
+					picture = "gfx/leaders/Asia_l/Portrait_Yunnan_Long_Yun.dds"
+					desc = "POLITICS_LONG_YUN_DESC"
+					ideology = fascism_ideology
+					traits = { king_of_the_southwest indomitable_perseverance man_of_the_nation rearmament_proponent revolutionary_general }
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				leave_faction = yes
+				add_state_core = 748
+				add_state_core = 603
+			}
+			hidden_effect = {
+				set_global_flag = form_HuGuoJun_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = no
+			}
+		}
+	}
+	HuGuoJun_attack = {
+
+		icon = GFX_decision_generic_revolt_red
+
+		allowed = {
+			original_tag = YUN
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_ai = no
+			is_subject = no
+			has_global_flag = form_HuGuoJun_flag
+		}
+
+		cost = 100
+
+		visible = {
+			original_tag = YUN
+			CHI = {
+				OR = {
+					exists = no
+					is_subject_of = JAP
+				}
+			}
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = { 
+					is_core_of = CHI
+				}
+				add_core_of = YUN
+			}
+			every_state = {
+				limit = {
+					is_claimed_by = CHI
+				}
+				add_claim_by = YUN
+			}
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = JAP
+				type = annex_everything
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+#icon的地址在Hearts of Iron IV\gfx\interface\decisions
+
+JAP_the_co_prosperity_sphere_decisions = {
+	#组建高kaka民国
+	JAP_CHI = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			613 = { is_controlled_by_ROOT_or_ally = yes }
+			1041 = { is_controlled_by_ROOT_or_ally = yes }
+			524 = { is_controlled_by_ROOT_or_ally = yes }
+			745 = { is_controlled_by_ROOT_or_ally = yes }
+			1114 = { is_controlled_by_ROOT_or_ally = yes }
+			743 = { is_controlled_by_ROOT_or_ally = yes }
+			753 = { is_controlled_by_ROOT_or_ally = yes }
+			1111 = { is_controlled_by_ROOT_or_ally = yes }
+			1037 = { is_controlled_by_ROOT_or_ally = yes }
+			605 = { is_controlled_by_ROOT_or_ally = yes }
+			1038 = { is_controlled_by_ROOT_or_ally = yes }
+			597 = { is_controlled_by_ROOT_or_ally = yes }
+			614 = { is_controlled_by_ROOT_or_ally = yes }
+			608 = { is_controlled_by_ROOT_or_ally = yes }
+			1033 = { is_controlled_by_ROOT_or_ally = yes }
+			591 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			release = CHI
+			if = {
+				limit = {
+					RNG = {
+						exists = yes
+					}
+				}
+				CHI = {
+					annex_country = {
+						target = RNG
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = RNG
+								is_claimed_by = RNG
+							}
+						}
+						remove_claim_by = RNG
+						remove_core_of = RNG
+					}
+				}
+			}
+			JAP = { 
+				set_autonomy = { target = CHI autonomy_state = autonomy_wtt_imperial_associate }
+				transfer_state = 524
+				transfer_state = 745
+				transfer_state = 1033
+				transfer_state = 1114
+				transfer_state = 743
+				transfer_state = 591
+			}
+			CHI = {
+				set_cosmetic_tag = CHI_Gao
+				hidden_effect = {
+					create_country_leader = {
+						name = CHI_gao_zongwu_TNO
+						picture = "gfx/leaders/Asia_l/Portrait_China_Gao_Zongwu.dds"
+						desc = POLITICS_GAO_ZONGWU_DESC
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							eager_collaborator
+							political_dancer
+						}
+					}
+					transfer_state = 753
+					transfer_state = 1111
+					transfer_state = 1041
+					transfer_state = 1037
+					transfer_state = 605
+					transfer_state = 1038
+					transfer_state = 597
+					transfer_state = 614
+					transfer_state = 608
+					753 = {
+						set_demilitarized_zone = yes	
+					}
+					1111 = {
+						set_demilitarized_zone = yes	
+					}
+					1041 = {
+						set_demilitarized_zone = yes	
+					}
+					set_politics = {
+						ruling_party = fascism
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 1
+						fascism = 55
+						communism =  2
+						neutrality = 42
+					}
+					every_other_country = {
+						limit = {
+							has_war_with = JAP
+						}
+						CHI = {
+							add_to_war = { targeted_alliance = JAP enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+		}
+	}
+	#把领土移交给MAN！
+	JAP_MAN = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			657 = { is_controlled_by_ROOT_or_ally = yes }
+			560 = { is_controlled_by_ROOT_or_ally = yes }
+			409 = { is_controlled_by_ROOT_or_ally = yes }
+			408 = { is_controlled_by_ROOT_or_ally = yes }
+			1116 = { is_controlled_by_ROOT_or_ally = yes }
+			1115 = { is_controlled_by_ROOT_or_ally = yes }
+			655 = { is_controlled_by_ROOT_or_ally = yes }
+			country_exists = MAN
+			MAN = {
+				is_subject_of = JAP
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			set_stability = 0.9
+			set_war_support = 0.5
+			add_manpower = 1000000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_2
+				amount = 5000
+				producer = MAN
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment_1
+				amount = 1000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 1000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 1000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_3
+				amount = 1500
+				producer = JAP
+			}
+			hidden_effect = {
+				MAN = {
+					set_cosmetic_tag = MAN_TNO
+					transfer_state = 657
+					transfer_state = 560
+					transfer_state = 409
+					transfer_state = 408
+					transfer_state = 1116
+					set_politics = {
+						ruling_party = fascism
+					}
+					set_popularities = {
+						neutrality = 6
+						fascism = 94
+					}
+					add_country_leader_role = {
+						character = MAN_aisin_gioro_puyi
+						country_leader = {
+							ideology = emperor_fascism
+							traits = { warrior_code }
+							expire = "1960.1.1.1"
+							desc = POLITICS_PUYI_DESC
+							id = -1
+						}
+						promote_leader = yes
+					}
+					set_country_leader_portrait = { portrait = Portrait_Portrait_MAN_Puyi_TNO }
+					add_country_leader_trait = affable_puppet
+				}
+				JAP = {
+					transfer_state = 655
+					transfer_state = 1115
+				}
+			}
+		}
+	}
+	#把领土移交给MEN
+	JAP_MEN = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			817 = { is_controlled_by_ROOT_or_ally = yes }
+			819 = { is_controlled_by_ROOT_or_ally = yes }
+			330 = { is_controlled_by_ROOT_or_ally = yes }
+			820 = { is_controlled_by_ROOT_or_ally = yes }
+			818 = { is_controlled_by_ROOT_or_ally = yes }
+			746 = { is_controlled_by_ROOT_or_ally = yes }
+			621 = { is_controlled_by_ROOT_or_ally = yes }
+			1120 = { is_controlled_by_ROOT_or_ally = yes }
+			1039 = { is_controlled_by_ROOT_or_ally = yes }
+			country_exists = MEN
+			MEN = {
+				is_subject_of = JAP
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = trade_SIK_MON_land
+				MEN = {
+					set_cosmetic_tag = MEN_JAP
+					set_politics = {
+						ruling_party = fascism
+					}
+					set_country_leader_portrait = { portrait = Portrait_MEN_Demchugdongrub_TNO }
+					set_country_leader_name = { name = MEN_Demchugdongrub }
+					set_country_leader_description = { desc = POLITICS_DEMCHUGDONGRUB_DESC }
+					transfer_state = 817
+					transfer_state = 819
+					transfer_state = 330
+					transfer_state = 820
+					transfer_state = 818
+					transfer_state = 746
+					transfer_state = 621
+					transfer_state = 1119
+					transfer_state = 1039
+					add_state_core = 817
+					add_state_core = 819
+					add_state_core = 330
+					add_state_core = 820
+					add_state_core = 818
+					add_state_core = 1119
+					add_state_core = 1039
+					set_capital = {
+						state = 1039
+					}
+				}
+				SIK = {
+					transfer_state = 1120
+					add_state_core = 1120
+					remove_state_core = 1119
+				}
+			}
+		}
+	}
+	#贵州省
+	JAP_GUZ = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			748 = { is_controlled_by_ROOT_or_ally = yes }
+			603 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GUZ = {
+					set_cosmetic_tag = GUZ
+					transfer_state = 748
+					transfer_state = 603
+					add_state_core = 748
+					add_state_core = 603
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						fascism = 20
+						neutrality = 80
+					}
+				}
+			}
+		}
+	}
+	#广西省
+	JAP_GXC = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			599 = { is_controlled_by_ROOT_or_ally = yes }
+			594 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GXC = {
+					create_country_leader = {
+						name = GUX_xia_wei
+						picture = "gfx/leaders/Asia_l/Portrait_Guangxi_Xia_Wei.dds"
+						desc = "POLITICS_XIA_WEI_DESC"
+						ideology = despotism
+						expire = "1999.1.1.1"
+						id = -1
+					}
+					create_field_marshal = {
+						name = GUX_xia_wei
+						picture = "gfx/leaders/Asia_l/Portrait_Guangxi_Xia_Wei.dds"
+						traits = { old_guard politically_connected }
+						skill = 3
+						attack_skill = 3
+						defense_skill = 2
+						planning_skill = 1
+						logistics_skill = 2
+					}
+					set_cosmetic_tag = Guangxi_province
+					transfer_state = 599
+					transfer_state = 594
+					add_state_core = 599
+					add_state_core = 594
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+	#坎通
+	JAP_GNG = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			593 = { is_controlled_by_ROOT_or_ally = yes }
+			729 = { is_controlled_by_ROOT_or_ally = yes }
+			592 = { is_controlled_by_ROOT_or_ally = yes }
+			326 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GNG = {
+					set_cosmetic_tag = GNG
+					transfer_state = 593
+					transfer_state = 729
+					transfer_state = 592
+					transfer_state = 326
+					add_state_core = 593
+					add_state_core = 729
+					add_state_core = 592
+					add_state_core = 326
+					add_state_core = 591
+					add_state_core = 728
+					add_state_core = 1033
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_popularities = {
+						fascism = 40
+						neutrality = 60
+					}
+				}
+			}
+		}
+	}
+	#云南省
+	JAP_YUN = {
+
+			icon = category_jap_intervene_in_china
+	
+			available = {
+				is_subject = no
+				has_completed_focus = JAP_new_order_in_east_asia
+				has_government = fascism
+				747 = { is_controlled_by_ROOT_or_ally = yes }
+				325 = { is_controlled_by_ROOT_or_ally = yes }
+			}
+	
+			cost = 0
+			fire_only_once = yes
+			ai_will_do = {
+				factor = 100
+				modifier = {
+					add = 100
+					CHI = { has_capitulated = yes }
+				}
+			}
+	
+			visible = {
+				has_completed_focus = JAP_new_order_in_east_asia
+				has_government = fascism
+			}
+	
+			complete_effect = {
+				hidden_effect = {
+					YUN = {
+						create_country_leader = {
+							name = GUZ_Lu_Han
+							picture = "gfx/leaders/Asia_l/Portrait_Yunnan_Lu_Han.dds"
+							desc = "POLITICS_LU_HAN_DESC_2"
+							ideology = despotism
+							expire = "1999.1.1.1"
+							id = -1
+						}
+						create_corps_commander = {
+							name = GUZ_Lu_Han
+							picture = "gfx/leaders/Asia_l/Portrait_Yunnan_Lu_Han.dds"
+							skill=3
+							attack_skill=4
+							defense_skill=2
+							planning_skill=1
+							logistics_skill=3
+							legacy_id=-1
+						}
+						set_cosmetic_tag = Yunnan_province
+						set_country_flag = JAP_YUN
+						transfer_state = 747
+						transfer_state = 325
+						add_state_core = 747
+						add_state_core = 325
+						JAP = {
+							puppet = PREV
+							if = {
+								limit = {
+									NOT = { has_dlc = "Death or Dishonor" }
+								}
+								set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+							}
+							else = {
+								set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+							}
+						}
+						set_politics = {
+							ruling_party = neutrality
+							last_election = "1936.1.1"
+							election_frequency = 48
+							elections_allowed = no
+						}
+						set_popularities = {
+							fascism = 20
+							neutrality = 80
+						}
+					}
+				}
+			}
+	}
+	#国民革命军第二十四军
+	JAP_XIK = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			601 = { is_controlled_by_ROOT_or_ally = yes }
+			752 = { is_controlled_by_ROOT_or_ally = yes }
+			751 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			set_victory_points = {
+				province = 2067 
+				value = 5 
+			}
+			hidden_effect = {
+				XIK = {
+					set_cosmetic_tag = XIK
+					transfer_state = 601
+					transfer_state = 752
+					transfer_state = 751
+					add_state_core = 601
+					add_state_core = 752
+					add_state_core = 751
+				}
+			}
+		}
+	}
+	#国民革命军第四十集团军
+	JAP_QIN = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			1110 = { is_controlled_by_ROOT_or_ally = yes }
+			755 = { is_controlled_by_ROOT_or_ally = yes }
+			754 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				SIK = {
+					transfer_state = 1117
+					add_state_core = 1117
+					transfer_state = 1112
+					add_state_core = 1112
+				}
+				set_global_flag = trade_TIB_XSM_land
+				TIB = {
+					transfer_state = 604
+					add_state_core = 604
+				}
+				QIN = {
+					set_cosmetic_tag = QIN
+					transfer_state = 1110
+					transfer_state = 755
+					transfer_state = 754
+					add_state_core = 1110
+					add_state_core = 755
+					add_state_core = 754
+				}
+			}
+		}
+	}
+	#西北方面军
+	JAP_GAN = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			756 = { is_controlled_by_ROOT_or_ally = yes }
+			616 = { is_controlled_by_ROOT_or_ally = yes }
+			283 = { is_controlled_by_ROOT_or_ally = yes }
+			1121 = { is_controlled_by_ROOT_or_ally = yes }
+			1113 = { is_controlled_by_ROOT_or_ally = yes }
+			1139 = { is_controlled_by_ROOT_or_ally = yes }
+			1040 = { is_controlled_by_ROOT_or_ally = yes }
+			1044 = { is_controlled_by_ROOT_or_ally = yes }
+			1045 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				GAN = {
+					set_cosmetic_tag = GAN
+					transfer_state = 756
+					transfer_state = 616
+					transfer_state = 283
+					transfer_state = 1121
+					transfer_state = 1113
+					transfer_state = 1139
+					transfer_state = 1040
+					transfer_state = 1044
+					transfer_state = 1045
+					add_state_core = 756
+					add_state_core = 616
+					add_state_core = 283
+					add_state_core = 1121
+					add_state_core = 1113
+					add_state_core = 1139
+					add_state_core = 1040
+					add_state_core = 1044
+					add_state_core = 1045
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_protectorate end_wars = no end_civil_wars = no }
+						}
+					}
+					set_popularities = {
+						fascism = 90
+						neutrality = 10
+					}
+				}
+			}
+		}
+	}
+	#晋陕行政公署
+	JAP_SHX = {
+
+		icon = category_jap_intervene_in_china
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+			615 = { is_controlled_by_ROOT_or_ally = yes }
+			744 = { is_controlled_by_ROOT_or_ally = yes }
+			1122 = { is_controlled_by_ROOT_or_ally = yes }
+			622 = { is_controlled_by_ROOT_or_ally = yes }
+			1046 = { is_controlled_by_ROOT_or_ally = yes }
+			1032 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				SHX = {
+					set_cosmetic_tag = SHX_JinShan
+					transfer_state = 615
+					transfer_state = 744
+					transfer_state = 622
+					transfer_state = 1122
+					transfer_state = 1032
+					transfer_state = 1046
+					add_state_core = 615
+					add_state_core = 744
+					add_state_core = 622
+					add_state_core = 1122
+					add_state_core = 1032
+					add_state_core = 1046
+					remove_state_core = 746
+					remove_state_core = 621
+					remove_state_core = 1043
+					create_country_leader = {
+						name = SHX_fu_zuoyi_TNO
+						picture = "gfx/leaders/Asia_l/Portrait_Shanxi_Fu_Zuoyi.dds"
+						desc = "POLITICS_FU_ZUOYI_DESC"
+						ideology = despotism
+						expire = "1999.1.1.1"
+						id = -1
+					}
+					create_corps_commander = {
+						name = SHX_fu_zuoyi_TNO
+						picture = "gfx/leaders/Asia_l/Portrait_Shanxi_Fu_Zuoyi.dds"
+						traits = { infantry_officer career_officer war_hero }
+						skill = 4
+						attack_skill = 3
+						defense_skill = 3
+						planning_skill = 4
+						logistics_skill = 3
+					}
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						communism = 6
+						democratic = 21
+						fascism = 0
+						neutrality = 73
+					}
+				}
+			}
+		}
+	}
+	#锡金王国
+	JAP_SKK = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			985 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = -1
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				SKK = {
+					set_cosmetic_tag = SKK_TNO
+					transfer_state = 985
+					add_state_core = 985
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_protectorate end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+					create_country_leader = {
+						name = SIK_Tashi_Namgyal
+						picture = "gfx/leaders/Asia_l/Portrait_Tashi_Namgyal.png"
+						desc = "POLITICS_TASHI_NAMGYAL_DESC"
+						expire = "1999.1.1"
+						ideology = despotism
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	#自由印度
+	JAP_AZH = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			432 = { is_controlled_by_ROOT_or_ally = yes }
+			435 = { is_controlled_by_ROOT_or_ally = yes }
+			431 = { is_controlled_by_ROOT_or_ally = yes }
+			430 = { is_controlled_by_ROOT_or_ally = yes }
+			985 = { is_controlled_by_ROOT_or_ally = yes }
+			990 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				every_state = {
+					limit = { 
+						is_core_of = RAJ
+					}
+					add_core_of = AZH
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = RAJ
+					}
+					add_claim_by = AZH
+				}
+				AZH = {
+					set_cosmetic_tag = AZH
+					transfer_state = 432
+					transfer_state = 435
+					transfer_state = 431
+					transfer_state = 430
+					transfer_state = 985
+					transfer_state = 990
+					add_state_core = 990
+					add_state_core = 432
+					add_state_core = 435
+					add_state_core = 431
+					add_state_core = 430
+					add_state_core = 787
+					add_state_core = 441
+					add_state_core = 440
+					add_state_core = 443
+					add_state_claim = 434
+					add_state_claim = 1091
+					add_state_claim = 1145
+					434 = { set_demilitarized_zone = yes }
+					1091 = { set_demilitarized_zone = yes }
+					1145 = { set_demilitarized_zone = yes }
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				TIB = {
+					transfer_state = 434
+					add_state_core = 434
+				}
+			}
+		}
+	}
+	#不丹自治省
+	JAP_BHU = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			324 = { is_controlled_by_ROOT_or_ally = yes }
+			1148 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				BHU = {
+					set_cosmetic_tag = BHU_AZH
+					transfer_state = 324
+					add_state_core = 324
+					transfer_state = 1148
+					add_state_core = 1148
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_protectorate end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+					create_country_leader = {
+						name = BHU_Kanwal_Singh
+						picture = "gfx/leaders/Asia_l/Portrait_Bhutan_Kanwal_Singh.dds"
+						desc = "POLITICS_KANWAL_SINGH_DESC"
+						expire = "1999.1.1"
+						ideology = anarchism
+						id = -1
+					}
+					set_country_leader_ideology = despotism
+				}
+			}
+		}
+	}
+	#缅甸联邦
+	JAP_BRM = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			288 = { is_controlled_by_ROOT_or_ally = yes }
+			640 = { is_controlled_by_ROOT_or_ally = yes }
+			1142 = { is_controlled_by_ROOT_or_ally = yes }
+			1143 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+				RAJ = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				BRM = {
+					set_cosmetic_tag = BRM_TNO
+					transfer_state = 288
+					transfer_state = 640
+					transfer_state = 1142
+					transfer_state = 1143
+					add_state_core = 1143
+					add_state_core = 288
+					add_state_core = 640
+					add_state_core = 1142
+					create_country_leader = {
+						name = "昂山"
+						desc = "POLITICS_AUNG_SAN_DESC"
+						picture = "gfx/leaders/Asia_l/Portrait_Burma_Aung_San.dds"
+						expire = "1999.1.1"
+						ideology = fascism_ideology
+					}
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				SIA = {
+					transfer_state = 993
+					add_state_core = 993
+				}
+			}
+		}
+	}
+	#越南帝国
+	JAP_VIN = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			671 = { is_controlled_by_ROOT_or_ally = yes }
+			1133 = { is_controlled_by_ROOT_or_ally = yes }
+			1123 = { is_controlled_by_ROOT_or_ally = yes }
+			286 = { is_controlled_by_ROOT_or_ally = yes }
+			1017 = { is_controlled_by_ROOT_or_ally = yes }
+			1066 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			1123 = {
+				set_demilitarized_zone = yes	
+			}
+			1133 = {
+				set_demilitarized_zone = yes	
+			}
+			hidden_effect = {
+				VIN = {
+					set_country_flag = JAP_VIN
+					set_cosmetic_tag = VIN_TNO
+					create_country_leader = {		
+						name = VIN_Ngo_Dinh_Diem_TNO
+						picture = "gfx/leaders/Asia_l/Portrait_Vietnam_Ngo_Diem.dds"
+						desc = "POLITICS_NGO_DINH_DIEM_DESC"
+						ideology = fascism_ideology
+						expire = "1999.12.12"
+						id = -1
+					}
+					transfer_state = 671
+					transfer_state = 1133
+					transfer_state = 286
+					transfer_state = 1123
+					transfer_state = 1017
+					transfer_state = 1066
+					add_state_core = 1066
+					add_state_core = 1017
+					add_state_core = 671
+					add_state_core = 1133
+					add_state_core = 286
+					add_state_core = 1123
+					add_state_core = 1093
+					set_capital = { state = 1017 }
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					create_country_leader = {
+						name = VIN_Vu_Ngoc_Anh
+						picture = "gfx/leaders/Asia_l/Portrait_Vietnam_Vu_Ngoc_Anh.dds"
+						desc = "POLITICS_VU_NGOC_ANH_DESC"
+						ideology = fascism_ideology
+						expire = "1999.12.12"
+						id = -1
+					}
+				}
+				VIM = {
+					set_cosmetic_tag = VIM
+					transfer_state = 1093
+					add_state_core = 671
+					add_state_core = 1133
+					add_state_core = 286
+					add_state_core = 1123
+					add_state_core = 1093
+					add_state_core = 1017
+					add_state_core = 1066
+				}
+			}
+		}
+	}
+	#老挝
+	JAP_LAO = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			670 = { is_controlled_by_ROOT_or_ally = yes }
+			1068 = { is_controlled_by_ROOT_or_ally = yes }
+			1069 = { is_controlled_by_ROOT_or_ally = yes }
+			1109 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				LAO = {
+					set_cosmetic_tag = LAO_TNO
+					transfer_state = 670
+					add_state_core = 670
+					transfer_state = 1068
+					add_state_core = 1068
+						create_country_leader = {
+							name = LAO_Kou_Abhay
+							picture = "gfx/leaders/Asia_l/Portrait_Laos_Kou_Abhay.dds"
+							desc = "POLITICS_KOU_ABHAY_DESC"
+							ideology = fascism_ideology
+							expire = "1999.12.12"
+							id = -1
+						}
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				SIA = {
+					transfer_state = 1069
+					add_state_core = 1069
+					transfer_state = 1109
+					add_state_core = 1109
+				}
+			}
+		}
+	}
+	#柬埔寨
+	JAP_CAM = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			741 = { is_controlled_by_ROOT_or_ally = yes }
+			1067 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 100
+				OR = {
+					CHI = { exists = no }
+					CHI = { is_subject = yes }
+					CHI = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				CAM = {
+					set_cosmetic_tag = CAM_TNO
+					transfer_state = 741
+					add_state_core = 741
+					create_country_leader = {
+						name = CAM_Norodom_Sihanouk_TNO
+						picture = "gfx/leaders/Asia_l/Portrait_Cambodia_Norodom_Sihanouk.dds"
+						desc = "POLITICS_N_S_DESC_TNO"
+						ideology = fascism_ideology
+						expire = "1999.12.12"
+						id = -1
+					}
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+				}
+				SIA = {
+					transfer_state = 1067
+					add_state_core = 1067
+				}
+			}
+		}
+	}
+	#昭南-马来军政部
+	JAP_SHO = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			336 = { is_controlled_by_ROOT_or_ally = yes }
+			1021 = { is_controlled_by_ROOT_or_ally = yes }
+			1060 = { is_controlled_by_ROOT_or_ally = yes }
+			1063 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_victory_points = {
+					province = 12215
+					value = 5
+				}
+				SIA = {
+					transfer_state = 1062
+					transfer_state = 1061
+					add_state_core = 1062
+					add_state_core = 1061
+				}
+				SHO = {
+					set_cosmetic_tag = SHO
+					transfer_state = 336
+					add_state_core = 336
+					transfer_state = 1021
+					add_state_core = 1021
+					transfer_state = 1060
+					add_state_core = 1060
+					transfer_state = 1063
+					add_state_core = 1063
+					add_state_core = 1064
+					add_state_core = 1065
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_protectorate end_wars = no end_civil_wars = no }
+						}
+					}
+					set_popularities = {
+						fascism = 54
+						neutrality = 22
+						communism = 24
+					}
+					create_wargoal = {
+						target = MAL
+						type = annex_everything
+					}
+				}
+				MAL = {
+					if = {
+						limit = {
+							is_subject = yes
+						}
+						OVERLORD = {
+							set_autonomy = {
+								target = PREV
+								autonomy_state = autonomy_free
+							}
+						}
+						leave_faction = yes
+					}
+					set_cosmetic_tag = MLY_UMAJF
+					transfer_state = 1064
+					transfer_state = 1065
+					set_capital = {
+						state = 1064
+					}
+					create_country_leader = {
+						name = MLY_Chin_Peng
+						picture = "gfx/leaders/Asia_l/Portrait_MLY_Chin_Peng.png"
+						desc = "POLITICS_CHIN_PENG_DESC"
+						ideology = marxism_leninism
+						traits = { cornered_fox }
+						expire = "1989.1.1.1"
+					}
+					create_field_marshal = {
+						name = MLY_Chin_Peng
+						picture = "gfx/leaders/Asia_l/Portrait_MLY_Chin_Peng.png"
+						traits = { politically_connected skilled_staffer }
+						skill = 4
+						attack_skill = 3
+						defense_skill = 3
+						planning_skill = 4
+						logistics_skill = 3
+						legacy_id = 29980
+					}
+					set_politics = {
+						ruling_party = communism
+						last_election = "1960.11.11"
+						election_frequency = 36
+						elections_allowed = no
+					}
+					set_popularities = {
+						communism = 51
+						democratic = 24
+						neutrality = 25
+					}
+				}
+			}
+		}
+	}
+	#南洋军政监
+	JAP_NRB = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			333 = { is_controlled_by_ROOT_or_ally = yes }
+			1023 = { is_controlled_by_ROOT_or_ally = yes }
+			1024 = { is_controlled_by_ROOT_or_ally = yes }
+			1059 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_victory_points = {
+					province = 1208
+					value = 2
+				}
+				NRB = {
+					set_cosmetic_tag = NRB
+					transfer_state = 333
+					add_state_core = 333
+					transfer_state = 1023
+					add_state_core = 1023
+					transfer_state = 1024
+					add_state_core = 1024
+					transfer_state = 1059
+					add_state_core = 1059
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_protectorate end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1961.1.1"
+						election_frequency = 96
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+	#菲律宾
+	JAP_PHI = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			327 = { is_controlled_by_ROOT_or_ally = yes }
+			626 = { is_controlled_by_ROOT_or_ally = yes }
+			1027 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = PHI
+					}
+					remove_core_of = PHI
+					set_state_flag = phi_daichulistate
+				}
+				PSR = {
+					set_cosmetic_tag = PHI_TNO
+					transfer_state = 1027
+					transfer_state = 327
+					transfer_state = 626
+					set_capital = { state = 327 }
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1935.9.15"
+						election_frequency = 72
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 95
+						fascism = 5
+					}
+					create_country_leader = {
+						name = PHI_Jose_Yulo
+						picture = "gfx/leaders/Asia_l/Portrait_PHI_Jose_Yulo.png"
+						desc = "POLITICS_JOSE_YULO_DESC"
+						ideology = oligarchism
+						traits = { bagong_laurelismo }
+						expire = "1999.12.12"
+						id = -1
+					}
+					set_party_name = {
+						ideology = neutrality
+						long_name = PHI_TNO_neutrality_party_long
+						name = PHI_TNO_neutrality_party
+					}
+				}
+				create_dynamic_country = {
+					original_tag = PHI
+					set_cosmetic_tag = SPH
+					set_victory_points = {
+						province = 4101
+						value = 3
+					}
+					set_popularities = {
+						communism = 100
+					}
+					set_politics = {
+						ruling_party = communism
+						last_election = "1935.9.15"
+						election_frequency = 72
+						elections_allowed = no
+					}
+					create_country_leader = {
+						name = SPH_Luis_Taruc
+						picture = "gfx/leaders/Asia_l/Portrait_SPH_Luis_Taruc.png"
+						desc = "POLITICS_LUIS_TARUC_DESC"
+						ideology = marxism_leninism
+						traits = { supremo_ng_himagsikan }
+						expire = "1999.12.12"
+						id = -1
+					}
+					set_party_name = {
+						ideology = communism
+						long_name = SPH_communism_party_long
+						name = SPH_communism_party
+					}
+					transfer_state = 623
+					set_capital = { state = 623 }
+				}
+				create_dynamic_country = {
+					original_tag = PHI
+					set_cosmetic_tag = UPH
+					set_victory_points = {
+						province = 1224
+						value = 3
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1935.9.15"
+						election_frequency = 72
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 45
+						neutrality = 55
+					}
+					create_country_leader = {
+						name = UPH_Wendell_Fertig
+						picture = "gfx/leaders/Asia_l/Portrait_UPH_Wendell_Fertig.png"
+						desc = "POLITICS_WENDELL_FERTIG_DESC"
+						ideology = despotism
+						traits = { old_man_of_the_resistance }
+						expire = "1999.12.12"
+						id = -1
+					}
+					set_party_name = {
+						ideology = neutrality
+						long_name = UPH_neutrality_party_long
+						name = UPH_neutrality_party
+					}
+					transfer_state = 625
+					transfer_state = 624
+					transfer_state = 627
+					transfer_state = 628
+					transfer_state = 1025
+					transfer_state = 1026
+					set_capital = { state = 625 }
+				}
+				every_state = {
+					limit = {
+						has_state_flag = phi_daichulistate
+					}
+					remove_claim_by = PSR
+					add_core_of = PSR
+					add_core_of = UPH
+					add_core_of = SPH
+				}
+			}
+			if = {
+				limit = { has_dlc = "No Compromise, No Surrender" }
+				SPH = {
+					load_focus_tree = philippines_focus
+					complete_national_focus = PHI_align_with_the_usa
+					complete_national_focus = PHI_the_red_sun_over_manila
+					set_country_flag = PHI_american_intervention_is_over
+				}
+				UPH = {
+					load_focus_tree = philippines_focus
+					complete_national_focus = PHI_align_with_the_usa
+				}
+				PSR = {
+					load_focus_tree = philippines_focus
+					complete_national_focus = PHI_align_with_japan
+				}
+			}
+			
+		}
+	}
+	#印度尼西亚共和国
+	JAP_INS = {
+
+		icon = category_jap_southern_expansion
+
+		available = {
+			is_subject = no
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+			334 = { is_controlled_by_ROOT_or_ally = yes }
+			335 = { is_controlled_by_ROOT_or_ally = yes }
+			672 = { is_controlled_by_ROOT_or_ally = yes }
+			673 = { is_controlled_by_ROOT_or_ally = yes }
+			667 = { is_controlled_by_ROOT_or_ally = yes }
+			668 = { is_controlled_by_ROOT_or_ally = yes }
+			669 = { is_controlled_by_ROOT_or_ally = yes }
+			738 = { is_controlled_by_ROOT_or_ally = yes }
+			721 = { is_controlled_by_ROOT_or_ally = yes }
+			711 = { is_controlled_by_ROOT_or_ally = yes }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		visible = {
+			has_completed_focus = JAP_new_order_in_east_asia
+			has_completed_focus = JAP_strike_the_southern_road
+			has_government = fascism
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				INS = {
+					set_cosmetic_tag = INS_TNO
+					transfer_state = 334
+					transfer_state = 335
+					transfer_state = 672
+					transfer_state = 673
+					transfer_state = 667
+					transfer_state = 668
+					transfer_state = 669
+					transfer_state = 738
+					transfer_state = 721
+					transfer_state = 711
+					transfer_state = 1022
+					add_state_core = 711
+					JAP = {
+						puppet = PREV
+						if = {
+							limit = {
+								NOT = { has_dlc = "Death or Dishonor" }
+							}
+							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						}
+						else = {
+							set_autonomy = { target = PREV autonomy_state = autonomy_wtt_imperial_associate  end_wars = no end_civil_wars = no }
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1961.4.11"
+						election_frequency = 36
+						elections_allowed = yes
+					}
+					set_popularities = {
+						communism = 11
+						democratic = 39
+						neutrality = 37
+						fascism = 13
+					}
+					add_country_leader_role = {
+						character = INS_Sukarno
+						country_leader = {
+							expire = "1999.12.12"
+							ideology = oligarchism
+							id = -1
+						}
+						promote_leader = yes
+					}
+					set_country_leader_portrait = { portrait = Portrait_INS_Sukarno_TNO }
+					set_country_leader_name = { name = INS_Sukarno_TNO }
+					set_country_leader_description = {
+						desc = POLITICS_SUKARNO_DESC_TNO
+					}
+				}
+			}
+		}
+	}
+}
+
+form_India_Republic_category = {
+	form_India_Republic = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = RAJ
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			country_exists = AZH
+		}
+
+		cost = 100
+
+		visible = {
+			AND = {
+				original_tag = RAJ
+			}
+			NOT = {
+				RAJ = {
+					has_cosmetic_tag = yd_republic
+				}
+			}
+			OR = {
+				AND = {
+					owns_state = 439
+					has_full_control_of_state = 439
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = yd_republic
+			RAJ = {
+				add_state_core = 787
+				add_state_core = 441
+				add_state_core = 440
+				add_state_core = 443
+				add_state_claim = 434
+				add_state_claim = 1091
+				add_state_claim = 1145
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_TIB_category = {
+	trade_XSM_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			OR = {
+				OR = {
+					XSM = { has_war_with = JAP }
+				}
+				is_in_faction_with = XSM
+			}
+			AND = {
+				has_equipment = {
+					infantry_equipment > 10000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			tag = TIB
+			NOT = { has_global_flag = trade_TIB_XSM_land }
+			XSM = {
+				has_full_control_of_state = 604
+			}
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 0
+		complete_effect = {
+			transfer_state = 604
+			add_state_core = 604
+			set_global_flag = trade_TIB_XSM_land
+			# 西藏拿10000枪，换地
+			send_equipment = { target = XSM type = infantry_equipment amount = 10000 }
+		}
+	}
+	trade_SIK_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			has_full_control_of_state = 1106
+			SIK = { 
+				has_equipment = {
+					infantry_equipment > 2000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			tag = TIB
+			NOT = { has_global_flag = trade_TIB_SIK_land }
+			SIK = {
+				has_full_control_of_state = 1107
+			}
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 0
+		complete_effect = {
+			transfer_state = 1107
+			add_state_core = 1107
+			remove_state_core = 1106
+			set_global_flag = trade_TIB_SIK_land
+			# 新疆拿2000枪，换地
+			SIK = {
+				transfer_state = 1106
+				add_state_core = 1106
+				remove_state_core = 1107
+				send_equipment = { target = TIB type = infantry_equipment amount = 2000 }
+			}
+			hidden_effect = {
+				1107 = {
+					remove_core_of = PRC
+					remove_core_of = CHI
+					add_claim_by = PRC
+					add_claim_by = CHI
+				}
+				1106 = {
+					add_core_of = PRC
+					add_core_of = CHI
+					remove_claim_by = PRC
+					remove_claim_by = CHI
+				}
+			}
+		}
+	}
+	form_TIB = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TIB
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 757
+			owns_state = 322
+			owns_state = 1107
+			owns_state = 758
+			owns_state = 604
+			owns_state = 434
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			AND = {
+				original_tag = TIB
+			}
+			NOT = { has_global_flag = form_TIB_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = TIB_GDPZ
+			set_party_name = { ideology = neutrality long_name = TIB_despotism_party_long name = TIB_despotism_party }
+			TIB = {
+				create_country_leader = {
+					name = TIB_Tenzin_Gyatso
+					picture = "gfx/leaders/Asia_l/Portrait_TIB_Tenzin_Gyatso.dds"
+					desc = "POLITICS_TENZIN_GYATSO_DESC"
+					ideology = despotism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				leave_faction = yes
+				add_state_core = 1148
+			}
+			hidden_effect = {
+				set_global_flag = form_TIB_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_AFG_category = {
+	#卡拉特汗国
+	AFG_KLT = {
+
+		icon = generic_foreign_policy
+
+		available = {
+			has_government = neutrality
+			controls_state = 444
+			controls_state = 1012
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 300
+				OR = {
+					country_exists = AZH
+					RAJ = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = AFG
+			has_government = neutrality
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				KLT = {
+					set_cosmetic_tag = KLT_TNO
+					transfer_state = 444
+					transfer_state = 1012
+					add_state_core = 1012
+					add_state_core = 444
+					set_country_leader_portrait = { portrait = Portrait_KLT_Mir_Ahmad_Yar_Khan }
+					set_country_leader_name = { name = KLT_Mir_Ahmad_Yar_Khan }
+					set_country_leader_description = {
+						desc = "POLITICS_MIR_AHMAD_YAR_KHAN_DESC"
+					}
+					AFG = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+	#边境诸省
+	AFG_MFP = {
+
+		icon = generic_foreign_policy
+
+		available = {
+			has_government = neutrality
+			controls_state = 442
+			controls_state = 987
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				add = 300
+				OR = {
+					country_exists = AZH
+					RAJ = { has_capitulated = yes }
+				}
+			}
+		}
+
+		visible = {
+			original_tag = AFG
+			has_government = neutrality
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				MFP = {
+					set_cosmetic_tag = MFP
+					transfer_state = 442
+					add_state_core = 442
+					transfer_state = 987
+					add_state_core = 987
+					AFG = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+	#AFG_WG
+	form_AFG = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = AFG
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 415
+			owns_state = 267
+			owns_state = 1151
+			owns_state = 1144
+			owns_state = 1146
+			owns_state = 988
+			owns_state = 1082
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			AND = {
+				original_tag = AFG
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = AFG_WG
+			AFG = {
+				add_country_leader_role = {
+					character = AFG_mohammed_zahir_shah
+					country_leader = {
+						desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+						expire = "1999.1.1"
+						ideology = despotism
+						id = -1
+					}
+					promote_leader = yes
+				}
+				set_country_leader_portrait = { portrait = Portrait_Afghanistan_Mohammed_Zahir_Shah }
+				set_country_leader_name = { name = AFG_Mohammed_Zahir_Shah_TNO }
+				set_country_leader_description = { desc = POLITICS_MOHAMMED_ZAHIR_SHAH_DESC }
+				add_state_core = 1151
+				add_state_core = 1146
+				add_state_core = 988
+				add_state_core = 1082
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_BKU_category = {
+	form_BKU = {
+
+		icon = generic_foreign_policy
+
+		available = {
+			is_in_faction_with = ITA
+			controls_state = 676
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				has_global_flag = middleeast_peace
+			}
+		}
+
+		visible = {
+			original_tag = TUR
+			controls_state = 676
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				BKU = {
+					set_cosmetic_tag = BKU
+					transfer_state = 676
+					add_state_core = 676
+					TUR = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+}
+
+form_SIK_category = {
+	trade_MON_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			OR = {
+				OR = {
+					MON = { has_war_together_with = SOV }
+				}
+				is_in_faction_with = MON
+			}
+			AND = {
+				has_equipment = {
+					infantry_equipment > 8000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			tag = SIK
+			NOT = { has_global_flag = trade_SIK_MON_land }
+			MON = {
+				has_full_control_of_state = 1120
+			}
+			SIK = {
+				has_full_control_of_state = 1119
+			}
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 0
+		complete_effect = {
+			transfer_state = 1120
+			add_state_core = 1120
+			MON = {
+				transfer_state = 1119
+				add_state_core = 1119
+			}
+			set_global_flag = trade_SIK_MON_land
+			# 新疆拿8000枪，换地
+			send_equipment = { target = MON type = infantry_equipment amount = 8000 }
+		}
+	}
+	trade_TIB_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			has_full_control_of_state = 1107
+			has_equipment = {
+				infantry_equipment > 2000
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+			tag = SIK
+			NOT = { has_global_flag = trade_TIB_SIK_land }
+			TIB = {
+				has_full_control_of_state = 1106
+			}
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 0
+		complete_effect = {
+			# 新疆拿2000枪，换地
+			send_equipment = { target = TIB type = infantry_equipment amount = 2000 }
+			transfer_state = 1106
+			add_state_core = 1106
+			remove_state_core = 1107
+			set_global_flag = trade_TIB_SIK_land
+			TIB = {
+				transfer_state = 1107
+				add_state_core = 1107
+				remove_state_core = 1106
+			}
+			hidden_effect = {
+				1107 = {
+					remove_core_of = PRC
+					remove_core_of = CHI
+					add_claim_by = PRC
+					add_claim_by = CHI
+				}
+				1106 = {
+					add_core_of = PRC
+					add_core_of = CHI
+					remove_claim_by = PRC
+					remove_claim_by = CHI
+				}
+			}
+		}
+	}
+	form_SIK = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SIK
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 618
+			owns_state = 617
+			owns_state = 760
+			owns_state = 759
+			owns_state = 287
+			owns_state = 619
+			owns_state = 1106
+			owns_state = 1117
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		visible = {
+			original_tag = SIK
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIK_BGS
+			SIK = {
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1936.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					fascism = 5
+					communism =  45
+					neutrality = 50
+				}
+				create_country_leader = {
+					name = XIN_zhang_zhizhong
+					picture = "gfx/leaders/Asia_l/Portrait_Xinjiang_Zhang_Zhizhong.dds" 
+					desc = "POLITICS_ZHANG_ZHIZHONG_DESC"
+					ideology = despotism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				create_corps_commander = {
+					name = XIN_zhang_zhizhong
+					picture = "gfx/leaders/Asia_l/Portrait_Xinjiang_Zhang_Zhizhong.dds" 
+					traits = { old_guard politically_connected }
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 3
+				}
+				leave_faction = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_Zhongya_category = {
+	#哈萨克斯坦
+	SOV_KAZ = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			OR = {
+				controls_state = 1154
+				controls_state = 406
+				controls_state = 407
+				controls_state = 404
+				controls_state = 402
+				controls_state = 881
+				controls_state = 583
+				controls_state = 586
+				controls_state = 587
+				controls_state = 589
+				controls_state = 588
+				controls_state = 590
+				controls_state = 882
+				controls_state = 1147
+				controls_state = 1124
+				controls_state = 1125
+				controls_state = 1129
+			}
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = KAZ
+			}
+			NOT = { has_global_flag = KAZ_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_KAZ_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = KAZ autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#乌兹别克
+	SOV_UZB = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 830
+			controls_state = 585
+			controls_state = 823
+			controls_state = 1126
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = UZB
+			}
+			NOT = { has_global_flag = UZB_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_UZB_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = UZB autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#吉尔吉斯
+	SOV_KYR = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 732
+			controls_state = 405
+			controls_state = 1118
+			controls_state = 1131
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = KYR
+			}
+			NOT = { has_global_flag = KYR_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_KYR_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = KYR autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#土库曼
+	SOV_TMS = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 832
+			controls_state = 584
+			controls_state = 1132
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = TMS
+			}
+			NOT = { has_global_flag = TMS_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_TMS_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = TMS autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#塔吉克
+	SOV_TAJ = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 742
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = TAJ
+			}
+			NOT = { has_global_flag = TAJ_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_TAJ_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = TAJ autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#卡拉卡尔帕克斯坦
+	SOV_KKP = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 831
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = KKP
+			}
+			NOT = { has_global_flag = KKP_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_KKP_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = KKP autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#突厥斯坦军团
+	SOV_UTL = {
+
+		icon = category_SOV_civil_puppet_interaction
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			controls_state = 1127
+			controls_state = 1128
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_government = communism
+			OR = {
+				original_tag = SOV
+				original_tag = UTL
+			}
+			NOT = { has_global_flag = UTL_TNO_flag }
+		}
+
+		complete_effect = {
+			SOV_UTL_duli = yes
+			if = {
+				limit = {
+					original_tag = SOV
+				}
+				SOV = { 
+					set_autonomy = { target = UTL autonomy_state = autonomy_integrated_puppet }
+				}
+			}
+		}
+	}
+	#独立
+	zhongya_duli = {
+
+		icon = category_generic_independence
+
+		available = {
+			SOV = { surrender_progress > 0.8 }
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			is_subject_of = SOV
+			OR = {
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = KYR
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KKP
+				original_tag = UTL
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			every_country = {
+				limit = {
+					has_war_with = ROOT
+				}
+				white_peace = ROOT
+			}
+			OVERLORD = { set_autonomy = { target = ROOT autonomy_state = autonomy_free } }
+			leave_faction = yes
+		}
+	}
+}
+
+form_IBR_category = {
+	#阿尔及利亚军事指挥部
+	IBR_SLG = {
+
+		icon = cat_iberian_summit
+
+		available = {
+			controls_state = 1088
+			controls_state = 1086
+			controls_state = 459
+			has_global_flag = scw_over
+			is_subject = no
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				FRA = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = POR
+			}
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				#set_victory_points = {
+				#	province = 8098
+				#	value = 3
+				#}
+				SLG = {
+					set_cosmetic_tag = SLG
+					transfer_state = 1088
+					transfer_state = 1086
+					transfer_state = 459
+					add_state_core = 1088
+					add_state_core = 1086
+					add_state_core = 459
+					1088 = {set_demilitarized_zone = yes}
+					459 = {set_demilitarized_zone = yes}
+					ROOT = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_politics = {
+						ruling_party = neutrality
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+	#IBR
+	form_IBR = {
+
+		icon = cat_iberian_summit
+
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			has_global_flag = scw_over
+			is_subject = no
+			POR = { all_core_state = { is_fully_controlled_by = ROOT } }
+			SPR = { all_core_state = { is_fully_controlled_by = ROOT } }
+			OR = {
+				NOT = { country_exists = SPR }
+				NOT = { country_exists = POR }
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = POR
+			}
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+			NOT = { has_global_flag = form_IBR_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = IBR
+			ROOT = {
+				if = {
+					limit = {
+						has_country_leader = { ruling_only = yes character = SPA_francisco_franco }
+					}
+					set_country_leader_portrait = { portrait = Portrait_IBR_Francisco_Franco }
+					set_country_leader_name = { name = IBR_Francisco_Franco }
+					set_country_leader_description = {
+						desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_leader = { ruling_only = yes character = POR_antonio_de_oliveira_salazar }
+					}
+					set_country_leader_portrait = { portrait = Portrait_IBR_Antonio_Salazar }
+					set_country_leader_name = { name = IBR_Antonio_Salazar }
+					set_country_leader_description = {
+						desc = "POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_IBERIA_DESC"
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = IBR_Antonio_Salazar
+						picture = "gfx/leaders/Eu-Af/Portrait_Iberia_Antonio_Salazar.dds"
+						desc = "POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_IBERIA_DESC"
+						ideology = despotism
+						expire = "1999.1.1"
+						id = -1
+					}
+					create_country_leader = {
+						name = IBR_Antonio_Salazar
+						picture = "gfx/leaders/Eu-Af/Portrait_Iberia_Antonio_Salazar.dds"
+						desc = "POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_IBERIA_DESC"
+						ideology = fascism_ideology
+						expire = "1999.1.1"
+						id = -1
+					}
+				}
+				
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = SPR
+							is_core_of = POR
+						}
+					}
+					add_core_of = ROOT
+				}
+			}
+			set_capital = {
+				state = 41
+			}
+			hidden_effect = {
+				set_global_flag = form_IBR_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+ITA_colonial_management_dec_cat = {
+	give_kenya_to_the_aoi = {
+
+		cost = 25
+
+		fire_only_once = yes
+
+		icon = GFX_decision_infiltrate_state
+
+		allowed = {
+			original_tag = ITA # Italy
+		}
+
+		available = {
+			AOI = {
+				exists = yes
+			}
+			OR = {
+				ITA = {
+				controls_state = 547
+				}
+				any_country = {
+					is_subject_of = ITA
+					controls_state = 547
+				}
+			}
+			OR = {
+				ITA = {
+				controls_state = 905
+				}
+				any_country = {
+					is_subject_of = ITA
+					controls_state = 905
+				}
+			}
+			OR = {
+				ITA = {
+				controls_state = 1141
+				}
+				any_country = {
+					is_subject_of = ITA
+					controls_state = 1141
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_ministry_of_italian_africa
+			original_tag = ITA # Italy
+			has_global_flag = italian_east_africa_flag
+			NOT = {
+				has_global_flag = italian_east_africa_has_kenya_flag
+			}
+		}
+
+		complete_effect = {
+			AOI = {
+				transfer_state = 905
+				transfer_state = 547
+				transfer_state = 1141
+			}
+
+			hidden_effect = {
+				set_global_flag = italian_east_africa_has_kenya_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 400
+		}
+	}
+	#阿尔及利亚军管领地
+	ITA_ILG = {
+
+		icon = GFX_decision_generic_colonial_administration
+
+		available = {
+			has_government = fascism
+			controls_state = 513
+			controls_state = 460
+			controls_state = 514
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 400
+		}
+
+		visible = {
+			has_completed_focus = ITA_ministry_of_italian_africa
+			original_tag = ITA # Italy
+			NOT = { has_global_flag = italian_ILG_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = italian_ILG_flag
+				ILG = {
+					set_cosmetic_tag = ILG
+					transfer_state = 513
+					transfer_state = 460
+					transfer_state = 514
+					add_state_core = 513
+					add_state_core = 460
+					add_state_core = 514
+					514 = {set_demilitarized_zone = yes}
+					513 = {set_demilitarized_zone = yes}
+					add_manpower = 100000
+					add_offsite_building = { type = industrial_complex level = 4 }
+					add_offsite_building = { type = arms_factory level = 4 }
+					add_equipment_to_stockpile = {
+					    type = infantry_equipment
+					    amount = 5000
+					    producer = ITA
+					}
+					if = {
+						limit = {
+							has_dlc = "La Resistance"
+						}
+						create_intelligence_agency = yes
+					}
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						fascism = 100
+					}
+				}
+			}
+		}
+	}
+	#海湾总督领
+	ITA_GUL = {
+
+		icon = GFX_decision_generic_colonial_administration
+
+		available = {
+			has_government = fascism
+			controls_state = 765
+			controls_state = 658
+			controls_state = 1014
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 400
+		}
+
+		visible = {
+			has_completed_focus = ITA_ministry_of_italian_africa
+			original_tag = ITA # Italy
+			NOT = { has_global_flag = italian_GUL_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = italian_GUL_flag
+				GUL = {
+					set_cosmetic_tag = GUL
+					transfer_state = 765
+					transfer_state = 1014
+					transfer_state = 658
+					add_state_core = 765
+					add_state_core = 1014
+					add_state_core = 658
+					add_manpower = 100000
+					add_offsite_building = { type = industrial_complex level = 4 }
+					add_offsite_building = { type = arms_factory level = 4 }
+					add_equipment_to_stockpile = {
+					    type = infantry_equipment
+					    amount = 5000
+					    producer = ITA
+					}
+					if = {
+						limit = {
+							has_dlc = "La Resistance"
+						}
+						create_intelligence_agency = yes
+					}
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						fascism = 100
+					}
+				}
+			}
+		}
+	}
+	#黎凡特总督领
+	ITA_IME = {
+
+		icon = GFX_decision_generic_colonial_administration
+
+		available = {
+			has_government = fascism
+			controls_state = 553
+			controls_state = 455
+			controls_state = 454
+			controls_state = 453
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 400
+		}
+
+		visible = {
+			has_completed_focus = ITA_ministry_of_italian_africa
+			original_tag = ITA # Italy
+			NOT = { has_global_flag = italian_IME_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = italian_IME_flag
+				set_victory_points = {
+					province = 1086
+					value = 3
+				}
+				IME = {
+					set_cosmetic_tag = IME
+					transfer_state = 553
+					transfer_state = 455
+					transfer_state = 454
+					transfer_state = 453
+					add_state_core = 553
+					add_state_core = 455
+					add_state_core = 454
+					add_state_core = 453
+					add_manpower = 100000
+					add_offsite_building = { type = industrial_complex level = 4 }
+					add_offsite_building = { type = arms_factory level = 4 }
+					add_equipment_to_stockpile = {
+					    type = infantry_equipment
+					    amount = 5000
+					    producer = ITA
+					}
+					if = {
+						limit = {
+							has_dlc = "La Resistance"
+						}
+						create_intelligence_agency = yes
+					}
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						fascism = 100
+					}
+				}
+			}
+		}
+	}
+	#埃及王国
+	ITA_EGY = {
+
+		icon = GFX_decision_generic_colonial_administration
+
+		available = {
+			has_government = fascism
+			controls_state = 447
+			controls_state = 452
+			controls_state = 907
+			controls_state = 456
+			controls_state = 457
+			controls_state = 552
+			controls_state = 551
+			controls_state = 883
+			controls_state = 884
+			controls_state = 885
+			controls_state = 886
+			controls_state = 887
+			controls_state = 549
+			controls_state = 767
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 400
+		}
+
+		visible = {
+			has_completed_focus = ITA_ministry_of_italian_africa
+			original_tag = ITA # Italy
+			NOT = { has_global_flag = italian_EGY_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = italian_EGY_flag
+				EGY = {
+					create_country_leader = {
+						name = EGY_Farouk_I
+						picture = "gfx/leaders/Eu-Af/Portrait_EGY_Farouk_I.dds"
+						desc = "POLITICS_FAROUK_I_DESC"
+						expire = "1968.12.25"
+						ideology = gen_nazism
+						id = -1
+					}
+					set_cosmetic_tag = EGY_TNO
+					transfer_state = 447
+					transfer_state = 452
+					transfer_state = 907
+					transfer_state = 456
+					transfer_state = 457
+					transfer_state = 552
+					transfer_state = 551
+					transfer_state = 883
+					transfer_state = 884
+					transfer_state = 885
+					transfer_state = 886
+					transfer_state = 887
+					transfer_state = 549
+					transfer_state = 767
+					add_state_core = 447
+					add_state_core = 452
+					add_state_core = 907
+					add_state_core = 456
+					add_state_core = 457
+					add_state_core = 552
+					add_state_core = 551
+					add_state_core = 883
+					add_state_core = 884
+					add_state_core = 885
+					add_state_core = 886
+					add_state_core = 887
+					add_state_core = 549
+					add_state_core = 767
+					add_manpower = 100000
+					add_offsite_building = { type = industrial_complex level = 4 }
+					add_offsite_building = { type = arms_factory level = 4 }
+					add_equipment_to_stockpile = {
+					    type = infantry_equipment
+					    amount = 5000
+					    producer = ITA
+					}
+					if = {
+						limit = {
+							has_dlc = "La Resistance"
+						}
+						create_intelligence_agency = yes
+					}
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_puppet end_wars = no end_civil_wars = no }
+					}
+					set_popularities = {
+						fascism = 100
+					}
+				}
+			}
+		}
+	}
+}
+
+form_SIA_category = {
+	#泰共和国
+	form_SIA = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SIA
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 289
+			owns_state = 868
+			owns_state = 869
+			owns_state = 724
+			owns_state = 993
+			owns_state = 1069
+			owns_state = 1109
+			owns_state = 1067
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			original_tag = SIA
+			OR = {
+				is_in_faction_with = JAP
+				has_government = fascism
+			}
+			NOT = { has_global_flag = form_SIA_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIA_TNO
+			SIA = {
+					create_country_leader = {
+						name = THA_Plaek_Phibunsongkhram
+						picture = "gfx/leaders/Asia_l/Portrait_Plaek_Phibunsongkram.dds"
+						desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
+						ideology = fascism_ideology
+						expire = "1999.12.12"
+						id = -1
+					}
+				add_state_core = 993
+				add_state_core = 1069
+				add_state_core = 1109
+				add_state_core = 1067
+			}
+			hidden_effect = {
+				set_global_flag = form_SIA_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_PER_category = {
+	#伊朗帝国
+	form_PER = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = PER
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		cost = 100
+
+		visible = {
+			original_tag = PER
+			has_government = neutrality
+			owns_state = 1083
+			NOT = { has_global_flag = form_PER_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PER_TNO
+			PER = {
+				add_country_leader_role = {
+					character = PER_mohammed_reza_pahlavi
+					country_leader = {
+						desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"
+						expire = "1999.1.1"
+						ideology = despotism
+						id = -1
+					}
+					promote_leader = yes
+				}
+				set_country_leader_portrait = { portrait = Portrait_Persia_Pahlavi_Shah }
+				set_country_leader_name = { name = PER_Mohammad_Reza_Pahlavi_TNO }
+				add_state_core = 1083
+			}
+			hidden_effect = {
+				set_global_flag = form_PER_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				factor = 100
+				is_historical_focus_on = no
+			}
+		}
+	}
+}
+
+form_TNS_category = {
+	#德涅斯特里亚省
+	form_TNS = {
+
+		icon = generic_foreign_policy
+
+		available = {
+			controls_state = 834
+			controls_state = 192
+			is_subject = no
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+
+		visible = {
+			original_tag = ROM
+			is_in_faction_with = GER
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				TNS = {
+					set_cosmetic_tag = TNS
+					transfer_state = 834
+					add_state_core = 834
+					transfer_state = 192
+					add_state_core = 192
+					ROM = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+						remove_state_core = 834
+						remove_state_core = 192
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 100
+					}
+				}
+			}
+		}
+	}
+}
+
+HePing_category = {
+	SOV_GER_HePing = {
+		icon = {
+			trigger = {
+				original_tag = GER
+			}
+			key = ger_reichskommissariats
+		}
+		icon = {
+			trigger = {
+				original_tag = SOV
+			}
+			key = decision_category_sov_great_patriotic_war
+		}
+		
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		fire_only_once = yes
+
+		days_remove = 20
+        
+		available = {
+		    SOV = {
+				has_war_with = GER
+				surrender_progress > 0.70
+				has_civil_war = no
+			}
+			GER = {
+				OR = {
+					any_country = {
+						is_subject_of = GER
+						controls_state = 219
+					}
+					controls_state = 219
+				}
+				OR = {
+					any_country = {
+						is_subject_of = GER
+						controls_state = 217
+					}
+					controls_state = 217
+				}
+				OR = {
+					FIN = { controls_state = 195 }
+					any_country = {
+						is_subject_of = GER
+						controls_state = 195
+					}
+					controls_state = 195
+				}
+			}
+		}
+        visible = {
+			NOT = {
+				has_global_flag = SOV_GER_HePing
+			}
+			OR = {
+				original_tag = GER
+				original_tag = SOV
+			}
+		    SOV = {
+				has_war_with = GER
+			}
+        }
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = SOV_GER_HePing
+			}
+		}
+        remove_effect = {
+			SOV = {
+				country_event = rkspeacedeal.1
+			}
+		}
+    }
+	USA_GER_HePing = {
+		icon = {
+			trigger = {
+				original_tag = GER
+			}
+			key = ger_reichskommissariats
+		}
+		icon = {
+			trigger = {
+				original_tag = USA
+			}
+			key = decision_eng_trade_unions_support
+		}
+        
+		cost = 0
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		fire_only_once = yes
+
+		days_remove = 20
+
+		available = {
+			GER = {
+		    	is_in_faction_with = ITA
+		    	is_in_faction_with = HUN
+		    	is_in_faction_with = ROM
+		        has_war_with = ENG 
+				has_war_with = FRA
+				has_war_with = USA
+				OR = {
+					controls_province = 3501
+					controls_province = 377
+					controls_province = 6103
+				}
+			}
+			16 = {
+                controller = { is_ally_with = GER }
+            }
+		    183 = {
+                controller = { is_ally_with = GER }
+            }
+		    446 = {
+                controller = { is_ally_with = GER }
+            }
+			ENG_deng_all_touxiang = yes
+		    44 = {
+				controller = {
+					OR = {
+						original_tag = ITA
+						is_subject_of = ITA
+					}
+				}
+		    }	
+		    ITA = {
+		        all_owned_state = {
+		        	is_controlled_by = ITA
+		        }
+		    }
+		}
+        visible = {
+			NOT = {
+				has_global_flag = USA_GER_HePing
+			}
+			OR = {
+				original_tag = GER
+				original_tag = USA
+			}
+		    USA = {
+				has_war_with = GER
+			}
+        }
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = USA_GER_HePing
+			}
+		}
+        remove_effect = {
+			GER = {
+				country_event = rksplusplusgermanpeace.1
+			}
+		}
+    }
+}

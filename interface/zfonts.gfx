@@ -1,0 +1,26 @@
+bitmapfonts = {
+	textcolors = {
+		M = { 35 206 255 }
+		L = { 195 176 145 }
+		W = { 255 255 255 }
+		B = { 0 0 255 }
+		G = { 0 159 3 }
+		R = { 255 50 50 }
+		b = { 0 0 0 }
+		g = { 176 176 176 }
+		Y = { 255 189 0 }
+		H = { 251 170 41 }
+		T = { 255 255 255 }
+	}
+ 	bitmapfont = {
+		name = "tahoma_60"   
+		fontfiles = {
+		    "gfx/fonts/mapdh_0"
+			"gfx/fonts/mapdh_1"
+			"gfx/fonts/mapdh_2"
+			"gfx/fonts/mapdh_3"
+			"gfx/fonts/mapdh_4"
+        } 		
+		color = 0xff000000
+	}
+}

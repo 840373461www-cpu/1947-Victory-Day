@@ -1,0 +1,53 @@
+##########################
+# Reich custom modifiers #
+##########################
+
+# modifying partisan desolation growth and exploitation reduction
+partisan_power = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+# adds to partisan control growth every 21 days
+# MUST BE DIVISIBLE BY 3, NO EXCEPTIONS
+partisan_power_addition = {
+	color_type = bad
+	value_type = percentage_in_hundred
+	precision = 2
+	category = country
+}
+
+
+##############################
+# Guangdong custom modifiers #
+##############################
+
+GNG_japanese_empire_opinion_cap = {
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = country
+}
+
+GNG_chinese_support_cap = {
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = country
+}
+
+GNG_zhujin_support_cap = {
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = country
+}
+
+GNG_japanese_support_cap = {
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = country
+}

@@ -1,0 +1,21 @@
+state={
+	id=1093
+	name="STATE_1093"
+	history={
+		add_core_of = VIN
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12065 1 # Cao Bang 
+		}
+	}
+	provinces={
+		7015 7518 12065 
+	}
+	manpower=254950
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

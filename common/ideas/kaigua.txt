@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		tupo = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				breakthrough_factor = 5
+			}
+		}
+		sudu = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = 5
+			}
+		}
+		gongfang = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 5
+				army_defence_factor = 5
+			}
+		}
+		zhiyuanjun = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				send_volunteer_factor = 100
+				send_volunteer_size = 100
+				air_volunteer_cap = 100
+				equipment_capture = 1
+				equipment_capture_factor = 1
+			}
+		}
+	}
+}

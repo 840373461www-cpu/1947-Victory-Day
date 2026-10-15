@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_NJR_Tokuda_Kyuichi"
+		texturefile = "gfx/leaders/NJR/Tokuda_Kyuichi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Tokuda_Kyuichi_small"
+		texturefile = "gfx/leaders/NJR/Tokuda_Kyuichi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Nosaka_Sanzo"
+		texturefile = "gfx/leaders/NJR/Nosaka_Sanzo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Nosaka_Sanzo_small"
+		texturefile = "gfx/leaders/NJR/Nosaka_Sanzo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Hakamada_Satomi"
+		texturefile = "gfx/leaders/NJR/Hakamada_Satomi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Hakamada_Satomi_small"
+		texturefile = "gfx/leaders/NJR/Hakamada_Satomi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Asanuma_Inejiro"
+		texturefile = "gfx/leaders/NJR/Asanuma_Inejiro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NJR_Asanuma_Inejiro_small"
+		texturefile = "gfx/leaders/NJR/Asanuma_Inejiro.dds"
+	}
+
+}

@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SOV_iosif_stalin_47"
+		texturefile = "gfx/leaders/SOV/iosif_stalin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_iosif_stalin_47_small"
+		texturefile = "gfx/leaders/SOV/iosif_stalin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_nikita_khrushchyov_47"
+		texturefile = "gfx/leaders/SOV/nikita_khrushchyov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_nikita_khrushchyov_47_small"
+		texturefile = "gfx/leaders/SOV/nikita_khrushchyov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksey_Rykov_1947"
+		texturefile = "gfx/leaders/SOV/Aleksey_Rykov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksey_Rykov_1947_small"
+		texturefile = "gfx/leaders/SOV/Aleksey_Rykov.dds"
+	}
+
+}

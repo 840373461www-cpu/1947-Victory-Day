@@ -1,0 +1,38 @@
+state={
+	id=1117
+	name="STATE_1117"
+	history={
+		owner = CHI
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+	provinces={
+		13414 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

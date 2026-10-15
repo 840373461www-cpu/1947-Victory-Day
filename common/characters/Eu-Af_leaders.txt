@@ -1,0 +1,265 @@
+characters = {
+	SLG_Federico_Gomez_Salazar = {
+		name = SLG_Federico_Gomez_Salazar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_SLG_Federico_Gomez_Salazar.dds"
+				small = "gfx/leaders/Eu-Af/SLG_minister_Federico_Gomez.dds"
+			}
+			army = {
+				large = "gfx/leaders/Eu-Af/Portrait_SLG_Federico_Gomez_Salazar.dds"
+				small = "gfx/leaders/Eu-Af/SLG_minister_Federico_Gomez.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				organizer
+				thorough_planner
+			}
+			legacy_id = 1401
+		}
+		country_leader = {
+			expire = "1990.10.20"
+			ideology = despotism
+			traits = { }
+			id = -1
+		}
+	}
+	ILG_Giuseppe_Castellano = {
+		name = ILG_Giuseppe_Castellano
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_ILG_Giuseppe_Castellano_civ.dds"
+				small = "gfx/leaders/Eu-Af/ILG_minister_Giuseppe_Castellano.dds"
+			}
+			army = {
+				large = "gfx/leaders/Eu-Af/Portrait_ILG_Giuseppe_Castellano_mil.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GIUSEPPE_CASTELLANO_DESC"
+			expire = "1983.6.3.1"
+			ideology = fascism_ideology
+			traits = {
+				#
+			}
+			id = -1
+		}
+		field_marshal = {
+			traits = {
+				desert_fox
+				organisational_leader
+			}
+
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ILG_Giuseppe_Castellano_hog
+			allowed = { original_tag = ILG }
+			traits = {
+				propaganda_bungler
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	IBR_Francisco_Franco = {
+		name = IBR_Francisco_Franco
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_Iberia_Francisco_Franco.dds"
+				small = "gfx/leaders/Eu-Af/IBR_minister_Francisco_Franco.dds"
+			}
+		}
+		country_leader = { #Starting version
+			desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+			ideology = despotism
+			expire = "1975.10.20"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = IBR_Francisco_Franco_hog
+			visible = {
+				OR = {
+					original_tag = SPR
+					original_tag = POR
+				}
+				has_global_flag = form_IBR_flag
+			}
+			traits = {
+				great_war_hero
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	IBR_Antonio_Salazar = {
+		name = IBR_Antonio_Salazar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_Iberia_Antonio_Salazar.dds"
+				small = "gfx/leaders/Eu-Af/IBR_minister_Antonio_Salazar.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_IBERIA_DESC"
+			ideology = despotism
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = IBR_Antonio_Salazar_hog
+			visible = {
+				OR = {
+					original_tag = SPR
+					original_tag = POR
+				}
+				has_global_flag = form_IBR_flag
+			}
+			traits = {
+				fascist_corporatist
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	COG_Siegfried_Muller = {
+		name = COG_Siegfried_Muller
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_COG_Siegfried_Muller.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SIEGFRIED_MULLER_DESC"
+			ideology = nazism
+			expire = "1983.4.17.1"
+			id = -1
+		}
+	}
+	GRO_Hans_Huttig = {
+		name = GRO_Hans_Huttig
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_GRO_Hans_Huttig.dds"
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader politically_connected organizer thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = 182
+		}
+		country_leader = {
+			desc = "POLITICS_HANS_HUTTIG_DESC"
+			ideology = nazism
+			traits = { }
+			expire = "1999.1.23.1"
+			id = -1
+		}
+	}
+	ANG_Wolfgang_Schenck = {
+		name = ANG_Wolfgang_Schenck
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_Sudwestafrika_Wolfgang_Schenck.dds"
+				small = "gfx/leaders/Eu-Af/ANG_minister_Wolfgang_Schenck.dds"
+			}
+			army = {
+				small = "gfx/leaders/Eu-Af/ANG_minister_Wolfgang_Schenck.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WOLFGANG_SCHENCK_DESC"
+			expire = "1999.1.1"
+			ideology = nazism
+			traits = {
+				#
+			}
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ANG_Wolfgang_Schenck_hog
+			allowed = { original_tag = SWA }
+			traits = { }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = ANG_Wolfgang_Schenck_air_chief
+			ledger = air
+			allowed = { original_tag = SWA }
+			traits = {
+				air_chief_all_weather_1
+				air_close_air_support_2
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	TNS_Victor_Siminel = {
+		name = TNS_Victor_Siminel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_Transnistria_Victor_Siminel.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VICTOR_SIMINEL_DESC"
+			expire = "1999.1.1.1"
+			ideology = despotism
+			id = -1
+		}
+	}
+	ULS_Neil_Blaney = {
+		name = ULS_Neil_Blaney
+		portraits = { civilian = { large = "gfx/leaders/Eu-Af/Portrait_Ireland_Neil_Blaney.dds" } }
+		country_leader = {
+			desc = "POLITICS_Neil_Blaney_ULS_desc"
+			ideology = despotism
+			expire = "1995.1.1"
+			id = -1
+		}
+	}
+	EGY_Farouk_I = {
+		name = EGY_Farouk_I
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Eu-Af/Portrait_EGY_Farouk_I.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FAROUK_I_DESC"
+			expire = "1968.12.25"
+			ideology = fascism_ideology
+			id = -1
+		}
+	}
+	#small肖像的地址在workshop\content\394360\2438003901\gfx\interface\ideas\ministers\国家tag
+}

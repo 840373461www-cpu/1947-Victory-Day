@@ -1,0 +1,23 @@
+state={
+	id=1152
+	name="STATE_1152"
+	
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 1
+
+			# Gileppe Dam
+			3488 = { dam = 1 }
+		}
+		add_core_of = BEL
+
+	}
+	provinces={
+		3488 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

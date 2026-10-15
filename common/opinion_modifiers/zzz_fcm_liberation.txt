@@ -1,0 +1,6 @@
+# [FCM] 红军解放者 —— 比利时/荷兰/希腊 对苏联的态度修正
+opinion_modifiers = {
+	fcm_red_army_liberator = {
+		value = 100
+	}
+}

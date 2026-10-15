@@ -1,0 +1,82 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CZE_Antonin_Novotny"
+		texturefile = "gfx/leaders/CZE/Antonin_Novotny.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Antonin_Novotny_small"
+		texturefile = "gfx/leaders/CZE/Antonin_Novotny.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Antonin_Zapotocky"
+		texturefile = "gfx/leaders/CZE/Antonin_Zapotocky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Antonin_Zapotocky_small"
+		texturefile = "gfx/leaders/CZE/Antonin_Zapotocky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Jaromir_Dolansky"
+		texturefile = "gfx/leaders/CZE/Jaromir_Dolansky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Jaromir_Dolansky_small"
+		texturefile = "gfx/leaders/CZE/Jaromir_Dolansky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Klement_Gottwald_1947"
+		texturefile = "gfx/leaders/CZE/Klement_Gottwald.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Klement_Gottwald_1947_small"
+		texturefile = "gfx/leaders/CZE/Klement_Gottwald.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Ludvik_Svoboda"
+		texturefile = "gfx/leaders/CZE/Ludvik_Svoboda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Ludvik_Svoboda_small"
+		texturefile = "gfx/leaders/CZE/Ludvik_Svoboda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Ludvik_Svoboda_old"
+		texturefile = "gfx/leaders/CZE/Ludvik_Svoboda_old.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Ludvik_Svoboda_old_small"
+		texturefile = "gfx/leaders/CZE/Ludvik_Svoboda_old.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Rudolf_Slansky"
+		texturefile = "gfx/leaders/CZE/Rudolf_Slansky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Rudolf_Slansky_small"
+		texturefile = "gfx/leaders/CZE/Rudolf_Slansky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Viliam_Siroky"
+		texturefile = "gfx/leaders/CZE/Viliam_Siroky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Viliam_Siroky_small"
+		texturefile = "gfx/leaders/CZE/Viliam_Siroky.dds"
+	}
+
+}

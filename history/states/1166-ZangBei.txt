@@ -1,0 +1,23 @@
+state={
+	id=1166
+	name="STATE_1166"
+
+	history={
+		owner = TIB
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+}
+
+	provinces={
+		8059
+	}
+	manpower=45900 #601拆的
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=1.0 
+}

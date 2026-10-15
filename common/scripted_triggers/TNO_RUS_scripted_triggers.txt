@@ -1,0 +1,228 @@
+is_russian_nation = {
+	OR = {
+		original_tag = BKR
+		original_tag = GAY
+		original_tag = GOR
+		original_tag = KOM
+		original_tag = ONG
+		original_tag = PRM
+		original_tag = SMR
+		original_tag = TAR
+		original_tag = VLG
+		original_tag = VYT
+		original_tag = WRS
+		original_tag = DRL
+		original_tag = MGN
+		original_tag = ORE
+		original_tag = URL
+		original_tag = FAV
+		original_tag = OMS
+		original_tag = SVR
+		original_tag = TYM
+		original_tag = VOR
+		original_tag = YGR
+		original_tag = ZLT
+		original_tag = ALT
+		original_tag = KAL
+		original_tag = KEM
+		original_tag = KRS
+		original_tag = NOV
+		original_tag = NRL
+		original_tag = RGW
+		original_tag = SBA
+		original_tag = TOM
+		original_tag = AMR
+		original_tag = BRY
+		original_tag = CHT
+		original_tag = IRK
+		original_tag = KMC
+		original_tag = MAG
+		original_tag = OMO
+		original_tag = YAK
+	}
+}
+
+is_russian_unifier = {
+	OR = {
+		original_tag = WRS
+		original_tag = VYT
+		original_tag = SAM
+		original_tag = KOM
+		original_tag = PRM
+
+		original_tag = OMS
+		original_tag = TYM
+		original_tag = SVR
+
+		original_tag = TOM
+		original_tag = SBA
+		original_tag = NOV
+		original_tag = KEM
+
+		original_tag = CHT
+		original_tag = AMR
+		original_tag = MAG
+		original_tag = BRY
+		original_tag = IRK
+		original_tag = OMO #For Ferus
+	}
+}
+
+is_central_russian_nation = {
+	OR = {
+		original_tag = WRS
+		original_tag = ONG
+		original_tag = KOM
+		original_tag = SMR
+		original_tag = GOR
+		original_tag = VLG
+		original_tag = VYT
+		original_tag = TAR
+		original_tag = PRM
+		original_tag = GAY
+		original_tag = BKR
+	}
+}
+
+is_west_siberian_nation = {
+	OR = {
+		original_tag = OMS
+		original_tag = FAV
+		original_tag = ZLT
+		original_tag = SVR
+		original_tag = TYM
+		original_tag = YGR
+		original_tag = VOR
+	}
+}
+
+is_central_siberian_nation = {
+	OR = {
+		original_tag = TOM
+		original_tag = SBA
+		original_tag = ALT
+		original_tag = KEM
+		original_tag = NOV
+		original_tag = RGW
+		original_tag = KRS
+		original_tag = KAL
+		original_tag = TAN
+		original_tag = NRL
+	}
+}
+
+is_far_eastern_nation = {
+	OR = {
+		original_tag = MAG
+		original_tag = KMC
+		original_tag = IRK
+		original_tag = BRY
+		original_tag = CHT
+		original_tag = AMR
+		original_tag = OMO
+		original_tag = YAK
+	}
+}
+
+is_southern_urals_nation = {
+	OR = {
+		original_tag = ORE
+		original_tag = URL
+		original_tag = MGN
+		original_tag = DRL
+	}
+}
+
+can_form_southern_urals = {
+	AND = {
+		owns_state = 1101
+		owns_state = 582
+		owns_state = 652
+		owns_state = 1102
+	}
+}
+
+can_form_west_russia = {
+	AND = {
+		owns_state = 214
+		owns_state = 880
+		owns_state = 397
+		owns_state = 262
+		owns_state = 825
+		owns_state = 651
+		owns_state = 1103
+		owns_state = 252
+		owns_state = 400
+		owns_state = 1161
+		owns_state = 879
+		owns_state = 398
+		owns_state = 251
+		owns_state = 250
+		owns_state = 401
+		owns_state = 249
+		owns_state = 833
+		owns_state = 1162
+		owns_state = 256
+		owns_state = 1104
+		owns_state = 351
+		owns_state = 399
+	}
+}
+
+can_form_west_siberia = {
+	AND = {
+		owns_state = 577
+		owns_state = 571
+		owns_state = 653
+		owns_state = 403
+		owns_state = 572
+		owns_state = 581
+		owns_state = 579
+		owns_state = 580
+		owns_state = 573
+	}
+}
+
+can_form_central_siberia = {
+	AND = {
+		owns_state = 654
+		owns_state = 1099
+		owns_state = 569
+		owns_state = 568
+		owns_state = 1097
+		owns_state = 1098
+		owns_state = 40
+		owns_state = 570
+		owns_state = 824
+		owns_state = 878
+		owns_state = 516
+		owns_state = 329
+		owns_state = 567
+		owns_state = 1096
+		owns_state = 576
+		owns_state = 578
+		owns_state = 1100
+	}
+}
+
+can_form_far_east = {
+	AND = {
+		owns_state = 561
+		owns_state = 562
+		owns_state = 1094
+		owns_state = 564
+		owns_state = 563
+		owns_state = 1095
+		owns_state = 566
+		owns_state = 637
+		owns_state = 874
+		owns_state = 575
+		owns_state = 875
+		owns_state = 876
+		owns_state = 877
+		owns_state = 644
+		owns_state = 822
+		owns_state = 565
+		owns_state = 574
+	}
+}

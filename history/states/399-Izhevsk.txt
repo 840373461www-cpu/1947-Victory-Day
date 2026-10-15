@@ -1,0 +1,32 @@
+
+state = {
+	id = 399
+	name = "STATE_399"
+	manpower = 1324935
+	state_category = rural
+	resources = {
+		chromium = 18 # was: 24
+	}
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = UDM
+		
+		victory_points = {
+			6124 1 
+		}
+		victory_points = {
+			6278 1 
+		}
+	}
+
+	provinces = {
+		31 123 146 189 272 359 305 370 381 390 1336 1365 3027 3127 3139 3264 3270 3294 3300 3363 4326 4356 4400 6025 6124 6162 6217 6274 6288 6297 6278 6323 6388 7346 7359 9283 9293 9370 11087 11111 11124 11365 11320 11352 12203 12244 
+	}
+
+	local_supplies = 0.0 
+}

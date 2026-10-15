@@ -1,0 +1,52 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_JAP_hayato_ikeda"
+		texturefile = "gfx/leaders/JAP/hayato_ikeda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hayato_ikeda_small"
+		texturefile = "gfx/leaders/JAP/hayato_ikeda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_eisaku_sato"
+		texturefile = "gfx/leaders/JAP/eisaku_sato.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_eisaku_sato_small"
+		texturefile = "gfx/leaders/JAP/eisaku_sato.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_nobusuke_kishi_1947"
+		texturefile = "gfx/leaders/JAP/nobusuke_kishi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_nobusuke_kishi_1947_small"
+		texturefile = "gfx/leaders/JAP/nobusuke_kishi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hirohito_1960"
+		texturefile = "gfx/leaders/JAP/hirohito_1960.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hirohito_1960_small"
+		texturefile = "gfx/leaders/JAP/hirohito_1960.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_masao_takagi"
+		texturefile = "gfx/leaders/JAP/masao_takagi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_masao_takagi_small"
+		texturefile = "gfx/leaders/JAP/masao_takagi.dds"
+	}
+
+}

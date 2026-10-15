@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ LOADING_GUI: "读取图形界面（§Y地块修改已启用！§!）"
+
+ JAP_the_co_prosperity_sphere_decisions_desc: "我们掌控亚洲的终极目标正日益临近。通过组建泛亚洲联盟，我们可以加强我们希望庇护的各个国家之间的联系。我们必须竭尽全力将这一梦想变为现实。\n\n\n£GFX_CP\n\n\n"
+
+ STATE_1064: "霹雳-太平-槟榔屿"
+ VICTORY_POINTS_12732: ""
+ VICTORY_POINTS_12215: "太平" #唐比p社，当时还没曼绒呢
+ VICTORY_POINTS_9948: "" #这不是高平！p社程序员眼睛长歪了是吧（恼）
+ STRATEGICREGION_79: "鲸海"
+ STRATEGICREGION_87: "北海"
+ STRATEGICREGION_148: "海参崴"
+ STRATEGICREGION_155: "辽宁"
+ STRATEGICREGION_248: "岭南"
+ STRATEGICREGION_255: "外兴安岭"
+ STRATEGICREGION_268: "外伊犁"

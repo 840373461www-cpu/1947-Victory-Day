@@ -1,0 +1,44 @@
+state = {
+	id = 671
+	name = "STATE_671"
+	manpower = 6886838 # was 11528000
+	
+	state_category = town
+	
+	resources = {
+		tungsten = 16 # was: 38, then 27
+		coal = 3
+	}
+
+
+	history = {
+
+		owner = FRA
+		add_core_of = VIN
+		
+		victory_points = {
+			4075 5 # Hanoi 
+		}
+
+		
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+			1185 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1185 4075 4119 10129 12048 
+	}
+
+	local_supplies = 0.0 
+}

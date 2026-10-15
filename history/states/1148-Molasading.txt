@@ -1,0 +1,26 @@
+
+state={
+	id=1148
+	name="STATE_1148"
+	manpower = 45000
+	
+	
+	state_category = rural
+	
+	history={
+		owner = BHU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BHU
+		add_claim_by = CHI
+		add_claim_by = PRC
+	}
+
+	provinces={
+		13420 
+	}
+
+	local_supplies=0.0 
+}

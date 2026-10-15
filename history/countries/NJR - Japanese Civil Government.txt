@@ -1,0 +1,18 @@
+capital = 282
+
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 40
+	radical_socialist = 10
+	reformist_socialist = 10
+	social_democrat = 40
+}
+
+recruit_character = NJR_tokuda_kyuichi
+recruit_character = NJR_nosaka_sanzo
+recruit_character = NJR_hakamada_satomi
+recruit_character = NJR_asanuma_inejiro

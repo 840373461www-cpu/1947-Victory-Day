@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_BEL_Jean_Duvieusart"
+		texturefile = "gfx/leaders/BEL/Jean_Duvieusart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Jean_Duvieusart_small"
+		texturefile = "gfx/leaders/BEL/Jean_Duvieusart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Achille_Van_Acker_1947"
+		texturefile = "gfx/leaders/BEL/Achille_Van_Acker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Achille_Van_Acker_1947_small"
+		texturefile = "gfx/leaders/BEL/Achille_Van_Acker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Leon_Degrelle_1947"
+		texturefile = "gfx/leaders/BEL/Leon_Degrelle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Leon_Degrelle_1947_small"
+		texturefile = "gfx/leaders/BEL/Leon_Degrelle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Julien_Lahaut_1947"
+		texturefile = "gfx/leaders/BEL/Julien_Lahaut.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Julien_Lahaut_1947_small"
+		texturefile = "gfx/leaders/BEL/Julien_Lahaut.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_jean_duvieusart"
+		texturefile = "gfx/leaders/BEL/Jean_Duvieusart.dds"
+	}
+
+}

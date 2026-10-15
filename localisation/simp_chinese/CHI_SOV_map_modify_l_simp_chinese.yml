@@ -1,0 +1,34 @@
+﻿l_simp_chinese:
+ CHI_SOV_map_modify_category:0 "中华建国大纲"
+ CHI_SOV_map_modify_category_desc:0 "鸦片战争后，俄罗斯帝国侵占外东北和外西北的150多万平方公里。\n\n直至中华民国成立后未能有效控制许多边远地区，许多地方虽声称属中国领土但几近被分裂占领，我们应妥善处理争端。"
+ trade_CHI_SOV_land:0 "向苏联赎回失地"
+ trade_CHI_SOV_land_desc:0 "不使用mod国策，收回代价将比较高\n§R日本不存在，或日本不独立，才能收回南库页岛§!"
+ trade_CHI_RAJ_land:0 "向英国赎回失地"
+ trade_CHI_RAJ_land_desc:0 "不使用mod国策，收回代价将比较高"
+ trade_CHI_FRA_land:0 "向法国赎回失地"
+ trade_CHI_FRA_land_desc:0 "收回广州湾"
+ trade_CHI_POR_land:0 "与[POR.GetNameDefCap]谈判"
+ trade_CHI_POR_land_desc:0 "收回澳门是中国政府和包括澳门同胞在内中国人民不可动摇的坚定立场和强烈愿望。"
+ WAR_CHI_land_1:0 "寸土不让！武力收复领土！"
+ WAR_CHI_land_1_desc:0 "§G对没有和我们有领土协定的国家发动战争§!\n§R决意发动战争，将不能与他国进行领土协定赎回失地§!"
+ WAR_CHI_land:0 "武力收复被占领领土"
+ 
+ CHI_integrate_1:0 "整合南亚地区"
+ CHI_integrate_2:0 "整合蒙古地区"
+ CHI_integrate_5:0 "整合西藏地区"
+
+ CHI_integrate_dym: "[CHI_integrate_d]"
+ CHI_integrate_d1: "大明的胜利"
+ CHI_integrate_d2: "中华永远共和"
+ CHI_integrate_d3: "大清万岁"
+ CHI_integrate_desc:0 "§G我们将消除外国势力在我国的影响力！§!"
+ 
+ KRC_resource_1:0 "西藏罗布莎铬铁矿业"
+ KRC_resource_2:0 "山西克俄铝矿业"
+ KRC_resource_3:0 "琼崖橡胶业"
+ KRC_resource_4:0 "辽宁、冀东和川西铁矿业"
+ KRC_resource_5:0 "湘赣钨矿业"
+ KRC_resource_6:0 "勘探东北油田"
+  
+ CHI_integrate_4_desc_2:0 "§G军阀势力在[ROOT.GetName]的核心将被移除§!\n§R移除外国核心需要先核心化该地区！§!"
+ 

@@ -1,0 +1,29 @@
+
+state={
+	id=400
+	name="STATE_400"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		victory_points = {
+			108 1 
+		}
+
+	}
+
+	provinces={
+		6 45 88 99 108 186 1307 3000 3041 3102 3146 3177 6121 6202 7318 6133 6171 6213 9114 9145 9146 9155 9192 9214 9232 10200 11025 11051 11110 11133 11170 11179 11193 11203 
+	}
+	manpower=1700000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

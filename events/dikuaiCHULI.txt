@@ -1,0 +1,457 @@
+add_namespace = dkcl
+#瓜分波兰（宣称）
+country_event = {
+	id = dkcl.1
+
+	hidden = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_molotov_ribbentrop_pact
+		has_global_flag = sov_yes_pact
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		1159 = {
+			add_claim_by = SOV
+		}
+		1158 = {
+			add_claim_by = SOV
+		}
+		1108 = {
+			add_claim_by = SOV
+		}
+		set_global_flag = guafen
+	}
+}
+#瓜分波兰（动作）
+#country_event = {
+#	id = dkcl.2
+#
+#	hidden = yes
+#
+#	trigger = {
+#		tag = GER
+#		has_completed_focus = GER_molotov_ribbentrop_pact
+#		has_global_flag = sov_yes_pact
+#		POL = {
+#			OR = {
+#				exists = no
+#				has_capitulated = yes
+#			}
+#			NOT = { owns_state = 97 }
+#		}
+#		SOV = {
+#			owns_state = 97
+#		}
+#	}
+#
+#	fire_only_once = yes
+#
+#	immediate = {
+#		SOV = {
+#			transfer_state = 1159
+#			transfer_state = 1158
+#		}
+#	}
+#}
+#维希法国成立地块处理
+country_event = {
+	id = dkcl.3
+
+	hidden = yes
+
+	trigger = {
+		has_global_flag = achievement_france_surrender
+		country_exists = WXF
+		WXF = {
+			NOT = {
+				owns_state = 1140
+			}
+		}
+		GER = {
+			controls_state = 1140
+		}
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		random_other_country = {
+			limit = {
+				original_tag = FRA
+				has_government = fascism
+			}
+			transfer_state = 1140
+		}
+	}
+}
+#日本索要印支
+#country_event = {
+#	id = dkcl.4
+#
+#	hidden = yes
+#
+#	trigger = {
+#		tag = USA
+#		has_country_flag = USA_indochina_window
+#		JAP = {
+#			NOT = {
+#				owns_state = 1093
+#				owns_state = 1123
+#				owns_state = 1133
+#				owns_state = 1017
+#			}
+#		}
+#		1093 = {
+#			CONTROLLER = {
+#				OR = {
+#					original_tag = FRA
+#					is_subject_of = FRA
+#					is_subject_of = VIC
+#				}
+#			}
+#		}
+#		1123 = {
+#			CONTROLLER = {
+#				OR = {
+#					original_tag = FRA
+#					is_subject_of = FRA
+#					is_subject_of = VIC
+#				}
+#			}
+#		}
+#		1133 = {
+#			CONTROLLER = {
+#				OR = {
+#					original_tag = FRA
+#					is_subject_of = FRA
+#					is_subject_of = VIC
+#				}
+#			}
+#		}
+#		1017 = {
+#			CONTROLLER = {
+#				OR = {
+#					original_tag = FRA
+#					is_subject_of = FRA
+#					is_subject_of = VIC
+#				}
+#			}
+#		}
+#		
+#	}
+#
+#	fire_only_once = yes
+#
+#	immediate = {
+#		JAP = {
+#			transfer_state = 1093
+#			transfer_state = 1123
+#			transfer_state = 1133
+#			transfer_state = 1017
+#		}
+#		LAO = {
+#			transfer_state = 1069
+#			transfer_state = 1109
+#		}
+#		CAM = {
+#			transfer_state = 1067
+#		}
+#		SIA = {
+#			create_wargoal = {
+#				type = take_state
+#				target = LAO
+#				generator = { 1069 1109 }
+#			}
+#			create_wargoal = {
+#				target = CAM
+#				type = take_state
+#				generator = { 1067 }
+#			}
+#		}
+#	}
+#}
+#高加索
+country_event = { 
+	id = dkcl.5
+	title = dkcl.5.t
+	desc = dkcl.5.desc 
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = { #它应该变成帝国领土！
+		name = dkcl.5.a
+		ai_chance = {
+			base = 0
+		}	
+
+		add_political_power = -25
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		every_state = {
+			limit = {
+				OR = {
+					state = 1160
+					state = 230
+				}
+			}
+			add_compliance = 50
+			remove_claim_by = RKK
+			remove_contested_owner = RKK
+			if = {
+				limit = {
+					is_owned_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = GER
+			}
+			if = {	
+				limit = {
+					is_owned_by_ROOT_or_subject = no
+				}
+				add_contested_owner = GER
+				set_state_controller_to = GER
+				add_claim_by = GER
+			}
+		}
+		
+	}
+
+	option = { #它应当并入高加索
+		name = dkcl.5.b
+		trigger = {
+			RKK = {
+				exists = yes
+			}
+		}
+		ai_chance = {
+			base = 2
+		}		
+		
+		1160 = {
+			if = {
+				limit = {
+					is_owned_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = RKK
+			}
+			if = {	
+				limit = {
+					is_owned_by_ROOT_or_subject = no
+				}
+				add_contested_owner = RKK
+				set_state_controller_to = RKK
+				add_claim_by = RKK
+			}
+		}
+
+	}
+
+	option = { #亚美尼亚应该成为独立的专员辖区
+		name = dkcl.5.c
+		ai_chance = {
+			base = 1
+		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		1160 = {
+			transfer_state_to = TUR
+			add_compliance = 30
+		}
+
+		230 = {
+			remove_claim_by = RKK
+			remove_contested_owner = RKK
+			if = {
+				limit = {
+					is_owned_by_ROOT_or_subject = yes
+				}
+				transfer_state_to = ARM
+			}
+			if = {	
+				limit = {
+					is_owned_by_ROOT_or_subject = no
+				}
+				add_contested_owner = ARM
+				set_state_controller_to = ARM
+			}
+		}
+		set_autonomy = { 
+			target = ARM 
+			autonomy_state = autonomy_integrated_puppet 
+		}
+		hidden_effect = {
+			ARM = {
+				set_cosmetic_tag = ARM_turk
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1919.6.23"
+					election_frequency = 60
+					elections_allowed = no
+				}
+				set_popularities = {
+					neutrality = 49
+					democratic = 40
+					communism = 11
+				}
+				set_party_name = {
+					ideology = neutrality
+					long_name = "亚美尼亚共和党(Haykakan Hanrapetakan Kusakts'ut'yun)"
+					name = "亚美尼亚共和党"
+				}
+				create_country_leader = {
+					name = ARM_Migirdic_Sellefyan
+					picture = "gfx/leaders/_RK/Portrait_ARM_Migirdic_Sellefyan.png"
+					desc = "POLITICS_MIGIRDIC_SELLEFYAN_DESC"
+					expire = "1999.1.1"
+					ideology = oligarchism
+					id = -1
+				}
+				add_manpower = 50000
+				add_equipment_to_stockpile = { 
+					type = infantry_equipment
+					amount = 5000
+					producer = GER
+				}	
+				add_equipment_to_stockpile = { 
+					type = support_equipment
+					amount = 500
+					producer = GER
+				}	
+				load_oob = "RK_OOB"
+				add_country_leader_trait = GER_reichskommissar_trait
+				add_ideas = GER_german_controlled_reichskommissariat
+			}
+		}
+	}
+
+	option = { #土耳其应该得到奖赏
+		name = dkcl.5.d
+		ai_chance = {
+			base = 150
+		}	
+		trigger = {
+			TUR = {
+				exists = yes
+				OR = {
+					is_subject_of = ROOT
+					is_in_faction_with = ROOT
+					AND = {
+						controls_state = 1160
+						controls_state = 230
+					}
+				}
+			}
+		}
+		
+		custom_effect_tooltip = GER_YaMeiNiYa_area_effect_tt
+		
+		hidden_effect = {
+			1160 = {
+				transfer_state_to = TUR
+				add_compliance = 30
+			}
+			230 = {
+				transfer_state_to = TUR
+				add_compliance = 30
+			}
+		}
+		
+	}
+}
+#东卡累利阿的地位
+country_event = { 
+	id = dkcl.6
+	title = dkcl.6.t
+	desc = dkcl.6.desc 
+	picture = GFX_report_event_fascist_speech
+
+	is_triggered_only = yes
+
+	option = { # Finland should be rewarded
+		name = dkcl.6.a
+		ai_chance = {
+			base = 500
+		}	
+		trigger = {
+			FIN = {
+				exists = yes
+			}
+		}
+		
+		custom_effect_tooltip = GER_karelia_fin_effect_tt
+		hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						GER_is_soviet_greater_finland_state = yes
+						GER_is_additional_soviet_greater_finland_state = yes
+					}
+				}
+				transfer_state_to = FIN
+			}
+		}
+		FIN = {
+			set_cosmetic_tag = FIN_TNO
+			set_politics = {
+				ruling_party = neutrality
+				last_election = "1960.7.2"
+				election_frequency = 36
+				elections_allowed = yes
+			}
+			hidden_effect = {
+				set_popularities = {
+					communism = 11
+					democratic = 66
+					neutrality = 16
+					fascism = 7
+				}
+				create_country_leader = {
+					name = FIN_Juha_Rihtniemi
+					picture = "gfx/leaders/_RK/Portrait_Finland_Juha_Rihtniemi.png"
+					desc = "POLITICS_JUHA_RIHTNIEMI_DESC"
+					ideology = despotism
+					expire = "1999.1.1"
+				}
+			}
+		}
+		
+	}
+
+	option = { # It should be incorporated into Moskowien
+		name = dkcl.6.b
+		trigger = {
+			MCW = {
+				exists = yes
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				FIN = {
+					exists = no
+				}
+				add = 100
+			}
+		}		
+		
+		custom_effect_tooltip = GER_karelia_rkm_effect_tt
+			
+		hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						GER_is_soviet_greater_finland_state = yes
+						GER_is_additional_soviet_greater_finland_state = yes
+					}
+				}
+				transfer_state_to = MCW
+			}
+		}
+	}
+}

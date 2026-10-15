@@ -1,0 +1,23 @@
+capital = 182
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 62
+	democratic = 20
+	fascism = 12
+	communism = 6
+}
+
+create_country_leader = {
+	name = "George II"
+	desc = ""
+	picture = GFX_portrait_gre_george_ii
+	expire = "1964.1.1"
+	ideology = despotism
+	traits = {
+	}
+}

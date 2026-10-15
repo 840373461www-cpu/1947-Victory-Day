@@ -1,0 +1,692 @@
+CHI_SOV_map_modify_category = {
+	# 收回土地
+	trade_CHI_SOV_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			NOT = { has_country_flag = WAR_CHI_land }
+			OR = {
+				SOV = { has_opinion = { target = ROOT value > 69 } }
+				SOV = { has_war_with = GER }
+				is_in_faction_with = SOV
+			}
+			SOV = { has_opinion = { target = ROOT value > 39 } }
+			#OR = {
+			#	SOV = { has_opinion = { target = ROOT value > 49 } }
+			#	is_in_faction_with = SOV
+			#}
+			#SOV = {
+			#	has_war_with = GER
+			#}
+			has_equipment = {
+				infantry_equipment > 49999
+			}
+			has_equipment = {
+				artillery_equipment > 3999
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			# 不是ai
+			is_ai = no
+			NOT = { has_country_flag = trade_CHI_SOV_land }
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 300
+		days_remove = 30
+		modifier = {
+			political_power_cost = 0.3
+		}
+
+		remove_effect = {
+			every_state = {
+				limit = { 
+					OR = {
+						state = 586
+						state = 589
+						state = 654
+						state = 732
+						state = 1118
+						state = 1146
+						state = 1147
+						state = 560
+						state = 561
+						state = 1116
+						state = 657
+						state = 408
+						state = 409
+						state = 655
+						state = 1115
+						state = 1094
+						state = 1095
+					}
+				}
+				ROOT = { transfer_state = PREV }
+				add_core_of = ROOT
+				remove_core_of = SOV
+			}
+			# 日本不独立或不存在，则收回南库页岛
+			if = {
+				limit = {
+					OR = {
+						JAP = { is_subject = yes }
+						NOT = { country_exists = JAP }
+					}
+				}
+				537 = {
+					ROOT = { transfer_state = PREV }
+					add_core_of = ROOT
+					remove_core_of = JAP
+				}
+				JAP = {
+					remove_state_claim = 655
+				}
+			}
+			537 = { add_core_of = ROOT }
+			
+			# 吞并蒙古
+			transfer_state = 1144
+			annex_country = { target = MON  transfer_troops = yes }
+			if = {
+				limit = {
+					country_exists = TAN
+				}
+				annex_country = { target = TAN  transfer_troops = yes }
+			}
+			set_country_flag = trade_CHI_SOV_land
+			# 苏德战争中，拿50000枪和4000火炮，换回失地
+			send_equipment = { target = SOV type = infantry_equipment amount = 50000 }
+			send_equipment = { target = SOV type = artillery_equipment amount = 4000 }
+		}
+	}
+	# 收回土地
+	trade_CHI_RAJ_land = {
+		icon = GFX_decision_category_generic_political_actions
+		available = {
+			NOT = { has_country_flag = WAR_CHI_land }
+			OR = {
+				OR = {
+					ENG = { has_opinion = { target = ROOT value > 69 } }
+					ENG = { has_war_with = GER }
+				}
+				is_in_faction_with = ENG
+			}
+			ENG = { has_opinion = { target = ROOT value > 39 } }
+			#OR = {
+			#	ENG = { has_opinion = { target = ROOT value > 49 } }
+			#	is_in_faction_with = ENG
+			#}
+			#ENG = {
+			#	has_war_with = GER
+			#}
+			AND = {
+				has_equipment = {
+					infantry_equipment > 50000
+				}
+				has_equipment = {
+					artillery_equipment > 4000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			# 不是ai
+			is_ai = no
+			NOT = { has_country_flag = trade_CHI_RAJ_land }
+			
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 200
+		days_remove = 20
+		modifier = {
+			political_power_cost = 0.2
+		}
+
+		remove_effect = {
+			every_state = {
+				limit = { 
+					OR = {
+						state = 441
+						state = 434
+						state = 1142
+						state = 1143
+						state = 1148
+						state = 1150
+					}
+				}
+				ROOT = { transfer_state = PREV }
+				add_core_of = ROOT
+			}
+			435 = { add_core_of = BAN }
+
+			ROOT = { puppet = BHU }
+			ROOT = { puppet = NEP }
+
+			set_country_flag = trade_CHI_RAJ_land
+			# ENG德战争中，拿50000枪和4000火炮，换回失地
+			send_equipment = { target = ENG type = infantry_equipment amount = 50000 }
+			send_equipment = { target = ENG type = artillery_equipment amount = 4000 }
+		}
+	}
+	
+	#与[FRA.GetNameDefCap]谈判
+	trade_CHI_FRA_land = {
+		icon = GFX_decision_category_hol_war_on_pacifism
+		available = {
+			728 = { is_controlled_by = FRA }
+			OR = {
+				has_country_flag = trade_CHI_SOV_land
+				has_country_flag = trade_CHI_RAJ_land
+				FRA = { has_opinion = { target = ROOT value > 29 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			is_ai = no
+			NOT = { has_country_flag = trade_CHI_FRA_land }
+
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 50
+		days_remove = 10
+		modifier = {
+			political_power_cost = 0.1
+		}
+
+		remove_effect = {
+			ROOT = { transfer_state = 728 }
+			set_country_flag = trade_CHI_FRA_land
+		}
+	}
+	
+	#与[POR.GetNameDefCap]谈判
+	trade_CHI_POR_land = {
+		icon = GFX_decision_category_hol_war_on_pacifism
+		available = {
+			729 = { is_controlled_by = POR }
+			OR = {
+				has_country_flag = trade_CHI_SOV_land
+				has_country_flag = trade_CHI_RAJ_land
+				has_country_flag = trade_CHI_FRA_land
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			is_ai = no
+			NOT = { has_country_flag = trade_CHI_POR_land }
+
+		}
+
+		# 不使用mod的国策，需要大量政治点数
+		cost = 25
+		days_remove = 5
+		modifier = {
+			political_power_cost = 0.1
+		}
+
+		remove_effect = {
+			ROOT = { transfer_state = 729 }
+			set_country_flag = trade_CHI_POR_land
+		}
+	}
+
+	WAR_CHI_land_1 = {
+		icon = GFX_decision_category_saf_anti_colonialist_crusade
+		available = {
+			617 = { is_fully_controlled_by = ROOT }
+			608 = { is_fully_controlled_by = ROOT }
+			328 = { is_fully_controlled_by = ROOT }
+			613 = { is_fully_controlled_by = ROOT }
+			620 = { is_fully_controlled_by = ROOT }
+			605 = { is_fully_controlled_by = ROOT }	
+			is_ai = no
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			NOT = { has_country_flag = WAR_CHI_land }
+			
+		}
+
+		cost = 50
+		days_remove = 10
+		modifier = {
+			political_power_cost = 0.1
+		}
+
+		remove_effect = {
+			set_country_flag = WAR_CHI_land 
+			if = {
+				limit = {
+					NOT = { has_country_flag = trade_CHI_SOV_land }
+				}
+				create_wargoal = {
+					type = topple_government
+					target = SOV
+					expire = 0
+				}
+				create_wargoal = {
+					type = topple_government
+					target = AFG
+					expire = 0
+				}
+				every_state = {
+					limit = { 
+						has_state_flag = China_map_change_state_flag
+					}
+					add_core_of = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = trade_CHI_RAJ_land }
+				}
+				create_wargoal = {
+					type = topple_government
+					target = RAJ
+					expire = 0
+				}
+				create_wargoal = {
+					type = topple_government
+					target = ENG
+					expire = 0
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = NEP
+					expire = 0
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = BHU
+					expire = 0
+				}
+				every_state = {
+					limit = { 
+						has_state_flag = China_RAJ_map_change_state_flag
+					}
+					add_core_of = ROOT
+				}
+				435 = { add_core_of = BAN }
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = trade_CHI_FRA_land }
+				}
+				create_wargoal = {
+					type = topple_government
+					target = FRA
+					expire = 0
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = trade_CHI_POR_land }
+				}
+				create_wargoal = {
+					type = topple_government
+					target = POR
+					expire = 0
+				}
+			}
+		}
+	}
+
+	#整合南亚地区
+	CHI_integrate_1 = {
+		icon = GFX_decision_infiltrate_state
+
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			# 不是ai
+			is_ai = no
+			OR = { 
+				NOT = { 1144 = { is_core_of = ROOT } }
+				NOT = { 441 = { is_core_of = ROOT } }
+				NOT = { 1142 = { is_core_of = ROOT } }
+				NOT = { 1143 = { is_core_of = ROOT } }
+			}
+		}
+		available = { 
+			OR = {
+				controls_state = 441
+				controls_state = 1142
+				controls_state = 1143
+				controls_state = 1144
+			}
+			OR = {
+				NOT = { 1144 = { is_core_of = ROOT } }
+				NOT = { 441 = { is_core_of = ROOT } }
+				NOT = { 1142 = { is_core_of = ROOT } }
+				NOT = { 1143 = { is_core_of = ROOT } }
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 441 }
+		}
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.1
+		}
+		cost = 50
+
+		remove_effect = {	
+			every_state = {
+				limit = {
+					is_core_of = RAJ
+					is_controlled_by = ROOT
+				}
+				remove_core_of = RAJ
+				add_core_of = ROOT
+			}
+			if = { 
+				limit = { 
+					controls_state = 1148
+				}
+				1148 = { remove_core_of = BHU }
+				1148 = { add_core_of = ROOT }
+			} 
+		} 
+	}
+
+	#整合蒙古地区
+	CHI_integrate_2 = {
+		icon = GFX_decision_infiltrate_state
+
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			# 不是ai
+			is_ai = no
+			OR = {
+				NOT = { 329 = { is_core_of = ROOT } }
+				NOT = { 817 = { is_core_of = ROOT } }
+				NOT = { 819 = { is_core_of = ROOT } }
+				NOT = { 330 = { is_core_of = ROOT } }
+				NOT = { 820 = { is_core_of = ROOT } }
+				NOT = { 818 = { is_core_of = ROOT } }
+			}
+		}
+		available = { 
+			NOT = { country_exists = MON }
+			OR = {
+				NOT = { 329 = { is_core_of = ROOT } }
+				NOT = { 817 = { is_core_of = ROOT } }
+				NOT = { 819 = { is_core_of = ROOT } }
+				NOT = { 330 = { is_core_of = ROOT } }
+				NOT = { 820 = { is_core_of = ROOT } }
+				NOT = { 818 = { is_core_of = ROOT } }
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 330 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		modifier = {
+			political_power_cost = 0.1
+		}
+		cost = 90
+
+		remove_effect = {
+			every_state = {
+				limit = {
+					is_core_of = MON
+				}
+				remove_core_of = MON
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = TAN
+				}
+				remove_core_of = TAN
+				add_core_of = ROOT
+			}
+		} 
+	}
+
+	#整合西藏地区
+	CHI_integrate_5 = {
+		icon = GFX_decision_infiltrate_state
+
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			# 不是ai
+			is_ai = no
+			OR = {
+				NOT = { 322 = { is_core_of = ROOT } }
+				NOT = { 758 = { is_core_of = ROOT } }
+				NOT = { 757 = { is_core_of = ROOT } }
+			}
+		}
+		available = { 
+			NOT = { country_exists = TIB }
+			OR = {
+				NOT = { 322 = { is_core_of = ROOT } }
+				NOT = { 758 = { is_core_of = ROOT } }
+				NOT = { 757 = { is_core_of = ROOT } }
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 757 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		modifier = {
+			political_power_cost = 0.1
+		}
+		cost = 90
+
+		remove_effect = {
+			every_state = {
+				limit = {
+					is_core_of = TIB
+				}
+				remove_core_of = TIB
+				add_core_of = ROOT
+			}
+		} 
+	}
+
+
+
+	#中华永远共和（整合版）
+	CHI_integrate = {
+		icon = {
+			trigger = {
+				original_tag = MAN
+			}
+			key = GFX_decision_category_spr_the_seeds_of_revolution
+		}
+		icon = {
+			trigger = {
+				NOT = { original_tag = MAN }
+			}
+			key = GFX_decision_category_generic_democracy
+		}
+		name = CHI_integrate_dym
+
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				original_tag = MAN
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+			is_ai = no
+		}
+		available = { 
+			617 = { is_fully_controlled_by = ROOT }
+			608 = { is_fully_controlled_by = ROOT }
+			328 = { is_fully_controlled_by = ROOT }
+			613 = { is_fully_controlled_by = ROOT }
+			620 = { is_fully_controlled_by = ROOT }
+			605 = { is_fully_controlled_by = ROOT }	
+			330 = { is_fully_controlled_by = ROOT }
+			757 = { is_fully_controlled_by = ROOT }
+			OR = {
+				NOT = { country_exists = PRC }
+				NOT = { country_exists = CHI }
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			political_power_cost = 0.1
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = CHI_integrate_4_desc_2
+			set_province_name = { id = 4572 name = "长春" }
+			set_province_name = { id = 11771 name = "沈阳" }
+			every_core_state = {
+				set_state_flag = mycore
+
+				remove_core_of = PRC
+				remove_claim_by = PRC
+				remove_core_of = CHI
+				remove_claim_by = CHI
+				remove_core_of = MAN
+				remove_claim_by = MAN
+
+				remove_core_of = PAK
+				remove_claim_by = PAK
+				remove_core_of = RAJ
+				remove_claim_by = RAJ
+				remove_claim_by = JAP
+				remove_core_of = JAP 
+
+				remove_core_of = BRM 
+				remove_core_of = AFG 
+				remove_core_of = FER 
+				remove_core_of = VLA 
+				remove_core_of = ALT 
+				remove_core_of = KAZ 
+				remove_core_of = KYR 
+				remove_core_of = TAJ 
+				remove_core_of = BUK 
+				remove_core_of = SOV
+			
+				remove_core_of = SIK
+				remove_core_of = MON
+				remove_core_of = TAN
+				remove_core_of = MEN
+				remove_core_of = TIB
+				remove_core_of = GXC
+				remove_core_of = SHX
+				remove_core_of = YUN
+				remove_core_of = XSM
+			}
+			every_state = {
+				limit = {
+					has_state_flag = mycore
+				}
+				add_core_of = ROOT
+			}
+		}
+	}
+}
+

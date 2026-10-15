@@ -1,0 +1,26 @@
+
+state = {
+	id = 878
+	name = "STATE_878" # Khatangsky
+	manpower = 15974
+	
+	state_category = pastoral
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { #Tura
+			7805 1
+		}
+		add_core_of = SOV
+		add_core_of = TAY
+	}
+
+	provinces = {
+		1741 2900 4743 4812 7805 9224 11122 12687 6085 10628 10631 10688 13060 13065 
+	}
+
+	local_supplies = 0.0 
+}

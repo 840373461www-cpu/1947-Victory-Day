@@ -1,0 +1,102 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FRA_Antoine_Pinay"
+		texturefile = "gfx/leaders/FRA/Antoine_Pinay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Antoine_Pinay_small"
+		texturefile = "gfx/leaders/FRA/Antoine_Pinay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Charles_Vallin"
+		texturefile = "gfx/leaders/FRA/Charles_Vallin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Charles_Vallin_small"
+		texturefile = "gfx/leaders/FRA/Charles_Vallin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Jean-Louis_Tixier-Vignancour"
+		texturefile = "gfx/leaders/FRA/Jean-Louis_Tixier-Vignancour.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Jean-Louis_Tixier-Vignancour_small"
+		texturefile = "gfx/leaders/FRA/Jean-Louis_Tixier-Vignancour.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Joseph_Darnand"
+		texturefile = "gfx/leaders/FRA/Joseph_Darnand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Joseph_Darnand_small"
+		texturefile = "gfx/leaders/FRA/Joseph_Darnand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Maurice_Pujo"
+		texturefile = "gfx/leaders/FRA/Maurice_Pujo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Maurice_Pujo_small"
+		texturefile = "gfx/leaders/FRA/Maurice_Pujo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Costantini"
+		texturefile = "gfx/leaders/FRA/Pierre_Costantini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Costantini_small"
+		texturefile = "gfx/leaders/FRA/Pierre_Costantini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Etienne_Flandin"
+		texturefile = "gfx/leaders/FRA/Pierre_Etienne_Flandin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Etienne_Flandin_small"
+		texturefile = "gfx/leaders/FRA/Pierre_Etienne_Flandin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Laval_1947"
+		texturefile = "gfx/leaders/FRA/Pierre_Laval.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Laval_1947_small"
+		texturefile = "gfx/leaders/FRA/Pierre_Laval.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Raoul_Salan"
+		texturefile = "gfx/leaders/FRA/Raoul_Salan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Raoul_Salan_small"
+		texturefile = "gfx/leaders/FRA/Raoul_Salan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Philippe_Petain_1947"
+		texturefile = "gfx/leaders/FRA/Philippe_Petain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Philippe_Petain_1947_small"
+		texturefile = "gfx/leaders/FRA/Philippe_Petain.dds"
+	}
+
+}

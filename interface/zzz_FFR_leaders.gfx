@@ -1,0 +1,102 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FFR_Ahmed_Sekou_Toure"
+		texturefile = "gfx/leaders/FFR/Ahmed_Sekou_Toure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Ahmed_Sekou_Toure_small"
+		texturefile = "gfx/leaders/FFR/Ahmed_Sekou_Toure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Charles_de_Gaulle"
+		texturefile = "gfx/leaders/FFR/Charles_de_Gaulle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Charles_de_Gaulle_small"
+		texturefile = "gfx/leaders/FFR/Charles_de_Gaulle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Felix_Houphouet_Boigny"
+		texturefile = "gfx/leaders/FFR/Felix_Houphouet_Boigny.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Felix_Houphouet_Boigny_small"
+		texturefile = "gfx/leaders/FFR/Felix_Houphouet_Boigny.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Leopold_Sedar_Senghor"
+		texturefile = "gfx/leaders/FFR/Leopold_Sedar_Senghor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Leopold_Sedar_Senghor_small"
+		texturefile = "gfx/leaders/FFR/Leopold_Sedar_Senghor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Louis_Napoleon"
+		texturefile = "gfx/leaders/FFR/Louis_Napoleon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Louis_Napoleon_small"
+		texturefile = "gfx/leaders/FFR/Louis_Napoleon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Maurice_Challe"
+		texturefile = "gfx/leaders/FFR/Maurice_Challe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Maurice_Challe_small"
+		texturefile = "gfx/leaders/FFR/Maurice_Challe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Paul_Reynaud"
+		texturefile = "gfx/leaders/FFR/Paul_Reynaud.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Paul_Reynaud_small"
+		texturefile = "gfx/leaders/FFR/Paul_Reynaud.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Pierre_Mendes"
+		texturefile = "gfx/leaders/FFR/Pierre_Mendes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Pierre_Mendes_small"
+		texturefile = "gfx/leaders/FFR/Pierre_Mendes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Rene_Pleven"
+		texturefile = "gfx/leaders/FFR/Rene_Pleven.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Rene_Pleven_small"
+		texturefile = "gfx/leaders/FFR/Rene_Pleven.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Valery_Giscard_d'Estaing"
+		texturefile = "gfx/leaders/FFR/Valery_Giscard_d'Estaing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FFR_Valery_Giscard_d'Estaing_small"
+		texturefile = "gfx/leaders/FFR/Valery_Giscard_d'Estaing.dds"
+	}
+
+}

@@ -1,0 +1,62 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+is_owned_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = is_owned_by_ROOT_or_ally
+		OWNER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+				is_in_faction_with = ROOT
+			}
+		}
+	}
+}
+
+is_owned_by_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = is_owned_by_ROOT_or_subject
+		OWNER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+ENG_deng_all_touxiang = {
+	custom_trigger_tooltip = {
+		tooltip = ENG_deng_all_touxiang
+		NOT = {
+			any_country = {
+				OR = {
+					tag = ENG
+					tag = FRA
+					tag = CZE
+					tag = POL
+					tag = NOR
+					tag = LUX
+					tag = HOL
+					tag = BEL
+					tag = YUG
+					tag = GRE
+				}
+				AND = { exists = yes has_capitulated = no }
+			}
+		}
+	}
+}

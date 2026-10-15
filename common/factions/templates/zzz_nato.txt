@@ -1,0 +1,21 @@
+faction_template_nato = {
+	name = NATO_faction
+	icon = GFX_faction_logo_generic_17
+	manifest = faction_manifest_defense_of_democracy
+	can_leader_join_other_factions = no
+	visible = {
+		always = yes
+	}
+
+	goals = {
+		faction_goal_industrial_expansion
+	}
+
+	default_rules = {
+		joining_rule_has_no_war
+		war_declaration_generated_tension_25
+		war_declaration_threat_75
+		change_leader_rule_industry
+		change_leader_rule_manpower
+	}
+}

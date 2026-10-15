@@ -1,0 +1,74 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = {
+	name = CHI_integrate_d
+	text = {
+		trigger = {
+			OR = {
+				has_focus_tree = china_communist_focus
+				has_focus_tree = china_nationalist_focus
+				original_tag = PRC
+				original_tag = CHI
+				has_completed_focus = CHI_power_struggle
+				has_completed_focus = CHI_the_yanan_incident
+				has_completed_focus = CHI_proclaim_rival_government
+			}
+		}
+		localization_key = CHI_integrate_d2
+	}
+
+	text = {
+		trigger = {
+			original_tag = MAN
+		}
+		localization_key = CHI_integrate_d3
+	}
+	
+	text = {
+		localization_key = CHI_integrate_d1
+	}
+}
+
+defined_text = {
+	name = SOV_GER_HePing_d
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_HePing_SOV
+	}
+	
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_HePing
+	}
+}
+
+defined_text = {
+	name = USA_GER_HePing_d
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_HePing_USA
+	}
+	
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_HePing
+	}
+}

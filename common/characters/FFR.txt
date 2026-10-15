@@ -1,0 +1,163 @@
+characters = {
+
+	FFR_charles_de_gaulle = {
+		name = FFR_charles_de_gaulle
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Charles_de_Gaulle
+				small = GFX_portrait_FFR_Charles_de_Gaulle_small
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_pierre_mendes_france = {
+		name = FFR_pierre_mendes_france
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Pierre_Mendes
+				small = GFX_portrait_FFR_Pierre_Mendes_small
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_paul_reynaud = {
+		name = FFR_paul_reynaud
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Paul_Reynaud
+				small = GFX_portrait_FFR_Paul_Reynaud_small
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_rene_pleven = {
+		name = FFR_rene_pleven
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Rene_Pleven
+				small = GFX_portrait_FFR_Rene_Pleven_small
+			}
+		}
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_leopold_sedar_senghor = {
+		name = FFR_leopold_sedar_senghor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Leopold_Sedar_Senghor
+				small = GFX_portrait_FFR_Leopold_Sedar_Senghor_small
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_felix_houphouet_boigny = {
+		name = FFR_felix_houphouet_boigny
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Felix_Houphouet_Boigny
+				small = GFX_portrait_FFR_Felix_Houphouet_Boigny_small
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_valery_giscard_destaing = {
+		name = FFR_valery_giscard_destaing
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Valery_Giscard_d'Estaing
+				small = GFX_portrait_FFR_Valery_Giscard_d'Estaing_small
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_ahmed_sekou_toure = {
+		name = FFR_ahmed_sekou_toure
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Ahmed_Sekou_Toure
+				small = GFX_portrait_FFR_Ahmed_Sekou_Toure_small
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_maurice_challe = {
+		name = FFR_maurice_challe
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Maurice_Challe
+				small = GFX_portrait_FFR_Maurice_Challe_small
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+	FFR_napoleon_vi = {
+		name = FFR_napoleon_vi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FFR_Louis_Napoleon
+				small = GFX_portrait_FFR_Louis_Napoleon_small
+			}
+		}
+		country_leader = {
+			ideology = monarchism_subtype
+			expire = "1975.1.1.1"
+			id = -1
+			traits = { }
+		}
+	}
+
+}

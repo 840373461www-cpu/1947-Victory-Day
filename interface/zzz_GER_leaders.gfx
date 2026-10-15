@@ -1,0 +1,102 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_GER_Wilhelm_Pieck_1947"
+		texturefile = "gfx/leaders/GER/Wilhelm_Pieck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Wilhelm_Pieck_1947_small"
+		texturefile = "gfx/leaders/GER/Wilhelm_Pieck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Otto_Grotewohl_1947"
+		texturefile = "gfx/leaders/GER/Otto_Grotewohl.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Otto_Grotewohl_1947_small"
+		texturefile = "gfx/leaders/GER/Otto_Grotewohl.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Karl_Arnold"
+		texturefile = "gfx/leaders/GER/Karl_Arnold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Karl_Arnold_small"
+		texturefile = "gfx/leaders/GER/Karl_Arnold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Willy_Brandt"
+		texturefile = "gfx/leaders/GER/Willy_Brandt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Willy_Brandt_small"
+		texturefile = "gfx/leaders/GER/Willy_Brandt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Johannes_Dieckmann"
+		texturefile = "gfx/leaders/GER/Johannes_Dieckmann.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Johannes_Dieckmann_small"
+		texturefile = "gfx/leaders/GER/Johannes_Dieckmann.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Theodor_Heuss"
+		texturefile = "gfx/leaders/GER/Theodor_Heuss.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Theodor_Heuss_small"
+		texturefile = "gfx/leaders/GER/Theodor_Heuss.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Andreas_Hermes_1947"
+		texturefile = "gfx/leaders/GER/Andreas_Hermes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Andreas_Hermes_1947_small"
+		texturefile = "gfx/leaders/GER/Andreas_Hermes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Vincenz_Muller_1947"
+		texturefile = "gfx/leaders/GER/Vincenz_Muller.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Vincenz_Muller_1947_small"
+		texturefile = "gfx/leaders/GER/Vincenz_Muller.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Ernst_Niekisch"
+		texturefile = "gfx/leaders/GER/Ernst_Niekisch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Ernst_Niekisch_small"
+		texturefile = "gfx/leaders/GER/Ernst_Niekisch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Fritz_Dorls"
+		texturefile = "gfx/leaders/GER/Fritz_Dorls.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_Fritz_Dorls_small"
+		texturefile = "gfx/leaders/GER/Fritz_Dorls.dds"
+	}
+
+}

@@ -1,0 +1,21 @@
+state={
+	id=1084
+	name="STATE_1084"
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = SLV
+
+	}
+	provinces={
+		6672 
+	}
+	manpower=11050
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

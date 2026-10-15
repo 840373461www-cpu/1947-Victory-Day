@@ -1,0 +1,32 @@
+capital = 272
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	elections_allowed = yes
+}
+
+
+
+# ===== 1947 支持率 =====
+set_popularities = {
+	authoritarian_democrat = 38
+	social_liberal = 22
+	social_conservative = 19
+	reformist_socialist = 14
+	social_democrat = 4
+	radical_socialist = 2
+	market_liberal = 1
+	communism = 0
+	paternal_autocrat = 0
+	monarchism = 0
+}
+recruit_character = FFR_charles_de_gaulle
+recruit_character = FFR_pierre_mendes_france
+recruit_character = FFR_paul_reynaud
+recruit_character = FFR_rene_pleven
+recruit_character = FFR_leopold_sedar_senghor
+recruit_character = FFR_felix_houphouet_boigny
+recruit_character = FFR_valery_giscard_destaing
+recruit_character = FFR_ahmed_sekou_toure
+recruit_character = FFR_maurice_challe
+recruit_character = FFR_napoleon_vi

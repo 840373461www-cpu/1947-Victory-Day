@@ -1,0 +1,108 @@
+characters = {
+	FCM_maurice_thorez = {
+		name = FCM_maurice_thorez_name
+				portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_maurice_thorez
+				small = GFX_portrait_FCM_maurice_thorez_small
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			expire = "1964.7.11.1"
+			id = -1
+		}
+	}
+
+	# 1947 mod leaders
+	FCM_pierre_monatte = {
+		name = FCM_pierre_monatte_name
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_pierre_monatte
+				small = GFX_portrait_FCM_pierre_monatte_small
+			}
+		}
+
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1989.1.1"
+			id = -1
+		}
+
+	}
+
+	FCM_leon_blum = {
+		name = FCM_leon_blum_name
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_leon_blum
+				small = GFX_portrait_FCM_leon_blum_small
+			}
+		}
+
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			expire = "1989.1.1"
+			id = -1
+		}
+
+	}
+
+	FCM_vincent_auriol = {
+		name = FCM_vincent_auriol_name
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_vincent_auriol
+				small = GFX_portrait_FCM_vincent_auriol_small
+			}
+		}
+
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1989.1.1"
+			id = -1
+		}
+
+	}
+
+	FCM_guy_mollet = {
+		name = FCM_guy_mollet_name
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_guy_mollet
+				small = GFX_portrait_FCM_guy_mollet_small
+			}
+		}
+
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1989.1.1"
+			id = -1
+		}
+
+	}
+
+	FCM_henri_groues = {
+		name = FCM_henri_groues_name
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FCM_henri_groues
+				small = GFX_portrait_FCM_henri_groues_small
+			}
+		}
+
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1989.1.1"
+			id = -1
+		}
+
+	}
+
+}

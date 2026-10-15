@@ -1,0 +1,6 @@
+music = {
+	song = "hitler_speech"	
+	chance = {
+		factor = 0
+	}
+}

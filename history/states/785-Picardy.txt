@@ -1,0 +1,50 @@
+
+state={
+	id=785
+	name="STATE_785"
+	resources={
+		steel=12.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = FCM
+		victory_points = {
+			485 3 
+		}
+		victory_points = {
+			9434 10 
+		}
+		victory_points = {
+			11563 5 
+		}
+		victory_points = {
+			11506 50 # Paris
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+			485 = {
+				naval_base = 1
+			}
+			9534 = {
+				# The Renault factories on Île Seguin in Billancourt
+				land_facility = 1
+			}
+		}
+			add_core_of = FCM
+}
+
+	provinces={
+		485 6569 6585 6949 9434 9534 9561 11491 11506 11518 11549 11563 
+	}
+	manpower=1580000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ MALACCA_STRAIT:0 "马六甲海峡"
+ KOREA_STRAIT:0 "朝鲜海峡"
+ KOREA_STRAIT_FAKE:0 "$KOREA_STRAIT$"

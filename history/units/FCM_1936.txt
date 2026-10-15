@@ -1,0 +1,92 @@
+division_template = {
+	name = "Division Populaire"		# 人民师
+	division_names_group = FCM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Garde"		# 赤卫旅
+	division_names_group = FCM_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	##### Armée Populaire de la Commune #####
+	division = { # "1re Division Populaire de l'Est-Paris"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11506
+		division_template = "Division Populaire"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "2e Division Populaire"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11506
+		division_template = "Division Populaire"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "3e Division Populaire"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9534
+		division_template = "Division Populaire"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "Garde de Rouen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 575
+		division_template = "Brigade de Garde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = { # "Garde de Strasbourg"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6529
+		division_template = "Brigade de Garde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = { # "Garde de Lille"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3476
+		division_template = "Brigade de Garde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+}

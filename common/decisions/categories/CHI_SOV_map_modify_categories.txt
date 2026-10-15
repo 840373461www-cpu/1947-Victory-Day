@@ -1,0 +1,20 @@
+CHI_SOV_map_modify_category = {
+	icon = GFX_decision_category_power_struggle
+	picture = GFX_decision_chi_generic_CHINA
+	priority = 1000
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+		#if = {
+		#	limit = {
+		#		tag = GMG
+		#	}
+		#	has_completed_focus = GMG_JUN_4
+		#}
+	}
+}
+
+
+

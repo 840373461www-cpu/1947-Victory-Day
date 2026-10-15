@@ -1,0 +1,21 @@
+state={
+	id=1088
+	name="STATE_1088"
+	history={
+		owner = FRA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	impassable = yes
+	provinces={
+		1958 8088 10731 12018 12842 
+	}
+	manpower=10234
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

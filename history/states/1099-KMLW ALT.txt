@@ -1,0 +1,27 @@
+
+state={
+	id=1099
+	name="STATE_1099"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = ALT
+		victory_points = {
+			7822 1 
+		}
+
+	}
+
+	provinces={
+		7822
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=2.000
+}

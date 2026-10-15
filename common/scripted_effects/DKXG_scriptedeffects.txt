@@ -1,0 +1,1548 @@
+########中亚########
+
+#哈萨克斯坦
+SOV_KAZ_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1154
+				state = 406
+				state = 407
+				state = 404
+				state = 402
+				state = 881
+				state = 583
+				state = 586
+				state = 587
+				state = 589
+				state = 588
+				state = 590
+				state = 882
+				state = 1147
+				state = 1124
+				state = 1125
+				state = 1129
+			}
+		}
+		add_core_of = KAZ
+		if = {
+			limit = {
+				is_controlled_by_ROOT_or_subject = no
+			}
+			add_contested_owner = KAZ
+		}
+		if = {
+			limit = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			transfer_state_to = KAZ
+		}
+	}
+	KAZ = {
+		hidden_effect = {
+			set_cosmetic_tag = KAZ_TNO
+			set_global_flag = KAZ_TNO_flag
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = KAZ_Dinmukhamed_Kunaev
+				picture = "gfx/leaders/Asia_l/Portrait_Kazakhstan_Dinmukhamed_Kunaev.dds"
+				desc = "POLITICS_DINMUKHAMED_KUNAEV_DESC"
+				expire = "1999.1.1.1"
+				ideology = marxism_leninism
+				id = -1
+			}
+		}
+	}
+}
+
+#乌兹别克
+SOV_UZB_duli = {
+	UZB = {
+		transfer_state = 830
+		transfer_state = 585
+		transfer_state = 823
+		transfer_state = 1126
+		transfer_state = 1130
+		add_state_core = 830
+		add_state_core = 585
+		add_state_core = 823
+		add_state_core = 1126
+		add_state_core = 1130
+		hidden_effect = {
+			set_cosmetic_tag = UZB_TNO
+			set_victory_points = {
+				province = 4629
+				value = 3
+			}
+			1126 = {
+				set_demilitarized_zone = yes
+			}
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = UZB_Fayzulla_Khodzhayev
+				picture = "gfx/leaders/Asia_l/Portrait_Uzbekistan_Fayzullah_Khodjaev.dds"
+				desc = "POLITICS_FAYZULLA_KHODZHAYEV_DESC"
+				ideology = marxism_leninism
+				expire = "1999.1.1.1"
+			}
+			set_global_flag = UZB_TNO_flag
+		}
+	}
+}
+
+#吉尔吉斯
+SOV_KYR_duli = {
+	KYR = {
+		transfer_state = 732
+		transfer_state = 405
+		transfer_state = 1118
+		transfer_state = 1131
+		add_state_core = 732
+		add_state_core = 405
+		add_state_core = 1118
+		add_state_core = 1131
+		hidden_effect = {
+			create_country_leader = {
+				name = KYR_Kaliynur_Usenbekov
+				picture = "gfx/leaders/Asia_l/Portrait_Kyrgyzstan_Kaliynur_Usenbekov.dds"
+				desc = "POLITICS_KALIYNUR_USENBEKOV_DESC"
+				ideology = marxism_leninism
+				expire = "1999.1.1.1"
+			}
+			create_corps_commander = {
+				name = KYR_Kaliynur_Usenbekov
+				picture = "gfx/leaders/Asia_l/Portrait_Kyrgyzstan_Kaliynur_Usenbekov.dds"
+				traits = {
+					politically_connected
+					organizer
+				}
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			set_victory_points = {
+				province = 1825
+				value = 3
+			}
+			set_cosmetic_tag = KYR_TNO
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_global_flag = KYR_TNO_flag
+		}
+	}
+}
+
+#土库曼
+SOV_TMS_duli = {
+	TMS = {
+		transfer_state = 832
+		transfer_state = 584
+		transfer_state = 1132
+		add_state_core = 832
+		add_state_core = 584
+		add_state_core = 1132
+		hidden_effect = {
+			create_country_leader = {
+				name = TRK_Poda_Annaorazov
+				picture = "gfx/leaders/Asia_l/Portrait_Turkmenistan_Poda_Annaorazov.dds"
+				desc = "POLITICS_PODA_ANNAORAZOV_DESC"
+				ideology = marxism_leninism
+				expire = "1999.1.1.1"
+			}
+			set_cosmetic_tag = TMS_TNO
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_global_flag = TMS_TNO_flag
+		}
+	}
+	PER = {
+		transfer_state = 1083
+		add_state_core = 1083
+	}
+}
+
+#塔吉克
+SOV_TAJ_duli = {
+	TAJ = {
+		transfer_state = 742
+		add_state_core = 742
+		hidden_effect = {
+			set_cosmetic_tag = TAJ_TNO
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = TAJ_Bobodzhan_Gafurov
+				picture = "gfx/leaders/Asia_l/Portrait_Tajikistan_Bobodzhan_Gafurov.dds"
+				desc = "POLITICS_BOBODZHAN_GAFUROV_DESC"
+				ideology = marxism_leninism
+				expire = "1999.1.1.1"
+			}
+			set_global_flag = TAJ_TNO_flag
+		}
+	}
+	AFG = {
+		transfer_state = 1151
+		transfer_state = 1146
+		add_state_core = 1146
+		add_state_core = 1151
+	}
+}
+
+#卡拉卡尔帕克斯坦
+SOV_KKP_duli = {
+	set_province_name = {
+		id = 1614
+		name = "诺基斯"
+	}
+	KKP = {
+		transfer_state = 831
+		add_state_core = 831
+		hidden_effect = {
+			set_cosmetic_tag = KKP_TNO
+			set_politics = {
+				ruling_party = communism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = KRK_Kadyrov_Abdurashit
+				picture = "gfx/leaders/Asia_l/Portrait_Karakalpakstan_Kadyrov_Abdurashit.dds"
+				desc = "POLITICS_KADYROV_ABDURASHIT_DESC"
+				expire = "1999.1.1"
+				ideology = marxism_leninism
+				id = -1
+			}
+			set_global_flag = KKP_TNO_flag
+		}
+	}
+}
+
+#突厥斯坦军团
+SOV_UTL_duli = {
+	set_victory_points = {
+		province = 7639
+		value = 3
+	}
+	UTL = {
+		transfer_state = 1127
+		transfer_state = 1128
+		add_state_core = 1127
+		add_state_core = 1128
+		add_country_leader_role = {
+			character = UTL_Veli_Kayum_Khan
+			country_leader = {
+				desc = "POLITICS_VELI_KAYUM_KHAN_DESC"
+				expire = "1999.1.1"
+				ideology = nazism
+				id = -1
+			}
+			promote_leader = yes
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.3
+		}
+		set_politics = {
+			ruling_party = fascism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_cosmetic_tag = UTL_TNO
+		set_global_flag = UTL_TNO_flag
+	}
+}
+
+########西俄罗斯########
+
+#西俄罗斯革命阵线
+WRS_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 214
+				state = 880
+				state = 397
+				state = 262
+				state = 825
+			}
+		}
+		add_core_of = WRS
+		transfer_state_to = WRS
+	}
+	WRS = {
+		hidden_effect = {
+			set_cosmetic_tag = WRS
+			set_global_flag = WRS_TNO_flag
+			add_country_leader_role = {
+				character = WRS_Alexander_Yegorov
+				country_leader = {
+					expire = "1999.1.1"
+					desc = "POLITICS_ALEXANDER_YEGOROV_DESC"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#巴什基尔
+BKR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 651
+			}
+		}
+		add_core_of = BKR
+		transfer_state_to = BKR
+	}
+	BKR = {
+		hidden_effect = {
+			set_cosmetic_tag = BKR
+			set_global_flag = BKR_TNO_flag
+			add_country_leader_role = {
+				character = BKR_Validi_Tugan
+				country_leader = {
+					desc = "POLITICS_VALIDI_TUGAN_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#圣格奥尔基骑士团
+GAY_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1103
+			}
+		}
+		add_core_of = GAY
+		transfer_state_to = GAY
+	}
+	GAY = {
+		hidden_effect = {
+			set_cosmetic_tag = GAY
+			set_global_flag = GAY_TNO_flag
+			add_country_leader_role = {
+				character = GAY_Mikhail_Antipin
+				country_leader = {
+					desc = "POLITICS_MIKHAIL_ANTIPIN_DESC"
+					expire = "1999.1.1.1"
+					ideology = despotism
+					traits = {
+						the_militant_shepherd
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#高尔基
+GOR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 252
+			}
+		}
+		add_core_of = GOR
+		transfer_state_to = GOR
+	}
+	GOR = {
+		hidden_effect = {
+			set_cosmetic_tag = GOR
+			set_global_flag = GOR_TNO_flag
+			add_country_leader_role = {
+				character = GOR_Ivan_Chernyakhovsky
+				country_leader = {
+					expire = "1999.1.1"
+					desc = "POLITICS_IVAN_CHERNYAKHOVSKY_DESC"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#科米
+KOM_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 400
+				state = 1161
+			}
+		}
+		add_core_of = KOM
+		transfer_state_to = KOM
+	}
+	KOM = {
+		hidden_effect = {
+			set_cosmetic_tag = KOM_TNO
+			set_global_flag = KOM_TNO_flag
+			set_politics = {
+				ruling_party = democratic
+				last_election = "1933.3.5"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 49
+				neutrality = 21
+				communism = 24
+				fascism = 6
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = KOM_TNO_neutrality_party_long
+				name = KOM_TNO_neutrality_party
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = KOM_TNO_communism_party_long
+				name = KOM_TNO_communism_party
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = KOM_TNO_democratic_party_long
+				name = KOM_TNO_democratic_party
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = KOM_TNO_fascism_party_long
+				name = KOM_TNO_fascism_party
+			}
+			create_country_leader = {
+				name = KOM_Nikolai_Voznesensky
+				picture = "gfx/leaders/RUS/Portrait_Komi_Nikolai_Voznesensky.png"
+				desc = "POLITICS_NIKOLAI_VOZNESENSKY_DESC"
+				expire = "1999.1.1"
+				ideology = socialism
+				traits = {
+					controversial_populist
+				}
+				id = -1
+			}
+		}
+	}
+}
+
+#奥涅加
+ONG_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 879
+			}
+		}
+		add_core_of = ONG
+		transfer_state_to = ONG
+	}
+	ONG = {
+		hidden_effect = {
+			set_cosmetic_tag = ONG
+			set_global_flag = ONG_TNO_flag
+			add_country_leader_role = {
+				character = ONG_Vladimir_Kirpichnikov
+				country_leader = {
+					desc = "POLITICS_VLADIMIR_KIRPICHNIKOV_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#雅利安兄弟会
+PRM_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 398
+			}
+		}
+		add_core_of = PRM
+		transfer_state_to = PRM
+	}
+	PRM = {
+		hidden_effect = {
+			set_cosmetic_tag = PRM
+			set_global_flag = PRM_TNO_flag
+			add_country_leader_role = {
+				character = PRM_Gutrum_Vagner
+				country_leader = {
+					desc = "POLITICS_GUTRUM_VAGNER_DESC"
+					expire = "1999.1.1"
+					ideology = nazism
+					traits = {
+						the_fyurer
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#萨马拉
+SMR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 251
+				state = 250
+				state = 401
+			}
+		}
+		add_core_of = SMR
+		transfer_state_to = SMR
+	}
+	SMR = {
+		hidden_effect = {
+			set_cosmetic_tag = SMR
+			set_global_flag = SMR_TNO_flag
+			add_country_leader_role = {
+				character = SAM_Andrey_Vlasov
+				country_leader = {
+					desc = "POLITICS_ANDREY_VLASOV_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#鞑靼斯坦
+TAR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 249
+				state = 833
+				state = 1162
+				state = 256
+			}
+		}
+		add_core_of = TAR
+		transfer_state_to = TAR
+	}
+	TAR = {
+		hidden_effect = {
+			set_cosmetic_tag = TAR
+			set_global_flag = TAR_TNO_flag
+			add_country_leader_role = {
+				character = TAR_Abdulla_Alis
+				country_leader = {
+					desc = "POLITICS_ABDULLA_ALIS_DESC"
+					expire = "1999.1.1.1"
+					ideology = oligarchism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#沃洛格达
+VLG_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1104
+				state = 351
+			}
+		}
+		add_core_of = VLG
+		transfer_state_to = VLG
+	}
+	VLG = {
+		hidden_effect = {
+			set_cosmetic_tag = VLG
+			set_global_flag = VLG_TNO_flag
+			add_country_leader_role = {
+				character = VOL_Vasily_Ivanov
+				country_leader = {
+					desc = "POLITICS_VASILY_IVANOV_DESC"
+					expire = "1999.1.1"
+					ideology = oligarchism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+#维亚特卡
+VYT_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 399
+			}
+		}
+		add_core_of = VYT
+		transfer_state_to = VYT
+	}
+	VYT = {
+		hidden_effect = {
+			set_cosmetic_tag = VYT
+			set_global_flag = VYT_TNO_flag
+			add_country_leader_role = {
+				character = VYT_Vladimir_III
+				country_leader = {
+					desc = "POLITICS_TSAR_VLADIMIR_DESC"
+					ideology = despotism
+					traits = {
+						the_rightful_heir
+					}
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+########南乌拉尔########
+
+DRL_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1101
+			}
+		}
+		add_core_of = DRL
+		transfer_state_to = DRL
+	}
+	DRL = {
+		hidden_effect = {
+			set_cosmetic_tag = DRL
+			set_global_flag = DRL_TNO_flag
+			add_country_leader_role = {
+				character = DRL_Oskar_Dirlewanger
+				country_leader = {
+					desc = "POLITICS_OSKAR_DIRLEWANGER_DESC"
+					expire = "1999.1.1"
+					ideology = nazism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+MGN_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 582
+			}
+		}
+		add_core_of = MGN
+		transfer_state_to = MGN
+	}
+	MGN = {
+		hidden_effect = {
+			set_cosmetic_tag = MGN
+			set_global_flag = MGN_TNO_flag
+			add_country_leader_role = {
+				character = MGN_Trofim_Lysenko
+				country_leader = {
+					desc = "POLITICS_TROFIM_LYSENKO_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+ORE_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 652
+			}
+		}
+		add_core_of = ORE
+		transfer_state_to = ORE
+	}
+	ORE = {
+		hidden_effect = {
+			set_cosmetic_tag = ORE
+			set_global_flag = ORE_TNO_flag
+			add_country_leader_role = {
+				character = ORE_Workers_Council_of_Orenburg
+				country_leader = {
+					desc = "POLITICS_WORKERS_COUNCIL_ORENBURG_DESC"
+					expire = "1999.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+URL_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1102
+			}
+		}
+		add_core_of = URL
+		transfer_state_to = URL
+	}
+	URL = {
+		hidden_effect = {
+			set_cosmetic_tag = URL
+			set_global_flag = URL_TNO_flag
+			add_country_leader_role = {
+				character = URL_Janis_Mendriks
+				country_leader = {
+					desc = "POLITICS_JANIS_MENDRIKS_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+########西西伯利亚########
+
+FAV_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 577
+			}
+		}
+		add_core_of = FAV
+		transfer_state_to = FAV
+	}
+	FAV = {
+		hidden_effect = {
+			set_cosmetic_tag = FAV
+			set_global_flag = FAV_TNO_flag
+			add_country_leader_role = {
+				character = FAV_Yevdokia_Bocharova
+				country_leader = {
+					desc = "POLITICS_YEVDOKIA_BOCHAROVA_DESC"
+					expire = "1999.1.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+OMS_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 571
+			}
+		}
+		add_core_of = OMS
+		transfer_state_to = OMS
+	}
+	OMS = {
+		hidden_effect = {
+			set_cosmetic_tag = OMS
+			set_global_flag = OMS_TNO_flag
+			add_country_leader_role = {
+				character = OMS_Dmitry_Karbyshev
+				country_leader = {
+					desc = "POLITICS_DMITRY_KARBYSHEV_DESC"
+					expire = "1999.1.1"
+					ideology = gen_nazism
+					traits = {
+						the_caged_general
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+SVR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 653
+			}
+		}
+		add_core_of = SVR
+		transfer_state_to = SVR
+	}
+	SVR = {
+		hidden_effect = {
+			set_cosmetic_tag = SVR
+			set_global_flag = SVR_TNO_flag
+			add_country_leader_role = {
+				character = SVR_Konstantin_Rokossovsky
+				country_leader = {
+					desc = "POLITICS_KONSTANTIN_ROKOSSOVSKY_DESC"
+					traits = {
+						the_lion_of_siberia
+					}
+					expire = "1999.1.1"
+					ideology = despotism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+TYM_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 403
+				state = 572
+			}
+		}
+		add_core_of = TYM
+		transfer_state_to = TYM
+	}
+	TYM = {
+		hidden_effect = {
+			set_cosmetic_tag = TYM
+			set_global_flag = TYM_TNO_flag
+			add_country_leader_role = {
+				character = TYM_Lazar_Kaganovich
+				country_leader = {
+					desc = "POLITICS_LAZAR_KAGANOVICH_DESC"
+					expire = "1991.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+VOR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 581
+			}
+		}
+		add_core_of = VOR
+		transfer_state_to = VOR
+	}
+	VOR = {
+		hidden_effect = {
+			set_cosmetic_tag = VOR
+			set_global_flag = VOR_TNO_flag
+			add_country_leader_role = {
+				character = VOR_Vasily_Blokhin
+				country_leader = {
+					desc = "POLITICS_VASILY_BLOKHIN_DESC"
+					expire = "1999.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+YGR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 579
+				state = 580
+			}
+		}
+		add_core_of = YGR
+		transfer_state_to = YGR
+	}
+	YGR = {
+		hidden_effect = {
+			set_cosmetic_tag = YGR
+			set_global_flag = YGR_TNO_flag
+			add_country_leader_role = {
+				character = YGR_Jaba_Ioseliani
+				country_leader = {
+					desc = "POLITICS_JABA_IOSELIANI_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+ZLT_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 573
+			}
+		}
+		add_core_of = ZLT
+		transfer_state_to = ZLT
+	}
+	ZLT = {
+		hidden_effect = {
+			set_cosmetic_tag = ZLT
+			set_global_flag = ZLT_TNO_flag
+			add_country_leader_role = {
+				character = ZLT_Yevgeny_Dragunov
+				country_leader = {
+					desc = "POLITICS_YEVGENY_DRAGUNOV_DESC"
+					expire = "1999.1.1.1"
+					ideology = liberalism
+					traits = {
+						the_merchant_of_death
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+########中西伯利亚########
+
+ALT_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 654
+			}
+		}
+		add_core_of = ALT
+		transfer_state_to = ALT
+	}
+	ALT = {
+		hidden_effect = {
+			set_cosmetic_tag = ALT_TNO
+			set_global_flag = ALT_TNO_flag
+			set_politics = {
+				ruling_party = neutrality
+				last_election = "1933.3.5"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 26
+				neutrality = 65
+				communism = 0
+				fascism = 9
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = ALT_TNO_neutrality_party_long
+				name = ALT_TNO_neutrality_party
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = ALT_TNO_communism_party_long
+				name = ALT_TNO_communism_party
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = ALT_TNO_democratic_party_long
+				name = ALT_TNO_democratic_party
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = ALT_TNO_fascism_party_long
+				name = ALT_TNO_fascism_party
+			}
+			create_country_leader = {
+				name = ALT_Ivan_Zavoloko
+				picture = "gfx/leaders/RUS/Portrait_Oyrotia_Ivan_Zavoloko.png"
+				desc = "POLITICS_IVAN_ZAVOLOKO_DESC"
+				expire = "1999.1.1"
+				ideology = despotism
+				id = -1
+			}
+		}
+	}
+}
+
+KEM_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1099
+				state = 569
+			}
+		}
+		add_core_of = KEM
+		transfer_state_to = KEM
+	}
+	KEM = {
+		hidden_effect = {
+			set_cosmetic_tag = KEM
+			set_global_flag = KEM_TNO_flag
+			add_country_leader_role = {
+				character = KEM_Rurik_II
+				country_leader = {
+					desc = "POLITICS_RURIK_II_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+KRS_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 568
+				state = 1097
+			}
+		}
+		add_core_of = KRS
+		transfer_state_to = KRS
+	}
+	KRS = {
+		hidden_effect = {
+			set_cosmetic_tag = KRS
+			set_global_flag = KRS_TNO_flag
+			add_country_leader_role = {
+				character = KRS_Nikolai_Andreev
+				country_leader = {
+					desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+					expire = "1999.1.1"
+					ideology = despotism
+					id = -1
+				}
+				country_leader = {
+					desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+					expire = "1999.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				country_leader = {
+					desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+					expire = "1999.1.1"
+					ideology = conservatism
+					id = -1
+				}
+				country_leader = {
+					desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+					expire = "1999.1.1"
+					ideology = fascism_ideology
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+NOV_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 1098
+				state = 40
+				state = 570
+			}
+		}
+		add_core_of = NOV
+		transfer_state_to = NOV
+	}
+	NOV = {
+		hidden_effect = {
+			set_cosmetic_tag = NOV
+			set_global_flag = NOV_TNO_flag
+			add_country_leader_role = {
+				character = NOV_Alexander_Pokryshkin
+				country_leader = {
+					desc = "POLITICS_ALEXANDER_POKRYSHKIN_DESC"
+					expire = "1999.1.1"
+					ideology = oligarchism
+					traits = {
+						the_siberian_falcon
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+NRL_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 824
+				state = 878
+				state = 516
+			}
+		}
+		add_core_of = NRL
+		transfer_state_to = NRL
+	}
+	NRL = {
+		hidden_effect = {
+			set_cosmetic_tag = NRL
+			set_global_flag = NRL_TNO_flag
+			add_country_leader_role = {
+				character = NRL_No_Authority
+				country_leader = {
+					desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+					ideology = anarchism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+RGW_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 329
+			}
+		}
+		add_core_of = RGW
+		transfer_state_to = RGW
+	}
+	RGW = {
+		hidden_effect = {
+			set_cosmetic_tag = RGW
+			set_global_flag = RGW_TNO_flag
+			add_country_leader_role = {
+				character = PRC_Aleksandr_Vasilevsky
+				country_leader = {
+					desc = "POLITICS_ALEKSANDER_VASILEVSKY_DESC"
+					expire = "1999.1.1"
+					ideology = marxism_leninism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+SBA_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 567
+				state = 1096
+			}
+		}
+		add_core_of = SBA
+		transfer_state_to = SBA
+	}
+	SBA = {
+		hidden_effect = {
+			set_cosmetic_tag = SBA
+			set_global_flag = SBA_TNO_flag
+			add_country_leader_role = {
+				character = SBA_Siberian_Soviet
+				country_leader = {
+					desc = "POLITICS_SIBERIAN_SOVIET_DESC"
+					expire = "1999.1.1"
+					ideology = marxism_leninism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+TOM_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 576
+				state = 578
+				state = 1100
+			}
+		}
+		add_core_of = TOM
+		transfer_state_to = TOM
+	}
+	TOM = {
+		hidden_effect = {
+			set_cosmetic_tag = TOM
+			set_global_flag = TOM_TNO_flag
+			add_country_leader_role = {
+				character = TOM_Boris_Pasternak
+				country_leader = {
+					desc = "POLITICS_BORIS_PASTERNAK_DESC"
+					expire = "1999.1.1"
+					ideology = conservatism
+					traits = {
+					}
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+########远东########
+
+AMR_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 561
+				state = 562
+				state = 1094
+			}
+		}
+		add_core_of = AMR
+		transfer_state_to = AMR
+	}
+	AMR = {
+		hidden_effect = {
+			set_cosmetic_tag = AMR
+			set_global_flag = AMR_TNO_flag
+			add_country_leader_role = {
+				character = AMR_Konstantin_Rodzaevsky
+				country_leader = {
+					desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+					ideology = gen_nazism
+					traits = {
+						the_vozhd_of_the_russians
+					}
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+BRY_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 564
+			}
+		}
+		add_core_of = BRY
+		transfer_state_to = BRY
+	}
+	BRY = {
+		hidden_effect = {
+			set_cosmetic_tag = BRY
+			set_global_flag = BRY_TNO_flag
+			add_country_leader_role = {
+				character = BRY_Valery_Sablin
+				country_leader = {
+					desc = "POLITICS_VALERY_SABLIN_DESC"
+					ideology = marxism_leninism
+					traits = {
+						the_last_sentry
+					}
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+CHT_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 563
+				state = 1095
+			}
+		}
+		add_core_of = CHT
+		transfer_state_to = CHT
+	}
+	CHT = {
+		hidden_effect = {
+			set_cosmetic_tag = CHT
+			set_global_flag = CHT_TNO_flag
+			add_country_leader_role = {
+				character = CHT_Mikhail_II
+				country_leader = {
+					desc = "POLITICS_TSAR_MIKHAIL_DESC"
+					ideology = despotism
+					traits = {
+						the_reluctant_tsar
+					}
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+IRK_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 566
+			}
+		}
+		add_core_of = IRK
+		transfer_state_to = IRK
+	}
+	IRK = {
+		hidden_effect = {
+			set_cosmetic_tag = IRK
+			set_global_flag = IRK_TNO_flag
+			add_country_leader_role = {
+				character = IRK_Genrikh_Yagoda
+				country_leader = {
+					desc = "POLITICS_GENRIKH_YAGODA_DESC"
+					expire = "1999.1.1.1"
+					ideology = marxism_leninism
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+KMC_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 637
+			}
+		}
+		add_core_of = KMC
+		transfer_state_to = KMC
+	}
+	KMC = {
+		hidden_effect = {
+			set_cosmetic_tag = KMC
+			set_global_flag = KMC_TNO_flag
+			add_country_leader_role = {
+				character = KMC_Ivan_Yumashev
+				country_leader = {
+					desc = "POLITICS_IVAN_YUMASHEV_DESC"
+					ideology = marxism_leninism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+MAG_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 874
+			}
+		}
+		add_core_of = MAG
+		transfer_state_to = MAG
+	}
+	MAG = {
+		hidden_effect = {
+			set_cosmetic_tag = MAG
+			set_global_flag = MAG_TNO_flag
+			add_country_leader_role = {
+				character = MAG_Mikhail_Matkovsky
+				country_leader = {
+					desc = "POLITICS_IVAN_YUMASHEV_DESC"
+					ideology = marxism_leninism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+OMO_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 575
+				state = 875
+				state = 876
+				state = 877
+				state = 644
+				state = 822
+			}
+		}
+		add_core_of = OMO
+		transfer_state_to = OMO
+	}
+	OMO = {
+		hidden_effect = {
+			set_cosmetic_tag = OMO
+			set_global_flag = OMO_TNO_flag
+			add_country_leader_role = {
+				character = OMO_No_Authority
+				country_leader = {
+					desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+					ideology = anarchism
+					expire = "1999.1.1.1"
+					id = -1
+				}
+				promote_leader = yes
+			}
+		}
+	}
+}
+
+YAK_duli = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 565
+				state = 574
+			}
+		}
+		add_core_of = YAK
+		transfer_state_to = YAK
+	}
+	YAK = {
+		hidden_effect = {
+			set_cosmetic_tag = YAK_TNO
+			set_global_flag = YAK_TNO_flag
+			set_politics = {
+				ruling_party = democratic
+				last_election = "1933.3.5"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 86 
+				neutrality = 5
+				communism = 9
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = YAK_TNO_neutrality_party_long
+				name = YAK_TNO_neutrality_party
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = YAK_TNO_communism_party_long
+				name = YAK_TNO_communism_party
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = YAK_TNO_democratic_party_long
+				name = YAK_TNO_democratic_party
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = YAK_TNO_fascism_party_long
+				name = YAK_TNO_fascism_party
+			}
+			create_country_leader = {
+				name = YAK_Georgy_Basharin
+				picture = "gfx/leaders/RUS/Portrait_Yakutia_Georgiy_Basharin.png"
+				desc = "POLITICS_GEORGIY_BASHARIN_DESC"
+				expire = "1999.1.1.1"
+				ideology = liberalism
+				id = -1
+			}
+		}
+	}
+}

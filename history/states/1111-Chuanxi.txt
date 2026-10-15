@@ -1,0 +1,31 @@
+state={
+	id=1111
+	name="STATE_1111"
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		1938.10.25 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = SIC
+			}		
+			owner = CHI
+			controller = CHI
+		}
+
+}
+	provinces={
+		13431 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

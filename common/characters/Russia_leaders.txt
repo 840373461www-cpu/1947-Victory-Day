@@ -1,0 +1,831 @@
+characters = {
+	########西俄罗斯########
+	WRS_Alexander_Yegorov = {
+		name = WRS_Alexander_Yegorov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_WRRF_Alexander_Yegorov.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_WRRF_Alexander_Yegorov.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_ALEXANDER_YEGOROV_DESC"
+			ideology = marxism_leninism
+			id = -1
+		}
+		field_marshal = {
+			traits = { old_guard inspirational_leader career_officer winter_specialist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 3398
+		}
+	}
+	BKR_Validi_Tugan = {
+		name = BKR_Validi_Tugan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Bashkiria_Validi_Tugan.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VALIDI_TUGAN_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			traits = { }
+			id = -1
+		}
+	}
+	GAY_Mikhail_Antipin = {
+		name = GAY_Mikhail_Antipin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Gayny_Mikhail_Antipin.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Gayny_Mikhail_Antipin.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_ANTIPIN_DESC"
+			expire = "1999.1.1.1"
+			ideology = despotism
+			traits = { the_militant_shepherd }
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { unyielding_defender trait_engineer inflexible_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3301
+		}
+	}
+	GOR_Ivan_Chernyakhovsky = {
+		name = GOR_Ivan_Chernyakhovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Gorky_Ivan_Chernyakhovsky.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Gorky_Ivan_Chernyakhovsky.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_IVAN_CHERNYAKHOVSKY_DESC"
+			ideology = marxism_leninism
+			id = -1
+		}
+		field_marshal = {
+			traits = { inspirational_leader trickster armor_officer panzer_leader panzer_expert }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 3396
+		}
+	}
+	KOM_Nikolai_Voznesensky = {
+		name = KOM_Nikolai_Voznesensky
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Komi_Nikolai_Voznesensky.png" } }
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_VOZNESENSKY_DESC"
+			expire = "1999.1.1"
+			ideology = socialism
+			traits = { controversial_populist }
+			id = -1
+		}
+	}
+	ONG_Vladimir_Kirpichnikov = {
+		name = ONG_Vladimir_Kirpichnikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Onega_Vladimir_Kirpichnikov.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Onega_Vladimir_Kirpichnikov.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VLADIMIR_KIRPICHNIKOV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+		}
+		field_marshal = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	PRM_Gutrum_Vagner = {
+		name = PRM_Gutrum_Vagner
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Aryan_Brotherhood_Alexey_Dobrovolsky.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Aryan_Brotherhood_Alexey_Dobrovolsky.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GUTRUM_VAGNER_DESC"
+			expire = "1999.1.1"
+			ideology = nazism
+			traits = {
+				the_fyurer
+			}
+		}
+		field_marshal = {
+			traits = { trait_reckless harsh_leader inspirational_leader trickster }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3457
+		}
+	}
+	SAM_Andrey_Vlasov = {
+		name = SAM_Andrey_Vlasov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Samara_Andrey_Vlasov.png"
+				small = "gfx/leaders/RUS/SAM_minister_Andrey_Vlasov.dds"
+			}
+			army = { large = "gfx/leaders/RUS/Portrait_Samara_Andrey_Vlasov.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_VLASOV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_VLASOV_DESC"
+			expire = "1999.1.1"
+			ideology = nazism
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Andrey_Vlasov_hog
+			traits = {
+				hog_disgruntled_politician
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3431
+		}
+	}
+	TAR_Abdulla_Alis = {
+		name = TAR_Abdulla_Alis
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Tatarstan_Abdulla_Alis.png" } }
+		country_leader = {
+			desc = "POLITICS_ABDULLA_ALIS_DESC"
+			expire = "1999.1.1.1"
+			ideology = oligarchism
+			id = -1
+		}
+	}
+	VOL_Vasily_Ivanov = {
+		name = VOL_Vasily_Ivanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Vologda_Vasily_Ivanov.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Vologda_Vasily_Ivanov.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_VASILY_IVANOV_DESC"
+			expire = "1999.1.1"
+			ideology = oligarchism
+			traits = { }
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { war_hero trait_cautious defensive_doctrine }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 3421
+		}
+	}
+	VYT_Vladimir_III = {
+		name = VYT_Vladimir_III
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Vyatka_Vladimir_III.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = fascism_ideology
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = despotism
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = liberalism
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	########南乌拉尔########
+	DRL_Oskar_Dirlewanger = {
+		name = DRL_Oskar_Dirlewanger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Dirlewanger_Brigade_Oskar_Dirlewanger.png"
+				small = "gfx/leaders/RUS/DRL_minister_Oskar_Dirlewanger.dds"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Dirlewanger_Brigade_Oskar_Dirlewanger.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_OSKAR_DIRLEWANGER_DESC"
+			expire = "1999.1.1"
+			ideology = nazism
+			id = -1
+		}
+		field_marshal = {
+			traits = { winter_specialist harsh_leader trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3521
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = DRL_Oskar_Dirlewanger_hog
+			traits = {
+				hog_the_black_bandit
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MGN_Trofim_Lysenko = {
+		name = MGN_Trofim_Lysenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Magnitogorsk_Trofim_Lysenko.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TROFIM_LYSENKO_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			id = -1
+		}
+	}
+	ORE_Workers_Council_of_Orenburg = {
+		name = ORE_Workers_Council_of_Orenburg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Orenburg_Workers_Council.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WORKERS_COUNCIL_ORENBURG_DESC"
+			expire = "1999.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+	}
+	URL_Janis_Mendriks = {
+		name = URL_Janis_Mendriks
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Ural_League_Janis_Mendriks.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JANIS_MENDRIKS_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			id = -1
+		}
+	}
+	########西西伯利亚########
+	FAV_Yevdokia_Bocharova = {
+		name = FAV_Yevdokia_Bocharova
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Free_Aviators_Yevdokia_Bocharova.png" } }
+		gender = female
+		country_leader = {
+			desc = "POLITICS_YEVDOKIA_BOCHAROVA_DESC"
+			expire = "1999.1.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+	}
+	OMS_Dmitry_Karbyshev = {
+		name = OMS_Dmitry_Karbyshev
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_Omsk_Dmitry_Karbyshev.png" }
+			army = { large = "gfx/leaders/RUS/Portrait_Omsk_Dmitry_Karbyshev.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_DMITRY_KARBYSHEV_DESC"
+			expire = "1999.1.1"
+			ideology = gen_nazism
+			traits = { the_caged_general }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_DMITRY_KARBYSHEV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			traits = { the_caged_general }
+			id = -1
+		}
+		field_marshal = {
+			traits = { organisational_leader war_hero trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 3586
+		}
+	}
+	SVR_Konstantin_Rokossovsky = {
+		name = SVR_Konstantin_Rokossovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Sverdlovsk_Konstantin_Rokossovsky.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Sverdlovsk_Konstantin_Rokossovsky.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KONSTANTIN_ROKOSSOVSKY_DESC"
+			traits = { the_lion_of_siberia }
+			expire = "1999.1.1"
+			ideology = despotism
+			id = -1
+		}
+		field_marshal = {
+			traits = { trait_cautious armor_officer organizer brilliant_strategist inspirational_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 3551
+		}
+	}
+	TYM_Lazar_Kaganovich = {
+		name = TYM_Lazar_Kaganovich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Tyumen_Lazar_Kaganovich.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LAZAR_KAGANOVICH_DESC"
+			expire = "1991.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+	}
+	VOR_Vasily_Blokhin = {
+		name = VOR_Vasily_Blokhin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Vorkuta_Vasily_Blokhin.png"
+				small = "gfx/leaders/RUS/VOR_minister_Vasily_Blokhin.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VASILY_BLOKHIN_DESC"
+			expire = "1999.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VOR_Vasily_Blokhin_hog
+			allowed = { original_tag = VOR }
+			traits = {
+				hog_local_tyrant
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	YGR_Jaba_Ioseliani = {
+		name = YGR_Jaba_Ioseliani
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Yugra_Jaba_Ioseliani.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Yugra_Jaba_Ioseliani.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JABA_IOSELIANI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			id = -1
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			traits = {
+				trait_reckless
+				organizer
+				fast_planner
+			}
+			legacy_id = 3531
+		}
+	}
+	ZLT_Yevgeny_Dragunov = {
+		name = ZLT_Yevgeny_Dragunov
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Zlatoust_Yevgeny_Dragunov.png" } }
+		country_leader = {
+			desc = "POLITICS_YEVGENY_DRAGUNOV_DESC"
+			expire = "1999.1.1.1"
+			ideology = liberalism
+			traits = { the_merchant_of_death }
+			id = -1
+		}
+	}
+	########中西伯利亚########
+	ALT_Ivan_Zavoloko = {
+		name = ALT_Ivan_Zavoloko
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_Oyrotia_Ivan_Zavoloko.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_IVAN_ZAVOLOKO_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			traits = { }
+			id = -1
+		}
+	}
+	KEM_Rurik_II = {
+		name = KEM_Rurik_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Kemerovo_Rurik_II.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Kemerovo_Rurik_II.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RURIK_II_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			traits = {  }
+			id = -1
+		}
+		field_marshal = {
+			traits = { war_hero brilliant_strategist inspirational_leader trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 3635
+		}
+	}
+	KRS_Nikolai_Andreev = {
+		name = KRS_Nikolai_Andreev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Krasnoyarsk_Nikolai_Andreev.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Krasnoyarsk_Nikolai_Andreev.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = conservatism
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = fascism_ideology
+			id = -1
+		}
+		field_marshal = {
+			desc = "MILITARY_NIKOLAI_ANDREEV_DESC"
+			traits = { trait_cautious infantry_leader winter_specialist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 3651
+		}
+	}
+	NOV_Alexander_Pokryshkin = {
+		name = NOV_Alexander_Pokryshkin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Novosibirsk_Alexander_Pokryshkin.png"
+				small = "gfx/leaders/RUS/NOV_minister_Alexander_Pokryshkin.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_POKRYSHKIN_DESC"
+			expire = "1999.1.1"
+			ideology = oligarchism
+			traits = { the_siberian_falcon }
+			id = -1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = NOV_Alexander_Pokryshkin_hog
+			traits = {
+				hog_old_air_marshal
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NRL_No_Authority = {
+		name = NRL_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Omolon_No_Authority.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = anarchism
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	PRC_Aleksandr_Vasilevsky = {
+		name = PRC_Aleksandr_Vasilevsky
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_PRC_Alexander_Vasilevsky.png" }
+			army = { large = "gfx/leaders/RUS/Portrait_PRC_Alexander_Vasilevsky.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_ALEKSANDER_VASILEVSKY_DESC"
+			expire = "1999.1.1"
+			ideology = marxism_leninism
+			traits = { }
+			id = -1
+		}
+		field_marshal = {
+			traits = { war_hero brilliant_strategist inspirational_leader organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 3686
+		}
+	}
+	SBA_Siberian_Soviet = {
+		name = SBA_Siberian_Soviet
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_SBA_Siberian_Soviet.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_SIBERIAN_SOVIET_DESC"
+			expire = "1999.1.1"
+			ideology = marxism_leninism
+			traits = { }
+			id = -1
+		}
+	}
+	TOM_Boris_Pasternak = {
+		name = TOM_Boris_Pasternak
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_Tomsk_Boris_Pasternak.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = conservatism
+			traits = { }
+			id = -1
+		}
+	}
+	########远东########
+	AMR_Konstantin_Rodzaevsky = {
+		name = AMR_Konstantin_Rodzaevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Amur_Konstantin_Rodzaevsky.png"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+			ideology = gen_nazism
+			traits = { the_vozhd_of_the_russians }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+	}
+	BRY_Valery_Sablin = {
+		name = BRY_Valery_Sablin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Buryatia_Valery_Sablin.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VALERY_SABLIN_DESC"
+			ideology = marxism_leninism
+			traits = { the_last_sentry }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	CHT_Mikhail_II = {
+		name = CHT_Mikhail_II
+		portraits = {
+			civilian = { large = "gfx/leaders/RUS/Portrait_Chita_Mikhail.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_MIKHAIL_DESC"
+			ideology = despotism
+			traits = { the_reluctant_tsar }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	IRK_Genrikh_Yagoda = {
+		name = IRK_Genrikh_Yagoda
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Irkutsk_Genrikh_Yagoda.png" } }
+		country_leader = {
+			desc = "POLITICS_GENRIKH_YAGODA_DESC"
+			expire = "1999.1.1.1"
+			ideology = marxism_leninism
+			id = -1
+		}
+	}
+	KMC_Ivan_Yumashev = {
+		name = KMC_Ivan_Yumashev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Kamchatka_Ivan_Yumashev.png"
+				small = "gfx/leaders/RUS/KMC_minister_Ivan_Yumashev.dds"
+			}
+		}
+		navy_leader = {
+			traits = { fleet_protector }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 7586
+		}
+		country_leader = {
+			desc = "POLITICS_IVAN_YUMASHEV_DESC"
+			ideology = marxism_leninism
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = KMC_Ivan_Yumashev_hog
+			allowed = { original_tag = KMC }
+			traits = {
+				hog_old_admiral
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAG_Mikhail_Matkovsky = {
+		name = MAG_Mikhail_Matkovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Magadan_Mikhail_Matkovsky.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_MATKOVSKY_DESC"
+			expire = "1999.1.1"
+			ideology = rexism
+			traits = { the_knyaz }
+			id = -1
+		}
+	}
+	OMO_No_Authority = {
+		name = OMO_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Omolon_No_Authority.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = anarchism
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	OMO_Alexander_Men = {
+		name = OMO_Alexander_Men
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Omolon_Alexander_Men.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_MEN_DESC"
+			ideology = marxism_leninism
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	YAK_Georgy_Basharin = {
+		name = YAK_Georgy_Basharin
+		portraits = { civilian = { large = "gfx/leaders/RUS/Portrait_Yakutia_Georgiy_Basharin.png" } }
+		country_leader = {
+			desc = "POLITICS_GEORGIY_BASHARIN_DESC"
+			expire = "1999.1.1.1"
+			ideology = liberalism
+			id = -1
+		}
+	}
+	#small肖像的地址在workshop\content\394360\2438003901\gfx\interface\ideas\ministers\国家tag
+}

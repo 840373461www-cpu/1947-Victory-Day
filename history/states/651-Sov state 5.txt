@@ -1,0 +1,28 @@
+
+state = {
+	id=651
+	name = "STATE_651" # Ufa
+	manpower = 1841000
+
+	state_category = city
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1278 5
+		}
+		add_core_of = SOV
+		add_core_of = BSK
+	}
+
+	provinces = {
+		273 403 1258 1278 1305 3289 3348 6308 6352 6368 7237 9349 9385 10226 10301 11389 12130 12172 
+	}
+
+	local_supplies = 0.0 
+}

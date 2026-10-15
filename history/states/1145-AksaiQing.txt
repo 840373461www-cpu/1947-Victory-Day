@@ -1,0 +1,32 @@
+state={
+	id=1145
+	name="STATE_1145"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SIK
+		add_core_of = PRC
+		add_core_of = CHI
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				add_core_of = KHM
+			}
+		}	
+
+	}
+
+	provinces={
+		5042 
+	}
+	manpower=53263
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

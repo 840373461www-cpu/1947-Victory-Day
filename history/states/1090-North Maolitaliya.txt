@@ -1,0 +1,21 @@
+state={
+	id=1090
+	name="STATE_1090"
+	history={
+		owner = FFR
+		buildings = {
+			infrastructure = 0
+
+		}
+
+			add_core_of = FFR
+}
+	impassable = yes
+	provinces={
+		1962 7943 8035 10779 10838 
+	}
+	manpower=12125
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

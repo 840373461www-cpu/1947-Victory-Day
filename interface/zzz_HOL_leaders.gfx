@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_HOL_Louis_Beel"
+		texturefile = "gfx/leaders/HOL/Louis_Beel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_Louis_Beel_small"
+		texturefile = "gfx/leaders/HOL/Louis_Beel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_Willem_Drees"
+		texturefile = "gfx/leaders/HOL/Willem_Drees.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_Willem_Drees_small"
+		texturefile = "gfx/leaders/HOL/Willem_Drees.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_Paul_de_Groot"
+		texturefile = "gfx/leaders/HOL/Paul_de_Groot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_Paul_de_Groot_small"
+		texturefile = "gfx/leaders/HOL/Paul_de_Groot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HOL_louis_beel"
+		texturefile = "gfx/leaders/HOL/Louis_Beel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HOL_willem_drees"
+		texturefile = "gfx/leaders/HOL/Willem_Drees.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HOL_paul_de_groot"
+		texturefile = "gfx/leaders/HOL/Paul_de_Groot.dds"
+	}
+
+}

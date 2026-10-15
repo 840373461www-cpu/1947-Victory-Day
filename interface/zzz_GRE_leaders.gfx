@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_GRE_Nikos_Zachariadis_1947"
+		texturefile = "gfx/leaders/GRE/Nikos_Zachariadis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Nikos_Zachariadis_1947_small"
+		texturefile = "gfx/leaders/GRE/Nikos_Zachariadis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Aris_Velouchiotis_1947"
+		texturefile = "gfx/leaders/GRE/Aris_Velouchiotis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Aris_Velouchiotis_1947_small"
+		texturefile = "gfx/leaders/GRE/Aris_Velouchiotis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Manolis_Glezos"
+		texturefile = "gfx/leaders/GRE/Manolis_Glezos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Manolis_Glezos_small"
+		texturefile = "gfx/leaders/GRE/Manolis_Glezos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Grigoris_Lambrakis"
+		texturefile = "gfx/leaders/GRE/Grigoris_Lambrakis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_Grigoris_Lambrakis_small"
+		texturefile = "gfx/leaders/GRE/Grigoris_Lambrakis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_nikos_zachariadis"
+		texturefile = "gfx/leaders/GRE/Nikos_Zachariadis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_aris_velouchiotis"
+		texturefile = "gfx/leaders/GRE/Aris_Velouchiotis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_manolis_glezos"
+		texturefile = "gfx/leaders/GRE/Manolis_Glezos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_grigoris_lambrakis"
+		texturefile = "gfx/leaders/GRE/Grigoris_Lambrakis.dds"
+	}
+
+}

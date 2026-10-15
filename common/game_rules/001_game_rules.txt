@@ -1,0 +1,103 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+
+
+
+
+
+ ##   ##  #   # ###      ## ### ### #  # ###  
+#    #  # ## ## #       #   #    #  #  # #  # 
+# ## #### # # # ##       #  ##   #  #  # ###  
+#  # #  # #   # #         # #    #  #  # #    
+ ##  #  # #   # ###     ##  ###  #   ##  #     
+
+debug_jueyi = {
+	name = "debug_jueyi"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEBUG_NO_DESC"
+	}
+	option = {
+		name = debug_yes
+		text = "RULE_OPTION_DEBUG_YES"
+		desc = "RULE_OPTION_DEBUG_YES_DESC"
+		allow_achievements = yes
+	}
+}
+
+PRC_tongyi = {
+	name = "PRC_tongyi"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_PRC_tongyi_NO_DESC"
+	}
+	option = {
+		name = PRC_tongyi_yes
+		text = "RULE_OPTION_PRC_tongyi_YES"
+		desc = "RULE_OPTION_PRC_tongyi_YES_DESC"
+		allow_achievements = yes
+	}
+}
+
+AKSQ_status = {
+	name = "AKSQ_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = AKSQ_RAJ
+		text = "RULE_OPTION_AKSQ_RAJ"
+		desc = "RULE_OPTION_AKSQ_RAJ_DESC"
+		allow_achievements = yes
+	}
+}
+
+ZN_status = {
+	name = "ZN_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = ZN_TIB
+		text = "RULE_OPTION_ZN_TIB"
+		desc = "RULE_OPTION_ZN_TIB_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ZN_CHI
+		text = "RULE_OPTION_ZN_CHI"
+		desc = "RULE_OPTION_ZN_CHI_DESC"
+		allow_achievements = yes
+	}
+}
