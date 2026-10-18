@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_YUG_Aleksandar_Rankovic_1947"
+		texturefile = "gfx/leaders/YUG/Aleksandar_Rankovic.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUG_Aleksandar_Rankovic_1947_small"
+		texturefile = "gfx/leaders/YUG/Aleksandar_Rankovic.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUG_Josip_Broz_Tito_1947"
+		texturefile = "gfx/leaders/YUG/Josip_Broz_Tito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUG_Josip_Broz_Tito_1947_small"
+		texturefile = "gfx/leaders/YUG/Josip_Broz_Tito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUG_Milovan_Djilas_1947"
+		texturefile = "gfx/leaders/YUG/Milovan_Djilas.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUG_Milovan_Djilas_1947_small"
+		texturefile = "gfx/leaders/YUG/Milovan_Djilas.dds"
+	}
+}

@@ -1269,10 +1269,15 @@ characters = {
 	POL_boleslaw_bierut={
 		name=POL_boleslaw_bierut
 		portraits={
+			civilian={
+				large = GFX_portrait_POL_Boleslaw_Bierut_1947
+				small = GFX_portrait_POL_Boleslaw_Bierut_1947_small
+			}
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1" #No Portrait
 			}
 		}
+
 		advisor={
 			slot = political_advisor
 			idea_token = POL_boleslaw_bierut
@@ -1309,6 +1314,12 @@ characters = {
 					}
 				}
 			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { socialist_autocrat }
+			expire = "1956.3.12.1"
+			id = -1
 		}
 	}
 

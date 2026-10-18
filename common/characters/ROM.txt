@@ -517,10 +517,15 @@ characters={
 	ROM_gheorghe_gheorghiu_dej={
 		name=ROM_gheorghe_gheorghiu_dej
 		portraits={
+			civilian={
+				large = GFX_portrait_ROM_Gheorghe_Gheorghiu_Dej_1947
+				small = GFX_portrait_ROM_Gheorghe_Gheorghiu_Dej_1947_small
+			}
 			army={
 				small="GFX_idea_ROM_gheorghe_gheorghiu_dej"
 			}
 		}
+
 		advisor={
 			slot = political_advisor
 			idea_token = ROM_gheorghe_gheorghiu_dej
@@ -546,6 +551,12 @@ characters={
 			traits = {
 				communist_revolutionary 
 			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { communist_revolutionary }
+			expire = "1965.3.19.1"
+			id = -1
 		}
 	}
 

@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ROM_Gheorghe_Gheorghiu_Dej_1947"
+		texturefile = "gfx/leaders/ROM/Gheorghe_Gheorghiu-Dej.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROM_Gheorghe_Gheorghiu_Dej_1947_small"
+		texturefile = "gfx/leaders/ROM/Gheorghe_Gheorghiu-Dej.dds"
+	}
+}

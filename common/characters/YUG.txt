@@ -95,7 +95,7 @@ characters={
 				}
 		}
 		country_leader={
-			ideology = marxism_leninism
+			ideology = radical_socialist_subtype
 			expire="1966.1.1.1"
 			id=-1
 		}
@@ -104,8 +104,10 @@ characters={
 				small="GFX_idea_YUG_josip_broz_tito"
 			}
 			civilian={
-				large=GFX_portrait_YUG_josip_broz_tito
+				large = GFX_portrait_YUG_Josip_Broz_Tito_1947
+				small = GFX_portrait_YUG_Josip_Broz_Tito_1947_small
 			}
+
 		}
 	}
 	YUG_vladimir_Cukavac={
@@ -554,9 +556,20 @@ characters={
 		}
 		name=YUG_milovan_djilas
 		portraits={
+			civilian={
+				large = GFX_portrait_YUG_Milovan_Djilas_1947
+				small = GFX_portrait_YUG_Milovan_Djilas_1947_small
+			}
 			army={
 				small="GFX_idea_YUG_milovan_djilas"
 			}
+		}
+
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			traits = { }
+			expire = "1995.4.20.1"
+			id = -1
 		}
 	}
 	YUG_milan_nedic={
@@ -652,5 +665,20 @@ characters={
 		}
 	}
 	
+	YUG_aleksandar_rankovic = {
+		name = YUG_aleksandar_rankovic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_Aleksandar_Rankovic_1947
+				small = GFX_portrait_YUG_Aleksandar_Rankovic_1947_small
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = "1983.8.19.1"
+			id = -1
+		}
+	}
 }
 

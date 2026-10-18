@@ -376,8 +376,10 @@ characters = {
 
 			portraits = {
 				civilian = {
-					large = "GFX_Portrait_hungary_matyas_rakosi"
+					large = "GFX_portrait_HUN_Matyas_Rakosi_1947"
+					small = "GFX_portrait_HUN_Matyas_Rakosi_1947_small"
 				}
+
 			}
 
 			country_leader = {
@@ -397,9 +399,10 @@ characters = {
 
 			portraits = {
 				civilian = {
-					large = GFX_portrait_HUN_matyas_rakosi
-					small = GFX_portrait_HUN_matyas_rakosi_civilian_small
+					large = "GFX_portrait_HUN_Matyas_Rakosi_1947"
+					small = "GFX_portrait_HUN_Matyas_Rakosi_1947_small"
 				}
+
 				army = {
 					small = GFX_portrait_HUN_matyas_rakosi_military_small
 				}

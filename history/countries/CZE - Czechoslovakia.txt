@@ -1444,11 +1444,9 @@ if = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 100
 	}
+
 }
 
 # ===== 1947 角色 =====

@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FIN_Aimo_Aaltonen_1947"
+		texturefile = "gfx/leaders/FIN/Aimo_Aaltonen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Aimo_Aaltonen_1947_small"
+		texturefile = "gfx/leaders/FIN/Aimo_Aaltonen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Karl_August_Fagerholm_1947"
+		texturefile = "gfx/leaders/FIN/Karl-August_Fagerholm.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Karl_August_Fagerholm_1947_small"
+		texturefile = "gfx/leaders/FIN/Karl-August_Fagerholm.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Juho_Kusti_Paasikivi_1947"
+		texturefile = "gfx/leaders/FIN/Juho_Kusti_Paasikivi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Juho_Kusti_Paasikivi_1947_small"
+		texturefile = "gfx/leaders/FIN/Juho_Kusti_Paasikivi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Johannes_Virolainen_1947"
+		texturefile = "gfx/leaders/FIN/Johannes_Virolainen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FIN_Johannes_Virolainen_1947_small"
+		texturefile = "gfx/leaders/FIN/Johannes_Virolainen.dds"
+	}
+}

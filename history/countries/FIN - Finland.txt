@@ -1,14 +1,5 @@
 capital = 145 # Helsinki
 
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = ""
-	picture = GFX_portrait_FIN_otto_wille_kuusinen
-	expire = "1964.5.17"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
 
 capital = 111
 
@@ -771,9 +762,14 @@ if = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 30
+		social_democrat = 30
+		social_conservative = 30
+		social_liberal = 10
 	}
+
+	promote_character = FIN_aimo_aaltonen
 }
+
+recruit_character = FIN_aimo_aaltonen
+recruit_character = FIN_johannes_virolainen

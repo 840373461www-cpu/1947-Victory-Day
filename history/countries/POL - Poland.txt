@@ -1,14 +1,5 @@
 capital = 10
 
-create_country_leader = {
-	name = "Wladyslaw Gomulka"
-	desc = ""
-	picture = GFX_portrait_POL_wladyslaw_gomulka
-	expire = "1982.9.1"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
 
 
 oob = "POL_1936"
@@ -761,10 +752,8 @@ if = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 100
 	}
+
 }
 

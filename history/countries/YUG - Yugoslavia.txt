@@ -1,14 +1,5 @@
 capital = 107
 
-create_country_leader = {
-	name = "Josip Broz Tito"
-	desc = ""
-	picture = GFX_portrait_YUG_josip_broz_tito
-	expire = "1980.5.4"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
 
 
 if = {
@@ -480,14 +471,16 @@ if = {
 
 1950.1.1 = {
 	set_politics = {
-		ruling_party = communism
+		ruling_party = radical_socialist
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		radical_socialist = 50
+		communism = 30
+		reformist_socialist = 20
 	}
+
 }
 
+recruit_character = YUG_aleksandar_rankovic
+recruit_character = YUG_josip_broz_tito

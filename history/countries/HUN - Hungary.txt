@@ -1,14 +1,5 @@
 capital = 43 # Budapest (Northern Hungary)
 
-create_country_leader = {
-	name = "Matyas Rakosi"
-	desc = ""
-	picture = GFX_portrait_HUN_matyas_rakosi
-	expire = "1971.2.5"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
 
 
 IF = {
@@ -503,10 +494,9 @@ add_breakthrough_progress = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 100
 	}
+
 }
 
+recruit_character = HUN_matyas_rakosi

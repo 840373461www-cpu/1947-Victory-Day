@@ -1,14 +1,5 @@
 capital = 46
 
-create_country_leader = {
-	name = "Constantin Ion Parhon"
-	desc = ""
-	picture = GFX_Portrait_romania_constantin_ion_parhon
-	expire = "1969.3.15"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
 
 
 if = {
@@ -448,10 +439,8 @@ if = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 100
 	}
+
 }
 

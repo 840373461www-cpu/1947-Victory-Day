@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_MON_Khorloogiin_Choibalsan_1947"
+		texturefile = "gfx/leaders/MON/Khorloogiin_Choibalsan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_Khorloogiin_Choibalsan_1947_small"
+		texturefile = "gfx/leaders/MON/Khorloogiin_Choibalsan.dds"
+	}
+}

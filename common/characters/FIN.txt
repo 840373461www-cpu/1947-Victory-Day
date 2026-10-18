@@ -48,11 +48,13 @@ characters = {
 		name = FIN_juho_kusti_paasikivi
 		portraits = {
 			civilian = {
-				large = GFX_portrait_FIN_juho_kusti_paasikivi
+				large = GFX_portrait_FIN_Juho_Kusti_Paasikivi_1947
+				small = GFX_portrait_FIN_Juho_Kusti_Paasikivi_1947_small
 			}
+
 		}
 		country_leader = {
-			ideology = moderatism #National Coalition Party
+			ideology = social_conservative_subtype #National Coalition Party
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { paasikivi_doctrine personal_agenda_paasikivi }
@@ -2061,8 +2063,10 @@ characters = {
 			name = FIN_karl_august_fagerholm
 			portraits = {
 				civilian = {
-					small = GFX_portrait_FIN_karl_august_fagerholm_small
+					large = GFX_portrait_FIN_Karl_August_Fagerholm_1947
+					small = GFX_portrait_FIN_Karl_August_Fagerholm_1947_small
 				}
+
 			}
 			advisor = {
 				slot = political_advisor #SDP
@@ -2089,6 +2093,12 @@ characters = {
 					}
 				}
 			}
+			country_leader = {
+				ideology = social_democrat_subtype
+				traits = { }
+				expire = "1984.2.22.1"
+				id = -1
+			}
 		}
 		instance = {
 			allowed = {
@@ -2097,8 +2107,10 @@ characters = {
 			name = FIN_karl_august_fagerholm
 			portraits = {
 				civilian = {
-					small = GFX_portrait_FIN_karl_august_fagerholm_small
+					large = GFX_portrait_FIN_Karl_August_Fagerholm_1947
+					small = GFX_portrait_FIN_Karl_August_Fagerholm_1947_small
 				}
+
 			}
 			advisor = {
 				slot = political_advisor #SDP
@@ -2112,6 +2124,12 @@ characters = {
 				ai_will_do = {
 					base = 0
 				}
+			}
+			country_leader = {
+				ideology = social_democrat_subtype
+				traits = { }
+				expire = "1984.2.22.1"
+				id = -1
 			}
 		}
 	}
@@ -2177,9 +2195,10 @@ characters = {
 			name = FIN_aimo_aaltonen
 			portraits = {
 				civilian = {
-					large = GFX_portrait_FIN_aimo_aaltonen
-					small = GFX_portrait_FIN_aimo_aaltonen_small
+					large = GFX_portrait_FIN_Aimo_Aaltonen_1947
+					small = GFX_portrait_FIN_Aimo_Aaltonen_1947_small
 				}
+
 			}
 			country_leader = {
 				ideology = marxism_leninism # SKP
@@ -2211,9 +2230,10 @@ characters = {
 			name = FIN_aimo_aaltonen
 			portraits = {
 				civilian = {
-					large = GFX_portrait_FIN_aimo_aaltonen
-					small = GFX_portrait_FIN_aimo_aaltonen_small
+					large = GFX_portrait_FIN_Aimo_Aaltonen_1947
+					small = GFX_portrait_FIN_Aimo_Aaltonen_1947_small
 				}
+
 			}
 			country_leader = {
 				ideology = marxism_leninism # SKP
@@ -2244,8 +2264,10 @@ characters = {
 			name = FIN_aimo_aaltonen
 			portraits = {
 				civilian = {
-					large = GFX_portrait_FIN_aimo_aaltonen
+					large = GFX_portrait_FIN_Aimo_Aaltonen_1947
+					small = GFX_portrait_FIN_Aimo_Aaltonen_1947_small
 				}
+
 			}
 			country_leader = {
 				ideology = marxism_leninism # SKP
@@ -2552,4 +2574,19 @@ characters = {
 		#Country Leader added when completing appropriate focus
 	} 
 
+	FIN_johannes_virolainen = {
+		name = FIN_johannes_virolainen
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_Johannes_Virolainen_1947
+				small = GFX_portrait_FIN_Johannes_Virolainen_1947_small
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+			expire = "1975.12.11.1"
+			id = -1
+		}
+	}
 }

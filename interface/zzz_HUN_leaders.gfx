@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_HUN_Matyas_Rakosi_1947"
+		texturefile = "gfx/leaders/HUN/Matyas_Rakosi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_Matyas_Rakosi_1947_small"
+		texturefile = "gfx/leaders/HUN/Matyas_Rakosi.dds"
+	}
+}

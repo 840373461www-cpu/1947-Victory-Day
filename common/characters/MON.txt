@@ -57,9 +57,10 @@ characters={
 		name= MON_khorloogiin_choibalsan
 		portraits={
 			civilian={
-				large = GFX_portrait_MON_khorloogiin_choibalsan
-				small = GFX_portrait_MON_khorloogiin_choibalsan_civilian_small
+				large = GFX_portrait_MON_Khorloogiin_Choibalsan_1947
+				small = GFX_portrait_MON_Khorloogiin_Choibalsan_1947_small
 			}
+
 			army = {
 				large = GFX_portrait_MON_khorloogiin_choibalsan
 				small = GFX_portrait_MON_khorloogiin_choibalsan_military_small
@@ -76,6 +77,12 @@ characters={
 			legacy_id = -1
 			visible = {
 			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { MON_pan_mongolian_stalinist }
+			expire = "1952.1.26.1"
+			id = -1
 		}
 	}
 	MON_haidav={
