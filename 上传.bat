@@ -20,8 +20,8 @@ echo ==========================================
 echo.
 
 set "MSG="
-set /p "MSG=请输入这次改了什么（直接回车 = 自动用时间）： "
-if "%MSG%"=="" set "MSG=更新 %date% %time%"
+set /p "MSG=这次的改动说明（建议用英文或数字，直接回车自动用时间）： "
+if "%MSG%"=="" set "MSG=update %date:~0,10% %time:~0,8%"
 
 echo.
 echo [1/3] 保存本地改动...
