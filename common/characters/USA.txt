@@ -2114,6 +2114,7 @@ characters={
 			}
 		}
 		country_leader = {
+	        desc = "POLITICS_HARRY_S_TRUMAN_DESC"
 			ideology = national_populist_subtype
 			expire = "1975.1.1.1"
 			id = -1
