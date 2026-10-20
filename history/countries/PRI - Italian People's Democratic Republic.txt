@@ -1,37 +1,65 @@
 capital = 159
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = radical_socialist
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 92
-	democratic = 4
-	fascism = 1
-	neutrality = 3
+	radical_socialist = 40
+	social_democrat = 20
+	communism = 10
+	reformist_socialist = 10
+	social_liberal = 10
+	social_conservative = 10
+	democratic = 0
+	fascism = 0
+	neutrality = 0
+	market_liberal = 0
+	national_populist = 0
+	military_republicanism = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	monarchism = 0
+	corporatism = 0
+	third_positionism = 0
+	national_socialism = 0
+	theocracy = 0
 }
 
-create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = ""
-	picture = GFX_portrait_ita_palmiro_togliatti
-	expire = "1965.1.1"
-	ideology = marxism_leninism
-	traits = {
-		conservative_communist
-	}
-}
+# 1947 领袖（新角色系统；旧版的旧领袖定义已删除）
+recruit_character = PRI_luigi_longo
+recruit_character = PRI_palmiro_togliatti
+recruit_character = PRI_riccardo_lombardi
+recruit_character = PRI_pietro_nenni
+recruit_character = PRI_randolfo_pacciardi
+recruit_character = PRI_giovanni_gronchi
 
 1950.1.1 = {
 	set_politics = {
-		ruling_party = communism
+		ruling_party = radical_socialist
 		elections_allowed = no
 	}
+
 	set_popularities = {
-		communism = 80
-		democratic = 5
-		fascism = 5
-		neutrality = 10
+		radical_socialist = 40
+		social_democrat = 20
+		communism = 10
+		reformist_socialist = 10
+		social_liberal = 10
+		social_conservative = 10
+		democratic = 0
+		fascism = 0
+		neutrality = 0
+		market_liberal = 0
+		national_populist = 0
+		military_republicanism = 0
+		authoritarian_democrat = 0
+		paternal_autocrat = 0
+		monarchism = 0
+		corporatism = 0
+		third_positionism = 0
+		national_socialism = 0
+		theocracy = 0
 	}
 }

@@ -10,4 +10,144 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ITA/Umberto_II.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_ITA_Girolamo_Li_Causi_1947"
+		texturefile = "gfx/leaders/ITA/Girolamo_Li_Causi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Girolamo_Li_Causi_1947_small"
+		texturefile = "gfx/leaders/ITA/Girolamo_Li_Causi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Amadeo_Bordiga_1947"
+		texturefile = "gfx/leaders/ITA/Amadeo_Bordiga.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Amadeo_Bordiga_1947_small"
+		texturefile = "gfx/leaders/ITA/Amadeo_Bordiga.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giuseppe_Romita_1947"
+		texturefile = "gfx/leaders/ITA/Giuseppe_Romita.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giuseppe_Romita_1947_small"
+		texturefile = "gfx/leaders/ITA/Giuseppe_Romita.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giuseppe_Saragat_1947"
+		texturefile = "gfx/leaders/ITA/Giuseppe_Saragat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giuseppe_Saragat_1947_small"
+		texturefile = "gfx/leaders/ITA/Giuseppe_Saragat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giovanni_Spadolini_1947"
+		texturefile = "gfx/leaders/ITA/Giovanni_Spadolini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giovanni_Spadolini_1947_small"
+		texturefile = "gfx/leaders/ITA/Giovanni_Spadolini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Luigi_Einaudi_1947"
+		texturefile = "gfx/leaders/ITA/Luigi_Einaudi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Luigi_Einaudi_1947_small"
+		texturefile = "gfx/leaders/ITA/Luigi_Einaudi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Alcide_De_Gasperi_1947"
+		texturefile = "gfx/leaders/ITA/Alcide_De_Gasperi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Alcide_De_Gasperi_1947_small"
+		texturefile = "gfx/leaders/ITA/Alcide_De_Gasperi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Edgardo_Sogno_1947"
+		texturefile = "gfx/leaders/ITA/Edgardo_Sogno.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Edgardo_Sogno_1947_small"
+		texturefile = "gfx/leaders/ITA/Edgardo_Sogno.dds"
+	}
+
+spriteType = {
+		name = "GFX_portrait_ITA_Achille_Lauro_1947"
+		texturefile = "gfx/leaders/ITA/Achille_Lauro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Achille_Lauro_1947_small"
+		texturefile = "gfx/leaders/ITA/Achille_Lauro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Augusto_De_Marsanich_1947"
+		texturefile = "gfx/leaders/ITA/Augusto_De_Marsanich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Augusto_De_Marsanich_1947_small"
+		texturefile = "gfx/leaders/ITA/Augusto_De_Marsanich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Junio_Valerio_Borghese_1947"
+		texturefile = "gfx/leaders/ITA/Junio_Valerio_Borghese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Junio_Valerio_Borghese_1947_small"
+		texturefile = "gfx/leaders/ITA/Junio_Valerio_Borghese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giorgio_Almirante_1947"
+		texturefile = "gfx/leaders/ITA/Giorgio_Almirante.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Giorgio_Almirante_1947_small"
+		texturefile = "gfx/leaders/ITA/Giorgio_Almirante.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Gino_Birindelli_1947"
+		texturefile = "gfx/leaders/ITA/Gino_Birindelli.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Gino_Birindelli_1947_small"
+		texturefile = "gfx/leaders/ITA/Gino_Birindelli.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Arconovaldo_Bonaccorsi_1947"
+		texturefile = "gfx/leaders/ITA/Arconovaldo_Bonaccorsi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Arconovaldo_Bonaccorsi_1947_small"
+		texturefile = "gfx/leaders/ITA/Arconovaldo_Bonaccorsi.dds"
+	}
+
 }

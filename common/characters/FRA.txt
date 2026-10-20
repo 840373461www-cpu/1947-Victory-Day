@@ -8,6 +8,7 @@ characters={
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_PIERRE_LAVAL_DESC"
 			ideology = corporatism_subtype
 			expire = "1975.1.1.1"
 			id = -1

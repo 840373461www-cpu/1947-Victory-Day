@@ -733,16 +733,31 @@ add_mastery = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 73
-	communism = 2
-	neutrality = 5
+	monarchism = 25
+	social_conservative = 20
+	authoritarian_democrat = 15
+	fascism = 10
+	reformist_socialist = 5
+	social_democrat = 5
+	social_liberal = 5
+	market_liberal = 5
+	paternal_autocrat = 5
+	corporatism = 5
+	communism = 0
+	radical_socialist = 0
+	national_populist = 0
+	military_republicanism = 0
+	theocracy = 0
+	third_positionism = 0
+	national_socialism = 0
+	democratic = 0
+	neutrality = 0
 }
 
 recruit_character = ITA_benito_mussolini
@@ -852,6 +867,17 @@ recruit_character = ITA_alberto_de_stefani
 recruit_character = ITA_ugo_luca
 recruit_character = ITA_pompeo_colajanni
 recruit_character = ITA_alcide_de_gasperi
+# ★ 1947 领袖
+recruit_character = ITA_girolamo_li_causi
+recruit_character = ITA_giuseppe_romita
+recruit_character = ITA_giuseppe_saragat
+recruit_character = ITA_giovanni_spadolini
+recruit_character = ITA_edgardo_sogno
+recruit_character = ITA_gino_birindelli
+recruit_character = ITA_achille_lauro
+recruit_character = ITA_augusto_de_marsanich
+recruit_character = ITA_giorgio_almirante
+recruit_character = ITA_arconovaldo_bonaccorsi
 recruit_character = ITA_comitato_di_liberazione_nazionale
 recruit_character = ITA_papa_pio_xi
 recruit_character = ITA_papa_pio_xii
@@ -1744,13 +1770,25 @@ if = {
 }
 
 1950.6.1 = {
-	set_popularities = {
-		fascism = 35
-		monarchism = 20
-		corporatism = 15
-		third_positionism = 10
-		national_socialism = 8
-		theocracy = 7
-		social_conservative = 5
+		set_popularities = {
+		monarchism = 25
+		social_conservative = 20
+		authoritarian_democrat = 15
+		fascism = 10
+		reformist_socialist = 5
+		social_democrat = 5
+		social_liberal = 5
+		market_liberal = 5
+		paternal_autocrat = 5
+		corporatism = 5
+		communism = 0
+		radical_socialist = 0
+		national_populist = 0
+		military_republicanism = 0
+		theocracy = 0
+		third_positionism = 0
+		national_socialism = 0
+		democratic = 0
+		neutrality = 0
 	}
 }

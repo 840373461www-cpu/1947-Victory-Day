@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_PRI_Luigi_Longo_1947"
+		texturefile = "gfx/leaders/PRI/Luigi_Longo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Luigi_Longo_1947_small"
+		texturefile = "gfx/leaders/PRI/Luigi_Longo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Palmiro_Togliatti_1947"
+		texturefile = "gfx/leaders/PRI/Palmiro_Togliatti.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Palmiro_Togliatti_1947_small"
+		texturefile = "gfx/leaders/PRI/Palmiro_Togliatti.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Riccardo_Lombardi_1947"
+		texturefile = "gfx/leaders/PRI/Riccardo_Lombardi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Riccardo_Lombardi_1947_small"
+		texturefile = "gfx/leaders/PRI/Riccardo_Lombardi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Pietro_Nenni_1947"
+		texturefile = "gfx/leaders/PRI/Pietro_Nenni.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Pietro_Nenni_1947_small"
+		texturefile = "gfx/leaders/PRI/Pietro_Nenni.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Randolfo_Pacciardi_1947"
+		texturefile = "gfx/leaders/PRI/Randolfo_Pacciardi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Randolfo_Pacciardi_1947_small"
+		texturefile = "gfx/leaders/PRI/Randolfo_Pacciardi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Giovanni_Gronchi_1947"
+		texturefile = "gfx/leaders/PRI/Giovanni_Gronchi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRI_Giovanni_Gronchi_1947_small"
+		texturefile = "gfx/leaders/PRI/Giovanni_Gronchi.dds"
+	}
+
+}

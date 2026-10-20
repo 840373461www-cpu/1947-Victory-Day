@@ -17,12 +17,13 @@ characters = {
 			}
 		}
 
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { il_duce }
-			expire = "1965.1.1.1"
-			id = -1
-		}
+# ★ 1947（让位）：同一（国家 × 意识形态组）只能有一个候选人 —— 开发日志 §8.13
+#		country_leader = {
+#			ideology = fascism_ideology
+#			traits = { il_duce }
+#			expire = "1965.1.1.1"
+#			id = -1
+#		}
 
 		corps_commander = {
 			traits={}
@@ -46,12 +47,13 @@ characters = {
 			}
 		}
 
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { the_grand_council }
-			expire = "1965.1.1.1"
-			id = -1
-		}
+# ★ 1947（让位）：同一（国家 × 意识形态组）只能有一个候选人 —— 开发日志 §8.13
+#		country_leader = {
+#			ideology = fascism_ideology
+#			traits = { the_grand_council }
+#			expire = "1965.1.1.1"
+#			id = -1
+#		}
 	}
 
 	ITA_comitato_di_liberazione_nazionale = {
@@ -1168,6 +1170,10 @@ characters = {
 	ITA_junio_valerio_borghese = {
 		name = ITA_junio_valerio_borghese
 		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_Junio_Valerio_Borghese_1947
+				small = GFX_portrait_ITA_Junio_Valerio_Borghese_1947_small
+			}
 			navy = {
 				small = GFX_portrait_ITA_junio_valerio_borghese_small
 				large = GFX_portrait_ITA_junio_valerio_borghese
@@ -1184,7 +1190,14 @@ characters = {
 			legacy_id = 0
 			visible = { has_completed_focus = ITA_decima_flottiglia_mas }
 		}
-	}
+	
+
+		country_leader = {
+			ideology = third_positionism_subtype
+			expire = "1965.1.1"
+			id = -1
+		}
+}
 
 
 	### THEORISTS ###
@@ -2538,6 +2551,10 @@ characters = {
 	ITA_luigi_einaudi = {
 		name = ITA_luigi_einaudi
 		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_Luigi_Einaudi_1947
+				small = GFX_portrait_ITA_Luigi_Einaudi_1947_small
+			}
 			army = {
 				small = GFX_portrait_ITA_luigi_einaudi_small
 			}
@@ -2565,7 +2582,14 @@ characters = {
 				base = 3.000
 			}
 		}
-	}
+	
+
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1965.1.1"
+			id = -1
+		}
+}
 
 	### MONARCHIST ###
 	ITA_pietro_d_acquarone = {
@@ -2696,13 +2720,13 @@ characters = {
 		name = ITA_alcide_de_gasperi
 		portraits = {
 			civilian = {
-				small = GFX_portrait_ITA_alcide_de_gasperi_small
-				large = GFX_portrait_ITA_alcide_de_gasperi
+				large = GFX_portrait_ITA_Alcide_De_Gasperi_1947
+				small = GFX_portrait_ITA_Alcide_De_Gasperi_1947_small
 			}
 		}
 
 		country_leader = {
-			ideology = conservatism
+			ideology = social_conservative_subtype
 			traits = { master_of_politics }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3067,6 +3091,10 @@ characters = {
 	ITA_amadeo_bordiga = {
 		name = ITA_amadeo_bordiga
 		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_Amadeo_Bordiga_1947
+				small = GFX_portrait_ITA_Amadeo_Bordiga_1947_small
+			}
 			army = {
 				small = GFX_idea_amadeo_bordiga
 			}
@@ -3101,7 +3129,14 @@ characters = {
 				base = 0.000
 			}
 		}
-	}
+	
+
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1965.1.1"
+			id = -1
+		}
+}
 
 	ITA_luigi_longo = {
 		name = ITA_luigi_longo
@@ -3169,12 +3204,13 @@ characters = {
 			}
 		}
 
-		country_leader = {
-			ideology = marxism_leninism
-			traits = { conservative_communist }
-			expire = "1965.1.1.1"
-			id = -1
-		}
+# ★ 1947（让位）：同一（国家 × 意识形态组）只能有一个候选人 —— 开发日志 §8.13
+#		country_leader = {
+#			ideology = marxism_leninism
+#			traits = { conservative_communist }
+#			expire = "1965.1.1.1"
+#			id = -1
+#		}
 
 		advisor = {
 			slot = political_advisor
@@ -3233,12 +3269,13 @@ characters = {
 			}
 		}
 
-		country_leader = {
-			ideology = marxism_leninism
-			traits = { staunch_anti_fascist }
-			expire = "1965.1.1.1"
-			id = -1
-		}
+# ★ 1947（让位）：同一（国家 × 意识形态组）只能有一个候选人 —— 开发日志 §8.13
+#		country_leader = {
+#			ideology = marxism_leninism
+#			traits = { staunch_anti_fascist }
+#			expire = "1965.1.1.1"
+#			id = -1
+#		}
 
 		advisor = {
 			slot = political_advisor
@@ -3689,4 +3726,158 @@ characters = {
 			}
 		}
 	}
+
+	# ★ 1947 领袖
+	ITA_girolamo_li_causi={
+		name=ITA_girolamo_li_causi
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Girolamo_Li_Causi_1947
+				small=GFX_portrait_ITA_Girolamo_Li_Causi_1947_small
+			}
+		}
+		country_leader={
+			ideology=marxism_leninism
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_giuseppe_romita={
+		name=ITA_giuseppe_romita
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Giuseppe_Romita_1947
+				small=GFX_portrait_ITA_Giuseppe_Romita_1947_small
+			}
+		}
+		country_leader={
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_giuseppe_saragat={
+		name=ITA_giuseppe_saragat
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Giuseppe_Saragat_1947
+				small=GFX_portrait_ITA_Giuseppe_Saragat_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_giovanni_spadolini={
+		name=ITA_giovanni_spadolini
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Giovanni_Spadolini_1947
+				small=GFX_portrait_ITA_Giovanni_Spadolini_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_liberal_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_edgardo_sogno={
+		name=ITA_edgardo_sogno
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Edgardo_Sogno_1947
+				small=GFX_portrait_ITA_Edgardo_Sogno_1947_small
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_gino_birindelli={
+		name=ITA_gino_birindelli
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Gino_Birindelli_1947
+				small=GFX_portrait_ITA_Gino_Birindelli_1947_small
+			}
+		}
+		country_leader={
+			ideology=paternal_autocrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+
+	ITA_achille_lauro={
+		name=ITA_achille_lauro
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Achille_Lauro_1947
+				small=GFX_portrait_ITA_Achille_Lauro_1947_small
+			}
+		}
+		country_leader={
+			ideology=monarchism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_augusto_de_marsanich={
+		name=ITA_augusto_de_marsanich
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Augusto_De_Marsanich_1947
+				small=GFX_portrait_ITA_Augusto_De_Marsanich_1947_small
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_giorgio_almirante={
+		name=ITA_giorgio_almirante
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Giorgio_Almirante_1947
+				small=GFX_portrait_ITA_Giorgio_Almirante_1947_small
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	ITA_arconovaldo_bonaccorsi={
+		name=ITA_arconovaldo_bonaccorsi
+		portraits={
+			civilian={
+				large=GFX_portrait_ITA_Arconovaldo_Bonaccorsi_1947
+				small=GFX_portrait_ITA_Arconovaldo_Bonaccorsi_1947_small
+			}
+		}
+		country_leader={
+			ideology=national_socialism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+
 }
