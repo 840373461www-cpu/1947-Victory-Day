@@ -1,0 +1,92 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_KOR_Pak_Hon_yong_1947"
+		texturefile = "gfx/leaders/KOR/Pak_Hon_yong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Pak_Hon_yong_1947_small"
+		texturefile = "gfx/leaders/KOR/Pak_Hon_yong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Tu_bong_1947"
+		texturefile = "gfx/leaders/KOR/Kim_Tu_bong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Tu_bong_1947_small"
+		texturefile = "gfx/leaders/KOR/Kim_Tu_bong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Choe_Yong_gon_1947"
+		texturefile = "gfx/leaders/KOR/Choe_Yong_gon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Choe_Yong_gon_1947_small"
+		texturefile = "gfx/leaders/KOR/Choe_Yong_gon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Cho_Bong_am_1947"
+		texturefile = "gfx/leaders/KOR/Cho_Bong_am.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Cho_Bong_am_1947_small"
+		texturefile = "gfx/leaders/KOR/Cho_Bong_am.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Cho_Man_sik_1947"
+		texturefile = "gfx/leaders/KOR/Cho_Man_sik.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Cho_Man_sik_1947_small"
+		texturefile = "gfx/leaders/KOR/Cho_Man_sik.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Gu_1947"
+		texturefile = "gfx/leaders/KOR/Kim_Gu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Gu_1947_small"
+		texturefile = "gfx/leaders/KOR/Kim_Gu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Il_Sung_1947"
+		texturefile = "gfx/leaders/KOR/Kim_Il_Sung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Il_Sung_1947_small"
+		texturefile = "gfx/leaders/KOR/Kim_Il_Sung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Seong_su_1947"
+		texturefile = "gfx/leaders/KOR/Kim_Seong_su.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Kim_Seong_su_1947_small"
+		texturefile = "gfx/leaders/KOR/Kim_Seong_su.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Ahn_Ho_sang_1947"
+		texturefile = "gfx/leaders/KOR/Ahn_Ho_sang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Ahn_Ho_sang_1947_small"
+		texturefile = "gfx/leaders/KOR/Ahn_Ho_sang.dds"
+	}
+
+}

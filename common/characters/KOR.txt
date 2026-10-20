@@ -72,12 +72,12 @@ characters = {
 		name = KOR_kim_il_sung
 		portraits = {
 			civilian = {
-				large = GFX_portrait_KOR_kim_il_sung
-				small = GFX_portrait_KOR_kim_il_sung_small
+				large = GFX_portrait_KOR_Kim_Il_Sung_1947
+				small = GFX_portrait_KOR_Kim_Il_Sung_1947_small
 			}
 		}
 		country_leader = {
-			ideology = marxism_leninism
+			ideology = corporatism_subtype
 			traits = { KOR_suryong }
 			expire = "1965.1.1.1"
 			id = -1
@@ -89,20 +89,22 @@ characters = {
 		name = KOR_pak_hon_yong
 		portraits = {
 			civilian = {
-				large = GFX_portrait_KOR_pak_hon_yong
-				small = GFX_portrait_KOR_pak_hon_yong_civilian_small
+				large = GFX_portrait_KOR_Pak_Hon_yong_1947
+				small = GFX_portrait_KOR_Pak_Hon_yong_1947_small
 			}
 			army = {
 				small = GFX_portrait_KOR_pak_hon_yong_military_small
 			}
 		}
-		#country_leader = {
-		#	ideology = marxism_leninism
-		#	traits = {  }
-		#	expire = "1965.1.1.1"
-		#	id = -1
-		#}
-	}
+
+	
+
+		country_leader = {
+			ideology = marxism_leninism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+}
 
 	# Yi Un
 	KOR_yi_un = {
@@ -116,12 +118,14 @@ characters = {
 				small = GFX_portrait_KOR_yi_un_military_small
 			}
 		}
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { KOR_highness_yi_of_changdeokgung }
-			expire = "1965.1.1.1"
-			id = -1
-		}
+
+		# 1947 mod: 该角色原占 fascism 组，会让位给安浩相（同一意识形态组两个候选人会抢领袖位，见开发日志 §8.13）
+#		country_leader = {
+#			ideology = fascism_ideology
+#			traits = { KOR_highness_yi_of_changdeokgung }
+#			expire = "1965.1.1.1"
+#			id = -1
+#		}
 	}
 
 	# Choe Hyon
@@ -150,5 +154,163 @@ characters = {
 
 	}
 
+	KOR_kim_tu_bong = {
+		name = KOR_kim_tu_bong
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Kim_Tu_bong_1947
+			small = GFX_portrait_KOR_Kim_Tu_bong_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_choe_yong_gon = {
+		name = KOR_choe_yong_gon
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Choe_Yong_gon_1947
+			small = GFX_portrait_KOR_Choe_Yong_gon_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_cho_bong_am = {
+		name = KOR_cho_bong_am
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Cho_Bong_am_1947
+			small = GFX_portrait_KOR_Cho_Bong_am_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_cho_man_sik = {
+		name = KOR_cho_man_sik
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Cho_Man_sik_1947
+			small = GFX_portrait_KOR_Cho_Man_sik_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_kim_gu = {
+		name = KOR_kim_gu
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Kim_Gu_1947
+			small = GFX_portrait_KOR_Kim_Gu_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_kim_seong_su = {
+		name = KOR_kim_seong_su
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Kim_Seong_su_1947
+			small = GFX_portrait_KOR_Kim_Seong_su_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_ahn_ho_sang_pa = {
+		name = KOR_ahn_ho_sang_pa
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Ahn_Ho_sang_1947
+			small = GFX_portrait_KOR_Ahn_Ho_sang_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_ahn_ho_sang_tp = {
+		name = KOR_ahn_ho_sang_tp
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Ahn_Ho_sang_1947
+			small = GFX_portrait_KOR_Ahn_Ho_sang_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = third_positionism_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_ahn_ho_sang_fa = {
+		name = KOR_ahn_ho_sang_fa
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Ahn_Ho_sang_1947
+			small = GFX_portrait_KOR_Ahn_Ho_sang_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_ahn_ho_sang_ns = {
+		name = KOR_ahn_ho_sang_ns
+		portraits = {
+		civilian = {
+			large = GFX_portrait_KOR_Ahn_Ho_sang_1947
+			small = GFX_portrait_KOR_Ahn_Ho_sang_1947_small
+		}
+		}
+
+		country_leader = {
+			ideology = national_socialism_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 }
-	
