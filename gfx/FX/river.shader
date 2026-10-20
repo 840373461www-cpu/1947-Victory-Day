@@ -409,7 +409,7 @@ PixelShader =
 
 			DebugReturn(vOut, lightingProperties, fShadowTerm);
 
-			// [FCM] 河流：拉近可见，拉远完全消失
+			// [FCM] river: visible when near, fades out when far
 			float vRiverFade = 1.0f - cam_distance( 250.0f, 650.0f );
 			return float4( vOut, waterSideAlpha.y * vAlphaMultiplier * Input.vTransp * vRiverFade );
 		}
