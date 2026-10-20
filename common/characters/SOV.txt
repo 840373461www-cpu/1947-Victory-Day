@@ -14,13 +14,14 @@ characters = {
 
 	SOV_iosif_stalin = {
 		name = SOV_iosif_stalin
-				portraits = {
+		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_iosif_stalin_47
+				large = GFX_portrait_SOV_Joseph_Stalin_1947
+				small = GFX_portrait_SOV_Joseph_Stalin_1947_small
 			}
 			army = {
-				large = GFX_portrait_SOV_iosif_stalin_47
-				small = GFX_portrait_SOV_iosif_stalin_47_small
+				large = GFX_portrait_SOV_Joseph_Stalin_1947
+				small = GFX_portrait_SOV_Joseph_Stalin_1947_small
 			}
 		}
 		country_leader = {

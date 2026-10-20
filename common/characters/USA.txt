@@ -215,10 +215,14 @@ characters={
 
 	USA_dwight_d_eisenhower={
 		name=USA_dwight_d_eisenhower
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Dwight_Eisenhower_1952
-				small = GFX_portrait_USA_Dwight_Eisenhower_1952_small
+				large = GFX_portrait_USA_dwight_d_eisenhower_1947
+				small = GFX_portrait_USA_dwight_d_eisenhower_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_dwight_d_eisenhower_1947
+				small = GFX_portrait_USA_dwight_d_eisenhower_1947_small
 			}
 		}
 		advisor = {
@@ -344,10 +348,14 @@ characters={
 				has_dlc = "No Compromise, No Surrender"
 			}
 			name=USA_douglas_macarthur
-			portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Douglas_MacArthur_1947
-				small = GFX_portrait_USA_Douglas_MacArthur_1947_small
+				large = GFX_portrait_USA_douglas_macarthur_1947
+				small = GFX_portrait_USA_douglas_macarthur_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_douglas_macarthur_1947
+				small = GFX_portrait_USA_douglas_macarthur_1947_small
 			}
 		}
 
@@ -1113,10 +1121,14 @@ characters={
 
 	USA_curtis_lemay={
 		name=USA_curtis_lemay
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Curtis_Lemay_CIV
-				small = GFX_portrait_USA_Curtis_Lemay_CIV_small
+				large = GFX_portrait_USA_curtis_lemay_1947
+				small = GFX_portrait_USA_curtis_lemay_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_curtis_lemay_1947
+				small = GFX_portrait_USA_curtis_lemay_1947_small
 			}
 		}
 		advisor={
@@ -1769,9 +1781,14 @@ characters={
 
 	USA_robert_taft={
 		name=USA_robert_taft
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+portraits = {
+			civilian = {
+				large = GFX_portrait_USA_robert_taft_1947
+				small = GFX_portrait_USA_robert_taft_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_robert_taft_1947
+				small = GFX_portrait_USA_robert_taft_1947_small
 			}
 		}
 		advisor={
@@ -2107,10 +2124,14 @@ characters={
 
 	USA_harry_s_truman = {
 		name = USA_harry_s_truman
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Harry_S_Truman
-				small = GFX_portrait_USA_Harry_S_Truman_small
+				large = GFX_portrait_USA_harry_s_truman_1947
+				small = GFX_portrait_USA_harry_s_truman_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_harry_s_truman_1947
+				small = GFX_portrait_USA_harry_s_truman_1947_small
 			}
 		}
 		country_leader = {
@@ -2124,10 +2145,14 @@ characters={
 
 	USA_robert_a_taft = {
 		name = USA_robert_a_taft
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Robert_A_Taft_1952
-				small = GFX_portrait_USA_Robert_A_Taft_1952_small
+				large = GFX_portrait_USA_robert_a_taft_1947
+				small = GFX_portrait_USA_robert_a_taft_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_robert_a_taft_1947
+				small = GFX_portrait_USA_robert_a_taft_1947_small
 			}
 		}
 		country_leader = {
@@ -2140,10 +2165,14 @@ characters={
 
 	USA_robert_f_kennedy = {
 		name = USA_robert_f_kennedy
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Robert_Francis_Kennedy
-				small = GFX_portrait_USA_Robert_Francis_Kennedy_small
+				large = GFX_portrait_USA_robert_f_kennedy_1947
+				small = GFX_portrait_USA_robert_f_kennedy_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_robert_f_kennedy_1947
+				small = GFX_portrait_USA_robert_f_kennedy_1947_small
 			}
 		}
 		country_leader = {
@@ -2156,10 +2185,14 @@ characters={
 
 	USA_john_f_kennedy = {
 		name = USA_john_f_kennedy
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_John_Fitzgerald_Kennedy
-				small = GFX_portrait_USA_John_Fitzgerald_Kennedy_small
+				large = GFX_portrait_USA_john_f_kennedy_1947
+				small = GFX_portrait_USA_john_f_kennedy_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_john_f_kennedy_1947
+				small = GFX_portrait_USA_john_f_kennedy_1947_small
 			}
 		}
 		country_leader = {
@@ -2188,10 +2221,14 @@ characters={
 
 	USA_strom_thurmond = {
 		name = USA_strom_thurmond
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Strom_Thurmond
-				small = GFX_portrait_USA_Strom_Thurmond_small
+				large = GFX_portrait_USA_strom_thurmond_1947
+				small = GFX_portrait_USA_strom_thurmond_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_strom_thurmond_1947
+				small = GFX_portrait_USA_strom_thurmond_1947_small
 			}
 		}
 		country_leader = {
@@ -2220,10 +2257,14 @@ characters={
 
 	USA_gus_hall = {
 		name = USA_gus_hall
-		portraits = {
+portraits = {
 			civilian = {
-				large = GFX_portrait_USA_Gus_Hall_1950
-				small = GFX_portrait_USA_Gus_Hall_1950_small
+				large = GFX_portrait_USA_gus_hall_1947
+				small = GFX_portrait_USA_gus_hall_1947_small
+			}
+			army = {
+				large = GFX_portrait_USA_gus_hall_1947
+				small = GFX_portrait_USA_gus_hall_1947_small
 			}
 		}
 		country_leader = {

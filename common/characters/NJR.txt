@@ -4,7 +4,8 @@ characters={
 		portraits={
 			civilian={
 				large=GFX_portrait_NJR_Tokuda_Kyuichi
-			}
+			
+				small = GFX_portrait_NJR_Tokuda_Kyuichi_small}
 		}
 		country_leader={
 			ideology=marxism_leninism
@@ -47,7 +48,8 @@ characters={
 		portraits={
 			civilian={
 				large=GFX_portrait_NJR_Asanuma_Inejiro
-			}
+			
+				small = GFX_portrait_NJR_Asanuma_Inejiro_small}
 		}
 		country_leader={
 			ideology=social_democrat_subtype

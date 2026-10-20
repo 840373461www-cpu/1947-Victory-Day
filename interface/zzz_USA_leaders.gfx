@@ -1,25 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II"
-		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II_small"
-		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II_1952"
-		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II_1952_small"
-		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II_1952.dds"
-	}
-
-	spriteType = {
 		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II_1956"
 		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II_1956.dds"
 	}
@@ -27,46 +7,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_Adlai_Ewing_Stevenson_II_1956_small"
 		texturefile = "gfx/leaders/USA/Adlai_Ewing_Stevenson_II_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Alben_William_Barkley"
-		texturefile = "gfx/leaders/USA/Alben_William_Barkley.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Alben_William_Barkley_small"
-		texturefile = "gfx/leaders/USA/Alben_William_Barkley.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Barry_Goldwater"
-		texturefile = "gfx/leaders/USA/Barry_Goldwater.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Barry_Goldwater_small"
-		texturefile = "gfx/leaders/USA/Barry_Goldwater.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Carey_Estes_Kefauver_1952"
-		texturefile = "gfx/leaders/USA/Carey_Estes_Kefauver_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Carey_Estes_Kefauver_1952_small"
-		texturefile = "gfx/leaders/USA/Carey_Estes_Kefauver_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Carey_Estes_Kefauver_1956"
-		texturefile = "gfx/leaders/USA/Carey_Estes_Kefauver_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Carey_Estes_Kefauver_1956_small"
-		texturefile = "gfx/leaders/USA/Carey_Estes_Kefauver_1956.dds"
 	}
 
 	spriteType = {
@@ -90,76 +30,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_USA_Curtis_Lemay_CIV"
-		texturefile = "gfx/leaders/USA/Curtis_Lemay_CIV.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Curtis_Lemay_CIV_small"
-		texturefile = "gfx/leaders/USA/Curtis_Lemay_CIV.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Douglas_MacArthur_1947"
-		texturefile = "gfx/leaders/USA/Douglas_MacArthur.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Douglas_MacArthur_1947_small"
-		texturefile = "gfx/leaders/USA/Douglas_MacArthur.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Douglas_MacArthur_1952"
-		texturefile = "gfx/leaders/USA/Douglas_MacArthur_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Douglas_MacArthur_1952_small"
-		texturefile = "gfx/leaders/USA/Douglas_MacArthur_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Dwight_Eisenhower_1952"
-		texturefile = "gfx/leaders/USA/Dwight_Eisenhower_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Dwight_Eisenhower_1952_small"
-		texturefile = "gfx/leaders/USA/Dwight_Eisenhower_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Dwight_Eisenhower_1956"
-		texturefile = "gfx/leaders/USA/Dwight_Eisenhower_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Dwight_Eisenhower_1956_small"
-		texturefile = "gfx/leaders/USA/Dwight_Eisenhower_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Earl_Warren"
-		texturefile = "gfx/leaders/USA/Earl_Warren.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Earl_Warren_small"
-		texturefile = "gfx/leaders/USA/Earl_Warren.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_George_Herbert_Walker_Bush"
-		texturefile = "gfx/leaders/USA/George_Herbert_Walker_Bush.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_George_Herbert_Walker_Bush_small"
-		texturefile = "gfx/leaders/USA/George_Herbert_Walker_Bush.dds"
-	}
-
-	spriteType = {
 		name = "GFX_portrait_USA_George_McGovern"
 		texturefile = "gfx/leaders/USA/George_McGovern.dds"
 	}
@@ -167,116 +37,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_George_McGovern_small"
 		texturefile = "gfx/leaders/USA/George_McGovern.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_George_Wallace"
-		texturefile = "gfx/leaders/USA/George_Wallace.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_George_Wallace_small"
-		texturefile = "gfx/leaders/USA/George_Wallace.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Gerald_Rudolph_Ford_Jr"
-		texturefile = "gfx/leaders/USA/Gerald_Rudolph_Ford_Jr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Gerald_Rudolph_Ford_Jr_small"
-		texturefile = "gfx/leaders/USA/Gerald_Rudolph_Ford_Jr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Gus_Hall_1950"
-		texturefile = "gfx/leaders/USA/Gus_Hall_1950.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Gus_Hall_1950_small"
-		texturefile = "gfx/leaders/USA/Gus_Hall_1950.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harold_Stassen_1952"
-		texturefile = "gfx/leaders/USA/Harold_Stassen_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harold_Stassen_1952_small"
-		texturefile = "gfx/leaders/USA/Harold_Stassen_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harry_S_Truman"
-		texturefile = "gfx/leaders/USA/Harry_S_Truman.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harry_S_Truman_small"
-		texturefile = "gfx/leaders/USA/Harry_S_Truman.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harry_S_Truman_1952"
-		texturefile = "gfx/leaders/USA/Harry_S_Truman_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Harry_S_Truman_1952_small"
-		texturefile = "gfx/leaders/USA/Harry_S_Truman_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Henry_M_Jackson"
-		texturefile = "gfx/leaders/USA/Henry_M_Jackson.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Henry_M_Jackson_small"
-		texturefile = "gfx/leaders/USA/Henry_M_Jackson.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Hubert_Humphrey"
-		texturefile = "gfx/leaders/USA/Hubert_Humphrey.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Hubert_Humphrey_small"
-		texturefile = "gfx/leaders/USA/Hubert_Humphrey.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Hubert_Humphrey_1960"
-		texturefile = "gfx/leaders/USA/Hubert_Humphrey_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Hubert_Humphrey_1960_small"
-		texturefile = "gfx/leaders/USA/Hubert_Humphrey_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_James_Earl_Jimmy_Carter_Jr"
-		texturefile = "gfx/leaders/USA/James_Earl_Jimmy_Carter_Jr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_James_Earl_Jimmy_Carter_Jr_small"
-		texturefile = "gfx/leaders/USA/James_Earl_Jimmy_Carter_Jr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_John_Fitzgerald_Kennedy"
-		texturefile = "gfx/leaders/USA/John_Fitzgerald_Kennedy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_John_Fitzgerald_Kennedy_small"
-		texturefile = "gfx/leaders/USA/John_Fitzgerald_Kennedy.dds"
 	}
 
 	spriteType = {
@@ -290,16 +50,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_USA_John_W_McCormack"
-		texturefile = "gfx/leaders/USA/John_W_McCormack.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_John_W_McCormack_small"
-		texturefile = "gfx/leaders/USA/John_W_McCormack.dds"
-	}
-
-	spriteType = {
 		name = "GFX_portrait_USA_John_William_Davis"
 		texturefile = "gfx/leaders/USA/John_William_Davis.dds"
 	}
@@ -307,36 +57,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_John_William_Davis_small"
 		texturefile = "gfx/leaders/USA/John_William_Davis.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_John_William_McCormack"
-		texturefile = "gfx/leaders/USA/John_William_McCormack.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_John_William_McCormack_small"
-		texturefile = "gfx/leaders/USA/John_William_McCormack.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Lyndon_Baines_Johnson_1964"
-		texturefile = "gfx/leaders/USA/Lyndon_Baines_Johnson_1964.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Lyndon_Baines_Johnson_1964_small"
-		texturefile = "gfx/leaders/USA/Lyndon_Baines_Johnson_1964.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Margaret_C_Smith"
-		texturefile = "gfx/leaders/USA/Margaret_C_Smith.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Margaret_C_Smith_small"
-		texturefile = "gfx/leaders/USA/Margaret_C_Smith.dds"
 	}
 
 	spriteType = {
@@ -350,96 +70,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_USA_Nelson_Aldrich_Rockefeller"
-		texturefile = "gfx/leaders/USA/Nelson_Aldrich_Rockefeller.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Nelson_Aldrich_Rockefeller_small"
-		texturefile = "gfx/leaders/USA/Nelson_Aldrich_Rockefeller.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Richard_Milhous_Nixon_1960"
-		texturefile = "gfx/leaders/USA/Richard_Milhous_Nixon_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Richard_Milhous_Nixon_1960_small"
-		texturefile = "gfx/leaders/USA/Richard_Milhous_Nixon_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Richard_Russell_Jr_1952"
-		texturefile = "gfx/leaders/USA/Richard_Russell_Jr_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Richard_Russell_Jr_1952_small"
-		texturefile = "gfx/leaders/USA/Richard_Russell_Jr_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Robert_A_Taft_1952"
-		texturefile = "gfx/leaders/USA/Robert_A_Taft_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Robert_A_Taft_1952_small"
-		texturefile = "gfx/leaders/USA/Robert_A_Taft_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Robert_Francis_Kennedy"
-		texturefile = "gfx/leaders/USA/Robert_Francis_Kennedy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Robert_Francis_Kennedy_small"
-		texturefile = "gfx/leaders/USA/Robert_Francis_Kennedy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Ronald_Wilson_Reagan"
-		texturefile = "gfx/leaders/USA/Ronald_Wilson_Reagan.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Ronald_Wilson_Reagan_small"
-		texturefile = "gfx/leaders/USA/Ronald_Wilson_Reagan.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Strom_Thurmond"
-		texturefile = "gfx/leaders/USA/Strom_Thurmond.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Strom_Thurmond_small"
-		texturefile = "gfx/leaders/USA/Strom_Thurmond.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Thomas_Edmund_Dewey_1956"
-		texturefile = "gfx/leaders/USA/Thomas_Edmund_Dewey_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Thomas_Edmund_Dewey_1956_small"
-		texturefile = "gfx/leaders/USA/Thomas_Edmund_Dewey_1956.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Thomas_Edmund_Dewey_1960"
-		texturefile = "gfx/leaders/USA/Thomas_Edmund_Dewey_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Thomas_Edmund_Dewey_1960_small"
-		texturefile = "gfx/leaders/USA/Thomas_Edmund_Dewey_1960.dds"
-	}
-
-	spriteType = {
 		name = "GFX_portrait_USA_Wallace_F_Bennett"
 		texturefile = "gfx/leaders/USA/Wallace_F_Bennett.dds"
 	}
@@ -447,26 +77,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_Wallace_F_Bennett_small"
 		texturefile = "gfx/leaders/USA/Wallace_F_Bennett.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Walt_Disney_1952"
-		texturefile = "gfx/leaders/USA/Walt_Disney_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Walt_Disney_1952_small"
-		texturefile = "gfx/leaders/USA/Walt_Disney_1952.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Walter_Philip_Reuther"
-		texturefile = "gfx/leaders/USA/Walter_Philip_Reuther.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_Walter_Philip_Reuther_small"
-		texturefile = "gfx/leaders/USA/Walter_Philip_Reuther.dds"
 	}
 
 	spriteType = {
@@ -497,16 +107,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_William_Stuart_Symington_1960_small"
 		texturefile = "gfx/leaders/USA/William_Stuart_Symington_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_William_Warren_Scranton_1960"
-		texturefile = "gfx/leaders/USA/William_Warren_Scranton_1960.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_William_Warren_Scranton_1960_small"
-		texturefile = "gfx/leaders/USA/William_Warren_Scranton_1960.dds"
 	}
 
 	spriteType = {
@@ -700,26 +300,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_USA_generals_USA_Douglas_MacArthur"
-		texturefile = "gfx/leaders/USA/generals_USA_Douglas_MacArthur.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_generals_USA_Douglas_MacArthur_small"
-		texturefile = "gfx/leaders/USA/generals_USA_Douglas_MacArthur.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_generals_USA_Dwight_David_Eisenhower"
-		texturefile = "gfx/leaders/USA/generals_USA_Dwight_David_Eisenhower.dds"
-	}
-
-	spriteType = {
-		name = "GFX_portrait_USA_generals_USA_Dwight_David_Eisenhower_small"
-		texturefile = "gfx/leaders/USA/generals_USA_Dwight_David_Eisenhower.dds"
-	}
-
-	spriteType = {
 		name = "GFX_portrait_USA_generals_USA_George_Catlett_Marshall"
 		texturefile = "gfx/leaders/USA/generals_USA_George_Catlett_Marshall.dds"
 	}
@@ -837,6 +417,106 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_USA_generals_USA_Walton_Harris_Walker_small"
 		texturefile = "gfx/leaders/USA/generals_USA_Walton_Harris_Walker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_dwight_d_eisenhower_1947"
+		texturefile = "gfx/leaders/USA/Dwight_D_Eisenhower_53.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_dwight_d_eisenhower_1947_small"
+		texturefile = "gfx/leaders/USA/Dwight_D_Eisenhower_53.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_douglas_macarthur_1947"
+		texturefile = "gfx/leaders/USA/Douglas_MacArthur_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_douglas_macarthur_1947_small"
+		texturefile = "gfx/leaders/USA/Douglas_MacArthur_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_curtis_lemay_1947"
+		texturefile = "gfx/leaders/USA/Curtis_LeMay_70s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_curtis_lemay_1947_small"
+		texturefile = "gfx/leaders/USA/Curtis_LeMay_70s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_harry_s_truman_1947"
+		texturefile = "gfx/leaders/USA/Harry_S_Truman_49.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_harry_s_truman_1947_small"
+		texturefile = "gfx/leaders/USA/Harry_S_Truman_49.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_taft_1947"
+		texturefile = "gfx/leaders/USA/Robert_Taft_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_taft_1947_small"
+		texturefile = "gfx/leaders/USA/Robert_Taft_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_a_taft_1947"
+		texturefile = "gfx/leaders/USA/Robert_Taft_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_a_taft_1947_small"
+		texturefile = "gfx/leaders/USA/Robert_Taft_50s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_f_kennedy_1947"
+		texturefile = "gfx/leaders/USA/Robert_F_Kennedy_69.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_robert_f_kennedy_1947_small"
+		texturefile = "gfx/leaders/USA/Robert_F_Kennedy_69.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_john_f_kennedy_1947"
+		texturefile = "gfx/leaders/USA/John_F_Kennedy_61.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_john_f_kennedy_1947_small"
+		texturefile = "gfx/leaders/USA/John_F_Kennedy_61.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_strom_thurmond_1947"
+		texturefile = "gfx/leaders/USA/Strom_Thurmond_57.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_strom_thurmond_1947_small"
+		texturefile = "gfx/leaders/USA/Strom_Thurmond_57.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_gus_hall_1947"
+		texturefile = "gfx/leaders/USA/Gus_Hall_70s.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_gus_hall_1947_small"
+		texturefile = "gfx/leaders/USA/Gus_Hall_70s.dds"
 	}
 
 }

@@ -31,12 +31,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_CZE_Klement_Gottwald_1947"
-		texturefile = "gfx/leaders/CZE/Klement_Gottwald.dds"
+		texturefile = "gfx/leaders/CZE/Klement_Gottwald_40s.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_CZE_Klement_Gottwald_1947_small"
-		texturefile = "gfx/leaders/CZE/Klement_Gottwald.dds"
+		texturefile = "gfx/leaders/CZE/Klement_Gottwald_40s.dds"
 	}
 
 	spriteType = {

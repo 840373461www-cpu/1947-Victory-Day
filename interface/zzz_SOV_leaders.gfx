@@ -29,4 +29,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Aleksey_Rykov.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_SOV_Joseph_Stalin_1947"
+		texturefile = "gfx/leaders/SOV/Joseph_Stalin_50sEarly.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_Joseph_Stalin_1947_small"
+		texturefile = "gfx/leaders/SOV/Joseph_Stalin_50sEarly.dds"
+	}
+
 }
