@@ -72,44 +72,15 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 80
-	communism = 20
+	social_democrat = 100
 }
 
 recruit_character = ISR_david_ben_gurion
 
-create_country_leader = {
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = GFX_portrait_Itzhak_Gaster
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = GFX_portrait_Rudolf_Szabo
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shmuel Mikunis"
-	desc = ""
-	picture = GFX_portrait_Shmuel_Mikunis
-	ideology = marxism_leninism
-	traits = {
-		#
-	}
-}
+recruit_character = ISR_albert_einstein

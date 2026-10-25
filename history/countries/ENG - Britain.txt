@@ -42,6 +42,50 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_naval_oob = "ENG_1936_Naval"
+	set_autonomy = {
+		target = GHA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = KEN
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = UGA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = TZN
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MLW
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BAR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BOT
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ZAM
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ZIM
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SUD
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = NGA
+		autonomous_state = autonomy_puppet
+	}
 	else = {
 		set_naval_oob = "ENG_1936_Naval_Legacy"
 	}

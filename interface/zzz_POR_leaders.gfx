@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_POR_Cunhal_1947"
+		texturefile = "gfx/leaders/POR/Cunhal.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Cunhal_1947_small"
+		texturefile = "gfx/leaders/POR/Cunhal.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Delgado_1947"
+		texturefile = "gfx/leaders/POR/Delgado.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Delgado_1947_small"
+		texturefile = "gfx/leaders/POR/Delgado.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Caetano_1947"
+		texturefile = "gfx/leaders/POR/Caetano.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Caetano_1947_small"
+		texturefile = "gfx/leaders/POR/Caetano.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Duarte_Nuno_1947"
+		texturefile = "gfx/leaders/POR/Duarte_Nuno.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Duarte_Nuno_1947_small"
+		texturefile = "gfx/leaders/POR/Duarte_Nuno.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Salazar_1947"
+		texturefile = "gfx/leaders/POR/Salazar.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_Salazar_1947_small"
+		texturefile = "gfx/leaders/POR/Salazar.dds"
+	}
+}

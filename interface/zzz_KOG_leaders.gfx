@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_KOG_Papagos_1947"
+		texturefile = "gfx/leaders/KOG/Papagos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Papagos_1947_small"
+		texturefile = "gfx/leaders/KOG/Papagos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Papandreou_1947"
+		texturefile = "gfx/leaders/KOG/Papandreou.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Papandreou_1947_small"
+		texturefile = "gfx/leaders/KOG/Papandreou.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Karamanlis_1947"
+		texturefile = "gfx/leaders/KOG/Karamanlis.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Karamanlis_1947_small"
+		texturefile = "gfx/leaders/KOG/Karamanlis.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Papadopoulos_1947"
+		texturefile = "gfx/leaders/KOG/Papadopoulos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Papadopoulos_1947_small"
+		texturefile = "gfx/leaders/KOG/Papadopoulos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Paul_I_1947"
+		texturefile = "gfx/leaders/KOG/Paul_I.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOG_Paul_I_1947_small"
+		texturefile = "gfx/leaders/KOG/Paul_I.dds"
+	}
+}

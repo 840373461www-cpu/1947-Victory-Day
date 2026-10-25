@@ -1,0 +1,42 @@
+characters = {
+
+
+	BAR_yeta_iii = {
+
+		name = BAR_yeta_iii
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BAR_yeta_iii
+				#small = "GFX_portrait_PLACEHOLDER_small"
+			}
+		}
+
+		country_leader = {
+			ideology = despotism
+			traits = { litunga_of_the_barotse }
+			expire = "1945.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+
+	BAR_colonial_governor = {
+		name = BAR_colonial_governor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BAR_Colonial_Governor_1947
+				small = GFX_portrait_BAR_Colonial_Governor_1947_small
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

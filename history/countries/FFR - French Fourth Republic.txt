@@ -30,3 +30,18 @@ recruit_character = FFR_valery_giscard_destaing
 recruit_character = FFR_ahmed_sekou_toure
 recruit_character = FFR_maurice_challe
 recruit_character = FFR_napoleon_vi
+
+set_autonomy = {
+	target = MAD
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = CMR
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = RCG
+	autonomous_state = autonomy_puppet
+}

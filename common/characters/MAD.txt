@@ -1,0 +1,19 @@
+characters={
+
+
+	MAD_colonial_governor = {
+		name = MAD_colonial_governor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MAD_Colonial_Governor_1947
+				small = GFX_portrait_MAD_Colonial_Governor_1947_small
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

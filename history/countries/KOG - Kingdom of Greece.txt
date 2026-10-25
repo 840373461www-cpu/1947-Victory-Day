@@ -1,23 +1,20 @@
 capital = 182
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 62
-	democratic = 20
-	fascism = 12
-	communism = 6
+	paternal_autocrat = 30
+	social_liberal = 10
+	authoritarian_democrat = 20
+	fascism = 5
+	monarchism = 35
 }
 
-create_country_leader = {
-	name = "George II"
-	desc = ""
-	picture = GFX_portrait_gre_george_ii
-	expire = "1964.1.1"
-	ideology = despotism
-	traits = {
-	}
-}
+recruit_character = KOG_alexandros_papagos
+recruit_character = KOG_georgios_papandreou
+recruit_character = KOG_konstantinos_karamanlis
+recruit_character = KOG_georgios_papadopoulos
+recruit_character = KOG_paul_i

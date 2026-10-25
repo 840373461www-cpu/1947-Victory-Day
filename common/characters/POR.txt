@@ -4,15 +4,18 @@ characters = {
 		name = POR_antonio_de_oliveira_salazar
 		portraits = {
 			civilian = {
-				large = GFX_portrait_POR_antonio_de_oliveira_salazar
+				large = GFX_portrait_POR_Salazar_1947
+				small = GFX_portrait_POR_Salazar_1947_small
 			}
 		}
+
 		country_leader = {
-			ideology=despotism
-			traits = { conservative_nationalist_lar }
-			expire = "1965.1.1.1"
+			ideology = corporatism_subtype
+			traits = { }
+			expire = "1970.7.27.1"
 			id = -1
 		}
+
 	}
 
 	POR_bento_goncalves = {
@@ -209,10 +212,19 @@ characters = {
 		}
 		name = POR_humberto_delgado
 		portraits = {
-			army = {
-				small = "GFX_idea_generic_air_europe_1"
+			civilian = {
+				large = GFX_portrait_POR_Delgado_1947
+				small = GFX_portrait_POR_Delgado_1947_small
 			}
 		}
+
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+			expire = "1965.2.13.1"
+			id = -1
+		}
+
 	}
 
 	POR_humberto_carmona = {
@@ -872,10 +884,19 @@ characters = {
 		}
 		name = POR_alvaro_cunhal
 		portraits = {
-			army = {
-				small = "GFX_idea_POR_alvaro_cunhal"
+			civilian = {
+				large = GFX_portrait_POR_Cunhal_1947
+				small = GFX_portrait_POR_Cunhal_1947_small
 			}
 		}
+
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = "1984.6.13.1"
+			id = -1
+		}
+
 	}
 
 	POR_raul_brandao = {
@@ -1365,6 +1386,36 @@ characters = {
 			army = {
 				small = "GFX_idea_POR_agostinho_lourenco"
 			}
+		}
+	}
+	POR_marcelo_caetano = {
+		name = POR_marcelo_caetano
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POR_Caetano_1947
+				small = GFX_portrait_POR_Caetano_1947_small
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+			expire = "1980.10.26.1"
+			id = -1
+		}
+	}
+	POR_duarte_nuno = {
+		name = POR_duarte_nuno
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POR_Duarte_Nuno_1947
+				small = GFX_portrait_POR_Duarte_Nuno_1947_small
+			}
+		}
+		country_leader = {
+			ideology = monarchism_subtype
+			traits = { }
+			expire = "1976.12.24.1"
+			id = -1
 		}
 	}
 }

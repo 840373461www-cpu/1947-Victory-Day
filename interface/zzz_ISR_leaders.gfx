@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ISR_Albert_Einstein_1947"
+		texturefile = "gfx/leaders/ISR/Albert_Einstein.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISR_Albert_Einstein_1947_small"
+		texturefile = "gfx/leaders/ISR/Albert_Einstein.dds"
+	}
+}

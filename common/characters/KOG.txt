@@ -1,0 +1,83 @@
+characters = {
+
+	KOG_alexandros_papagos = {
+		name = KOG_alexandros_papagos
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOG_Papagos_1947
+				small = GFX_portrait_KOG_Papagos_1947_small
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+			expire = "1955.10.4.1"
+			id = -1
+		}
+	}
+
+	KOG_georgios_papandreou = {
+		name = KOG_georgios_papandreou
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOG_Papandreou_1947
+				small = GFX_portrait_KOG_Papandreou_1947_small
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+			expire = "1968.11.1.1"
+			id = -1
+		}
+	}
+
+	KOG_konstantinos_karamanlis = {
+		name = KOG_konstantinos_karamanlis
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOG_Karamanlis_1947
+				small = GFX_portrait_KOG_Karamanlis_1947_small
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+			expire = "1998.4.23.1"
+			id = -1
+		}
+	}
+
+	KOG_georgios_papadopoulos = {
+		name = KOG_georgios_papadopoulos
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOG_Papadopoulos_1947
+				small = GFX_portrait_KOG_Papadopoulos_1947_small
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			traits = { }
+			expire = "1999.6.27.1"
+			id = -1
+		}
+	}
+
+	KOG_paul_i = {
+		name = KOG_paul_i
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOG_Paul_I_1947
+				small = GFX_portrait_KOG_Paul_I_1947_small
+			}
+		}
+		country_leader = {
+			ideology = monarchism_subtype
+			traits = { }
+			expire = "1964.3.6.1"
+			id = -1
+		}
+	}
+
+}

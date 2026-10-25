@@ -7,13 +7,12 @@ state={
 	}
 
 	history={
-		owner = FFR
+		owner = RCG
+		add_core_of = RCG
 		victory_points = {
 			12830 1 
 		}
-		victory_points = {
-			2080 1 
-		}
+
 		buildings = {
 			infrastructure = 1
 
@@ -23,7 +22,7 @@ state={
 }
 
 	provinces={
-		2080 3165 5036 5054 5084 11012 11108 12719 12830 
+		3165 5084 11012 11108 12719 12830 
 	}
 	manpower=1136921
 	buildings_max_level_factor=1.000

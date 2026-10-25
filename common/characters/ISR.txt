@@ -1,0 +1,42 @@
+characters = {
+
+
+	ISR_david_ben_gurion = {
+
+		name = ISR_david_ben_gurion
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ISR_david_ben_gurion
+				small = GFX_portrait_ISR_david_ben_gurion_small
+			}
+		}
+
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+			expire = "1951.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+
+	ISR_albert_einstein = {
+		name = ISR_albert_einstein
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ISR_Albert_Einstein_1947
+				small = GFX_portrait_ISR_Albert_Einstein_1947_small
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+			expire = "1955.4.18.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_MLW_Colonial_Governor_1947"
+		texturefile = "gfx/leaders/MLW/Colonial_Governor.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MLW_Colonial_Governor_1947_small"
+		texturefile = "gfx/leaders/MLW/Colonial_Governor.dds"
+	}
+}

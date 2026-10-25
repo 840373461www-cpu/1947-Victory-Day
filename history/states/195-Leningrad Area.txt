@@ -21,7 +21,13 @@ state={
 				naval_base = 10
 				coastal_bunker = 5
 			}
-		}
+					9100 = {
+				bunker = 2
+			}
+			9105 = {
+				bunker = 2
+			}
+	}
 		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
@@ -31,7 +37,7 @@ state={
 	}
 
 	provinces={
-		79 149 3151 6174 11068 
+		79 149 3151 6174 11068 9105 9100 9150 3060 2332 
 	}
 
 	local_supplies=11.0 

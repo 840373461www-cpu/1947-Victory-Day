@@ -1,0 +1,83 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Dolores_Ibarruri_1947"
+		texturefile = "gfx/leaders/SPR/Dolores_Ibarruri.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Dolores_Ibarruri_1947_small"
+		texturefile = "gfx/leaders/SPR/Dolores_Ibarruri.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Carlos_Arias_Navarro_1947"
+		texturefile = "gfx/leaders/SPR/Carlos_Arias_Navarro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Carlos_Arias_Navarro_1947_small"
+		texturefile = "gfx/leaders/SPR/Carlos_Arias_Navarro.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Agustin_Munoz_Grandes_1947"
+		texturefile = "gfx/leaders/SPR/Agustin_Munoz_Grandes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Agustin_Munoz_Grandes_1947_small"
+		texturefile = "gfx/leaders/SPR/Agustin_Munoz_Grandes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Jose_Maria_Valiente_1947"
+		texturefile = "gfx/leaders/SPR/Jose_Maria_Valiente.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Jose_Maria_Valiente_1947_small"
+		texturefile = "gfx/leaders/SPR/Jose_Maria_Valiente.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Francisco_Franco_1947"
+		texturefile = "gfx/leaders/SPR/Francisco_Franco.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Francisco_Franco_1947_small"
+		texturefile = "gfx/leaders/SPR/Francisco_Franco.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Jose_Luis_de_Arrese_1947"
+		texturefile = "gfx/leaders/SPR/Jose_Luis_de_Arrese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Jose_Luis_de_Arrese_1947_small"
+		texturefile = "gfx/leaders/SPR/Jose_Luis_de_Arrese.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Agustin_Aznar_Gerner_1947"
+		texturefile = "gfx/leaders/SPR/Agustin_Aznar_Gerner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Agustin_Aznar_Gerner_1947_small"
+		texturefile = "gfx/leaders/SPR/Agustin_Aznar_Gerner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Alfonso_Perez_Vineta_1947"
+		texturefile = "gfx/leaders/SPR/Alfonso_Perez_Vineta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_Alfonso_Perez_Vineta_1947_small"
+		texturefile = "gfx/leaders/SPR/Alfonso_Perez_Vineta.dds"
+	}
+
+}

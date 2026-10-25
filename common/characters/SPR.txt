@@ -47,12 +47,13 @@ characters={
 					large=GFX_portrait_SPR_jose_diaz
 				}
 			}
-			country_leader={
-				ideology = marxism_leninism
-				traits={ veteran_communist }
-				expire="1965.1.1.1"
-				id=-1
-			}
+# ★ 1947（让位）：同组只能一个候选人 —— 开发日志 §8.13
+#			country_leader={
+#				ideology = marxism_leninism
+#				traits={ veteran_communist }
+#				expire="1965.1.1.1"
+#				id=-1
+#			}
 		}
 		instance = {
 			allowed = {
@@ -64,11 +65,12 @@ characters={
 					large=GFX_portrait_SPR_jose_diaz
 				}
 			}
-			country_leader={
-				ideology = marxism_leninism
-				expire="1965.1.1.1"
-				id=-1
-			}
+# ★ 1947（让位）：同组只能一个候选人 —— 开发日志 §8.13
+#			country_leader={
+#				ideology = marxism_leninism
+#				expire="1965.1.1.1"
+#				id=-1
+#			}
 		}
 	}
 
@@ -4771,6 +4773,126 @@ characters={
 			traits = {
 				regional_traditionalist_leader 
 			}
+		}
+	}
+
+	SPR_dolores_ibarruri_1947={
+		name=SPR_dolores_ibarruri_1947
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Dolores_Ibarruri_1947
+				small=GFX_portrait_SPR_Dolores_Ibarruri_1947_small
+			}
+		}
+		country_leader={
+			ideology=marxism_leninism
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_carlos_arias_navarro={
+		name=SPR_carlos_arias_navarro
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Carlos_Arias_Navarro_1947
+				small=GFX_portrait_SPR_Carlos_Arias_Navarro_1947_small
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_agustin_munoz_grandes={
+		name=SPR_agustin_munoz_grandes
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Agustin_Munoz_Grandes_1947
+				small=GFX_portrait_SPR_Agustin_Munoz_Grandes_1947_small
+			}
+		}
+		country_leader={
+			ideology=paternal_autocrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_jose_maria_valiente={
+		name=SPR_jose_maria_valiente
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Jose_Maria_Valiente_1947
+				small=GFX_portrait_SPR_Jose_Maria_Valiente_1947_small
+			}
+		}
+		country_leader={
+			ideology=monarchism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_francisco_franco={
+		name=SPR_francisco_franco
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Francisco_Franco_1947
+				small=GFX_portrait_SPR_Francisco_Franco_1947_small
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_jose_luis_de_arrese={
+		name=SPR_jose_luis_de_arrese
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Jose_Luis_de_Arrese_1947
+				small=GFX_portrait_SPR_Jose_Luis_de_Arrese_1947_small
+			}
+		}
+		country_leader={
+			ideology=third_positionism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_agustin_aznar_gerner={
+		name=SPR_agustin_aznar_gerner
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Agustin_Aznar_Gerner_1947
+				small=GFX_portrait_SPR_Agustin_Aznar_Gerner_1947_small
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	SPR_alfonso_perez_vineta={
+		name=SPR_alfonso_perez_vineta
+		portraits={
+			civilian={
+				large=GFX_portrait_SPR_Alfonso_Perez_Vineta_1947
+				small=GFX_portrait_SPR_Alfonso_Perez_Vineta_1947_small
+			}
+		}
+		country_leader={
+			ideology=national_socialism_subtype
+			expire="1965.1.1"
+			id=-1
 		}
 	}
 }
