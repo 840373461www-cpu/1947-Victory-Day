@@ -52,6 +52,11 @@ recruit_character = NOR_adolf_indrebo
 recruit_character = NOR_halvdan_koht
 recruit_character = NOR_trygve_halvdan_lie
 recruit_character = NOR_carsten_tank_nielsen 
+# ★ 1947 领袖
+recruit_character = NOR_emil_lovlien
+recruit_character = NOR_einar_gerhardsen
+recruit_character = NOR_lars_korvald
+recruit_character = NOR_arthur_nordlie
 
 set_global_flag = NOR_trotsky_in_norway 
 
@@ -298,29 +303,60 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democrat
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	democratic = 0
+	communism = 10
+	fascism = 0
+	neutrality = 0
+	radical_socialist = 0
+	reformist_socialist = 0
+	social_democrat = 60
+	social_liberal = 10
+	social_conservative = 10
+	market_liberal = 10
+	national_populist = 0
+	military_republicanism = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	monarchism = 0
+	corporatism = 0
+	third_positionism = 0
+	national_socialism = 0
+	theocracy = 0
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = social_democrat
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
 	}
-	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
+		set_popularities = {
+		democratic = 0
+		communism = 10
+		fascism = 0
+		neutrality = 0
+		radical_socialist = 0
+		reformist_socialist = 0
+		social_democrat = 60
+		social_liberal = 10
+		social_conservative = 10
+		market_liberal = 10
+		national_populist = 0
+		military_republicanism = 0
+		authoritarian_democrat = 0
+		paternal_autocrat = 0
+		monarchism = 0
+		corporatism = 0
+		third_positionism = 0
+		national_socialism = 0
+		theocracy = 0
 	}
 }
 
@@ -437,6 +473,7 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
+}
 }
 
 1950.1.1 = {

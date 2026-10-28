@@ -3,11 +3,12 @@ characters={
 		name=SWI_federal_assembly
 		portraits={
 			civilian={
-				large=GFX_portrait_SWI_federal_assembly
+				large = GFX_portrait_SWI_Swiss_Parliament_1947
+				small = GFX_portrait_SWI_Swiss_Parliament_1947_small
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=social_liberal_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

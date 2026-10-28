@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Sven_Linderot_1947"
+		texturefile = "gfx/leaders/SWE/Sven_Linderot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Sven_Linderot_1947_small"
+		texturefile = "gfx/leaders/SWE/Sven_Linderot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Olof_Palme_1947"
+		texturefile = "gfx/leaders/SWE/Olof_Palme.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Olof_Palme_1947_small"
+		texturefile = "gfx/leaders/SWE/Olof_Palme.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Tage_Erlander_1947"
+		texturefile = "gfx/leaders/SWE/Tage_Erlander.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Tage_Erlander_1947_small"
+		texturefile = "gfx/leaders/SWE/Tage_Erlander.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Gunnar_Hedlund_1947"
+		texturefile = "gfx/leaders/SWE/Gunnar_Hedlund.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Gunnar_Hedlund_1947_small"
+		texturefile = "gfx/leaders/SWE/Gunnar_Hedlund.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Jarl_Hjalmarson_1947"
+		texturefile = "gfx/leaders/SWE/Jarl_Hjalmarson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Jarl_Hjalmarson_1947_small"
+		texturefile = "gfx/leaders/SWE/Jarl_Hjalmarson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Bertil_Ohlin_1947"
+		texturefile = "gfx/leaders/SWE/Bertil_Ohlin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_Bertil_Ohlin_1947_small"
+		texturefile = "gfx/leaders/SWE/Bertil_Ohlin.dds"
+	}
+
+}

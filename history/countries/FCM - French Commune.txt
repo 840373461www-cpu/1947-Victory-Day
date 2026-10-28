@@ -40,6 +40,12 @@ set_popularities = {
 	national_socialism = 0
 }
 
+# [1947] 外交加成（态度 +100）
+add_opinion_modifier = {
+	target = SOV
+	modifier = fcm_lean_to_soviet
+}
+
 recruit_character = FCM_maurice_thorez
 
 # (removed) dated popularity block that overrode the 1947 setup

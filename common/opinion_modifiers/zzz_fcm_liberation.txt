@@ -3,4 +3,14 @@ opinion_modifiers = {
 	fcm_red_army_liberator = {
 		value = 100
 	}
+
+	# [1947] 与美国交好（态度 +100）
+	fcm_usa_friendly = {
+		value = 100
+	}
+
+	# [1947] 倒向苏联（FCM 专用，态度 +100）
+	fcm_lean_to_soviet = {
+		value = 100
+	}
 }

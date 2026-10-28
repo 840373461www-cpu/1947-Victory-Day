@@ -135,13 +135,13 @@ characters={
 		name = ICE_sveinn_bjornsson
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ICE_sveinn_bjornsson
-				small = GFX_portrait_ICE_sveinn_bjornsson_small
+				large=GFX_portrait_ICE_Sveinn_Bjornsson_1947
+				small=GFX_portrait_ICE_Sveinn_Bjornsson_1947_small
 			}
 
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = social_conservative_subtype
 			traits = { ICE_the_strict_regent }
 			expire = "1965.1.1"
 			id = -1
@@ -365,7 +365,8 @@ characters={
 		name = ICE_stefan_johann_stefansson
 		portraits = {
 			civilian = {
-				small = GFX_portrait_ICE_stefan_johann_stefansson_small
+				large = GFX_portrait_ICE_Stefan_Johann_Stefansson_1947
+				small = GFX_portrait_ICE_Stefan_Johann_Stefansson_1947_small
 			}
 
 		}
@@ -401,6 +402,13 @@ characters={
 					ICE_has_fascist_ai = yes
 				}
 			}
+		}
+	
+
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1"
+			id = -1
 		}
 	}
 	
@@ -932,6 +940,18 @@ characters={
 		
 	}
 
-
-
+	ICE_asgeir_asgeirsson={
+		name=ICE_asgeir_asgeirsson
+		portraits={
+			civilian={
+				large=GFX_portrait_ICE_Asgeir_Asgeirsson_1947
+				small=GFX_portrait_ICE_Asgeir_Asgeirsson_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_liberal_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 }

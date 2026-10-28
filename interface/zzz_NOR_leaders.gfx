@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Emil_Lovlien_1947"
+		texturefile = "gfx/leaders/NOR/Emil_Lovlien.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Emil_Lovlien_1947_small"
+		texturefile = "gfx/leaders/NOR/Emil_Lovlien.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Einar_Gerhardsen_1947"
+		texturefile = "gfx/leaders/NOR/Einar_Gerhardsen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Einar_Gerhardsen_1947_small"
+		texturefile = "gfx/leaders/NOR/Einar_Gerhardsen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Lars_Korvald_1947"
+		texturefile = "gfx/leaders/NOR/Lars_Korvald.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Lars_Korvald_1947_small"
+		texturefile = "gfx/leaders/NOR/Lars_Korvald.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Arthur_Nordlie_1947"
+		texturefile = "gfx/leaders/NOR/Arthur_Nordlie.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NOR_Arthur_Nordlie_1947_small"
+		texturefile = "gfx/leaders/NOR/Arthur_Nordlie.dds"
+	}
+
+}

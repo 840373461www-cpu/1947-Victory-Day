@@ -147,6 +147,10 @@ if = {
 }
 recruit_character = DEN_ejnar_warum
 recruit_character = DEN_viggo_kampman
+# ★ 1947 领袖
+recruit_character = DEN_hans_hedtoft
+recruit_character = DEN_erik_eriksen
+recruit_character = DEN_ole_bjorn_kraft
 
 
 
@@ -388,32 +392,61 @@ if = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = social_democrat
 		last_election = "1935.10.22"
 		election_frequency = 42
 		elections_allowed = yes
 	}
-	set_popularities = {
-		democratic = DEN_democratic_popularity
-		fascism = DEN_fascism_popularity
-		communism = DEN_communism_popularity
-		neutrality = DEN_neutrality_popularity
-	}
-
+				set_popularities = {
+			democratic = 0
+			communism = 20
+			fascism = 0
+			neutrality = 0
+			radical_socialist = 0
+			reformist_socialist = 0
+			social_democrat = 45
+			social_liberal = 0
+			social_conservative = 15
+			market_liberal = 20
+			national_populist = 0
+			military_republicanism = 0
+			authoritarian_democrat = 0
+			paternal_autocrat = 0
+			monarchism = 0
+			corporatism = 0
+			third_positionism = 0
+			national_socialism = 0
+			theocracy = 0
+		}
 	store_core_states_on_game_start = yes
 }
 if = {
 	limit = {
 		NOT = { has_dlc = "Arms Against Tyranny" }
 	}
-	set_popularities = {
-		democratic = 94
-		fascism = 1
-		communism = 2
-		neutrality = 3
-	}
+				set_popularities = {
+			democratic = 0
+			communism = 20
+			fascism = 0
+			neutrality = 0
+			radical_socialist = 0
+			reformist_socialist = 0
+			social_democrat = 45
+			social_liberal = 0
+			social_conservative = 15
+			market_liberal = 20
+			national_populist = 0
+			military_republicanism = 0
+			authoritarian_democrat = 0
+			paternal_autocrat = 0
+			monarchism = 0
+			corporatism = 0
+			third_positionism = 0
+			national_socialism = 0
+			theocracy = 0
+		}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = social_democrat
 		last_election = "1935.10.22"
 		election_frequency = 48
 		elections_allowed = yes
@@ -426,7 +459,7 @@ if = {
 			has_dlc = "Arms Against Tyranny"
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = social_democrat
 			last_election = "1939.4.3"
 			election_frequency = 42
 			elections_allowed = yes
@@ -437,7 +470,7 @@ if = {
 			NOT = { has_dlc = "Arms Against Tyranny" }
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = social_democrat
 			last_election = "1939.10.22"
 			election_frequency = 48
 			elections_allowed = yes
@@ -661,4 +694,16 @@ add_equipment_to_stockpile = {
 			}
 		}
 	}
+}
+
+# [1947] 外交加成（态度 +100）
+add_opinion_modifier = {
+	target = SOV
+	modifier = fcm_red_army_liberator
+}
+
+# [1947] 外交加成（态度 +100）
+add_opinion_modifier = {
+	target = USA
+	modifier = fcm_usa_friendly
 }

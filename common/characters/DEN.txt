@@ -375,8 +375,8 @@ characters={
 			name = DEN_aksel_larsen
 			portraits = {
 				civilian = {
-					large = GFX_portrait_DEN_aksel_larsen
-					small = GFX_portrait_DEN_aksel_larsen_small
+					large = GFX_portrait_DEN_Aksel_Larsen_1947
+					small = GFX_portrait_DEN_Aksel_Larsen_1947_small
 				}
 			}
 			country_leader={
@@ -2034,8 +2034,8 @@ characters={
 		name = DEN_hans_hedtoft
 		portraits = {
 			civilian = {
-				#large = GFX_portrait_DEN_vilhelm_buhl
-				small = GFX_portrait_DEN_hans_hedtoft_small
+				large = GFX_portrait_DEN_Hans_Hedtoft_1947
+				small = GFX_portrait_DEN_Hans_Hedtoft_1947_small
 			}
 		}
 		advisor = {
@@ -2061,6 +2061,13 @@ characters={
 					DEN_advisor_low_BOP_decrease_effect = yes
 				}
 			}
+		}
+	
+
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1"
+			id = -1
 		}
 	}
 
@@ -2359,5 +2366,35 @@ characters={
 		#		}
 		#	}
 		#}
+	}
+
+	DEN_erik_eriksen={
+		name=DEN_erik_eriksen
+		portraits={
+			civilian={
+				large=GFX_portrait_DEN_Erik_Eriksen_1947
+				small=GFX_portrait_DEN_Erik_Eriksen_1947_small
+			}
+		}
+		country_leader={
+			ideology=market_liberal_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	DEN_ole_bjorn_kraft={
+		name=DEN_ole_bjorn_kraft
+		portraits={
+			civilian={
+				large=GFX_portrait_DEN_Ole_Bjorn_Kraft_1947
+				small=GFX_portrait_DEN_Ole_Bjorn_Kraft_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_conservative_subtype
+			expire="1965.1.1"
+			id=-1
+		}
 	}
 }

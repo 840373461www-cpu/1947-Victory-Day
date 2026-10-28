@@ -81,6 +81,11 @@ recruit_character = CAN_leo_richer_lafleche
 recruit_character = CAN_r_b_bennett
 recruit_character = CAN_louis_st_laurent
 recruit_character = CAN_lindsay_gordon
+# ★ 1947 领袖
+recruit_character = CAN_fred_rose
+recruit_character = CAN_george_a_drew
+recruit_character = CAN_major_james_coldwell
+recruit_character = CAN_solon_earl_low
 
 IF = {
 	limit = {
@@ -159,13 +164,11 @@ if = {
 
 if = { 
 	limit = { NOT = { has_dlc = "Together for Victory" } }
-	set_cosmetic_tag = CAN_ALY
 }
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	add_ideas = CAN_great_depression_1
 	add_ideas = CAN_conscription_crisis
-	set_cosmetic_tag = CAN_UK
 
 	add_to_tech_sharing_group = commonwealth_research
 }
@@ -292,16 +295,32 @@ set_grand_doctrine = new_operational_integrity
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_liberal
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	democratic = 0
+	communism = 5
+	fascism = 0
+	neutrality = 0
+	radical_socialist = 0
+	reformist_socialist = 10
+	social_democrat = 20
+	social_liberal = 30
+	social_conservative = 20
+	market_liberal = 0
+	national_populist = 0
+	military_republicanism = 0
+	authoritarian_democrat = 15
+	paternal_autocrat = 0
+	monarchism = 0
+	corporatism = 0
+	third_positionism = 0
+	national_socialism = 0
+	theocracy = 0
 }
 
 set_convoys = 100

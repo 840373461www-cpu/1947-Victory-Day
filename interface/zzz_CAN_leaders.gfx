@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Fred_Rose_1947"
+		texturefile = "gfx/leaders/CAN/Fred_Rose.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Fred_Rose_1947_small"
+		texturefile = "gfx/leaders/CAN/Fred_Rose.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Louis_St_Laurent_1947"
+		texturefile = "gfx/leaders/CAN/Louis_St_Laurent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Louis_St_Laurent_1947_small"
+		texturefile = "gfx/leaders/CAN/Louis_St_Laurent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_George_A_Drew_1947"
+		texturefile = "gfx/leaders/CAN/George_A_Drew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_George_A_Drew_1947_small"
+		texturefile = "gfx/leaders/CAN/George_A_Drew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Major_James_Coldwell_1947"
+		texturefile = "gfx/leaders/CAN/Major_James_Coldwell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Major_James_Coldwell_1947_small"
+		texturefile = "gfx/leaders/CAN/Major_James_Coldwell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Solon_Earl_Low_1947"
+		texturefile = "gfx/leaders/CAN/Solon_Earl_Low.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Solon_Earl_Low_1947_small"
+		texturefile = "gfx/leaders/CAN/Solon_Earl_Low.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Tim_Buck_1947"
+		texturefile = "gfx/leaders/CAN/Tim_Buck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Tim_Buck_1947_small"
+		texturefile = "gfx/leaders/CAN/Tim_Buck.dds"
+	}
+
+}

@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Stefan_Johann_Stefansson_1947"
+		texturefile = "gfx/leaders/ICE/Stefan_Johann_Stefansson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Stefan_Johann_Stefansson_1947_small"
+		texturefile = "gfx/leaders/ICE/Stefan_Johann_Stefansson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Asgeir_Asgeirsson_1947"
+		texturefile = "gfx/leaders/ICE/Asgeir_Asgeirsson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Asgeir_Asgeirsson_1947_small"
+		texturefile = "gfx/leaders/ICE/Asgeir_Asgeirsson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Sveinn_Bjornsson_1947"
+		texturefile = "gfx/leaders/ICE/Sveinn_Bjornsson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ICE_Sveinn_Bjornsson_1947_small"
+		texturefile = "gfx/leaders/ICE/Sveinn_Bjornsson.dds"
+	}
+
+}

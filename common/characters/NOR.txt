@@ -112,12 +112,13 @@ characters={
 				small=GFX_portrait_NOR_adam_egede_nissen_small
 			}
 		}
-		country_leader={
-			ideology=marxism_leninism
-			expire="1965.1.1.1"
-			traits = { NOR_temperate_miners_unionist }
-			id=-1
-		}
+# ★ 1947（让位）：同组只能一个候选人 —— 开发日志 §8.13
+#		country_leader={
+#			ideology=marxism_leninism
+#			expire="1965.1.1.1"
+#			traits = { NOR_temperate_miners_unionist }
+#			id=-1
+#		}
 	}
 
 	NOR_olav_scheflo={  
@@ -134,12 +135,13 @@ characters={
 				NOR_char_cw_trotskyist = yes 
 			}
 		}
-		country_leader={
-			ideology=marxism_leninism
-			expire="1965.1.1.1"
-			traits = { NOR_conciliatory_socialist }
-			id=-1
-		}
+# ★ 1947（让位）：同组只能一个候选人 —— 开发日志 §8.13
+#		country_leader={
+#			ideology=marxism_leninism
+#			expire="1965.1.1.1"
+#			traits = { NOR_conciliatory_socialist }
+#			id=-1
+#		}
 		advisor={
 			slot = political_advisor
 			idea_token = NOR_olav_scheflo
@@ -1986,6 +1988,66 @@ characters={
 					small=GFX_idea_generic_political_advisor_europe_3
 				}
 			}
+		}
+	}
+
+	NOR_emil_lovlien={
+		name=NOR_emil_lovlien
+		portraits={
+			civilian={
+				large=GFX_portrait_NOR_Emil_Lovlien_1947
+				small=GFX_portrait_NOR_Emil_Lovlien_1947_small
+			}
+		}
+		country_leader={
+			ideology=marxism_leninism
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	NOR_einar_gerhardsen={
+		name=NOR_einar_gerhardsen
+		portraits={
+			civilian={
+				large=GFX_portrait_NOR_Einar_Gerhardsen_1947
+				small=GFX_portrait_NOR_Einar_Gerhardsen_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	NOR_lars_korvald={
+		name=NOR_lars_korvald
+		portraits={
+			civilian={
+				large=GFX_portrait_NOR_Lars_Korvald_1947
+				small=GFX_portrait_NOR_Lars_Korvald_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_conservative_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	NOR_arthur_nordlie={
+		name=NOR_arthur_nordlie
+		portraits={
+			civilian={
+				large=GFX_portrait_NOR_Arthur_Nordlie_1947
+				small=GFX_portrait_NOR_Arthur_Nordlie_1947_small
+			}
+		}
+		country_leader={
+			ideology=market_liberal_subtype
+			expire="1965.1.1"
+			id=-1
 		}
 	}
 }

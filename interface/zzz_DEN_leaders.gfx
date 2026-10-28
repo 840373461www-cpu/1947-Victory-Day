@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Hans_Hedtoft_1947"
+		texturefile = "gfx/leaders/DEN/Hans_Hedtoft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Hans_Hedtoft_1947_small"
+		texturefile = "gfx/leaders/DEN/Hans_Hedtoft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Erik_Eriksen_1947"
+		texturefile = "gfx/leaders/DEN/Erik_Eriksen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Erik_Eriksen_1947_small"
+		texturefile = "gfx/leaders/DEN/Erik_Eriksen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Ole_Bjorn_Kraft_1947"
+		texturefile = "gfx/leaders/DEN/Ole_Bjorn_Kraft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Ole_Bjorn_Kraft_1947_small"
+		texturefile = "gfx/leaders/DEN/Ole_Bjorn_Kraft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Aksel_Larsen_1947"
+		texturefile = "gfx/leaders/DEN/Aksel_Larsen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_Aksel_Larsen_1947_small"
+		texturefile = "gfx/leaders/DEN/Aksel_Larsen.dds"
+	}
+
+}

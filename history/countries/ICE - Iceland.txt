@@ -28,7 +28,6 @@ IF = {
 		civilian_economy
 	}
 }
-set_cosmetic_tag = ICE_personal_union
 
 set_technology = {
 	infantry_weapons = 1
@@ -250,29 +249,60 @@ set_convoys = 30
 set_stability = 0.65
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	democratic = 0
+	communism = 0
+	fascism = 0
+	neutrality = 0
+	radical_socialist = 25
+	reformist_socialist = 0
+	social_democrat = 15
+	social_liberal = 20
+	social_conservative = 40
+	market_liberal = 0
+	national_populist = 0
+	military_republicanism = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	monarchism = 0
+	corporatism = 0
+	third_positionism = 0
+	national_socialism = 0
+	theocracy = 0
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = social_conservative
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
 	}
-	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
+		set_popularities = {
+		democratic = 0
+		communism = 0
+		fascism = 0
+		neutrality = 0
+		radical_socialist = 25
+		reformist_socialist = 0
+		social_democrat = 15
+		social_liberal = 20
+		social_conservative = 40
+		market_liberal = 0
+		national_populist = 0
+		military_republicanism = 0
+		authoritarian_democrat = 0
+		paternal_autocrat = 0
+		monarchism = 0
+		corporatism = 0
+		third_positionism = 0
+		national_socialism = 0
+		theocracy = 0
 	}
 }
 
@@ -325,3 +355,7 @@ IF = {
 	}
 }
 
+# ★ 1947 领袖
+recruit_character = ICE_stefan_johann_stefansson
+recruit_character = ICE_asgeir_asgeirsson
+recruit_character = ICE_sveinn_bjornsson
