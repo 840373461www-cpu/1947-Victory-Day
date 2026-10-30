@@ -20,10 +20,7 @@ state = {
 			}
 		}
 		victory_points = {
-			1086 3 # Jerusalem
-		}
-		victory_points = {
-			4206 1 # Tel Aviv
+			4206 10 # Tel Aviv
 		}
 		victory_points = {
 			1065 1 # Nazareth
@@ -32,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
+		1015 1065 1201 4088 4206 7107 11970 
 	}
 
 	local_supplies = 0.0 

@@ -3,14 +3,18 @@ characters={
 		name="Éamon de Valera"
 		portraits={
 			civilian={
-				large=GFX_portrait_Eamon_de_Valera
+				large=GFX_portrait_IRE_Valera_1947
+				small=GFX_portrait_IRE_Valera_1947_small
 			}
 		}
+
 		country_leader={
-			ideology=conservatism
-			expire="1965.1.1.1"
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1975.8.29.1"
 			id=-1
 		}
+
 	}
 	IRE_eoin_oduffy={
 		name="Eoin O'Duffy"
@@ -42,23 +46,28 @@ characters={
 		name="William Norton"
 		portraits={
 			civilian={
-				large=GFX_portrait_William_Norton
+				large=GFX_portrait_IRE_Norton_1947
+				small=GFX_portrait_IRE_Norton_1947_small
 			}
 		}
+
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=social_democrat_subtype
+			traits={ }
+			expire="1966.1.1.1"
 			id=-1
 		}
+
 	}
 	IRE_michael_costello={
 		name="Michael Costello"
 		portraits={
-			army={
-				large=GFX_portrait_Michael_Costello
-				small=GFX_portrait_Michael_Costello_small
+			civilian={
+				large=GFX_portrait_IRE_Costello_1947
+				small=GFX_portrait_IRE_Costello_1947_small
 			}
 		}
+
 		corps_commander={
 			skill=2
 			attack_skill=2
@@ -67,6 +76,13 @@ characters={
 			logistics_skill=2
 			legacy_id=-1
 		}
+		country_leader={
+			ideology=market_liberal_subtype
+			traits={ }
+			expire="1976.1.5.1"
+			id=-1
+		}
+
 	}
 	IRE_p_a_mulcahy={
 		advisor={
@@ -452,6 +468,21 @@ characters={
 			skills = {
 				specialization_nuclear = 2
 			}
+		}
+	}
+	IRE_michael_oriordan = {
+		name = IRE_michael_oriordan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRE_ORiordan_1947
+				small = GFX_portrait_IRE_ORiordan_1947_small
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			expire = "2006.5.18.1"
+			id = -1
 		}
 	}
 }

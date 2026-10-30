@@ -1,15 +1,5 @@
 capital = 716 # Liaotung
 
-create_country_leader = {
-	name = "Zhu De"
-	desc = ""
-	picture = GFX_portrait_prc_zhu_de
-	expire = "1976.7.6"
-	ideology = marxism_leninism
-	traits = {
-	}
-}
-
 if = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
@@ -537,10 +527,7 @@ add_mastery = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		communism = 75
-		democratic = 5
-		fascism = 5
-		neutrality = 15
+		communism = 100
 	}
 }
 

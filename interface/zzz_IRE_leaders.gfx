@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_IRE_ORiordan_1947"
+		texturefile = "gfx/leaders/IRE/ORiordan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_ORiordan_1947_small"
+		texturefile = "gfx/leaders/IRE/ORiordan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Valera_1947"
+		texturefile = "gfx/leaders/IRE/Valera.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Valera_1947_small"
+		texturefile = "gfx/leaders/IRE/Valera.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Costello_1947"
+		texturefile = "gfx/leaders/IRE/Costello.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Costello_1947_small"
+		texturefile = "gfx/leaders/IRE/Costello.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Norton_1947"
+		texturefile = "gfx/leaders/IRE/Norton.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRE_Norton_1947_small"
+		texturefile = "gfx/leaders/IRE/Norton.dds"
+	}
+}

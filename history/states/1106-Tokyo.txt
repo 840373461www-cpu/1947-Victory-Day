@@ -1,0 +1,33 @@
+state = {
+	id = 1106
+	name = "STATE_1106"
+	manpower = 2000000
+
+	state_category = metropolis
+
+	history = {
+		owner = NJR
+		add_core_of = NJR
+		victory_points = {
+			1182 50
+		}
+		buildings = {
+			infrastructure = 5
+		}
+			victory_points = {
+			4188 25
+		}
+		victory_points = {
+			993 1
+		}
+		victory_points = {
+			7016 1
+		}
+}
+
+	provinces = {
+		1182 4000 1113 7016 993 4100 4188 4184
+	}
+
+	local_supplies = 0.0
+}

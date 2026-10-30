@@ -488,27 +488,27 @@ IF = {
 		}
 	}
 
-	IF = { #Adding Pierlot as per Adriaan Martens Crisis!
-		limit = {
-			has_dlc = "Gotterdammerung"
-		}
-		add_country_leader_role = {
-		    character = BEL_hubert_pierlot
-		    promote_leader = yes
-		    country_leader = {
-		        ideology = conservatism
-		        expire = "1965.1.1.1"
-		        traits = { BEL_determined_prime_minister }
-		    }
-		}
-
-		set_party_name = {
-			ideology = democratic
-			long_name = BEL_democratic_party_long
-			name = BEL_democratic_party
-		}
-	}
-
+# 	IF = { #Adding Pierlot as per Adriaan Martens Crisis!
+# 		limit = {
+# 			has_dlc = "Gotterdammerung"
+# 		}
+# 		add_country_leader_role = {
+# 		    character = BEL_hubert_pierlot
+# 		    promote_leader = yes
+# 		    country_leader = {
+# 		        ideology = conservatism
+# 		        expire = "1965.1.1.1"
+# 		        traits = { BEL_determined_prime_minister }
+# 		    }
+# 		}
+# 
+# 		set_party_name = {
+# 			ideology = democratic
+# 			long_name = BEL_democratic_party_long
+# 			name = BEL_democratic_party
+# 		}
+# 	}
+# 
 	IF = {
 		limit = { 
 			has_dlc = "Gotterdammerung"

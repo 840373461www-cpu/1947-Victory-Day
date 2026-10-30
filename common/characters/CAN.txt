@@ -1009,7 +1009,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_democrat_subtype
+			ideology=national_populist_subtype
 			expire="1965.1.1"
 			id=-1
 		}

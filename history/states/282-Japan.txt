@@ -9,16 +9,10 @@ state={
 			victory_points = {
 			1117 10
 		}
-			victory_points = {
-			1182 50
-		}
-			victory_points = {
+		victory_points = {
 			7087 15
 		}
-			victory_points = {
-			4188 25
-		}
-			victory_points = {
+		victory_points = {
 			12007 1
 		}
 			victory_points = {
@@ -27,13 +21,7 @@ state={
 			victory_points = {
 			12072 5
 		}
-			victory_points = {
-			993 1
-		}
-			victory_points = {
-			7016 1
-		}
-			victory_points = {
+		victory_points = {
 			11989 15
 		}
 			victory_points = {
@@ -62,7 +50,7 @@ state={
 }
 
 		provinces={
-		993 1097 1113 1117 1182 4000 4100 4184 4188 7016 7087 7157 9952 11908 11930 11989 12007 12072 
+		1097 1117 7087 7157 9952 11908 11930 11989 12007 12072 
 	}
 	manpower=15773000
 	buildings_max_level_factor=1

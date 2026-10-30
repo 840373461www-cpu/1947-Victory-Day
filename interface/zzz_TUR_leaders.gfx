@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_TUR_SefikHusnu_1947"
+		texturefile = "gfx/leaders/TUR/SefikHusnu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_SefikHusnu_1947_small"
+		texturefile = "gfx/leaders/TUR/SefikHusnu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Ecevit_1947"
+		texturefile = "gfx/leaders/TUR/Ecevit.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Ecevit_1947_small"
+		texturefile = "gfx/leaders/TUR/Ecevit.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Menderes_1947"
+		texturefile = "gfx/leaders/TUR/Menderes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Menderes_1947_small"
+		texturefile = "gfx/leaders/TUR/Menderes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Inonu_1947"
+		texturefile = "gfx/leaders/TUR/Inonu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Inonu_1947_small"
+		texturefile = "gfx/leaders/TUR/Inonu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Turkes_1947"
+		texturefile = "gfx/leaders/TUR/Turkes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Turkes_1947_small"
+		texturefile = "gfx/leaders/TUR/Turkes.dds"
+	}
+}

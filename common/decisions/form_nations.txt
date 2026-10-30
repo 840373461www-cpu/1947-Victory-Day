@@ -3932,15 +3932,18 @@ form_PER_category = {
 		complete_effect = {
 			set_cosmetic_tag = PER_TNO
 			PER = {
-				add_country_leader_role = {
-					character = PER_mohammed_reza_pahlavi
-					country_leader = {
-						desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"
-						expire = "1999.1.1"
-						ideology = despotism
-						id = -1
+				if = {
+					limit = { NOT = { has_country_leader = { character = PER_mohammed_reza_pahlavi ruling_only = no } } }
+					add_country_leader_role = {
+						character = PER_mohammed_reza_pahlavi
+						country_leader = {
+							desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"
+							expire = "1999.1.1"
+							ideology = despotism
+							id = -1
+						}
+						promote_leader = yes
 					}
-					promote_leader = yes
 				}
 				set_country_leader_portrait = { portrait = Portrait_Persia_Pahlavi_Shah }
 				set_country_leader_name = { name = PER_Mohammad_Reza_Pahlavi_TNO }

@@ -49,12 +49,11 @@ characters={
 			name=TUR_sefik_husnu
 			portraits={
 				civilian={
-					large=GFX_portrait_TUR_sefik_husnu
-				}
-				army={
-					small="GFX_idea_tur_sefik_husnu"
+					large=GFX_portrait_TUR_SefikHusnu_1947
+					small=GFX_portrait_TUR_SefikHusnu_1947_small
 				}
 			}
+
 			advisor={
 				slot = political_advisor
 				idea_token = TUR_sefik_husnu
@@ -97,11 +96,12 @@ characters={
 			}
 
 			country_leader={
-				ideology = marxism_leninism
-				traits={ reluctant_stalinist }
-				expire="1965.1.1.1"
+				ideology=marxism_leninism
+				traits={ }
+				expire="1961.3.2.1"
 				id=-1
 			}
+
 		}
 		instance = {
 			allowed = {
@@ -209,13 +209,12 @@ characters={
 			}
 			name=TUR_ismet_inonu
 			portraits={
-				army={
-					small="GFX_idea_tur_ismet_inonu"
-				}
 				civilian={
-					large=GFX_portrait_TUR_ismet_inonu
+					large=GFX_portrait_TUR_Inonu_1947
+					small=GFX_portrait_TUR_Inonu_1947_small
 				}
 			}
+
 			advisor={
 				slot = political_advisor
 				idea_token = TUR_ismet_inonu
@@ -261,11 +260,12 @@ characters={
 			}
 			
 			country_leader={
-				ideology=despotism
-				traits={ milli_sef }
-				expire="1965.1.1.1"
+				ideology=authoritarian_democrat_subtype
+				traits={ }
+				expire="1973.12.25.1"
 				id=-1
 			}
+
 		}
 		instance = {
 			allowed = {
@@ -278,7 +278,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=authoritarian_democrat_subtype
 				traits={ }
 				expire="1965.1.1.1"
 				id=-1
@@ -1844,14 +1844,12 @@ characters={
 	TUR_adnan_menderes={
 		name=TUR_adnan_menderes
 		portraits={
-			army={
-				small="GFX_idea_tur_adnan_menderes"
-				large="GFX_portrait_tur_adnan_menderes"
-			}
-			civilian = {
-				large = "GFX_portrait_tur_adnan_menderes"
+			civilian={
+				large=GFX_portrait_TUR_Menderes_1947
+				small=GFX_portrait_TUR_Menderes_1947_small
 			}
 		}
+
 		advisor={
 			slot = political_advisor
 			idea_token = TUR_adnan_menderes
@@ -1894,6 +1892,13 @@ characters={
 				prime_minister_menderes 
 			}
 		}	
+		country_leader={
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1961.9.17.1"
+			id=-1
+		}
+
 	}
 
 	TUR_nuri_demirag_prime_minister={
@@ -2741,4 +2746,34 @@ characters={
 		#}
 	}
 
+	TUR_bulent_ecevit = {
+		name = TUR_bulent_ecevit
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TUR_Ecevit_1947
+				small = GFX_portrait_TUR_Ecevit_1947_small
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+			expire = "2006.11.5.1"
+			id = -1
+		}
+	}
+	TUR_alparslan_turkes = {
+		name = TUR_alparslan_turkes
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TUR_Turkes_1947
+				small = GFX_portrait_TUR_Turkes_1947_small
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+			expire = "1997.4.4.1"
+			id = -1
+		}
+	}
 }

@@ -29,10 +29,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Asia_l/Portrait_Indonesia_Sukarno.png"
 	}
 	SpriteType = {
-		name = "Portrait_Slovakia_Josef_Tiso_TNO"
-		texturefile = "gfx/leaders/_RK/Portrait_Slovakia_Josef_Tiso.png"
-	}
-	SpriteType = {
 		name = "Portrait_Turkey_Ismet_Inonu_TNO"
 		texturefile = "gfx/leaders/_RK/Portrait_Turkey_Ismet_Inonu_TNO.png"
 	}
@@ -45,14 +41,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Asia_l/Portrait_MAN_Puyi.png"
 	}
 
-
-
-
-
-
-
-
-
 	#decisions
     SpriteType = {
 		name = "GFX_decision_chi_generic_CHINA"
@@ -63,16 +51,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_image_GER_political_situation.dds"
 	}
 	SpriteType = {
-		name = "GFX_decision_image_GER_map"
-		texturefile = "gfx/interface/decisions/decision_image_GER_map.dds"
-	}
-	SpriteType = {
 		name = "GFX_NLF"
 		texturefile = "gfx/interface/decisions/decision_image_NLF.dds"
-	}
-	SpriteType = {
-		name = "GFX_NPA"
-		texturefile = "gfx/interface/decisions/NPA.dds"
 	}
 	SpriteType = {
 		name = "GFX_decision_category_YUN_red_kmt"
@@ -82,109 +62,18 @@ spriteTypes = {
 		name = "GFX_decision_generic_revolt_red"
 		texturefile = "gfx/interface/decisions/decision_generic_revolt_red.dds"
 	}
-	spriteType = {
-		name = "GFX_decision_category_diplo_russia"
-		texturefile = "gfx/interface/decisions/decision_category_diplo_russia.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_image_RUS_reunification"
-		texturefile = "gfx/interface/decisions/decision_image_RUS_reunification.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_russia"
-		texturefile = "gfx/interface/decisions/decision_diplo_russia.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_russia_superregional"
-		texturefile = "gfx/interface/decisions/decision_diplo_russia_superregional.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_siberia_superregional"
-		texturefile = "gfx/interface/decisions/decision_diplo_siberia_superregional.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_western_russia"
-		texturefile = "gfx/interface/decisions/decision_diplo_western_russia.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_western_siberia"
-		texturefile = "gfx/interface/decisions/decision_diplo_western_siberia.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_central_siberia"
-		texturefile = "gfx/interface/decisions/decision_diplo_central_siberia.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_far_east"
-		texturefile = "gfx/interface/decisions/decision_diplo_far_east.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_diplo_south_urals"
-		texturefile = "gfx/interface/decisions/decision_diplo_south_urals.dds"
-	}
 	#图片
-	spriteType = {
-		name = "GFX_chi_zn"
-		texturefile = "gfx/texticons/chi_zn.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_tib_zn"
-		texturefile = "gfx/texticons/tib_zn.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_raj_aksq"
-		texturefile = "gfx/texticons/raj_aksq.png"
-		legacy_lazy_load = no
-	}
 	SpriteType = {
 		name = "GFX_CP"
 		texturefile = "gfx/texticons/image_CP.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus"
-		texturefile = "gfx/event_pictures/report_event_plusplus.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_two"
-		texturefile = "gfx/event_pictures/report_event_plusplus_two.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_three"
-		texturefile = "gfx/event_pictures/report_event_plusplus_three.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_four"
-		texturefile = "gfx/event_pictures/report_event_plusplus_four.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_five"
-		texturefile = "gfx/event_pictures/report_event_plusplus_five.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_six"
-		texturefile = "gfx/event_pictures/report_event_plusplus_six.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_seven"
-		texturefile = "gfx/event_pictures/report_event_plusplus_seven.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_eight"
-		texturefile = "gfx/event_pictures/report_event_plusplus_eight.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_report_event_plusplus_nine"
-		texturefile = "gfx/event_pictures/report_event_plusplus_nine.dds"
-	}
 }
