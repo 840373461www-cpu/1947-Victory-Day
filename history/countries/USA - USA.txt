@@ -55,6 +55,7 @@ IF = {
 	add_to_faction = NOR
 	add_to_faction = ICE
 	add_to_faction = KOG
+	add_to_faction = POR
 }
 
 

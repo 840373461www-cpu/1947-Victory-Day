@@ -1042,4 +1042,49 @@ characters={
 	}
 	
 	# Illusive Gentleman auto-generated
+
+	MEX_adolfo_lopez_mateos={
+		name=MEX_adolfo_lopez_mateos
+		portraits={
+			civilian={
+				large=GFX_portrait_MEX_Adolfo_Lopez_Mateos_1947
+				small=GFX_portrait_MEX_Adolfo_Lopez_Mateos_1947_small
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	MEX_miguel_aleman={
+		name=MEX_miguel_aleman
+		portraits={
+			civilian={
+				large=GFX_portrait_MEX_Miguel_Aleman_Valdes_1947
+				small=GFX_portrait_MEX_Miguel_Aleman_Valdes_1947_small
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	MEX_gustavo_diaz_ordaz={
+		name=MEX_gustavo_diaz_ordaz
+		portraits={
+			civilian={
+				large=GFX_portrait_MEX_Gustavo_Diaz_Ordaz_1947
+				small=GFX_portrait_MEX_Gustavo_Diaz_Ordaz_1947_small
+			}
+		}
+		country_leader={
+			ideology=paternal_autocrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 }

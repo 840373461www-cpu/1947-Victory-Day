@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_NZL_Arnold_Nordmeyer_1947"
+		texturefile = "gfx/leaders/NZL/Arnold_Nordmeyer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NZL_Arnold_Nordmeyer_1947_small"
+		texturefile = "gfx/leaders/NZL/Arnold_Nordmeyer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NZL_Sidney_Holland_1947"
+		texturefile = "gfx/leaders/NZL/Sidney_Holland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NZL_Sidney_Holland_1947_small"
+		texturefile = "gfx/leaders/NZL/Sidney_Holland.dds"
+	}
+
+}

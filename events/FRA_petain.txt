@@ -1,0 +1,31 @@
+add_namespace = fra_petain
+
+country_event = {
+	id = fra_petain.1
+	title = fra_petain.1.t
+	desc = fra_petain.1.d
+	picture = GFX_event_FRA_petaindeath
+
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = FRA
+		date > 1951.7.21
+	}
+
+	immediate = {
+		hidden_effect = {
+			add_political_power = -100
+			add_war_support = -0.15
+			add_stability = -0.15
+			decrease_ruling_party_popularity_by_20 = yes
+		}
+	}
+
+	option = {
+		name = fra_petain.1.a
+		ai_chance = { base = 60 }
+		custom_effect_tooltip = fra_petain.1.a_tt
+	}
+}

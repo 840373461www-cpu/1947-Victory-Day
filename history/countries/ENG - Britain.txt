@@ -300,36 +300,41 @@ if = {
 		target = MAL
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = OMA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
+	# ★ 1947：让 OMA 独立（原为英国属地/自治领）
+#	set_autonomy = {
+#		target = OMA
+#		autonomous_state = autonomy_colony
+#		freedom_level = 0.35
+#	}
+	# ★ 1947：让 CAN 独立（原为英国属地/自治领）
+#	set_autonomy = {
+#		target = CAN
+#		autonomous_state = autonomy_dominion
+#		freedom_level = 0.4
+#	}
 	set_autonomy = {
 		target = SAF
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = BRM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
+	# ★ 1947：让 AST 独立（原为英国自治领，自治领会用 TAG_autonomy_dominion 接管国名）
+#	set_autonomy = {
+#		target = AST
+#		autonomous_state = autonomy_dominion
+#		freedom_level = 0.2
+#	}
+	# ★ 1947：让 NZL 独立（原为英国自治领，自治领会用 TAG_autonomy_dominion 接管国名）
+#	set_autonomy = {
+#		target = NZL
+#		autonomous_state = autonomy_dominion
+#		freedom_level = 0.2
+#	}
+	# ★ 1947：让 BRM 独立（原为英国属地/自治领）
+#	set_autonomy = {
+#		target = BRM
+#		autonomous_state = autonomy_colony
+#		freedom_level = 0.2
+#	}
 	#set_autonomy = {
 	#	target = EGY
 	#	autonomous_state = autonomy_dominion
@@ -340,16 +345,18 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 		freedom_level = 0.5
 	}
-	set_autonomy = {
-		target = JOR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = KUW
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.5
-	}
+	# ★ 1947：让 JOR 独立（原为英国属地/自治领）
+#	set_autonomy = {
+#		target = JOR
+#		autonomous_state = autonomy_colony
+#		freedom_level = 0.2
+#	}
+	# ★ 1947：让 KUW 独立（原为英国属地/自治领）
+#	set_autonomy = {
+#		target = KUW
+#		autonomous_state = autonomy_integrated_puppet
+#		freedom_level = 0.5
+#	}
 
 	else = {
 		puppet = MAL

@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Adolfo_Lopez_Mateos_1947"
+		texturefile = "gfx/leaders/MEX/Adolfo_Lopez_Mateos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Adolfo_Lopez_Mateos_1947_small"
+		texturefile = "gfx/leaders/MEX/Adolfo_Lopez_Mateos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Miguel_Aleman_Valdes_1947"
+		texturefile = "gfx/leaders/MEX/Miguel_Aleman_Valdes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Miguel_Aleman_Valdes_1947_small"
+		texturefile = "gfx/leaders/MEX/Miguel_Aleman_Valdes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Gustavo_Diaz_Ordaz_1947"
+		texturefile = "gfx/leaders/MEX/Gustavo_Diaz_Ordaz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_Gustavo_Diaz_Ordaz_1947_small"
+		texturefile = "gfx/leaders/MEX/Gustavo_Diaz_Ordaz.dds"
+	}
+
+}

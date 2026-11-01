@@ -17,11 +17,12 @@ characters={
 		name=NZL_sidney_holland
 		portraits={
 			civilian={
-				large="GFX_NZL_sidney_holland"
+				large = GFX_portrait_NZL_Sidney_Holland_1947
+				small = GFX_portrait_NZL_Sidney_Holland_1947_small
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=social_conservative_subtype
 			expire="1965.1.1.1"
 			traits = { NZL_pro_american_nationalist_trait }
 			id=-1
@@ -795,4 +796,19 @@ characters={
 
 	# Illusive Gentleman auto-generated
 	
+
+	NZL_arnold_nordmeyer={
+		name=NZL_arnold_nordmeyer
+		portraits={
+			civilian={
+				large=GFX_portrait_NZL_Arnold_Nordmeyer_1947
+				small=GFX_portrait_NZL_Arnold_Nordmeyer_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 }

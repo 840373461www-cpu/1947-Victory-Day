@@ -2317,7 +2317,8 @@ characters={
 		name=AST_arthur_fadden
 		portraits={
 			civilian={
-				small=GFX_portrait_AST_arthur_fadden_small
+				large = GFX_portrait_AST_Arthur_Fadden_1947
+				small = GFX_portrait_AST_Arthur_Fadden_1947_small
 			}
 		}
 		advisor = {
@@ -2372,6 +2373,13 @@ characters={
 					factor = 5
 				}
 			}
+		}
+	
+
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1"
+			id = -1
 		}
 	}
 
@@ -3130,4 +3138,33 @@ characters={
 
 	}
 
+	AST_herbert_vere_evatt={
+		name=AST_herbert_vere_evatt
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_Herbert_Vere_Evatt_1947
+				small=GFX_portrait_AST_Herbert_Vere_Evatt_1947_small
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+
+	AST_robert_menzies_1947={
+		name=AST_robert_menzies_1947
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_Robert_Menzies_1947
+				small=GFX_portrait_AST_Robert_Menzies_1947_small
+			}
+		}
+		country_leader={
+			ideology=market_liberal_subtype
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 }

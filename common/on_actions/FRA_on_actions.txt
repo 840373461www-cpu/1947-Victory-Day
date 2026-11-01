@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			FRA = {
+				add_ideas = {
+					la_menagerie_de_versailles
+				}
+			}
+		}
+	}
+}

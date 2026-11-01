@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_AST_Herbert_Vere_Evatt_1947"
+		texturefile = "gfx/leaders/AST/Herbert_Vere_Evatt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AST_Herbert_Vere_Evatt_1947_small"
+		texturefile = "gfx/leaders/AST/Herbert_Vere_Evatt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AST_Arthur_Fadden_1947"
+		texturefile = "gfx/leaders/AST/Arthur_Fadden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AST_Arthur_Fadden_1947_small"
+		texturefile = "gfx/leaders/AST/Arthur_Fadden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AST_Robert_Menzies_1947"
+		texturefile = "gfx/leaders/AST/Robert_Menzies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AST_Robert_Menzies_1947_small"
+		texturefile = "gfx/leaders/AST/Robert_Menzies.dds"
+	}
+
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_event_FRA_petaindeath"
+		texturefile = "gfx/event_pictures/FRA/GFX_event_FRA_petaindeath.png"
+	}
+}
