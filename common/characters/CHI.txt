@@ -3272,5 +3272,80 @@ characters = {
 		}
 	}
 
+
+	CHI_zhou_enlai = {
+		name = CHI_zhou_enlai
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_zhou_enlai
+				small = GFX_portrait_CHI_zhou_enlai
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_zhang_bojun = {
+		name = CHI_zhang_bojun
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_zhang_bojun
+				small = GFX_portrait_CHI_zhang_bojun
+			}
+		}
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_zhang_junmai = {
+		name = CHI_zhang_junmai
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_zhang_junmai
+				small = GFX_portrait_CHI_zhang_junmai
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_sun_ke = {
+		name = CHI_sun_ke
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_sun_ke
+				small = GFX_portrait_CHI_sun_ke
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_he_zhonghan = {
+		name = CHI_he_zhonghan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_he_zhonghan
+				small = GFX_portrait_CHI_he_zhonghan
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 }
 

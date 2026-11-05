@@ -350,10 +350,15 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_popularities = {
-		neutrality = 91
-		fascism = 2
-		communism = 7
+set_popularities = {
+		communism = 3
+		reformist_socialist = 3
+		social_democrat = 3
+		social_liberal = 10
+		social_conservative = 20
+		market_liberal = 10
+		national_populist = 5
+		paternal_autocrat = 46
 	}
 	#set_autonomy = {
 	#	target = SND
