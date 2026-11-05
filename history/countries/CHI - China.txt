@@ -93,6 +93,11 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
+	recruit_character = CHI_zhang_lan_1947
+	recruit_character = CHI_chen_cheng_1947
+	recruit_character = CHI_li_huang_1947
+	recruit_character = CHI_chiang_kaishek_1947
+	recruit_character = CHI_dai_li_1947
 	recruit_character = CHI_carsun_chang
 	recruit_character = CHI_soong_ching_ling
 	recruit_character = CHI_zhang_fakui
@@ -366,6 +371,7 @@ set_popularities = {
 		authoritarian_democrat = 40
 		paternal_autocrat = 3
 		third_positionism = 3
+		theocracy = 0
 	}
 	#set_autonomy = {
 	#	target = SND
@@ -883,7 +889,7 @@ add_mastery = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -981,12 +987,16 @@ if = {
 
 1950.6.1 = {
 	set_popularities = {
-		neutrality = 45
-		authoritarian_democrat = 15
-		military_republicanism = 12
-		national_populist = 10
-		paternal_autocrat = 8
-		monarchism = 5
-		social_conservative = 5
+		communism = 3
+		reformist_socialist = 3
+		social_democrat = 3
+		social_liberal = 10
+		social_conservative = 20
+		market_liberal = 10
+		national_populist = 5
+		authoritarian_democrat = 40
+		paternal_autocrat = 3
+		third_positionism = 3
+		theocracy = 0
 	}
 }

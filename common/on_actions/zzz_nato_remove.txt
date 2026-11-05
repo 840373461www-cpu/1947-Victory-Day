@@ -1,0 +1,40 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CAM = { remove_from_faction = CAM }
+			LAO = { remove_from_faction = LAO }
+			MAL = { remove_from_faction = MAL }
+			SUD = { remove_from_faction = SUD }
+			UGA = { remove_from_faction = UGA }
+			KEN = { remove_from_faction = KEN }
+			TZN = { remove_from_faction = TZN }
+			MLW = { remove_from_faction = MLW }
+			ZAM = { remove_from_faction = ZAM }
+			BAR = { remove_from_faction = BAR }
+			ZIM = { remove_from_faction = ZIM }
+			SAF = { remove_from_faction = SAF }
+			NGA = { remove_from_faction = NGA }
+			GHA = { remove_from_faction = GHA }
+			BOT = { remove_from_faction = BOT }
+		}
+	}
+	on_daily = {
+		effect = {
+			CAM = { if = { limit = { is_in_faction = yes } remove_from_faction = CAM } }
+			LAO = { if = { limit = { is_in_faction = yes } remove_from_faction = LAO } }
+			MAL = { if = { limit = { is_in_faction = yes } remove_from_faction = MAL } }
+			SUD = { if = { limit = { is_in_faction = yes } remove_from_faction = SUD } }
+			UGA = { if = { limit = { is_in_faction = yes } remove_from_faction = UGA } }
+			KEN = { if = { limit = { is_in_faction = yes } remove_from_faction = KEN } }
+			TZN = { if = { limit = { is_in_faction = yes } remove_from_faction = TZN } }
+			MLW = { if = { limit = { is_in_faction = yes } remove_from_faction = MLW } }
+			ZAM = { if = { limit = { is_in_faction = yes } remove_from_faction = ZAM } }
+			BAR = { if = { limit = { is_in_faction = yes } remove_from_faction = BAR } }
+			ZIM = { if = { limit = { is_in_faction = yes } remove_from_faction = ZIM } }
+			SAF = { if = { limit = { is_in_faction = yes } remove_from_faction = SAF } }
+			NGA = { if = { limit = { is_in_faction = yes } remove_from_faction = NGA } }
+			GHA = { if = { limit = { is_in_faction = yes } remove_from_faction = GHA } }
+			BOT = { if = { limit = { is_in_faction = yes } remove_from_faction = BOT } }
+		}
+	}
+}

@@ -44,47 +44,47 @@ if = {
 	set_naval_oob = "ENG_1936_Naval"
 	set_autonomy = {
 		target = GHA
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = KEN
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = UGA
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = TZN
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = MLW
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = BAR
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = BOT
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = ZAM
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = ZIM
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = SUD
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	set_autonomy = {
 		target = NGA
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	else = {
 		set_naval_oob = "ENG_1936_Naval_Legacy"
@@ -298,7 +298,7 @@ if = {
 	}
 	set_autonomy = {
 		target = MAL
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_supervised_state
 	}
 	# ★ 1947：让 OMA 独立（原为英国属地/自治领）
 #	set_autonomy = {
@@ -314,8 +314,8 @@ if = {
 #	}
 	set_autonomy = {
 		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.8
 	}
 	# ★ 1947：让 AST 独立（原为英国自治领，自治领会用 TAG_autonomy_dominion 接管国名）
 #	set_autonomy = {
@@ -2219,4 +2219,35 @@ if = {
 		national_socialism = 0
 		theocracy = 0
 	}
+}
+
+# 1947：监管国不随宗主国阵营
+remove_from_faction = MAL
+remove_from_faction = SUD
+remove_from_faction = UGA
+remove_from_faction = KEN
+remove_from_faction = TZN
+remove_from_faction = MLW
+remove_from_faction = ZAM
+remove_from_faction = BAR
+remove_from_faction = ZIM
+remove_from_faction = SAF
+remove_from_faction = NGA
+remove_from_faction = GHA
+remove_from_faction = BOT
+
+1951.1.2 = {
+	remove_from_faction = MAL
+	remove_from_faction = SUD
+	remove_from_faction = UGA
+	remove_from_faction = KEN
+	remove_from_faction = TZN
+	remove_from_faction = MLW
+	remove_from_faction = ZAM
+	remove_from_faction = BAR
+	remove_from_faction = ZIM
+	remove_from_faction = SAF
+	remove_from_faction = NGA
+	remove_from_faction = GHA
+	remove_from_faction = BOT
 }

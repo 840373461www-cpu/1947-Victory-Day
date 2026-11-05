@@ -24,7 +24,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/Sun_Fo_60s.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_CHI_chiang_kaishek"
+		name = "GFX_portrait_CHI_chiang_kaishek_1947"
 		texturefile = "gfx/leaders/CHI/Chiang_Kai_Shek_40s.dds"
 	}
 	spriteType = {
@@ -37,6 +37,46 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_li_huang"
+		texturefile = "gfx/leaders/CHI/Li_Huang_80s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_zhou_enlai_small"
+		texturefile = "gfx/leaders/CHI/Zhou_Enlai_1955.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_zhang_bojun_small"
+		texturefile = "gfx/leaders/CHI/Zhang_Bojun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_zhang_junmai_small"
+		texturefile = "gfx/leaders/CHI/Zhang_Junmai_50s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_zhang_lan_small"
+		texturefile = "gfx/leaders/CHI/Zhang_Lan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_chen_cheng_small"
+		texturefile = "gfx/leaders/CHI/Chen_Cheng_50s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_sun_ke_small"
+		texturefile = "gfx/leaders/CHI/Sun_Fo_60s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_chiang_kaishek_1947_small"
+		texturefile = "gfx/leaders/CHI/Chiang_Kai_Shek_40s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_dai_li_small"
+		texturefile = "gfx/leaders/CHI/Dai_Li.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_he_zhonghan_small"
+		texturefile = "gfx/leaders/CHI/He_Chong-han_60s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_li_huang_small"
 		texturefile = "gfx/leaders/CHI/Li_Huang_80s.dds"
 	}
 }

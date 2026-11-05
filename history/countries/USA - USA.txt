@@ -56,6 +56,21 @@ IF = {
 	add_to_faction = ICE
 	add_to_faction = KOG
 	add_to_faction = POR
+	remove_from_faction = CAM
+	remove_from_faction = LAO
+	remove_from_faction = MAL
+	remove_from_faction = SUD
+	remove_from_faction = UGA
+	remove_from_faction = KEN
+	remove_from_faction = TZN
+	remove_from_faction = MLW
+	remove_from_faction = ZAM
+	remove_from_faction = BAR
+	remove_from_faction = ZIM
+	remove_from_faction = SAF
+	remove_from_faction = NGA
+	remove_from_faction = GHA
+	remove_from_faction = BOT
 }
 
 
@@ -1552,4 +1567,22 @@ set_popularities = {
 	corporatism = 3
 	reformist_socialist = 2
 	communism = 3
+}
+
+1951.1.2 = {
+	remove_from_faction = CAM
+	remove_from_faction = LAO
+	remove_from_faction = MAL
+	remove_from_faction = SUD
+	remove_from_faction = UGA
+	remove_from_faction = KEN
+	remove_from_faction = TZN
+	remove_from_faction = MLW
+	remove_from_faction = ZAM
+	remove_from_faction = BAR
+	remove_from_faction = ZIM
+	remove_from_faction = SAF
+	remove_from_faction = NGA
+	remove_from_faction = GHA
+	remove_from_faction = BOT
 }

@@ -12,6 +12,7 @@ faction_template_nato = {
 	}
 
 	default_rules = {
+		joining_rule_puppets_only
 		joining_rule_has_no_war
 		war_declaration_generated_tension_25
 		war_declaration_threat_75

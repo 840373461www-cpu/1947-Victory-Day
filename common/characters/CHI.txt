@@ -15,7 +15,7 @@ characters = {
 			name=CHI_chiang_kaishek
 			portraits={
 				civilian={
-					large = GFX_portrait_CHI_chiang_kai_shek
+					large = GFX_portrait_CHI_chiang_kaishek_1947
 				}
 			}
 			country_leader={
@@ -32,7 +32,7 @@ characters = {
 			name=CHI_chiang_kaishek
 			portraits={
 				civilian={
-					large=GFX_portrait_CHI_chiang_kaishek
+					large=GFX_portrait_CHI_chiang_kaishek_1947
 				}
 			}
 			country_leader={
@@ -232,7 +232,7 @@ characters = {
 		name = CHI_zhang_lan
 		portraits={
 			civilian={
-				large = GFX_portrait_prc_zhang_lan
+				large = GFX_portrait_CHI_zhang_lan
 			}
 		}
 		#country_leader={
@@ -704,7 +704,7 @@ characters = {
 			name=CHI_chen_cheng
 			portraits={
 				army={
-					large="GFX_portrait_chi_chen_cheng"
+					large="GFX_portrait_CHI_chen_cheng"
 					small="GFX_idea_CHI_chen_cheng"
 				}
 			}

@@ -1,0 +1,73 @@
+characters = {
+
+
+
+
+	CHI_zhang_lan_1947 = {
+		name = CHI_zhang_lan_1947
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_zhang_lan
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1965.1.1"
+		}
+	}
+
+	CHI_chen_cheng_1947 = {
+		name = CHI_chen_cheng_1947
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_chen_cheng
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1"
+		}
+	}
+
+
+	CHI_li_huang_1947 = {
+		name = CHI_li_huang_1947
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_li_huang
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			expire = "1965.1.1"
+		}
+	}
+
+	CHI_chiang_kaishek_1947 = {
+		name = CHI_chiang_kaishek_1947
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_chiang_kaishek_1947
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1965.1.1"
+		}
+	}
+
+	CHI_dai_li_1947 = {
+		name = CHI_dai_li_1947
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CHI_dai_li
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1"
+		}
+	}
+
+
+}
