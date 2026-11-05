@@ -1,0 +1,19 @@
+capital = 1123
+
+set_stability = 0.40
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+recruit_character = VDR_ho_chi_minh
+declare_war_on = {
+	target = KMV
+	type = annex_everything
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 1107
+	name = "STATE_1107"
+	manpower = 400000
+
+	state_category = rural
+
+	history = {
+		owner = DRV
+		add_core_of = DRV
+		add_core_of = CAM
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 2
+		}
+			victory_points = {
+			10204 1
+		}
+			victory_points = {
+			12167 1
+		}
+	}
+
+	provinces = {
+		7426 4554 1577 12288 12260 4330 10204 7645 1620 12167 4596
+	}
+
+	local_supplies = 0.0
+}

@@ -5,11 +5,8 @@ characters = {
 		name = VIN_bao_dai
 		portraits = {
 			civilian = {
-				large = GFX_portrait_VIN_emperor_bao_dai
-				small = GFX_portrait_VIN_emperor_bao_dai_civilian_small
-			}
-			army = {
-				small = GFX_portrait_VIN_emperor_bao_dai_military_small
+				large = GFX_portrait_VIN_bao_dai_real
+				small = GFX_portrait_VIN_bao_dai_real
 			}
 		}
 		country_leader = {
@@ -25,7 +22,11 @@ characters = {
 			id = -1
 		}
 		
-	}
+			country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+}
 
 	# Ngô Đình Diệm
 	VIN_ngo_dinh_diem = { 

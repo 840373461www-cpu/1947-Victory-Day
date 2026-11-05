@@ -1,4 +1,4 @@
-capital = 671 #Hanoi
+capital = 1066 #Hanoi
 
 oob = "VIN_1936"
 
@@ -92,19 +92,15 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = authoritarian_democrat
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 35
-	fascism = 15
-	communism = 15
-	neutrality = 35
+	authoritarian_democrat = 100
 }
+
+
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
@@ -122,8 +118,8 @@ set_popularities = {
 recruit_character = VIN_bao_dai
 recruit_character = VIN_ngo_dinh_diem
 recruit_character = VIN_ho_chi_minh
-
-
-
-
-
+give_military_access = FRA
+add_opinion_modifier = {
+	target = FRA
+	modifier = VIN_oriented_france
+}

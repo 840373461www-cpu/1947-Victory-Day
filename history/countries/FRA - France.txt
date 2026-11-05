@@ -232,3 +232,14 @@ recruit_character = FRA_maurice_pujo
 recruit_character = FRA_tixier_vignancour_1947
 recruit_character = FRA_pierre_costantini
 recruit_character = FRA_raoul_salan
+give_guarantee = VIN
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.0
+}
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.0
+}

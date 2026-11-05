@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	VIN_oriented_france = {
+		value = 100
+	}
+}

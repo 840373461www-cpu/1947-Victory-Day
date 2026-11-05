@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	KMV_oriented_china = {
+		value = 100
+	}
+}

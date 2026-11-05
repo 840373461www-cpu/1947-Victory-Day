@@ -96,14 +96,16 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
 set_popularities = {
-	democratic = 25
-	communism = 35
-	neutrality = 40
+	monarchism = 100
 }
+
+
 
 recruit_character = LAO_sisavang_vong
 recruit_character = LAO_kou_voravong
 recruit_character = LAO_souphanouvong
-
+set_politics = {
+	ruling_party = monarchism
+	elections_allowed = no
+}

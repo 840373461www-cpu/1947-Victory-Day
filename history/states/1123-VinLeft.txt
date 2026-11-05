@@ -6,9 +6,19 @@ state = {
 	}
 	history = {
 		add_core_of = VIN
-		owner = FRA
+		owner = VDR
+		add_core_of = VDR
 		buildings = {
 			infrastructure = 2
+		}
+			victory_points = {
+			4529 1
+		}
+			victory_points = {
+			12008 1
+		}
+			victory_points = {
+			12075 1
 		}
 	}
 	provinces = {

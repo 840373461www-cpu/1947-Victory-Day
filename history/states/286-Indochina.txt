@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		
-		owner = FRA
+		owner = VIN
 		add_core_of = VIN
 		add_core_of = CHM
 
@@ -33,6 +33,18 @@ state = {
 
 		}
 
+			victory_points = {
+			4334 1
+		}
+			victory_points = {
+			1285 1
+		}
+			victory_points = {
+			4405 1
+		}
+			victory_points = {
+			1605 1
+		}
 	}
 
 	provinces = {

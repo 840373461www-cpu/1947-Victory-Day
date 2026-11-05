@@ -3,7 +3,8 @@ state={
 	name="STATE_1093"
 	history={
 		add_core_of = VIN
-		owner = FRA
+		owner = KMV
+		add_core_of = KMV
 		buildings = {
 			infrastructure = 2
 		}

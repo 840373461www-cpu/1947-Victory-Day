@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_VIN_bao_dai_real"
+		texturefile = "gfx/leaders/VIN/Bao_Dai_40s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LAO_sisavang_vong_real"
+		texturefile = "gfx/leaders/LAO/Sisavang_Vong_40s.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CAM_sihanouk_real"
+		texturefile = "gfx/leaders/CAM/Norodom_Sihanouk_50s.dds"
+	}
+}

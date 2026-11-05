@@ -96,19 +96,15 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = monarchism
+	elections_allowed = no
+}
+set_popularities = {
+	monarchism = 100
 }
 
-set_popularities = {
-	democratic = 40
-	communism = 25
-	neutrality = 35
-}
+
 
 
 #non standard english alphabet character
@@ -126,5 +122,3 @@ set_popularities = {
 recruit_character = CAM_norodom_sihanouk
 recruit_character = CAM_son_ngoc_thanh
 recruit_character = CAM_tou_samouth
-
-

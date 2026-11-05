@@ -1,0 +1,25 @@
+state = {
+	id = 1173
+	name = "STATE_1173"
+	manpower = 300000
+
+	state_category = town
+
+	history = {
+		owner = KMV
+		add_core_of = KMV
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11936 1
+		}
+	}
+
+	provinces = {
+		11909 9988 4397 10016 11936 
+	}
+
+	local_supplies = 0.0
+}

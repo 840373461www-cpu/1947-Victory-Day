@@ -1,0 +1,71 @@
+characters = {
+	KMV_lu_han = {
+		name = KMV_lu_han
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KMV_lu_han
+				small = GFX_portrait_KMV_lu_han
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+
+	KMV_nguyen_tuong_tam = {
+		name = KMV_nguyen_tuong_tam
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KMV_nguyen_tuong_tam
+				small = GFX_portrait_KMV_nguyen_tuong_tam
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+
+	KMV_nguyen_ngoc_huy = {
+		name = KMV_nguyen_ngoc_huy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KMV_nguyen_ngoc_huy
+				small = GFX_portrait_KMV_nguyen_ngoc_huy
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+
+	KMV_nguyen_the_truyen = {
+		name = KMV_nguyen_the_truyen
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KMV_nguyen_the_truyen
+				small = GFX_portrait_KMV_nguyen_the_truyen
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+
+	KMV_vu_hong_khanh = {
+		name = KMV_vu_hong_khanh
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KMV_vu_hong_khanh
+				small = GFX_portrait_KMV_vu_hong_khanh
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+}

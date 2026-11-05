@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_KMV_lu_han"
+		texturefile = "gfx/leaders/KMV/Lu_Han.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KMV_nguyen_tuong_tam"
+		texturefile = "gfx/leaders/KMV/Nguyen_Tuong_Tam.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KMV_nguyen_ngoc_huy"
+		texturefile = "gfx/leaders/KMV/Nguyen_Ngoc_Huy.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KMV_nguyen_the_truyen"
+		texturefile = "gfx/leaders/KMV/Nguyen_The_Truyen.png"
+	}
+	spriteType = {
+		name = GFX_portrait_KMV_vu_hong_khanh
+		texturefile = gfx/leaders/KMV/Vu_Hong_Khanh.dds
+	}
+}

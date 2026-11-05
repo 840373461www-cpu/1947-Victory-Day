@@ -5,11 +5,8 @@ characters = {
 		name = CAM_norodom_sihanouk
 		portraits = {
 			civilian = {
-				large = GFX_portrait_CAM_norodom_sihanouk
-				small = GFX_portrait_CAM_norodom_sihanouk_civilian_small
-			}
-			army = {
-				small = GFX_portrait_CAM_norodom_sihanouk_military_small
+				large = GFX_portrait_CAM_sihanouk_real
+				small = GFX_portrait_CAM_sihanouk_real
 			}
 		}
 		country_leader = {
@@ -25,7 +22,11 @@ characters = {
 			id = -1
 		}
 		
-	}
+			country_leader = {
+			ideology = monarchism_subtype
+			traits = { }
+		}
+}
 
 	# Son Ngoc Thanh
 	CAM_son_ngoc_thanh = { 

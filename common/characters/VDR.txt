@@ -1,0 +1,15 @@
+characters = {
+	VDR_ho_chi_minh = {
+		name = VDR_ho_chi_minh
+		portraits = {
+			civilian = {
+				large = GFX_portrait_VDR_ho_chi_minh
+				small = GFX_portrait_VDR_ho_chi_minh
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_VDR_ho_chi_minh"
+		texturefile = "gfx/leaders/VDR/Ho_Chi_Minh.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_DRV_ho_chi_minh"
+		texturefile = "gfx/leaders/DRV/Ho_Chi_Minh_60s.dds"
+	}
+}

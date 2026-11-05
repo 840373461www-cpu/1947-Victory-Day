@@ -13,7 +13,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = KMV
+		add_core_of = KMV
 		add_core_of = VIN
 		
 		victory_points = {
@@ -34,6 +35,9 @@ state = {
 
 		}
 
+			victory_points = {
+			4119 1
+		}
 	}
 
 	provinces = {

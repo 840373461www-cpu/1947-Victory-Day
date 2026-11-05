@@ -5,11 +5,11 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
+	color = rgb { 150 50 100 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
+	color = rgb { 150 0 0 }
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
@@ -470,15 +470,15 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 201 56 93 }
+	color = rgb { 150 50 100 }
 	color_ui = rgb { 145 103 14 }
 }
 ZIM = {
-	color = rgb { 201 56 93 }
+	color = rgb { 150 50 100  }
 	color_ui = rgb { 7 7 239 }
 }
 BOT = {
-	color = rgb { 201 56 93 }
+	color = rgb { 150 50 100  }
 	color_ui = rgb { 11 132 112 }
 }
 PAK = {
@@ -494,7 +494,7 @@ PAK = {
 #    color_ui = rgb { 150 180 120 }
 #}
 KOR = {
-	color = rgb { 255  240  195 }
+	color = rgb { 100 0 0 }
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
@@ -974,7 +974,7 @@ CBV = {
 	color_ui = rgb { 00 51 102 }
 }
 BAR = {
-	color = rgb { 201 56 93 }
+	color = rgb { 150 50 100 }
 	color_ui = rgb { 204 0 0 }
 }
 EVE = {
@@ -1277,7 +1277,7 @@ FCM = {
 }
 
 FFR = {
-	color = rgb { 57 113 228 }
+	color = rgb { 30 80 150 }
 	color_ui = rgb { 74 147 255 }
 }
 

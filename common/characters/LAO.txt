@@ -5,11 +5,8 @@ characters = {
 		name = LAO_sisavang_vong
 		portraits = {
 			civilian = {
-				large = GFX_portrait_LAO_sisavang_vong
-				small = GFX_portrait_LAO_sisavang_vong_civilian_small
-			}
-			army = {
-				small = GFX_portrait_LAO_sisavang_vong_military_small
+				large = GFX_portrait_LAO_sisavang_vong_real
+				small = GFX_portrait_LAO_sisavang_vong_real
 			}
 		}
 		country_leader = {
@@ -25,7 +22,11 @@ characters = {
 			id = -1
 		}
 		
-	}
+			country_leader = {
+			ideology = monarchism_subtype
+			traits = { }
+		}
+}
 
 	# Kou Voravong
 	LAO_kou_voravong = { 

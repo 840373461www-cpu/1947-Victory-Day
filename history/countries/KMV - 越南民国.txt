@@ -1,0 +1,27 @@
+capital = 671
+
+set_stability = 0.35
+set_war_support = 0.35
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	elections_allowed = no
+}
+
+set_popularities = {
+	paternal_autocrat = 50
+	authoritarian_democrat = 30
+	social_conservative = 10
+	social_liberal = 10
+}
+
+recruit_character = KMV_lu_han
+recruit_character = KMV_nguyen_tuong_tam
+recruit_character = KMV_nguyen_ngoc_huy
+recruit_character = KMV_nguyen_the_truyen
+
+add_opinion_modifier = {
+	target = CHI
+	modifier = KMV_oriented_china
+}
+give_military_access = CHI
