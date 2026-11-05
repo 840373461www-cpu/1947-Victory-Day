@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_CHI_zhou_enlai"
-		texturefile = "gfx/leaders/CHI/Zhou_Enlai_1955.tga"
+		texturefile = "gfx/leaders/CHI/Zhou_Enlai_1955.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_zhang_bojun"
-		texturefile = "gfx/leaders/CHI/Zhang_Bojun.tga"
+		texturefile = "gfx/leaders/CHI/Zhang_Bojun.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_zhang_junmai"
@@ -13,7 +13,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_zhang_lan"
-		texturefile = "gfx/leaders/CHI/Zhang_Lan.tga"
+		texturefile = "gfx/leaders/CHI/Zhang_Lan.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_chen_cheng"
@@ -29,7 +29,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_dai_li"
-		texturefile = "gfx/leaders/CHI/Dai_Li.tga"
+		texturefile = "gfx/leaders/CHI/Dai_Li.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_CHI_he_zhonghan"

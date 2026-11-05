@@ -3342,7 +3342,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = third_positionism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}

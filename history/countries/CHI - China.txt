@@ -191,6 +191,11 @@ recruit_character = CHI_t_v_soong # Shared
 recruit_character = CHI_alexander_von_falkenhausen # Shared 
 recruit_character = CHI_claire_lee_chennault # Shared 
 recruit_character = CHI_kwong_jiang # Shared 
+recruit_character = CHI_zhou_enlai
+recruit_character = CHI_zhang_bojun
+recruit_character = CHI_zhang_junmai
+recruit_character = CHI_sun_ke
+recruit_character = CHI_he_zhonghan
 
 if = {
 	limit = {
@@ -358,7 +363,9 @@ set_popularities = {
 		social_conservative = 20
 		market_liberal = 10
 		national_populist = 5
-		paternal_autocrat = 46
+		authoritarian_democrat = 40
+		paternal_autocrat = 3
+		third_positionism = 3
 	}
 	#set_autonomy = {
 	#	target = SND
