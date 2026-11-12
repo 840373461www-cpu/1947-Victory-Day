@@ -11,10 +11,8 @@ state = {
 
 	history = {
 
-		owner = PRC
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
-
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -30,6 +28,15 @@ state = {
 			industrial_complex = 1
 			synthetic_refinery = 1
 
+			11886 = {
+				naval_base = 1
+			}
+			6837 = {
+				naval_base = 1
+			}
+			9835 = {
+				naval_base = 1
+			}
 			3900 = {
 				naval_base = 2
 				
@@ -54,7 +61,7 @@ state = {
 	}
 
 	provinces = {
-		900 1052 3830 3900 9905 11822 12043 
+		900 1052 3830 3900 9905 11822 12043 11886 6837 9835 
 	}
 
 	local_supplies = 0.0 

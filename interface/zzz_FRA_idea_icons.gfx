@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_fra_political_violence"
+		texturefile = "gfx/interface/ideas/FRA/fra_political_violence_60.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_algeria_state_of_emergency"
+		texturefile = "gfx/interface/ideas/FRA/algeria_state_of_emergency_60.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_stop_liberalization_fra"
+		texturefile = "gfx/interface/ideas/FRA/stop_liberalization_FRA_60.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_fra_down_marianne"
+		texturefile = "gfx/interface/ideas/FRA/fra_down_marianne_60.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_fra_republic_of_petain"
+		texturefile = "gfx/interface/ideas/FRA/fra_republic_of_petain_60.tga"
+	}
+}

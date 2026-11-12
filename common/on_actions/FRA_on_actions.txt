@@ -4,6 +4,10 @@ on_actions = {
 			FRA = {
 				add_ideas = {
 					la_menagerie_de_versailles
+					les_cicatrices_dalger
+					les_fers_des_accords_de_paris
+					linstitutionnalisation_de_la_revolution_nationale
+					letat_de_siege_de_laval
 				}
 			}
 		}

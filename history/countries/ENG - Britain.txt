@@ -272,7 +272,6 @@ if = {
 		basic_dp_light_battery = 1
 		coastal_defense_ships = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 	set_global_flag = MTG_second_london_conference
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
@@ -625,8 +624,6 @@ if = {
 			advanced_dp_light_battery = 1
 			improved_sonar = 1
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 		clr_global_flag = MTG_second_london_conference
 		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
 	}

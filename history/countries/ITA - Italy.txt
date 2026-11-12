@@ -475,7 +475,6 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_cheating
 }
 
 # DIPLOMACY / WAR 36
@@ -497,7 +496,6 @@ give_guarantee = ALB
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 		remove_naval_treaty_effect = yes
 	}
 

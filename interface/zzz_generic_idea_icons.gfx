@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_sov_recreate_komintern"
+		texturefile = "gfx/interface/ideas/SOV/sov_recreate_komintern_60.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_renegotiate_eastern_bloc"
+		texturefile = "gfx/interface/ideas/SOV/renegotiate_eastern_bloc_60.tga"
+	}
+}

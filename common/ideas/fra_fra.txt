@@ -5,6 +5,7 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
+			picture = fra_political_violence
 			removal_cost = -1
 			modifier = {
 				political_advisor_cost_factor = 0.5
@@ -13,5 +14,66 @@ ideas = {
 			}
 		}
 
+		les_cicatrices_dalger = {
+			allowed = {
+				original_tag = FRA
+			}
+			picture = algeria_state_of_emergency
+			removal_cost = -1
+			modifier = {
+				army_org_regain = -0.1
+				war_support_factor = -0.05
+				non_core_manpower = -0.3
+				required_garrison_factor = 0.25
+				paternal_autocrat_drift = 0.01
+			}
+		}
+		les_fers_des_accords_de_paris = {
+			allowed = {
+				original_tag = FRA
+			}
+			picture = stop_liberalization_fra
+			removal_cost = -1
+			modifier = {
+				market_liberal_drift = 0.01
+				political_power_gain = 0.10
+				trade_opinion_factor = 0.2
+				conscription_factor = -0.15
+				research_speed_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		letat_de_siege_de_laval = {
+			allowed = {
+				original_tag = FRA
+			}
+			picture = fra_down_marianne
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.005
+				consumer_goods_factor = 0.15
+				command_power_gain = -0.5
+				corporatism_drift = -0.1
+				political_power_gain = -1
+			}
+		}
+
+		linstitutionnalisation_de_la_revolution_nationale = {
+			allowed = {
+				original_tag = FRA
+			}
+			picture = fra_republic_of_petain
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.5
+				corporatism_drift = 0.05
+				production_speed_buildings_factor = 0.1
+				conscription_factor = 0.1
+				production_efficiency_cap_factor = 0.05
+				industrial_capacity_factory = 0.05
+				army_core_defence_factor = 0.1
+			}
+		}
 	}
 }

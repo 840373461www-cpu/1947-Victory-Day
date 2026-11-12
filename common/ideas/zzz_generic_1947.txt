@@ -1,0 +1,33 @@
+ideas = {
+
+	country = {
+
+		berlin_international = {
+			picture = sov_recreate_komintern
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.05
+				communism_drift = 0.01
+				reformist_socialist_drift = 0.01
+				radical_socialist_drift = 0.01
+				operative_slot = 1
+			}
+		}
+
+		infor_member = {
+			picture = renegotiate_eastern_bloc
+			removal_cost = -1
+			modifier = {
+				max_planning_factor = 0.1
+				army_org_regain = 0.05
+				send_volunteer_factor = 0.3
+				send_volunteer_divisions_required = -0.5
+				consumer_goods_factor = 0.05
+				defensive_war_stability_factor = 0.25
+				faction_trade_opinion_factor = 0.25
+			}
+		}
+
+	}
+}

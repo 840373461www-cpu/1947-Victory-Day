@@ -1,4 +1,4 @@
-capital = 716 # Liaotung
+capital = 328 # Liaotung
 
 if = {
 	limit = {

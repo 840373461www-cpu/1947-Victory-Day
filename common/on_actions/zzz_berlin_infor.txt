@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SOV = { add_ideas = { berlin_international infor_member } }
+			GER = { add_ideas = { berlin_international infor_member } }
+			FCM = { add_ideas = { berlin_international } }
+			POL = { add_ideas = { berlin_international infor_member } }
+			HUN = { add_ideas = { berlin_international infor_member } }
+			CZE = { add_ideas = { berlin_international infor_member } }
+			ROM = { add_ideas = { berlin_international infor_member } }
+			YUG = { add_ideas = { berlin_international infor_member } }
+			FIN = { add_ideas = { berlin_international infor_member } }
+			GRE = { add_ideas = { berlin_international } }
+			PRI = { add_ideas = { berlin_international infor_member } }
+			PRC = { add_ideas = { berlin_international } }
+			KOR = { add_ideas = { berlin_international } }
+			MON = { add_ideas = { berlin_international infor_member } }
+			NJR = { add_ideas = { berlin_international } }
+		}
+	}
+}
