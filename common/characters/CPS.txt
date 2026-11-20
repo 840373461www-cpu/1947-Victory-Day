@@ -1,0 +1,35 @@
+characters = {
+
+	# King Ratsadanay
+	CPS_ratsadanay = {
+		name = CPS_ratsadanay
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sisowath_Youtevong
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+
+	# Prince Boun Oum
+	CPS_boun_oum = {
+		name = CPS_boun_oum
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CPS_Boun_Oum_1947
+				small = GFX_portrait_CPS_Boun_Oum_1947_small
+			}
+		}
+		country_leader = {
+			ideology = monarchism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+}

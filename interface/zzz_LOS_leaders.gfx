@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_LOS_Souphanouvong_1947"
+		texturefile = "gfx/leaders/LOS/Souphanouvong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LOS_Souphanouvong_1947_small"
+		texturefile = "gfx/leaders/LOS/Souphanouvong.dds"
+	}
+}

@@ -7,10 +7,11 @@ state = {
 
 	history = {
 
-		owner = LAO
+		owner = CPS
 		add_core_of = SIA
 		add_core_of = LAO
 		add_core_of = CPS
+		add_core_of = LOS
 
 		victory_points = {
 			1563 2 # Pakse 
@@ -23,7 +24,7 @@ state = {
 	}
 
 	provinces = {
-		1374 1563 10453 12210 13411 
+		1374 1563 1520 4260 10326 4539 10195 10238 10453 12210 13411 
 	}
 
 	local_supplies = 0.0 

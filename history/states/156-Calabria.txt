@@ -20,6 +20,9 @@ state = {
 		}
 		add_core_of = ITA
 		add_core_of = TTS
+			victory_points = {
+			12098 1
+		}
 	}
 
 	provinces = {

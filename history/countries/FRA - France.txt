@@ -231,11 +231,12 @@ recruit_character = FRA_maurice_pujo
 recruit_character = FRA_tixier_vignancour_1947
 recruit_character = FRA_pierre_costantini
 recruit_character = FRA_raoul_salan
-set_autonomy = {
-	target = LAO
-	autonomous_state = autonomy_supervised_state
-	freedom_level = 0.8
-}
+# ★ 1947：LAO 独立，不再作为法国监管国
+#set_autonomy = {
+#	target = LAO
+#	autonomous_state = autonomy_supervised_state
+#	freedom_level = 0.8
+#}
 set_autonomy = {
 	target = CAM
 	autonomous_state = autonomy_supervised_state

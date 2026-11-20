@@ -1,0 +1,16 @@
+characters = {
+	LOS_souphanouvong = {
+		name = LOS_souphanouvong
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LOS_Souphanouvong_1947
+				small = GFX_portrait_LOS_Souphanouvong_1947_small
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { }
+			id = -1
+		}
+	}
+}

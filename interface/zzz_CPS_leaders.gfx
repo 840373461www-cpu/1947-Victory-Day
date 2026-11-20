@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CPS_Boun_Oum_1947"
+		texturefile = "gfx/leaders/CPS/Boun_Oum.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CPS_Boun_Oum_1947_small"
+		texturefile = "gfx/leaders/CPS/Boun_Oum.dds"
+	}
+}

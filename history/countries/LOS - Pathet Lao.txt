@@ -1,0 +1,12 @@
+capital = 1109
+
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+recruit_character = LOS_souphanouvong

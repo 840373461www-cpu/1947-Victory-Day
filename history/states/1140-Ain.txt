@@ -13,7 +13,10 @@ state={
 
 
 			add_core_of = FCM
-}
+		victory_points = {
+			641 1
+		}
+	}
 
 	provinces={
 		641 3650 6639 9590 
